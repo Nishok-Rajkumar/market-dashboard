@@ -30,7 +30,7 @@ SOURCES = {
     "NSE API: option chain": "https://www.nseindia.com/api/option-chain-indices?symbol=NIFTY",
     "NSE API: event calendar": "https://www.nseindia.com/api/event-calendar",
     "Yahoo Finance": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENSEI?range=5d&interval=1d",
-    "GitHub Models": "https://models.github.ai/catalog/models",
+    "Groq API": "https://api.groq.com/openai/v1/models",
     "RSS: Economic Times": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
 }
 

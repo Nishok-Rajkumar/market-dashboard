@@ -4,8 +4,9 @@ A personal Indian stock market dashboard that updates itself every trading day f
 the Mac doesn't need to be on. For learning only, not investment advice.
 
 - **Data**: NSE archives and APIs, Yahoo Finance, public RSS feeds (ET, Livemint, Business Standard, BusinessLine, RBI, Google News)
-- **Summary**: an open-source model (Llama 3.3 70B by default) through **GitHub Models**, using the run's own `GITHUB_TOKEN`.
-  Falls back to Groq (if `GROQ_API_KEY` is set), then to plain sentences built from the numbers.
+- **Summary**: an open-source model (Llama 3.3 70B by default) on **Groq**'s free tier (`GROQ_API_KEY` secret).
+  Falls back to OpenRouter's free open models (if `OPENROUTER_API_KEY` is set), then to plain sentences built from
+  the numbers. (GitHub Models, the original plan, was retired in July 2026.)
 - **Schedule** (GitHub Actions, Mon–Fri): 6:45 PM IST full run · 8:30 AM IST news + summary refresh
 - **Site**: static HTML on GitHub Pages; reads `data/<date>/*.json`
 
@@ -47,8 +48,9 @@ Then open http://localhost:8765/site/
 5. **Actions → Check data sources → Run workflow.** The summary shows which NSE sources GitHub's servers can reach.
 6. **Actions → Daily market data → Run workflow (full).** When it finishes, the site is at
    `https://<your-username>.github.io/market-dashboard/`.
-7. Optional: add a `GROQ_API_KEY` secret (Settings → Secrets → Actions) as a backup model, or set a repo
-   variable `GITHUB_MODELS_MODEL` to try another model from github.com/marketplace/models.
+7. For the AI summary: create a free key at https://console.groq.com/keys, then run `gh secret set GROQ_API_KEY`
+   in this folder and paste it when asked. Optional backup: `gh secret set OPENROUTER_API_KEY` with a key from
+   openrouter.ai. Set a repo variable `GROQ_MODEL` to try another model.
 
 ## If NSE blocks GitHub's servers
 

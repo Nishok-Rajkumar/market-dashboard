@@ -4,16 +4,16 @@
 # ///
 """Plain-English daily brief from the day's JSON, written by an open-source model.
 
-Tries, in order:
-  1. GitHub Models (free; uses GITHUB_TOKEN, which every GitHub Actions run has with `models: read`)
-  2. Groq free tier (optional GROQ_API_KEY)
+Tries, in order (GitHub Models was retired in July 2026):
+  1. Groq free tier (GROQ_API_KEY, from console.groq.com)
+  2. OpenRouter free open models (optional OPENROUTER_API_KEY, from openrouter.ai)
   3. Rule-based sentences (always works)
 
 Usage:
   uv run pipeline/summarize.py --day-dir data/2026-11-02 --news data/news.json --out data/2026-11-02/summary.json
 Env:
-  GITHUB_MODELS_MODEL  default meta/Llama-3.3-70B-Instruct (any chat model id from github.com/marketplace/models)
-  GROQ_MODEL           default llama-3.3-70b-versatile
+  GROQ_MODEL        default llama-3.3-70b-versatile (any id from console.groq.com/docs/models)
+  OPENROUTER_MODEL  default meta-llama/llama-3.3-70b-instruct:free
 """
 
 from __future__ import annotations
@@ -27,10 +27,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 PROVIDERS = [
-    ("GitHub Models", "https://models.github.ai/inference/chat/completions", "GITHUB_TOKEN",
-     os.environ.get("GITHUB_MODELS_MODEL", "meta/Llama-3.3-70B-Instruct")),
     ("Groq", "https://api.groq.com/openai/v1/chat/completions", "GROQ_API_KEY",
-     os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")),
+     os.environ.get("GROQ_MODEL") or "llama-3.3-70b-versatile"),
+    ("OpenRouter", "https://openrouter.ai/api/v1/chat/completions", "OPENROUTER_API_KEY",
+     os.environ.get("OPENROUTER_MODEL") or "meta-llama/llama-3.3-70b-instruct:free"),
 ]
 
 SYSTEM = (
