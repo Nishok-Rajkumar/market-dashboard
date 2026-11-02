@@ -86,6 +86,11 @@ and F&O positioning.
 
 Contributions and ideas welcome — open an issue.
 
+## License
+
+Code is [MIT](LICENSE). Market data in `data/` and `state/` comes from NSE, Yahoo Finance and news publishers and
+remains subject to their terms.
+
 ## Disclaimer
 
 Data is provisional and may be delayed or wrong; sources can change or block access without notice. This project is
