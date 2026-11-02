@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T13:50:31+00:00",
+  "generated_at": "2026-11-02T13:52:11+00:00",
   "sources": {
     "Economic Times": {
       "ok": true,
@@ -36,7 +36,7 @@
       "title": "Finally! PSU stock jumps 9% after 4 months of losses, logs biggest 1-day gain in 14 months. What sparked the rally?",
       "link": "https://www.livemint.com/market/stock-market-news/finally-psu-stock-jumps-9-after-4-months-of-losses-logs-biggest-1-day-gain-in-14-months-what-sparked-the-rally-11793625642488.html",
       "published": "2026-11-02T13:44:33+00:00",
-      "summary": "NBCC shares rose 10% to ₹76 after the state-owned company announced a ₹168.39 crore Maharana Pratap tourist circuit in Haldighati, Rajasthan. Plans include the proposed world’s largest Maharana Pratap statue, a historical museum and an immersive projection show.",
+      "summary": "NBCC shares rose 9% to ₹76 after the state-owned company announced a ₹168.39 crore Maharana Pratap tourist circuit in Haldighati, Rajasthan. Plans include the proposed world’s largest Maharana Pratap statue, a historical museum and an immersive projection show.",
       "tags": [
         "Other"
       ]
@@ -1390,6 +1390,17 @@
     },
     {
       "source": "Google News",
+      "title": "NIFTY Bank rises 220 points as AU Small Finance Bank, Bank of Baroda, SBI & Canara Bank lead - Upstox",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRHVpLXB2UGZudTVSVWFDenVQMkxuZjdjdk5XTGY5Rl9oak5OcTBSWVRLYzFkbmd4dUMzWjRDdTRReUlzM2poMElqR0xKLVA5UUxWZXlMR1AwQWMtUlZiTGNXblpBZnNNejNRb3V0ZGRZdDRjaFI4ZUhGQklRcU5vSEJvdnVMb09icmZRcXJZa2h3VHh5YTR5Q2huU054NFFzOVo5RmRJNFVmcjlLcVhSWU5ROHZLZkVmUWVjR2FfTURXNVhDakNPbUNfU0lfX1hwNGNkUGpIZVJuOVVnMlJBTnh4c0M4UQ?oc=5",
+      "published": "2026-11-02T07:14:10+00:00",
+      "summary": "NIFTY Bank rises 220 points as AU Small Finance Bank, Bank of Baroda, SBI & Canara Bank lead Upstox",
+      "tags": [
+        "Banks",
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
       "title": "UK Stock Market Today: FTSE 100 Futures Edge Up As Traders Brace For BoE - Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRVRvdVlzamJvREdlTGxxWUxRY0pzRlo1YWQ4LUtEVHp3MFNZZzBIdEsxR0loRS1jdWhtRzFFT1VlNTVXS3IyQ2RQTVJyQndYbVFCaVhtN0ZfNFdZdG9CMlVyNEc5eEkxanY1Yk5pelVxblRPNDQxLWhYNXJvUFloaTFVejRYdU5HYnJWbF9PWlBNbUhtVFp1bl9EZGgzak0?oc=5",
       "published": "2026-11-02T07:10:00+00:00",
@@ -2072,16 +2083,6 @@
       "tags": [
         "Results",
         "Index"
-      ]
-    },
-    {
-      "source": "Economic Times",
-      "title": "5 key global market themes investors will watch this week",
-      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/5-key-global-market-themes-investors-will-watch-this-week/slideshow/135446004.cms",
-      "published": "2026-11-02T04:40:13+00:00",
-      "summary": "Global markets brace for a crucial week featuring US midterm elections, jobs data, major AI-linked earnings and central bank decisions, alongside economic developments in Brazil, Indonesia and Europe that could drive volatility.",
-      "tags": [
-        "Global"
       ]
     }
   ]
