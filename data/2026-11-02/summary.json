@@ -1,6 +1,8 @@
 {
-  "generated_at": "2026-11-02T13:23:26+00:00",
+  "generated_at": "2026-11-02T13:38:33+00:00",
   "model": "rule-based",
   "text": "Nifty 50 closed at 23,441 (+1.68% on the day, +3.02% over 5 days). In the Nifty 500, 401 stocks rose and 92 fell — a broad move. Breadth score is 44.5/100 (NEUTRAL). FIIs net +3,115 Cr, DIIs net -392 Cr. Leading sectors: Pharma, Infrastructure, Oil & Gas, Healthcare, PSU Bank. Nifty options: PCR 1.66, max pain 23,250, call wall 24,000, put wall 23,000.",
-  "errors": {}
+  "errors": {
+    "GitHub Models": "Expecting value: line 1 column 1 (char 0)"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T14:14:49",
+  "generated_at": "2026-11-02T19:05:47",
   "days_ahead": 7,
   "snapshot": [
     {
@@ -39,31 +39,24 @@
     },
     {
       "name": "Brent crude ($)",
-      "last": 108.5,
+      "last": 108.87,
       "date": "2026-11-02",
-      "chg_1d_pct": -7.77,
-      "chg_5d_pct": -6.31
+      "chg_1d_pct": -7.45,
+      "chg_5d_pct": -5.99
     },
     {
       "name": "Gold ($)",
-      "last": 3911.0,
-      "date": "2026-11-02",
-      "chg_1d_pct": 0.31,
-      "chg_5d_pct": -3.15
-    },
-    {
-      "name": "S&P 500 fut",
-      "last": 7640.0,
+      "last": 3912.3,
       "date": "2026-11-02",
       "chg_1d_pct": 0.34,
-      "chg_5d_pct": -0.97
+      "chg_5d_pct": -3.12
     },
     {
       "name": "Nasdaq 100 fut",
-      "last": 28710.25,
+      "last": 28691.25,
       "date": "2026-11-02",
-      "chg_1d_pct": 0.62,
-      "chg_5d_pct": -2.47
+      "chg_1d_pct": 0.55,
+      "chg_5d_pct": -2.53
     },
     {
       "name": "Nikkei 225",
@@ -731,12 +724,12 @@
     {
       "date": "2026-11-04",
       "symbol": "JMFINANCIL",
-      "purpose": "Dividend"
+      "purpose": "Financial Results"
     },
     {
       "date": "2026-11-04",
       "symbol": "JMFINANCIL",
-      "purpose": "Financial Results"
+      "purpose": "Dividend"
     },
     {
       "date": "2026-11-04",
@@ -1046,12 +1039,12 @@
     {
       "date": "2026-11-05",
       "symbol": "TITAN",
-      "purpose": "Financial Results"
+      "purpose": "Fund Raising"
     },
     {
       "date": "2026-11-05",
       "symbol": "TITAN",
-      "purpose": "Fund Raising"
+      "purpose": "Financial Results"
     },
     {
       "date": "2026-11-05",
