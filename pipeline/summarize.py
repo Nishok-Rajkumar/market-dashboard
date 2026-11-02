@@ -109,7 +109,7 @@ def pick_model(base: str, key: str, wanted: str) -> str:
         ids = [i for i in ids if i.endswith(":free")]
     if wanted in ids:
         return wanted
-    print(f"note: {wanted} not offered; available: {', '.join(sorted(ids))[:600]}", file=sys.stderr)
+    print(f"note: {wanted} not offered; available: {', '.join(sorted(ids))[:800]}")
     for pref in PREFERRED:
         for i in ids:
             if pref in i.lower() and not any(x in i.lower() for x in ("guard", "whisper", "tts", "vision")):
@@ -118,12 +118,16 @@ def pick_model(base: str, key: str, wanted: str) -> str:
 
 
 def call_llm(base: str, key: str, model: str, prompt: str) -> str:
-    body = {"model": model, "temperature": 0.3, "max_tokens": 600,
+    # Reasoning models (gpt-oss, Qwen3, DeepSeek) spend tokens thinking before they answer, so leave room.
+    body = {"model": model, "temperature": 0.3, "max_tokens": 3000,
             "messages": [{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}]}
-    text = http_json(f"{base}/chat/completions", key, body)["choices"][0]["message"]["content"].strip()
-    text = re.sub(r"<think>.*?</think>", "", text, flags=re.S).strip()  # reasoning models (Qwen, DeepSeek)
+    if "gpt-oss" in model:
+        body["reasoning_effort"] = "low"
+    choice = http_json(f"{base}/chat/completions", key, body)["choices"][0]
+    text = (choice["message"].get("content") or "").strip()
+    text = re.sub(r"<think>.*?</think>", "", text, flags=re.S).strip()
     if len(text) < 80:
-        raise RuntimeError("model reply too short")
+        raise RuntimeError(f"{model} reply too short ({len(text)} chars, finish_reason={choice.get('finish_reason')})")
     return text
 
 
