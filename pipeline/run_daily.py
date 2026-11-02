@@ -94,7 +94,8 @@ def build_indexes() -> None:
 def main() -> int:
     ap = argparse.ArgumentParser(description="Daily dashboard data run.")
     ap.add_argument("--mode", choices=["full", "news"], default="full")
-    ap.add_argument("--skip", nargs="*", default=[], help="steps to skip: pulse breadth sectors options swing levels")
+    ap.add_argument("--skip", nargs="*", default=[],
+                    help="steps to skip: pulse breadth sectors options swing levels participant_oi heatmap")
     args = ap.parse_args()
 
     now = datetime.now(IST)
@@ -133,9 +134,16 @@ def main() -> int:
             errs = section_errors(day / "pulse.json")
             if errs:
                 status["pulse"]["section_errors"] = errs
-        if "levels" not in args.skip:
-            ok, msg = run([ROOT / "pipeline" / "levels.py", "--out", day / "levels.json"])
-            status["levels"] = {"ok": True} if ok else {"ok": False, "error": msg}
+        own = {
+            "levels": [ROOT / "pipeline" / "levels.py", "--out", day / "levels.json"],
+            "participant_oi": [ROOT / "pipeline" / "participant_oi.py", "--state", STATE, "--out", day / "participant_oi.json"],
+            "heatmap": [ROOT / "pipeline" / "heatmap.py", "--out", day / "heatmap.json"],
+        }
+        for name, cmd in own.items():
+            if name in args.skip:
+                continue
+            ok, msg = run(cmd)
+            status[name] = {"ok": True} if ok else {"ok": False, "error": msg}
 
     ok, msg = run([ROOT / "pipeline" / "news.py", "--out", DATA / "news.json"])
     status["news"] = {"ok": True} if ok else {"ok": False, "error": msg}

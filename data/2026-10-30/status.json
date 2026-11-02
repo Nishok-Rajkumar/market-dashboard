@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-30",
+  "updated_at": "2026-11-01T23:55:00+05:30",
+  "mode": "seeded from Market Reviewer",
+  "steps": {
+    "pulse": {
+      "ok": true
+    },
+    "breadth": {
+      "ok": true
+    },
+    "sectors": {
+      "ok": true
+    },
+    "swing": {
+      "ok": true
+    },
+    "options_NIFTY": {
+      "ok": true
+    },
+    "options_BANKNIFTY": {
+      "ok": true
+    },
+    "levels": {
+      "ok": true
+    }
+  }
+}

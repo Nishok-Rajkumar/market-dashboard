@@ -1,28 +1,54 @@
-# Market Pulse India
+# Market Pulse India 📈
 
-A personal Indian stock market dashboard that updates itself every trading day from free public data, so
-the Mac doesn't need to be on. For learning only, not investment advice.
+**A free, self-updating dashboard for the Indian stock market — built to learn how the market works.**
+Every trading day it collects NSE data, news and flows, has an open-source AI model write a plain-English brief,
+and publishes everything as a static website. No server, no subscription, no laptop left running.
 
-- **Data**: NSE archives and APIs, Yahoo Finance, public RSS feeds (ET, Livemint, Business Standard, BusinessLine, RBI, Google News)
-- **Summary**: an open-source model (Llama 3.3 70B by default) on **Groq**'s free tier (`GROQ_API_KEY` secret).
-  Falls back to OpenRouter's free open models (if `OPENROUTER_API_KEY` is set), then to plain sentences built from
-  the numbers. (GitHub Models, the original plan, was retired in July 2026.)
-- **Schedule** (GitHub Actions, Mon–Fri): 6:45 PM IST full run · 8:30 AM IST news + summary refresh
-- **Site**: static HTML on GitHub Pages; reads `data/<date>/*.json`
+**Live:** https://nishok-rajkumar.github.io/market-dashboard/
 
-## Layout
+![Market Pulse India dashboard](docs/screenshot.png)
 
-| Path | What |
+> For learning only. Nothing here is investment advice or a buy/sell recommendation.
+
+## What's on the page
+
+| Section | What it shows |
 |---|---|
-| `pipeline/run_daily.py` | Runs every step, writes `data/<IST date>/` and `status.json` |
-| `pipeline/scripts/` | Copies of the NSE skill scripts from `Market Reviewer/skills/*/scripts/` |
-| `pipeline/levels.py` · `news.py` · `summarize.py` | Pivots · headlines · daily brief |
-| `pipeline/check_sources.py` | Shows which sources answer from the current machine |
-| `state/fii_dii_history.csv` | FII/DII history (NSE only serves the latest day, so it builds up per run) |
-| `site/` | The dashboard (`index.html`, `app.js`, `style.css`) |
-| `.github/workflows/` | `daily.yml` (data + deploy), `pages.yml` (deploy on site edits), `check-sources.yml` |
+| **Today's brief** | ~150-word summary written by an open-source LLM (gpt-oss-120b / Llama on Groq) from the day's numbers and headlines |
+| **What changed** | Nifty, breadth zone, VIX, PCR, sector quadrant moves and swing-list changes vs the previous session |
+| **Snapshot** | Nifty, Bank Nifty, Nifty 500, India VIX, USD-INR, Brent, gold, US futures, Asia + floor-pivot levels |
+| **Nifty 50 heatmap** | Every Nifty 50 stock grouped by industry, sized by market value, coloured by the day's change |
+| **Money flows** | FII/DII cash flows with 20-session context and a calendar heatmap, **FII/DII/Pro/Client F&O positioning** (FII index-futures % long, 30+ sessions of history), delivery spikes, top movers, F&O ban list, results calendar |
+| **Breadth** | 0–100 health score for the Nifty 500, % of stocks above 20/50/200-DMA, A/D, 52-week highs vs lows |
+| **Sector rotation** | RRG-style rotation chart of 27 NSE sector indices with 4-week trails, plus Leading / Improving / Weakening / Lagging lists |
+| **Options** | Nifty & Bank Nifty PCR, max pain, call/put OI walls, expected range to expiry |
+| **Swing screener** | Minervini trend-template candidates with entry, stop, risk % and 2R target (study material) |
+| **News** | ~200 headlines from 7 free RSS feeds, tagged by topic (RBI, FII, results, crude, rupee, sectors…) |
+| **ⓘ explainers** | Every jargon term (PCR, max pain, breadth, RRG, delivery %, FII positioning…) explained in plain English |
 
-## Run locally
+## How it works
+
+```
+GitHub Actions (Mon–Fri)            data/<date>/*.json            GitHub Pages
+ 6:45 PM IST  full run   ───────▶   pulse, breadth, sectors, ───▶  site/ (static HTML + JS)
+ 8:30 AM IST  news + brief          options, swing, heatmap,       reads the JSON in the browser
+                                    participant_oi, news, summary
+```
+
+- **Data:** NSE archives & public APIs, Yahoo Finance, public RSS feeds — all free, no API keys
+- **AI brief:** Groq free tier (open-weights models); falls back to OpenRouter's free models, then to rule-based sentences
+- **Resilient:** each step runs in its own process; a failing source only blanks its own section and the page says which
+- **History:** each day is kept in `data/<date>/`, so you can open any past day from the date picker
+
+## Run it yourself
+
+1. Fork this repo (or use it as a template).
+2. **Settings → Pages → Source: GitHub Actions**, and **Settings → Actions → General → Workflow permissions: Read and write**.
+3. Get a free key at [console.groq.com](https://console.groq.com/keys) and add it as the repo secret `GROQ_API_KEY`
+   (optional — without it the brief is written from rules).
+4. **Actions → Daily market data → Run workflow.** Your site appears at `https://<you>.github.io/market-dashboard/`.
+
+Locally (needs [uv](https://docs.astral.sh/uv/)):
 
 ```bash
 uv run pipeline/run_daily.py
@@ -34,30 +60,33 @@ python3 -m http.server 8765
 
 Then open http://localhost:8765/site/
 
-## One-time GitHub setup
+| Path | What |
+|---|---|
+| `pipeline/run_daily.py` | Runs every step, writes `data/<IST date>/` and `status.json` |
+| `pipeline/scripts/` | NSE pulse, breadth, sector rotation, option chain and swing screener scripts |
+| `pipeline/participant_oi.py` · `heatmap.py` · `levels.py` · `news.py` · `summarize.py` | F&O positioning · Nifty 50 heatmap · pivots · headlines · AI brief |
+| `pipeline/check_sources.py` | Shows which sources answer from the current machine |
+| `state/` | FII/DII cash and participant-OI history (NSE only serves the latest day) |
+| `site/` | The dashboard (`index.html`, `app.js`, `style.css`) |
+| `.github/workflows/` | `daily.yml` (data + deploy), `pages.yml` (deploy on site edits), `check-sources.yml` |
 
-1. Create a new **public** repo on github.com (e.g. `market-dashboard`), with no README.
-2. Push this folder:
-   ```bash
-   git add -A && git commit -m "Initial dashboard" && git branch -M main
-   git remote add origin https://github.com/<your-username>/market-dashboard.git
-   git push -u origin main
-   ```
-3. Repo **Settings → Pages → Source: GitHub Actions**.
-4. Repo **Settings → Actions → General → Workflow permissions: Read and write**.
-5. **Actions → Check data sources → Run workflow.** The summary shows which NSE sources GitHub's servers can reach.
-6. **Actions → Daily market data → Run workflow (full).** When it finishes, the site is at
-   `https://<your-username>.github.io/market-dashboard/`.
-7. For the AI summary: create a free key at https://console.groq.com/keys, then run `gh secret set GROQ_API_KEY`
-   in this folder and paste it when asked. Optional backup: `gh secret set OPENROUTER_API_KEY` with a key from
-   openrouter.ai. Set a repo variable `GROQ_MODEL` to try another model.
+## Ideas borrowed from
 
-## If NSE blocks GitHub's servers
+Looked at other open-source Indian-market projects for inspiration (ideas only, no code copied):
+[PKScreener](https://github.com/pkjmesra/PKScreener) and [Screeni-py](https://github.com/pranjal-joshi/Screeni-py)
+for screening and explaining results, and [fii-dii-data](https://github.com/MrChartist/fii-dii-data) for FII/DII context
+and F&O positioning.
 
-Sections that depend on `www.nseindia.com/api` (FII/DII, option chain, results calendar) will show
-"unavailable" and the page will say which steps failed. Options:
-- Run `uv run pipeline/run_daily.py` on the Mac when it's on, then commit and push `data/` and `state/`.
-- Run the same command by cron on a small India-region VM (Student Pack credits: DigitalOcean Bangalore or
-  Azure Central India) that pushes to this repo.
+## Roadmap
 
-Note: the repo and site are public. Keep personal holdings out of it.
+- [ ] Daily brief to Telegram
+- [ ] Install as a phone app (PWA)
+- [ ] More scanners (52-week breakouts, NR7, golden cross)
+- [ ] FII sector allocation (NSDL fortnightly data)
+
+Contributions and ideas welcome — open an issue.
+
+## Disclaimer
+
+Data is provisional and may be delayed or wrong; sources can change or block access without notice. This project is
+for education. It is not investment advice, and the author is not a SEBI-registered adviser.

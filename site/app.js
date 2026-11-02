@@ -34,6 +34,50 @@ function chart(id, config) {
   charts[id] = new Chart($(id), config);
 }
 
+// ---------- explainers (ⓘ buttons) ----------
+
+const GLOSSARY = {
+  vix: ["India VIX", "The market's expected Nifty volatility over the next 30 days, from option prices. Below ~13 is calm, above ~20 is fearful. It usually rises when markets fall."],
+  pivots: ["Pivot levels", "Calculated from the last session's high, low and close. P is the balance point; R1–R3 are resistance above, S1–S3 support below. Mostly used by intraday traders as reference points, not predictions."],
+  heatmap: ["Nifty 50 heatmap", "Each box is a Nifty 50 company, grouped by industry. Box size = company size (market value), colour = today's % change: green up, red down. Big green boxes lift the index the most."],
+  fii: ["FII and DII", "FII = Foreign Institutional Investors (overseas funds). DII = Domestic Institutional Investors (Indian mutual funds, insurers like LIC). Net = buy minus sell in the cash market, in ₹ crore. When FIIs sell heavily and DIIs absorb it, the index can stay steady even as foreigners exit."],
+  streak: ["Streak", "How many sessions in a row the group has been net buyers (+) or net sellers (−)."],
+  fiioi: ["FII index-futures positioning", "Of all the Nifty/Bank Nifty futures contracts FIIs hold, the share that are long (betting up). Near 50% is balanced. Below 20% means they are heavily short; such extremes are watched closely because short-covering can spark sharp rallies."],
+  delivery: ["Delivery %", "The share of shares traded that were actually taken into demat accounts (held), not squared off the same day. A big jump in delivery with price up hints at genuine buying (accumulation); with price down, genuine selling."],
+  ban: ["F&O ban", "When open interest in a stock's futures and options crosses 95% of the exchange limit, nobody can open new positions until it falls below 80%. Ban stocks can be volatile."],
+  breadth: ["Market breadth", "Checks how many stocks are healthy, not just the index. The score (0–100) blends: % of Nifty 500 stocks above their 50- and 200-day averages, new 52-week highs vs lows, the trend of those numbers, Nifty's own trend and VIX. Above 60 = healthy, below 40 = weak."],
+  dma: ["Moving average (DMA)", "The average closing price of the last N days. A stock above its 200-DMA is in a long-term uptrend; above its 50-DMA, a medium-term uptrend. When most stocks are below, the market is weak even if the index looks fine."],
+  rrg: ["Sector rotation chart", "Each dot is a sector compared with the Nifty 500. Right of centre = stronger than the market (RS-Ratio above 100). Above centre = that strength is improving (RS-Momentum above 100). Sectors tend to move clockwise: Improving → Leading → Weakening → Lagging → Improving."],
+  pcr: ["Put-Call Ratio (PCR)", "Total put open interest ÷ total call open interest. In India, option sellers dominate, so PCR above 1 means more puts are written — sellers expect support below. Above ~1.5 is crowded and can reverse fast if support breaks; below ~0.7 is bearish."],
+  maxpain: ["Max pain", "The expiry price at which option buyers together lose the most money. Prices sometimes drift toward it near expiry, but it's a tendency, not a rule."],
+  walls: ["OI walls", "Strikes with the most open interest. A big call wall often acts like resistance (sellers defend it), a big put wall like support."],
+  expmove: ["Expected move", "Derived from the at-the-money straddle (call + put) price: the range the options market is pricing in until expiry, with roughly 2-in-3 odds of staying inside."],
+  swing: ["Swing screener", "Looks for stocks in strong uptrends (Minervini trend template) that are near a buy point. RS = relative strength rating 1–99 (90 = beat 90% of stocks over the past year). Entry = price that must trade to trigger; Stop = where the idea is wrong; 2R = target twice the risk. Study material, not advice."],
+};
+
+function initExplainers() {
+  const pop = $("pop");
+  let openBtn = null;
+  const close = () => { pop.hidden = true; openBtn?.setAttribute("aria-expanded", "false"); openBtn = null; };
+  document.addEventListener("click", (e) => {
+    const btn = e.target.closest(".info");
+    if (!btn) { if (!e.target.closest("#pop")) close(); return; }
+    if (btn === openBtn) return close();
+    close();
+    const [title, text] = GLOSSARY[btn.dataset.g] || ["", ""];
+    pop.innerHTML = `<b>${esc(title)}</b>${esc(text)}`;
+    pop.hidden = false;
+    const r = btn.getBoundingClientRect();
+    const left = Math.max(8, Math.min(r.left + scrollX - 12, scrollX + document.documentElement.clientWidth - pop.offsetWidth - 8));
+    pop.style.left = left + "px";
+    pop.style.top = r.bottom + scrollY + 6 + "px";
+    btn.setAttribute("aria-expanded", "true");
+    openBtn = btn;
+  });
+  document.addEventListener("keydown", (e) => e.key === "Escape" && close());
+}
+const info = (k) => `<button class="info" data-g="${k}" aria-label="Explain ${esc(GLOSSARY[k]?.[0] || k)}">i</button>`;
+
 // ---------- sections ----------
 
 function renderStatus(status, latest) {
@@ -65,7 +109,7 @@ function renderSnapshot(pulse, levels) {
 
   const lv = Object.values(levels || {});
   $("pivots").innerHTML = lv.map((v) => `
-    <div class="card"><h3>${esc(v.name)} levels <span class="muted small">floor pivots from ${esc(v.date)}</span></h3>
+    <div class="card"><h3>${esc(v.name)} levels <span class="muted small">floor pivots from ${esc(v.date)}</span> ${info("pivots")}</h3>
       ${table([v], ["S3", "S2", "S1", "P", "R1", "R2", "R3"].map((k) => ({ h: k, r: 1, f: (r) => (k === "P" ? `<b>${fmt(r[k])}</b>` : fmt(r[k])) })))}
       <p class="small muted" style="margin:10px 0 0">Close ${fmt(v.C)} · 50-DMA ${fmt(v.dma50)} · 200-DMA ${fmt(v.dma200)} ·
         ${signed(v.from_high, 1)} from 52-week high</p></div>`).join("");
@@ -79,10 +123,10 @@ function renderFlows(pulse, history) {
     const latest = Object.fromEntries(f.latest.map((x) => [x.category, x]));
     const block = (c) => `<div><span>${c} net · ${esc(latest[c]?.date || "")}</span><b>${signed(latest[c]?.net_cr, 0, "")}</b>
       <span>5d ${fmt(f[c].sum_5d_cr)} · 20d ${fmt(f[c].sum_20d_cr)} · streak ${f[c].streak_days > 0 ? "+" : ""}${f[c].streak_days}d</span></div>`;
-    $("fii-cards").innerHTML = `<h3>FII / DII latest</h3><div class="kv">${block("FII")}${block("DII")}</div>
-      <p class="small muted">FII = foreign investors, DII = Indian funds/insurers. A positive streak means buying day after day.
-      History: ${f.history_days} days.</p>`;
+    $("fii-cards").innerHTML = `<h3>FII / DII latest ${info("streak")}</h3><div class="kv">${block("FII")}${block("DII")}</div>
+      ${["FII", "DII"].map((c) => flowContext(c, latest[c], history)).join("")}`;
   }
+  renderCalendar(history);
   const h = (history || []).slice(-120);
   const dates = [...new Set(h.map((r) => r.date))].slice(-60);
   const series = (cat) => dates.map((d) => h.find((r) => r.date === d && r.category === cat)?.net_cr ?? null);
@@ -111,6 +155,204 @@ function renderFlows(pulse, history) {
   const ev = pulse?.upcoming_results;
   $("events").innerHTML = !Array.isArray(ev) ? empty(ev?.error ? "Unavailable: " + ev.error : undefined) :
     table(ev.slice(0, 40), [{ h: "Date", k: "date" }, { h: "Symbol", k: "symbol" }, { h: "Purpose", f: (r) => `<span class="muted">${esc(r.purpose)}</span>` }]);
+}
+
+// Today's flow against our own history: average, rank, month-to-date.
+function flowContext(cat, today, history) {
+  if (!today || !history?.length) return "";
+  const rows = history.filter((r) => r.category === cat && r.date <= today.date);
+  const nets = rows.map((r) => r.net_cr);
+  if (nets.length < 3) return "";
+  const last20 = nets.slice(-20);
+  const avg = last20.reduce((a, b) => a + b, 0) / last20.length;
+  const absRank = [...last20].sort((a, b) => Math.abs(b) - Math.abs(a)).indexOf(today.net_cr) + 1;
+  const month = today.date.slice(0, 7);
+  const mtd = rows.filter((r) => r.date.startsWith(month)).reduce((a, r) => a + r.net_cr, 0);
+  const since = rows[0].date;
+  return `<p class="ctx"><b>${cat}</b>: today ${signed(today.net_cr, 0, "")} vs ${last20.length}-session avg ${signed(avg, 0, "")} ·
+    ${absRank === 1 ? "<b>biggest move</b>" : `#${absRank} biggest move`} of the last ${last20.length} ·
+    month to date ${signed(mtd, 0, "")}${since > month ? ` (since ${since.slice(5)})` : ""}</p>`;
+}
+
+function renderCalendar(history) {
+  const h = history || [];
+  if (!h.length) { $("flow-calendar").innerHTML = empty(); return; }
+  const iso = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+  const grid = (cat) => {
+    const rows = h.filter((r) => r.category === cat).slice(-65);
+    const byDate = Object.fromEntries(rows.map((r) => [r.date, r.net_cr]));
+    const max = Math.max(...rows.map((r) => Math.abs(r.net_cr)), 1);
+    // One square per weekday from the Monday of the first week to the last session; blank = holiday or no data.
+    const d = new Date(rows[0].date + "T00:00");
+    d.setDate(d.getDate() - ((d.getDay() + 6) % 7));
+    const end = rows[rows.length - 1].date, cells = [];
+    for (; iso(d) <= end; d.setDate(d.getDate() + 1)) {
+      if (d.getDay() === 0 || d.getDay() === 6) continue;
+      const k = iso(d), v = byDate[k];
+      if (v == null) { cells.push(`<i title="${k}: no data"></i>`); continue; }
+      const a = 0.18 + 0.82 * Math.abs(v) / max;
+      cells.push(`<i style="background:${v >= 0 ? css("--up") : css("--down")};opacity:${a.toFixed(2)}" title="${k}: ${v >= 0 ? "+" : ""}${fmt(v)} Cr"></i>`);
+    }
+    return `<div><div class="cal-title">${cat} — ${rows.length} sessions recorded</div><div class="cal">${cells.join("")}</div></div>`;
+  };
+  $("flow-calendar").innerHTML = grid("FII") + grid("DII") +
+    `<p class="cal-legend">Green = net buying, red = net selling. Rows are Mon–Fri. Hover a square for the amount. The history grows by one square every trading day.</p>`;
+}
+
+function renderPOI(po) {
+  if (!po?.clients) { $("poi-card").innerHTML = `<h3>F&amp;O positioning</h3>${empty()}`; chart("poi-chart", { type: "line", data: { datasets: [] } }); return; }
+  const f = po.clients.FII;
+  const tone = f.fut_idx_long_pct < 35 ? "bad" : f.fut_idx_long_pct > 60 ? "good" : "mid";
+  const row = (c) => { const x = po.clients[c]; return { c, ...x }; };
+  $("poi-card").innerHTML = `<h3>F&amp;O positioning by participant <span class="muted small">as of ${esc(po.as_of)}</span> ${info("fiioi")}</h3>
+    <div class="kv">
+      <div><b class="num"><span class="badge ${tone}">${fmt(f.fut_idx_long_pct, 1)}% long</span></b><span>FII index futures</span></div>
+      <div><b class="num">${signed(f.fut_idx_net, 0, "")}</b><span>FII net contracts</span></div>
+      <div><b class="num">${signed(f.fut_idx_net_chg, 0, "")}</b><span>change vs prev session</span></div>
+    </div>
+    <p class="small" style="margin:10px 0 4px">${esc(po.fii_read)}</p>
+    <p class="small muted" style="margin:0 0 10px">Today's long share is higher than ${po.fii_pct_rank}% of the last ${po.sessions} sessions.</p>
+    ${table(["FII", "DII", "Pro", "Client"].map(row), [
+      { h: "Who", f: (r) => `<b>${r.c}</b>` },
+      { h: "Index fut % long", r: 1, f: (r) => fmt(r.fut_idx_long_pct, 1) + "%" },
+      { h: "Index fut net", r: 1, f: (r) => signed(r.fut_idx_net, 0, "") },
+      { h: "Index calls net", r: 1, f: (r) => signed(r.idx_call_net, 0, "") },
+      { h: "Index puts net", r: 1, f: (r) => signed(r.idx_put_net, 0, "") }])}
+    <p class="small muted" style="margin:8px 0 0">Pro = brokers trading their own money · Client = retail and HNIs. Net = long − short contracts.</p>`;
+  const h = po.fii_history || [];
+  chart("poi-chart", {
+    type: "line",
+    data: { labels: h.map((r) => r.date.slice(5)), datasets: [
+      { label: "FII % long", data: h.map((r) => r.fut_idx_long_pct), borderColor: css("--accent"), backgroundColor: css("--accent"), tension: .3, pointRadius: 2, fill: false }] },
+    options: { maintainAspectRatio: false, plugins: { legend: { display: false } },
+      scales: { y: { suggestedMin: 0, suggestedMax: 60, ticks: { callback: (v) => v + "%" } } } },
+  });
+}
+
+let heatChart = null;
+function mix(a, b, t) {
+  const p = (h) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16));
+  const [x, y] = [p(a), p(b)];
+  return `rgb(${x.map((v, i) => Math.round(v + (y[i] - v) * t)).join(",")})`;
+}
+function renderHeatmap(h) {
+  const el = $("heatmap");
+  if (!window.echarts) return;
+  heatChart?.dispose();
+  heatChart = null;
+  if (!h?.stocks?.length) { el.innerHTML = empty("Heatmap not available for this day."); $("heatmap-meta").textContent = ""; return; }
+  el.innerHTML = "";
+  $("heatmap-meta").textContent = `as of ${h.as_of} · size = ${h.size_by === "market_cap" ? "market value" : "traded value"}`;
+  const neutral = css("--surface-2"), up = css("--up"), down = css("--down");
+  const colour = (c) => (c >= 0 ? mix(neutral, up, Math.min(1, c / 3)) : mix(neutral, down, Math.min(1, -c / 3)));
+  const groups = {};
+  h.stocks.forEach((s) => (groups[s.industry] ||= []).push(s));
+  const data = Object.entries(groups).map(([ind, list]) => ({
+    name: ind,
+    children: list.map((s) => ({ name: s.symbol, value: s.size, chg: s.chg_pct, close: s.close, full: s.name, ind,
+      itemStyle: { color: colour(s.chg_pct) } })),
+  }));
+  heatChart = echarts.init(el, null, { renderer: "canvas" });
+  heatChart.setOption({
+    tooltip: { formatter: (p) => p.data.chg == null ? esc(p.name) :
+      `<b>${esc(p.data.full)}</b><br>${esc(p.data.ind)}<br>${esc(p.name)} · ₹${fmt(p.data.close, 2)} · ${p.data.chg > 0 ? "+" : ""}${fmt(p.data.chg, 2)}%` },
+    series: [{
+      type: "treemap", roam: false, nodeClick: false, breadcrumb: { show: false }, width: "100%", height: "100%",
+      top: 0, left: 0, right: 0, bottom: 0, data,
+      label: { show: true, formatter: (p) => `${p.name}\n${p.data.chg > 0 ? "+" : ""}${fmt(p.data.chg, 2)}%`,
+        color: css("--text"), fontFamily: "Inter", fontSize: 12, lineHeight: 15 },
+      upperLabel: { show: false },
+      levels: [
+        { itemStyle: { borderColor: css("--bg"), borderWidth: 0, gapWidth: 3 } },
+        { itemStyle: { borderColor: css("--bg"), borderWidth: 3, gapWidth: 3 } },
+        { itemStyle: { borderColor: css("--bg"), borderWidth: 1, gapWidth: 1 } },
+      ],
+    }],
+  });
+}
+
+// Plugin for the rotation chart: shaded quadrants and sector names at each latest point.
+const rrgPlugin = {
+  id: "rrg",
+  beforeDatasetsDraw(c) {
+    const { ctx, chartArea: a, scales: { x, y } } = c;
+    const cx = x.getPixelForValue(100), cy = y.getPixelForValue(100);
+    const q = [["IMPROVING", a.left, a.top, cx - a.left, cy - a.top, "--warn"], ["LEADING", cx, a.top, a.right - cx, cy - a.top, "--up"],
+      ["LAGGING", a.left, cy, cx - a.left, a.bottom - cy, "--down"], ["WEAKENING", cx, cy, a.right - cx, a.bottom - cy, "--warn"]];
+    ctx.save();
+    q.forEach(([label, l, t, w, h, col]) => {
+      ctx.globalAlpha = 0.07; ctx.fillStyle = css(col); ctx.fillRect(l, t, w, h);
+      ctx.globalAlpha = 0.7; ctx.font = "600 11px Inter"; ctx.fillStyle = css(col);
+      ctx.textAlign = l === a.left ? "left" : "right";
+      ctx.textBaseline = t === a.top ? "top" : "bottom";
+      ctx.fillText(label, l === a.left ? l + 6 : l + w - 6, t === a.top ? t + 6 : t + h - 6);
+    });
+    ctx.restore();
+  },
+  afterDatasetsDraw(c) {
+    const { ctx } = c;
+    ctx.save();
+    ctx.font = "500 11px Inter"; ctx.fillStyle = css("--text"); ctx.textAlign = "left"; ctx.textBaseline = "middle";
+    c.data.datasets.forEach((d, i) => {
+      const meta = c.getDatasetMeta(i);
+      const p = meta.data[meta.data.length - 1];
+      if (p && !meta.hidden) ctx.fillText(d.label, p.x + 7, p.y);
+    });
+    ctx.restore();
+  },
+};
+function renderRRG(s) {
+  const all = (s?.sectors || []).filter((x) => x.trail_xy);
+  const trails = $("rrg-trails").checked;
+  const qc = { LEADING: "--up", IMPROVING: "--warn", WEAKENING: "--warn", LAGGING: "--down" };
+  chart("rrg-chart", {
+    type: "scatter",
+    data: { datasets: all.map((x) => {
+      const pts = (trails ? x.trail_xy : x.trail_xy.slice(-1)).map(([a, b]) => ({ x: a, y: b }));
+      const col = css(qc[x.quadrant]);
+      return { label: x.sector, data: pts, showLine: trails, borderColor: col + "99", backgroundColor: col, borderWidth: 1.5,
+        pointRadius: pts.map((_, i) => (i === pts.length - 1 ? 5 : 2)), tension: .3 };
+    }) },
+    options: {
+      maintainAspectRatio: false, animation: false,
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: (t) => `${t.dataset.label}: RS ${t.parsed.x.toFixed(1)}, momentum ${t.parsed.y.toFixed(1)}` } } },
+      scales: { x: { title: { display: true, text: "RS-Ratio (strength vs Nifty 500) →" } },
+        y: { title: { display: true, text: "RS-Momentum ↑" } } },
+    },
+    plugins: [rrgPlugin],
+  });
+}
+
+// "What changed": compare the chosen day with the previous one in the index.
+function renderChanges(cur, prev, prevDay) {
+  const out = [];
+  const add = (ico, html) => out.push(`<li><span class="ico">${ico}</span><span>${html}</span></li>`);
+  const arrow = (d) => (d > 0 ? "▲" : d < 0 ? "▼" : "•");
+  const nC = cur.levels?.["^NSEI"], nP = prev.levels?.["^NSEI"];
+  if (nC && nP && nC.date !== nP.date) add(arrow(nC.C - nP.C), `Nifty ${fmt(nP.C)} → <b>${fmt(nC.C)}</b> (${signed((nC.C / nP.C - 1) * 100)})`);
+  const bC = cur.breadth, bP = prev.breadth;
+  if (bC && bP) {
+    const d = bC.composite_score - bP.composite_score;
+    add(arrow(d), `Breadth ${fmt(bP.composite_score, 1)} → <b>${fmt(bC.composite_score, 1)}</b>` +
+      (bC.zone !== bP.zone ? ` — zone changed <b>${esc(bP.zone)} → ${esc(bC.zone)}</b>` : ` (${esc(bC.zone)})`));
+  }
+  const vC = cur.pulse?.snapshot?.find?.((x) => x.name === "India VIX"), vP = prev.pulse?.snapshot?.find?.((x) => x.name === "India VIX");
+  if (vC && vP) add(arrow(vC.last - vP.last), `India VIX ${fmt(vP.last, 2)} → <b>${fmt(vC.last, 2)}</b>`);
+  const fC = cur.pulse?.fii_dii?.FII;
+  if (fC) add(fC.streak_days > 0 ? "▲" : "▼", `FIIs: ${Math.abs(fC.streak_days)}-session ${fC.streak_days > 0 ? "buying" : "selling"} streak`);
+  const oC = cur.ocN, oP = prev.ocN;
+  if (oC && oP) add(arrow(oC.pcr_oi_total - oP.pcr_oi_total), `Nifty PCR ${fmt(oP.pcr_oi_total, 2)} → <b>${fmt(oC.pcr_oi_total, 2)}</b>, max pain ${fmt(oP.max_pain)} → <b>${fmt(oC.max_pain)}</b>`);
+  const sP = Object.fromEntries((prev.sectors?.sectors || []).map((x) => [x.sector, x.quadrant]));
+  const moved = (cur.sectors?.sectors || []).filter((x) => sP[x.sector] && sP[x.sector] !== x.quadrant);
+  if (moved.length) add("↻", `Sectors moved: ${moved.slice(0, 6).map((x) => `${esc(x.sector)} <span class="muted">${sP[x.sector][0] + sP[x.sector].slice(1).toLowerCase()} →</span> <b>${x.quadrant[0] + x.quadrant.slice(1).toLowerCase()}</b>`).join(", ")}${moved.length > 6 ? ` +${moved.length - 6} more` : ""}`);
+  else if (cur.sectors && prev.sectors) add("•", "No sector changed quadrant.");
+  const wC = new Set((cur.swing?.results || []).map((x) => x.symbol)), wP = new Set((prev.swing?.results || []).map((x) => x.symbol));
+  if (cur.swing && prev.swing) {
+    const added = [...wC].filter((x) => !wP.has(x)), gone = [...wP].filter((x) => !wC.has(x));
+    add("★", `Swing list: <b>${added.length}</b> new${added.length ? ` (${added.slice(0, 5).map(esc).join(", ")}${added.length > 5 ? "…" : ""})` : ""}, ${gone.length} dropped`);
+  }
+  $("changes-vs").textContent = prevDay ? `vs ${new Date(prevDay + "T00:00").toLocaleDateString("en-IN", { weekday: "short", day: "numeric", month: "short" })}` : "";
+  $("changes-list").innerHTML = out.join("") || `<li>${empty(prevDay ? "Not enough data on both days to compare." : "No earlier day to compare with yet.")}</li>`;
 }
 
 function renderBreadth(b) {
@@ -160,11 +402,11 @@ function renderOptions(list) {
       <div class="kv">
         <div><b class="num">${fmt(o.spot, 0)}</b><span>spot</span></div>
         <div><b class="num">${fmt(o.pcr_oi_total, 2)}</b><span>PCR (put/call OI)</span></div>
-        <div><b class="num">${fmt(o.max_pain, 0)}</b><span>max pain</span></div>
-        <div><b class="num">±${fmt(o.expected_move_pts, 0)}</b><span>expected move</span></div>
+        <div><b class="num">${fmt(o.max_pain, 0)}</b><span>max pain ${info("maxpain")}</span></div>
+        <div><b class="num">±${fmt(o.expected_move_pts, 0)}</b><span>expected move ${info("expmove")}</span></div>
       </div>
       <p class="small" style="margin:12px 0 4px">Expected range to expiry: <b class="num">${fmt(o.expected_range?.[0])} – ${fmt(o.expected_range?.[1])}</b></p>
-      <p class="small" style="margin:4px 0"><span class="down">Call walls (resistance):</span> ${walls(o.resistance_call_oi, "ce_oi")}</p>
+      <p class="small" style="margin:4px 0"><span class="down">Call walls (resistance):</span> ${walls(o.resistance_call_oi, "ce_oi")} ${info("walls")}</p>
       <p class="small" style="margin:4px 0"><span class="up">Put walls (support):</span> ${walls(o.support_put_oi, "pe_oi")}</p>
       <p class="small muted" style="margin:8px 0 0">${esc(o.pcr_bias)} · data ${esc(o.data_timestamp)}</p></div>`;
   });
@@ -205,17 +447,31 @@ function renderNews(n) {
 
 // ---------- boot ----------
 
+const COMPARE = { levels: "levels.json", breadth: "breadth.json", pulse: "pulse.json", ocN: "oc_NIFTY.json", sectors: "sectors.json", swing: "swing.json" };
+async function loadCompare(day) {
+  const vals = await Promise.all(Object.values(COMPARE).map((f) => get(`${day}/${f}`)));
+  return Object.fromEntries(Object.keys(COMPARE).map((k, i) => [k, vals[i]]));
+}
+
+let days = [], current = {};
 async function loadDay(day) {
   const p = (f) => get(`${day}/${f}`);
-  const [status, summary, pulse, levels, breadth, sectors, ocN, ocB, swing, news, fii] = await Promise.all([
+  const prevDay = days[days.indexOf(day) + 1];  // days are newest first
+  const [status, summary, pulse, levels, breadth, sectors, ocN, ocB, swing, news, fii, poi, heat, prev] = await Promise.all([
     p("status.json"), p("summary.json"), p("pulse.json"), p("levels.json"), p("breadth.json"), p("sectors.json"),
-    p("oc_NIFTY.json"), p("oc_BANKNIFTY.json"), p("swing.json"), p("news.json"), get("fii_dii_history.json")]);
+    p("oc_NIFTY.json"), p("oc_BANKNIFTY.json"), p("swing.json"), p("news.json"), get("fii_dii_history.json"),
+    p("participant_oi.json"), p("heatmap.json"), prevDay ? loadCompare(prevDay) : Promise.resolve({})]);
+  current = { sectors, heat };
   renderStatus(status);
   renderSummary(summary);
+  renderChanges({ levels, breadth, pulse, ocN, sectors, swing }, prev, prevDay);
   renderSnapshot(pulse, levels);
+  renderHeatmap(heat);
   renderFlows(pulse, fii);
+  renderPOI(poi);
   renderBreadth(breadth);
   renderSectors(sectors);
+  renderRRG(sectors);
   renderOptions([ocN, ocB]);
   renderSwing(swing);
   renderNews(news);
@@ -236,8 +492,12 @@ function initTheme() {
 
 (async function main() {
   initTheme();
+  initExplainers();
+  $("rrg-trails").onchange = () => renderRRG(current.sectors);
+  let t;
+  addEventListener("resize", () => { clearTimeout(t); t = setTimeout(() => heatChart?.resize(), 150); });
   const [index, latest] = await Promise.all([get("index.json"), get("latest.json")]);
-  const days = (index?.days || []).slice().reverse();
+  days = (index?.days || []).slice().reverse();
   if (!days.length) { $("updated").textContent = "No data yet — run the pipeline once."; return; }
   $("day").innerHTML = days.map((d) => `<option value="${esc(d)}">${esc(new Date(d + "T00:00").toLocaleDateString("en-IN", { weekday: "short", day: "numeric", month: "short", year: "numeric" }))}</option>`).join("");
   $("day").value = latest?.date && days.includes(latest.date) ? latest.date : days[0];

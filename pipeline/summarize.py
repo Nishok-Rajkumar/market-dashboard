@@ -84,6 +84,11 @@ def facts(day: Path) -> dict:
             f[f"options_{key}"] = {k: oc.get(k) for k in ("expiry", "pcr_oi_total", "max_pain", "expected_range")}
             f[f"options_{key}"]["call_wall"] = (oc.get("resistance_call_oi") or [{}])[0].get("strike")
             f[f"options_{key}"]["put_wall"] = (oc.get("support_put_oi") or [{}])[0].get("strike")
+    po = load(day / "participant_oi.json") or {}
+    if "clients" in po:
+        fii = po["clients"]["FII"]
+        f["fii_index_futures"] = {"pct_long": fii["fut_idx_long_pct"], "net_contracts": fii["fut_idx_net"],
+                                  "net_change_vs_prev_session": fii["fut_idx_net_chg"], "as_of": po["as_of"]}
     lv = load(day / "levels.json") or {}
     f["pivots"] = {v["name"]: {k: v[k] for k in ("S1", "P", "R1", "dma200")} for v in lv.values()}
     return f

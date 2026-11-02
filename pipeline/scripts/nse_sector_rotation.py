@@ -138,6 +138,8 @@ def main() -> int:
         r_now, m_now = float(ratio.iloc[-1]), float(mom.iloc[-1])
         # Weekly trail (last 5 Fridays-ish: every 5 sessions) to show direction of travel.
         trail = [quadrant(float(ratio.iloc[-1 - 5 * k]), float(mom.iloc[-1 - 5 * k])) for k in range(4, -1, -1)]
+        # Same 5 weekly points as coordinates, oldest first, for drawing the rotation chart.
+        trail_xy = [[round(float(ratio.iloc[-1 - 5 * k]), 2), round(float(mom.iloc[-1 - 5 * k]), 2)] for k in range(4, -1, -1)]
 
         def ret(n: int) -> float:
             return round((float(px.iloc[-1]) / float(px.iloc[-1 - n]) - 1) * 100, 2)
@@ -145,7 +147,7 @@ def main() -> int:
         rows.append({
             "sector": name, "ticker": t, "close": round(float(px.iloc[-1]), 2),
             "rs_ratio": round(r_now, 2), "rs_momentum": round(m_now, 2), "quadrant": quadrant(r_now, m_now),
-            "trail_5w": trail,
+            "trail_5w": trail, "trail_xy": trail_xy,
             "ret_1w": ret(5), "ret_1m": ret(21), "ret_3m": ret(63), "ret_6m": ret(126), "ret_1y": ret(252),
             "rel_3m_vs_nifty500": round(ret(63) - (float(bench.iloc[-1]) / float(bench.iloc[-64]) - 1) * 100, 2),
             "above_50dma": bool(px.iloc[-1] > px.rolling(50).mean().iloc[-1]),

@@ -4,12 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Market Pulse India</title>
-  <meta name="description" content="Personal daily dashboard for the Indian stock market. For learning only, not investment advice.">
+  <meta name="description" content="Free, self-updating dashboard for the Indian stock market: AI daily brief, FII/DII flows and F&O positioning, breadth, sector rotation, Nifty options and a Nifty 50 heatmap. For learning, not investment advice.">
+  <meta property="og:title" content="Market Pulse India — daily Indian stock market dashboard">
+  <meta property="og:description" content="AI daily brief, FII/DII flows, breadth, sector rotation, Nifty options and a Nifty 50 heatmap. Updated every trading day from free public data.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nishok-rajkumar.github.io/market-dashboard/">
+  <meta property="og:image" content="https://nishok-rajkumar.github.io/market-dashboard/preview.png">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23146c5f'/><path d='M6 22l6-7 5 4 9-11' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -26,34 +33,53 @@
       </div>
     </div>
     <nav class="wrap tabs" aria-label="Sections">
-      <a href="#brief">Brief</a><a href="#snapshot">Snapshot</a><a href="#flows">Flows</a><a href="#breadth">Breadth</a>
-      <a href="#sectors">Sectors</a><a href="#options">Options</a><a href="#swing">Swing</a><a href="#news">News</a>
+      <a href="#brief">Brief</a><a href="#snapshot">Snapshot</a><a href="#heatmap-sec">Heatmap</a><a href="#flows">Flows</a>
+      <a href="#breadth">Breadth</a><a href="#sectors">Sectors</a><a href="#options">Options</a><a href="#swing">Swing</a><a href="#news">News</a>
     </nav>
   </header>
 
   <main class="wrap">
     <div id="alerts"></div>
 
-    <section id="brief" class="card">
-      <h2>Today's brief</h2>
-      <p id="summary" class="summary">…</p>
-      <p class="small muted" id="summary-model"></p>
-    </section>
+    <div class="grid-brief">
+      <section id="brief" class="card">
+        <h2>Today's brief</h2>
+        <p id="summary" class="summary">…</p>
+        <p class="small muted" id="summary-model"></p>
+      </section>
+      <section id="changes" class="card">
+        <h2>What changed <span class="muted small" id="changes-vs"></span></h2>
+        <ul class="changes" id="changes-list"></ul>
+      </section>
+    </div>
 
     <section id="snapshot">
-      <h2>Snapshot</h2>
+      <h2>Snapshot <button class="info" data-g="vix" aria-label="Explain India VIX">i</button></h2>
       <div class="tiles" id="tiles"></div>
       <div class="grid2" id="pivots"></div>
     </section>
 
+    <section id="heatmap-sec">
+      <h2>Nifty 50 heatmap <span class="muted small" id="heatmap-meta"></span> <button class="info" data-g="heatmap" aria-label="Explain the heatmap">i</button></h2>
+      <div class="card"><div id="heatmap" class="heatmap" role="img" aria-label="Nifty 50 heatmap"></div></div>
+    </section>
+
     <section id="flows">
-      <h2>Money flows <span class="muted small">₹ crore, provisional</span></h2>
+      <h2>Money flows <span class="muted small">₹ crore, provisional</span> <button class="info" data-g="fii" aria-label="Explain FII and DII">i</button></h2>
       <div class="grid2">
         <div class="card" id="fii-cards"></div>
         <div class="card"><h3>FII vs DII — daily net</h3><div class="chart"><canvas id="fii-chart"></canvas></div></div>
       </div>
+      <div class="card" style="margin-top:12px">
+        <h3>Flow calendar <span class="muted small">each square is a session — darker = bigger</span></h3>
+        <div class="calendars" id="flow-calendar"></div>
+      </div>
       <div class="grid2">
-        <div class="card"><h3>Delivery spikes, price up <span class="muted small">possible accumulation</span></h3><div id="accum"></div></div>
+        <div class="card" id="poi-card"></div>
+        <div class="card"><h3>FII index futures — % long <button class="info" data-g="fiioi" aria-label="Explain FII positioning">i</button></h3><div class="chart"><canvas id="poi-chart"></canvas></div></div>
+      </div>
+      <div class="grid2">
+        <div class="card"><h3>Delivery spikes, price up <span class="muted small">possible accumulation</span> <button class="info" data-g="delivery" aria-label="Explain delivery">i</button></h3><div id="accum"></div></div>
         <div class="card"><h3>Delivery spikes, price down <span class="muted small">possible distribution</span></h3><div id="distrib"></div></div>
       </div>
       <div class="grid2">
@@ -61,31 +87,36 @@
         <div class="card"><h3>Top losers <span class="muted small">Nifty 500</span></h3><div id="losers"></div></div>
       </div>
       <div class="grid2">
-        <div class="card"><h3>F&amp;O ban list</h3><div id="ban"></div></div>
+        <div class="card"><h3>F&amp;O ban list <button class="info" data-g="ban" aria-label="Explain the ban list">i</button></h3><div id="ban"></div></div>
         <div class="card"><h3>Results &amp; board meetings <span class="muted small">next 7 days</span></h3><div id="events"></div></div>
       </div>
     </section>
 
     <section id="breadth">
-      <h2>Market breadth <span class="muted small">how many stocks are healthy, not just the index</span></h2>
+      <h2>Market breadth <span class="muted small">how many stocks are healthy, not just the index</span> <button class="info" data-g="breadth" aria-label="Explain breadth">i</button></h2>
       <div class="grid2">
         <div class="card" id="breadth-score"></div>
-        <div class="card"><h3>% of Nifty 500 above moving averages</h3><div class="chart"><canvas id="breadth-chart"></canvas></div></div>
+        <div class="card"><h3>% of Nifty 500 above moving averages <button class="info" data-g="dma" aria-label="Explain moving averages">i</button></h3><div class="chart"><canvas id="breadth-chart"></canvas></div></div>
       </div>
     </section>
 
     <section id="sectors">
-      <h2>Sector rotation <span class="muted small">vs Nifty 500</span></h2>
-      <div class="quads" id="quads"></div>
+      <h2>Sector rotation <span class="muted small">vs Nifty 500</span> <button class="info" data-g="rrg" aria-label="Explain sector rotation">i</button></h2>
+      <div class="card">
+        <div class="rrg-head"><h3>Rotation chart <span class="muted small">each dot is a sector this week</span></h3>
+          <label class="small"><input type="checkbox" id="rrg-trails"> Show 4-week trails</label></div>
+        <div class="chart rrg"><canvas id="rrg-chart"></canvas></div>
+      </div>
+      <div class="quads" id="quads" style="margin-top:12px"></div>
     </section>
 
     <section id="options">
-      <h2>Options positioning</h2>
+      <h2>Options positioning <button class="info" data-g="pcr" aria-label="Explain PCR">i</button></h2>
       <div class="grid2" id="oc"></div>
     </section>
 
     <section id="swing">
-      <h2>Swing screener <span class="muted small">for study only, not recommendations</span></h2>
+      <h2>Swing screener <span class="muted small">for study only, not recommendations</span> <button class="info" data-g="swing" aria-label="Explain the swing screener">i</button></h2>
       <div class="card"><p class="small muted" id="swing-meta"></p><div id="swing-table" class="scroll"></div></div>
     </section>
 
@@ -99,7 +130,10 @@
     <footer class="small muted">
       Built from free public data: NSE archives &amp; APIs, Yahoo Finance, and public RSS feeds. Summary written by an
       open-source model. For learning only, not investment advice.
+      <a href="https://github.com/Nishok-Rajkumar/market-dashboard">Source on GitHub</a>.
     </footer>
   </main>
+
+  <div id="pop" class="pop" role="dialog" aria-live="polite" hidden></div>
 </body>
 </html>
