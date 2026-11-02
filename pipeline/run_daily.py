@@ -8,8 +8,9 @@ Each step runs as its own `uv run` process, so one failing source (e.g. NSE bloc
 never stops the rest. What worked is recorded in data/<date>/status.json.
 
 Usage:
-  uv run pipeline/run_daily.py              # full evening run
-  uv run pipeline/run_daily.py --mode news  # morning: refresh headlines + summary only
+  uv run pipeline/run_daily.py                 # full evening run (after NSE's last file, ~8 PM IST)
+  uv run pipeline/run_daily.py --mode news     # night: refresh headlines + summary only
+  uv run pipeline/run_daily.py --mode morning  # morning: headlines + summary + overnight global prices
   uv run pipeline/run_daily.py --skip swing # skip slow steps while testing
 """
 
@@ -93,7 +94,7 @@ def build_indexes() -> None:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Daily dashboard data run.")
-    ap.add_argument("--mode", choices=["full", "news"], default="full")
+    ap.add_argument("--mode", choices=["full", "news", "morning"], default="full")
     ap.add_argument("--skip", nargs="*", default=[],
                     help="steps to skip: pulse breadth sectors options swing levels participant_oi heatmap")
     args = ap.parse_args()
@@ -102,7 +103,7 @@ def main() -> int:
     DATA.mkdir(exist_ok=True)
     if args.mode == "full":
         day = DATA / now.date().isoformat()
-    else:  # morning refresh attaches to the latest full run
+    else:  # news/morning refreshes attach to the latest full run
         days = sorted(p for p in DATA.iterdir() if p.is_dir() and p.name[:2] == "20")
         day = days[-1] if days else DATA / now.date().isoformat()
     day.mkdir(parents=True, exist_ok=True)
@@ -144,6 +145,10 @@ def main() -> int:
                 continue
             ok, msg = run(cmd)
             status[name] = {"ok": True} if ok else {"ok": False, "error": msg}
+
+    if args.mode == "morning" and (day / "pulse.json").exists():
+        ok, msg = run([ROOT / "pipeline" / "snapshot.py", "--pulse", day / "pulse.json"])
+        status["snapshot"] = {"ok": True} if ok else {"ok": False, "error": msg}
 
     ok, msg = run([ROOT / "pipeline" / "news.py", "--out", DATA / "news.json"])
     status["news"] = {"ok": True} if ok else {"ok": False, "error": msg}

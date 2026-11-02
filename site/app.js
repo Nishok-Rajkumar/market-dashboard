@@ -102,6 +102,8 @@ function renderSummary(sum) {
 
 function renderSnapshot(pulse, levels) {
   const snap = Array.isArray(pulse?.snapshot) ? pulse.snapshot : [];
+  const at = pulse?.snapshot_updated_at;
+  $("snapshot-meta").textContent = at ? `prices refreshed ${new Date(at).toLocaleString("en-IN", { day: "numeric", month: "short", hour: "numeric", minute: "2-digit", timeZone: "Asia/Kolkata" })} IST` : "";
   $("tiles").innerHTML = snap.length ? snap.map((s) => `
     <div class="tile"><div class="label">${esc(s.name)}</div>
       <div class="value num">${fmt(s.last, s.last < 200 ? 2 : 0)}</div>

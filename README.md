@@ -29,10 +29,11 @@ and publishes everything as a static website. No server, no subscription, no lap
 ## How it works
 
 ```
-GitHub Actions (Mon–Fri)            data/<date>/*.json            GitHub Pages
- 6:45 PM IST  full run   ───────▶   pulse, breadth, sectors, ───▶  site/ (static HTML + JS)
- 8:30 AM IST  news + brief          options, swing, heatmap,       reads the JSON in the browser
-                                    participant_oi, news, summary
+GitHub Actions (Mon–Fri)               data/<date>/*.json            GitHub Pages
+  8:15 PM IST  full run     ───────▶   pulse, breadth, sectors, ───▶  site/ (static HTML + JS)
+ 11:15 PM IST  news + brief            options, swing, heatmap,       reads the JSON in the browser
+  8:30 AM IST  news + brief + global   participant_oi, news, summary
+               prices (US close, Asia)
 ```
 
 - **Data:** NSE archives & public APIs, Yahoo Finance, public RSS feeds — all free, no API keys

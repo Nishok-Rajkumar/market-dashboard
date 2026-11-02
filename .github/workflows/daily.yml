@@ -1,15 +1,17 @@
 name: Daily market data
 
 on:
+  # Times are UTC (IST = UTC + 5:30). Odd minutes avoid GitHub's top-of-the-hour queue delays.
   schedule:
-    - cron: "15 13 * * 1-5"   # 6:45 PM IST, Mon–Fri — full run after NSE publishes end-of-day data
-    - cron: "0 3 * * 1-5"     # 8:30 AM IST, Mon–Fri — refresh headlines + summary before the open
+    - cron: "45 14 * * 1-5"   # 8:15 PM IST — full run; NSE's last file (F&O participant OI) is out by ~8 PM
+    - cron: "45 17 * * 1-5"   # 11:15 PM IST — news + brief: late results, US data and US open
+    - cron: "0 3 * * 1-5"     # 8:30 AM IST — news + brief + overnight global prices before the open
   workflow_dispatch:
     inputs:
       mode:
-        description: "full = all data, news = headlines + summary only"
+        description: "full = all data, news = headlines + brief, morning = news + brief + global prices"
         type: choice
-        options: [full, news]
+        options: [full, news, morning]
         default: full
 
 permissions:
@@ -42,7 +44,11 @@ jobs:
         run: |
           MODE="${{ github.event.inputs.mode }}"
           if [ -z "$MODE" ]; then
-            if [ "${{ github.event.schedule }}" = "0 3 * * 1-5" ]; then MODE=news; else MODE=full; fi
+            case "${{ github.event.schedule }}" in
+              "45 17 * * 1-5") MODE=news ;;
+              "0 3 * * 1-5")   MODE=morning ;;
+              *)               MODE=full ;;
+            esac
           fi
           uv run pipeline/run_daily.py --mode "$MODE"
 
