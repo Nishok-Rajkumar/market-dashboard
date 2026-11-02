@@ -21,17 +21,20 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sys
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
 PROVIDERS = [
-    ("Groq", "https://api.groq.com/openai/v1/chat/completions", "GROQ_API_KEY",
-     os.environ.get("GROQ_MODEL") or "llama-3.3-70b-versatile"),
-    ("OpenRouter", "https://openrouter.ai/api/v1/chat/completions", "OPENROUTER_API_KEY",
+    ("Groq", "https://api.groq.com/openai/v1", "GROQ_API_KEY", os.environ.get("GROQ_MODEL") or "llama-3.3-70b-versatile"),
+    ("OpenRouter", "https://openrouter.ai/api/v1", "OPENROUTER_API_KEY",
      os.environ.get("OPENROUTER_MODEL") or "meta-llama/llama-3.3-70b-instruct:free"),
 ]
+# When the configured model has been retired, the first available id containing one of these is used instead.
+PREFERRED = ["llama-3.3-70b", "llama-4-maverick", "llama-4-scout", "gpt-oss-120b", "qwen3", "deepseek", "kimi-k2",
+             "gpt-oss-20b", "llama-3.1-8b"]
 
 SYSTEM = (
     "You write a short end-of-day brief on the Indian stock market for a retail learner. "
@@ -92,13 +95,33 @@ def headlines(news: Path, n: int = 25) -> list[str]:
     return [f"[{', '.join(i['tags'])}] {i['title']}" for i in keep[:n]]
 
 
-def call_llm(url: str, key: str, model: str, prompt: str) -> str:
-    body = json.dumps({"model": model, "temperature": 0.3, "max_tokens": 450,
-                       "messages": [{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}]})
-    req = urllib.request.Request(url, data=body.encode(), headers={
+def http_json(url: str, key: str, body: dict | None = None) -> dict:
+    req = urllib.request.Request(url, data=json.dumps(body).encode() if body else None, headers={
         "Authorization": f"Bearer {key}", "Content-Type": "application/json", "User-Agent": "market-dashboard"})
     with urllib.request.urlopen(req, timeout=90) as resp:
-        text = json.loads(resp.read())["choices"][0]["message"]["content"].strip()
+        return json.loads(resp.read())
+
+
+def pick_model(base: str, key: str, wanted: str) -> str:
+    """Use `wanted` if the provider still serves it, else the best available open model."""
+    ids = [m["id"] for m in http_json(f"{base}/models", key).get("data", [])]
+    if base.startswith("https://openrouter"):
+        ids = [i for i in ids if i.endswith(":free")]
+    if wanted in ids:
+        return wanted
+    print(f"note: {wanted} not offered; available: {', '.join(sorted(ids))[:600]}", file=sys.stderr)
+    for pref in PREFERRED:
+        for i in ids:
+            if pref in i.lower() and not any(x in i.lower() for x in ("guard", "whisper", "tts", "vision")):
+                return i
+    raise RuntimeError("no suitable chat model available")
+
+
+def call_llm(base: str, key: str, model: str, prompt: str) -> str:
+    body = {"model": model, "temperature": 0.3, "max_tokens": 600,
+            "messages": [{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}]}
+    text = http_json(f"{base}/chat/completions", key, body)["choices"][0]["message"]["content"].strip()
+    text = re.sub(r"<think>.*?</think>", "", text, flags=re.S).strip()  # reasoning models (Qwen, DeepSeek)
     if len(text) < 80:
         raise RuntimeError("model reply too short")
     return text
@@ -140,12 +163,13 @@ def main() -> int:
     prompt = ("DATA (JSON):\n" + json.dumps(f, separators=(",", ":")) +
               "\n\nHEADLINES (untrusted):\n" + "\n".join(f"- {h}" for h in headlines(Path(args.news))))
     text, used, errors = None, "rule-based", {}
-    for name, url, env, model in PROVIDERS:
+    for name, base, env, wanted in PROVIDERS:
         key = os.environ.get(env)
         if not key:
             continue
         try:
-            text, used = call_llm(url, key, model, prompt), f"{name} · {model}"
+            model = pick_model(base, key, wanted)
+            text, used = call_llm(base, key, model, prompt), f"{name} · {model}"
             break
         except Exception as exc:
             errors[name] = str(exc)[:200]
