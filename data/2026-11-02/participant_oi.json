@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-11-02T19:47:30",
-  "as_of": "2026-10-30",
+  "generated_at": "2026-11-02T20:02:44",
+  "as_of": "2026-11-02",
   "clients": {
     "FII": {
-      "fut_idx_long": 34437,
-      "fut_idx_short": 275190,
-      "fut_idx_net": -240753,
-      "fut_idx_long_pct": 11.1,
-      "fut_idx_net_chg": -2730,
-      "idx_call_net": -240812,
-      "idx_put_net": 515687,
-      "fut_stk_long_pct": 57.4
+      "fut_idx_long": 31191,
+      "fut_idx_short": 264390,
+      "fut_idx_net": -233199,
+      "fut_idx_long_pct": 10.6,
+      "fut_idx_net_chg": 7554,
+      "idx_call_net": -204245,
+      "idx_put_net": 544613,
+      "fut_stk_long_pct": 57.9
     },
     "DII": {
-      "fut_idx_long": 46993,
+      "fut_idx_long": 47442,
       "fut_idx_short": 6470,
-      "fut_idx_net": 40523,
-      "fut_idx_long_pct": 87.9,
-      "fut_idx_net_chg": -138,
-      "idx_call_net": 7075,
-      "idx_put_net": 112893,
-      "fut_stk_long_pct": 5.3
+      "fut_idx_net": 40972,
+      "fut_idx_long_pct": 88.0,
+      "fut_idx_net_chg": 449,
+      "idx_call_net": 6775,
+      "idx_put_net": 113343,
+      "fut_stk_long_pct": 5.6
     },
     "Pro": {
-      "fut_idx_long": 32979,
-      "fut_idx_short": 19737,
-      "fut_idx_net": 13242,
+      "fut_idx_long": 31742,
+      "fut_idx_short": 18965,
+      "fut_idx_net": 12777,
       "fut_idx_long_pct": 62.6,
-      "fut_idx_net_chg": 8772,
-      "idx_call_net": 251598,
-      "idx_put_net": -62243,
-      "fut_stk_long_pct": 66.0
+      "fut_idx_net_chg": -465,
+      "idx_call_net": 233841,
+      "idx_put_net": -76330,
+      "fut_stk_long_pct": 64.3
     },
     "Client": {
-      "fut_idx_long": 246926,
-      "fut_idx_short": 59938,
-      "fut_idx_net": 186988,
-      "fut_idx_long_pct": 80.5,
-      "fut_idx_net_chg": -5904,
-      "idx_call_net": -17861,
-      "idx_put_net": -566337,
-      "fut_stk_long_pct": 93.7
+      "fut_idx_long": 240563,
+      "fut_idx_short": 61113,
+      "fut_idx_net": 179450,
+      "fut_idx_long_pct": 79.7,
+      "fut_idx_net_chg": -7538,
+      "idx_call_net": -36370,
+      "idx_put_net": -581626,
+      "fut_stk_long_pct": 93.3
     }
   },
   "fii_history": [
@@ -188,9 +188,14 @@
       "date": "2026-10-30",
       "fut_idx_long_pct": 11.1,
       "fut_idx_net": -240753
+    },
+    {
+      "date": "2026-11-02",
+      "fut_idx_long_pct": 10.6,
+      "fut_idx_net": -233199
     }
   ],
   "fii_read": "Extremely bearish \u2014 FIIs hold very few longs in index futures. Traders watch extremes like this as a contrarian sign (short covering can lift the index), but they can last for weeks.",
-  "fii_pct_rank": 69,
-  "sessions": 29
+  "fii_pct_rank": 57,
+  "sessions": 30
 }
