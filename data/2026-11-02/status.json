@@ -1,7 +1,7 @@
 {
   "date": "2026-11-02",
-  "updated_at": "2026-11-02T19:43:43+05:30",
-  "mode": "full",
+  "updated_at": "2026-11-02T19:58:34+05:30",
+  "mode": "morning",
   "steps": {
     "pulse": {
       "ok": true
@@ -34,6 +34,9 @@
       "ok": true
     },
     "heatmap": {
+      "ok": true
+    },
+    "snapshot": {
       "ok": true
     }
   }

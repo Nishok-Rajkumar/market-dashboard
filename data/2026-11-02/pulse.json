@@ -39,31 +39,31 @@
     },
     {
       "name": "Brent crude ($)",
-      "last": 106.77,
+      "last": 106.44,
       "date": "2026-11-02",
-      "chg_1d_pct": -9.24,
-      "chg_5d_pct": -7.81
+      "chg_1d_pct": -9.52,
+      "chg_5d_pct": -8.09
     },
     {
       "name": "Gold ($)",
-      "last": 3953.2,
+      "last": 3952.1,
       "date": "2026-11-02",
-      "chg_1d_pct": 1.39,
-      "chg_5d_pct": -2.11
+      "chg_1d_pct": 1.36,
+      "chg_5d_pct": -2.14
     },
     {
       "name": "S&P 500 fut",
-      "last": 7650.75,
+      "last": 7657.75,
       "date": "2026-11-02",
-      "chg_1d_pct": 0.48,
-      "chg_5d_pct": -0.83
+      "chg_1d_pct": 0.57,
+      "chg_5d_pct": -0.74
     },
     {
       "name": "Nasdaq 100 fut",
-      "last": 28752.5,
+      "last": 28771.75,
       "date": "2026-11-02",
-      "chg_1d_pct": 0.77,
-      "chg_5d_pct": -2.33
+      "chg_1d_pct": 0.83,
+      "chg_5d_pct": -2.26
     },
     {
       "name": "Nikkei 225",
@@ -1158,5 +1158,6 @@
       "symbol": "TATASTEEL",
       "purpose": "Financial Results/Other business matters"
     }
-  ]
+  ],
+  "snapshot_updated_at": "2026-11-02T19:58:37+05:30"
 }

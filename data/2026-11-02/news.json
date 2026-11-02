@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T14:17:36+00:00",
+  "generated_at": "2026-11-02T14:28:38+00:00",
   "sources": {
     "Economic Times": {
       "ok": true,
@@ -80,6 +80,16 @@
       "summary": "ITC Q2 Results: ITC Ltd reported an 18.5% decline in consolidated net profit for the September quarter on Monday as a sharp fall in earnings from its cigarette business weighed on overall profitability despite strong growth in its FMCG, agriculture and paper businesses.",
       "tags": [
         "Results"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "China to launch third stock market swap operation as demand exceeds 100b yuan, signaling fresh efforts to bolster market stability: experts - Global Times",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBXUS1Hbm1uZXZEdTJjdGRkMEJ2TXc1al9rWlZtUHRaUmY5cGs5VWxjMHg1Y25DYlIyZmYzNUxpMUllUFRvT1czUFlKdjRGSkRiVU1sRWVqdVUtWkt4a3kyVmtR?oc=5",
+      "published": "2026-11-02T13:52:00+00:00",
+      "summary": "China to launch third stock market swap operation as demand exceeds 100b yuan, signaling fresh efforts to bolster market stability: experts Global Times",
+      "tags": [
+        "Global"
       ]
     },
     {
@@ -440,16 +450,6 @@
       ]
     },
     {
-      "source": "Google News",
-      "title": "Sensex Jumps 1,233 Points, Nifty Closes Above 23,400 As Reliance Shares Surge - News Mobile",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRDhhQ2gtT3dRNUdpM2RXUDVJR3VRalpCZTg4VHp2RHdDUEE2dHJUbHpRNnhvVzlJbDRSN2ppZnczNVVYd2Nia19lMWJfLVdJXzNQcWFlZkEweG1yQ0c4cHo4cW5RRWM3MWZTcjMzTW5YejhZTGlvbjhQZ2llRWpkTXFjQnhOaE5ja3NkOFR5SUp0SEtLNjFnQzQ0NzFSVVc3N2NoR3F4enp1Rl9fU0lIOEl1a3A?oc=5",
-      "published": "2026-11-02T11:24:36+00:00",
-      "summary": "Sensex Jumps 1,233 Points, Nifty Closes Above 23,400 As Reliance Shares Surge News Mobile",
-      "tags": [
-        "Index"
-      ]
-    },
-    {
       "source": "Economic Times",
       "title": "SBI Q2 Results Preview: PATmay rise up to 25% YoY; NII, margins, deposit growth in focus",
       "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/sbi-q2-results-preview-patmay-rise-up-to-25-yoy-nii-margins-deposit-growth-in-focus/articleshow/135458856.cms",
@@ -519,18 +519,6 @@
       "published": "2026-11-02T11:09:00+00:00",
       "summary": "Sensex jumps 1,233 points on sharp rally in Reliance Rediff",
       "tags": [
-        "Index"
-      ]
-    },
-    {
-      "source": "Google News",
-      "title": "Sensex, Nifty rally over 1.6% on Q2 earnings, foreign investor buying - bfsi.economictimes.indiatimes.com",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMVgzTVNMODFoNWpFb2dtUnY5Yzk2M2JTTjVzbDdTZ21EazBXRnpac3dxZGpjTjJ2VTVNUTNhaHFjclpJUHhPOEhOdmwxNnkwV1RMakRrTlA0MG1MbEhfeEd4bEIwZ2dyZWpUNzhWdzZwMTdQZnRKWjNWT19sRElWVnVjXzRiVnVPRGJMdTFpNGFkUGJLRnIwcF9IcXdjd2NFVnZXVzZFSlpxTHZYRko3OVpjWkwxN1UydGE4M3RxWUltSXZWelRmM25ScGY0bTM3N3Jrb3hqMUgwUdIB3wFBVV95cUxNSXVsNzFPNkVPOHRRM2dFd0RZY2pkRkRyNEg1VVNkR1RvbExsd2FpalRfTXF0VzVLSkwyak1JVC1zOHVFTS04U2RhbGVhb3dPTHpmSnUxWm1JczdzeTNwU0cxb2NLTjlPMFB1OUNodGZnVXoxTkNKZzRiTDdQZDBZN0Uwb0VCOUNId1VjbW9Fd05Vcjh1eWZ6QTBveUdSdUJ1bEpZTjB2aThJS0ZJbWg5UEJFaXB2THY3ZFlSdmhSdWFqeG84RjVNMVFLdjJPNU9rd25TOHdmRDM1UmZpeFQ4?oc=5",
-      "published": "2026-11-02T11:07:30+00:00",
-      "summary": "Sensex, Nifty rally over 1.6% on Q2 earnings, foreign investor buying bfsi.economictimes.indiatimes.com",
-      "tags": [
-        "FII/DII flows",
-        "Results",
         "Index"
       ]
     },
@@ -746,16 +734,6 @@
       ]
     },
     {
-      "source": "Google News",
-      "title": "Bulls In Action: Sensex Surges 1,233 Points, Nifty Reclaims 23,400 As Reliance Skyrockets 12% - News18",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOV1c3eGQ4eEJjdm0zX0dlbUpPQURrNV9VN2dFeGxUTmdxR1RmcllTWTQxbktmMVBzenY4QU40bmJlNWl6X1BuSnE5YVpjS1Fna3RYeXhlQWNNN09yTHp5QktDMWNsSDUzQV9tcXpLV1IwcmctbTNlTG92OHd0Q1Z2R2xHMXNUaGhyenJHOFFWdVR3UlNxUEV0WGRLYUhfbmgwaW5pS2h1ekNBYzIxbnYzeHo5cElYVEZEUEhWYm9QMVJrVlNJQ3dtVEpJSjRiS1pwWE9mdVE5c1I3Z9IB3wFBVV95cUxPQjNoWUQwNWRrM0ZvYW4ybzJlckl4cE9JeThvVFQwaVJWY0hJbC1kUG92d3pKdU1PNU02Z2I5VUQxNE43NFl1OGJ1R1UwdW1FeWFydlh2am5xSG9wcFBKOS03Zm04c01zQkR3TmhlbFhIUVZCdjJOWUY3VHY5S0Frb3RFUkJlSjE3ZzNCZ0RJUVBBYzlNMzNJZ2NIeWRzYXE3ZWptdmhrZk1kcXd3T1AxUE1Xakd2VWtBV0dpWGxQVDc4czBfcEQxY1JSTkswbkx6VjVyVFB3Sk8xQ3hucGZn?oc=5",
-      "published": "2026-11-02T10:29:28+00:00",
-      "summary": "Bulls In Action: Sensex Surges 1,233 Points, Nifty Reclaims 23,400 As Reliance Skyrockets 12% News18",
-      "tags": [
-        "Index"
-      ]
-    },
-    {
       "source": "Economic Times",
       "title": "Mold-Tek Packaging shares surge 17% as Q2 FY 27 profit jumps 35% YoY to Rs 21 crore",
       "link": "https://economictimes.indiatimes.com/markets/stocks/news/mold-tekpackagingsharessurge17-as-q2fy27profitjumps35-yoy-to-rs21crore/articleshow/135454971.cms",
@@ -763,6 +741,18 @@
       "summary": "Mold-Tek Packaging shares surged nearly 17% after the company reported a 35.5% YoY rise in Q2 FY27 net profit and 30.5% revenue growth. Strong pharma and FMCG packaging volumes supported performance, while new product launches and expansion plans strengthened its growth outlook.",
       "tags": [
         "Results"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Sensex, Nifty rally over 1.6% on Q2 earnings, foreign investor buying - ANI News",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNVJLck9OelNmMVJVTG5xc2h2ZjZXdjVaVmZISkVPX3ZMUUR0d1hEYS1hcjNrZ2Rka3k5MnBKaGRwREtESmVzZTB1cnF0VWRaM0xaVG5rWjhERklXd2hkSC0xaFJrY2pIVl9GUjUweS1MMWRCeF8wQlFUVTBOTGU2Q2c4azFaX0loS0lJYmlVbjJCQ0JWbzJ2TDdGb3lMczRIN2stRTFZLTc5SHRYemJ5NU1nRjdHVWs?oc=5",
+      "published": "2026-11-02T10:24:00+00:00",
+      "summary": "Sensex, Nifty rally over 1.6% on Q2 earnings, foreign investor buying ANI News",
+      "tags": [
+        "FII/DII flows",
+        "Results",
+        "Index"
       ]
     },
     {
@@ -988,16 +978,6 @@
       "summary": "MobiKwik returned to profitability in Q2 FY27, reporting a record consolidated net profit of Rs 11.8 crore against a loss of Rs 28.6 crore a year earlier. Profit rose over 55% sequentially from Rs 7.6 crore in Q1 FY27, while revenue from operations increased 9% year-on-year to Rs",
       "tags": [
         "Results"
-      ]
-    },
-    {
-      "source": "Google News",
-      "title": "Sensex Gains 652 Points, Nifty 50 Rises 194 Points as IT Shares Weigh on Market Gains - Dalal Street Investment Journal",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSF9Ea01jWE1iMnFCbVFsYmUyWXRfZVlMYzE5SHp2R0lMUmtZMElYZDFRSHRSQUQtZ0xxdGt3MHlhejFxUW16VGl4YW5PRk9JWHhGYUlQZFlwYXp3OWtKamFfajFjQzAwenBZQ3NLOVBYS2psdEVOYnhTcUQwSkxEWUxNdkRoczczby1GbXIyel9KM0V5ck5FRVVocVJneWMxbl94SDFCcm5zS1V2MUlpbzdISVpEdDdqUnctRGtyOFc2eHFEQnhWSnlNQkdBQQ?oc=5",
-      "published": "2026-11-02T08:52:26+00:00",
-      "summary": "Sensex Gains 652 Points, Nifty 50 Rises 194 Points as IT Shares Weigh on Market Gains Dalal Street Investment Journal",
-      "tags": [
-        "Index"
       ]
     },
     {
@@ -1996,17 +1976,6 @@
       ]
     },
     {
-      "source": "Google News",
-      "title": "New NFO alert! Kotak Nifty Realty Index Fund closes next week—See deadline, minimum amount, allocation, expected returns - Livemint",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPaDZJd25YYjlhODNtQzVhSjQxS3dLZmtvd2g1MGhnTVFjSWpMN2R6a083Y2NjMmdfMjVSTV90UWxYWEJWNmJ2NnFpVlY0YVI0S2lIZzRTbGE2UEt0MzZjemlGajhpR3MwZFFlbzFNekV0MVF4ZXpidTNSdDRPTlEyODBqZkprYW1BTTlqNXh6bWtidkhVTEk1RE1BQ3ljbm9MNnpxT2N5MHU2aEVyVlo1V3laTF9xQ0Nyb0hnU09RQngtMnpaM0pjclI0M1VpNzVEY3o4ekNwazBKSjdzYmphOVJaTXNrX3czcVo5NDlqQ3RHX3htUTRicHZPRdIBgAJBVV95cUxQZ0RZM1I3RWpQQ2hOV2dWeVljWXA0VkdieUxaZkctQUY0SWo0OC1DSUlaOVdOZUVNd3RRU1JsUl93ZDZqb0xQZ3MtTDZjdWp1RjM1aVkxeGRhNzV5d3VaVkI5YVVxcE55YkQ5X1JmRVY0dnZQYW9pTW5BU295MGJCdkM0dU9CT3dLcWc3WmhET2h6cXJZMk5jNVROYmFtT3dUNzA1UnhyVFFjaVhIcms4QkhjWVZlNFNXZTEwbXM4T1VSY2RrRVJNd3RrdzNJU3NvT3RNcm9JN3c5dkxCUndWY1p3QndPRWJOakRQd2hhRDVOdml3NWhteDd5Q2YxYkta?oc=5",
-      "published": "2026-11-02T04:56:13+00:00",
-      "summary": "New NFO alert! Kotak Nifty Realty Index Fund closes next week—See deadline, minimum amount, allocation, expected returns Livemint",
-      "tags": [
-        "Banks",
-        "Index"
-      ]
-    },
-    {
       "source": "Economic Times",
       "title": "This auto ancillary stock soars 13% after Q2 PAT jumps 35% YoY. Do you own it?",
       "link": "https://economictimes.indiatimes.com/markets/stocks/news/this-auto-ancillary-stock-soars-13-after-q2-pat-jumps-35-yoy-do-you-own-it/articleshow/135445868.cms",
@@ -2078,6 +2047,38 @@
       "summary": "Gurugram-based Delhivery reported a consolidated PAT of ₹40.6 crore for the September quarter of FY2027. The company posted a loss of ₹50.3 crore in the same quarter last fiscal year.",
       "tags": [
         "Results"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Why Stock Market Is Rising Today? Sensex Jumps 900 Points, Nifty 50 Above 23,300; Five Key Reasons - NDTV Profit",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYzJCOGxVeFVkYTBUZ0lCeFh3OFpaek45eFV2bm96c3IwTDcwVFBINFcxZGkyRnF3UlRJMDFWT0cxRUlHZldiTHp3R1h6VHVHN1pMY0RoejNiXzRQZ0htT2NWYWVUOU5SMERSTlpGRkhFVHJmb0JZMkx6MGRHWElkc2xkQWJaWmlVZG10bjVNQ0J6Z3VOaDFQWWY2bHRzSklMR2laRzh5Z292eTE2T2V2NFR6ZkFnZVZJbUZaWmQ3Z0xIUnpuRDBvVnR3bmxGaDR3TTlzRlNR0gHeAUFVX3lxTE1RRmpubUFNRU1MVGozeE1iUkRwcUE2VUdjaW9GZWFWWnFkdEMyUWc4Z0xjaWFXQno3M2VYT250bzU0VzlwalVsWldMYno4VWllYzZqdHVGYWNzdDNEc0JFTG9md2x1RUJleEIzdjJmbm5wMWxCbWkzdmZDUHlTSkkwOGxuWjJTSkkxa1MzZjJ4RnJIVjh3T0tYRXN3cG42bUV3VkJEYnlOVERLeEdobWUzbHhROWViWjBuSmZ5bmwxVTdFc0ZGNWF4dTFIMmZVU05ERGFlSXFLUDBOaWtGUQ?oc=5",
+      "published": "2026-11-02T04:47:29+00:00",
+      "summary": "Why Stock Market Is Rising Today? Sensex Jumps 900 Points, Nifty 50 Above 23,300; Five Key Reasons NDTV Profit",
+      "tags": [
+        "Results",
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Sensex rallies 1,000 pts, Nifty tops 23,300; Reliance surges 6% on record Q2 - Fortune India",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVWdVbHQ2NWpFc3Zsd3ZmRGJpRnRuQWJodzFsSEVjWHF4Y29Gd3NrdVg4bUM2dkhkYk02YjN4cWZSWWFlQVNxRDlaVkNESGowNW9icVZ5QVBBdEY3YVpfaXNDMW5YZXNaUkRSVFB3Z1pSbmc0NkUtbHBJRlppd0RkRXBuTHp3a3I1VGNpdlE3RFNnNC00bHFOQ3BkTnNub2d4R0JiY3BDNHRMVy02LS15enc4cTd1QdIBwwFBVV95cUxOT1EweFpuM1pPNGFhVHZhNk1tTlNQTVp4MXRqa0htRU9LdWtmZjNXYTNzdmcxQ3RvQVhJZ25LX01qYnJwcGtjM0xwQkRmNDlqVDJNQV9lZloxd1phSkVzUGFBdUg1WEFNQlZSaWpzMVpZaG9sRU1seEhfbGpkcTY4ZnVpbVBNRktrV2JvRGRtVE52MHdVMG1OWllhNlVJMU5iSE9JSWRnZUtVWmpGUXo5VGRTVFhJTVN0OWxfRWx1LWxsa2c?oc=5",
+      "published": "2026-11-02T04:45:04+00:00",
+      "summary": "Sensex rallies 1,000 pts, Nifty tops 23,300; Reliance surges 6% on record Q2 Fortune India",
+      "tags": [
+        "Results",
+        "Index"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "Festive cheer! Sensex zooms 1,233 pts; investors pocket ₹8 trn - 7 reasons",
+      "link": "https://www.business-standard.com/markets/news/why-is-the-stock-market-rising-sensex-extends-rally-jumps-1-030-pts-intraday-6-reasons-126110200234_1.html",
+      "published": "2026-11-02T04:39:11+00:00",
+      "summary": "Investors added ₹8.04 trillion to their wealth as the market capitalisation of all BSE-listed companies swelled to ₹482.41 trillion from ₹474.37 trillion on Friday.",
+      "tags": [
+        "Index"
       ]
     }
   ]
