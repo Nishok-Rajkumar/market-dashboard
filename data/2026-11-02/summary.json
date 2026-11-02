@@ -1,8 +1,6 @@
 {
-  "generated_at": "2026-11-02T13:52:13+00:00",
-  "model": "rule-based",
-  "text": "Nifty 50 closed at 23,441 (+1.68% on the day, +3.02% over 5 days). In the Nifty 500, 401 stocks rose and 92 fell — a broad move. Breadth score is 44.5/100 (NEUTRAL). FIIs net +3,115 Cr, DIIs net -392 Cr. Leading sectors: Pharma, Infrastructure, Oil & Gas, Healthcare, PSU Bank. Nifty options: PCR 1.66, max pain 23,250, call wall 24,000, put wall 23,000.",
-  "errors": {
-    "Groq": "model reply too short"
-  }
+  "generated_at": "2026-11-02T13:53:57+00:00",
+  "model": "Groq · openai/gpt-oss-120b",
+  "text": "The Nifty 50 closed at 23,440.8, up 1.68% on the day and 3.02% over the last five sessions, while the broader Nifty 500 rose 1.58% (5‑day +2.93%). Advances outpaced declines (401 vs 92) giving a breadth score of 44.5 in a neutral zone, indicating the rally was fairly broad‑based. The India VIX ticked higher to 15.5 (+1.31%), showing modest rise in volatility.\n\nForeign Institutional Investors (FIIs) were net buyers, adding ₹3,114.68 cr today, while Domestic Institutional Investors (DIIs) sold ₹392.2 cr, extending a four‑day buying streak for FIIs and a two‑day selling streak for DIIs. Leading sectors were Pharma, Infrastructure, Oil & Gas, Healthcare and PSU Banks; IT and Media were weakening. Options data show a put‑call ratio (PCR) of 1.66 for Nifty, with max‑pain at 23,250 and a call wall at 24,000, suggesting some resistance near that level.\n\nWatch the Nifty’s support at 23,284.97 (S1) and the pivot at 23,362.88; a break below S1 could test the 23,200 zone. For Bank Nifty, the key support is 54,707.35 and the pivot 54,876.85. Keep an eye on upcoming RBI government‑dated securities auction and any earnings updates from large caps such as Reliance and IT firms, which could influence the next session’s direction.",
+  "errors": {}
 }
