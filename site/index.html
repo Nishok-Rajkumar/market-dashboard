@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Market Pulse India</title>
+  <meta name="description" content="Personal daily dashboard for the Indian stock market. For learning only, not investment advice.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23146c5f'/><path d='M6 22l6-7 5 4 9-11' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-row">
+      <div>
+        <h1>Market Pulse <span class="accent">India</span></h1>
+        <p class="muted small" id="updated">Loading…</p>
+      </div>
+      <div class="controls">
+        <label class="small muted" for="day">Day</label>
+        <select id="day" aria-label="Choose a day"></select>
+        <button id="theme" class="ghost" aria-label="Toggle dark mode">◐</button>
+      </div>
+    </div>
+    <nav class="wrap tabs" aria-label="Sections">
+      <a href="#brief">Brief</a><a href="#snapshot">Snapshot</a><a href="#flows">Flows</a><a href="#breadth">Breadth</a>
+      <a href="#sectors">Sectors</a><a href="#options">Options</a><a href="#swing">Swing</a><a href="#news">News</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <div id="alerts"></div>
+
+    <section id="brief" class="card">
+      <h2>Today's brief</h2>
+      <p id="summary" class="summary">…</p>
+      <p class="small muted" id="summary-model"></p>
+    </section>
+
+    <section id="snapshot">
+      <h2>Snapshot</h2>
+      <div class="tiles" id="tiles"></div>
+      <div class="grid2" id="pivots"></div>
+    </section>
+
+    <section id="flows">
+      <h2>Money flows <span class="muted small">₹ crore, provisional</span></h2>
+      <div class="grid2">
+        <div class="card" id="fii-cards"></div>
+        <div class="card"><h3>FII vs DII — daily net</h3><div class="chart"><canvas id="fii-chart"></canvas></div></div>
+      </div>
+      <div class="grid2">
+        <div class="card"><h3>Delivery spikes, price up <span class="muted small">possible accumulation</span></h3><div id="accum"></div></div>
+        <div class="card"><h3>Delivery spikes, price down <span class="muted small">possible distribution</span></h3><div id="distrib"></div></div>
+      </div>
+      <div class="grid2">
+        <div class="card"><h3>Top gainers <span class="muted small">Nifty 500</span></h3><div id="gainers"></div></div>
+        <div class="card"><h3>Top losers <span class="muted small">Nifty 500</span></h3><div id="losers"></div></div>
+      </div>
+      <div class="grid2">
+        <div class="card"><h3>F&amp;O ban list</h3><div id="ban"></div></div>
+        <div class="card"><h3>Results &amp; board meetings <span class="muted small">next 7 days</span></h3><div id="events"></div></div>
+      </div>
+    </section>
+
+    <section id="breadth">
+      <h2>Market breadth <span class="muted small">how many stocks are healthy, not just the index</span></h2>
+      <div class="grid2">
+        <div class="card" id="breadth-score"></div>
+        <div class="card"><h3>% of Nifty 500 above moving averages</h3><div class="chart"><canvas id="breadth-chart"></canvas></div></div>
+      </div>
+    </section>
+
+    <section id="sectors">
+      <h2>Sector rotation <span class="muted small">vs Nifty 500</span></h2>
+      <div class="quads" id="quads"></div>
+    </section>
+
+    <section id="options">
+      <h2>Options positioning</h2>
+      <div class="grid2" id="oc"></div>
+    </section>
+
+    <section id="swing">
+      <h2>Swing screener <span class="muted small">for study only, not recommendations</span></h2>
+      <div class="card"><p class="small muted" id="swing-meta"></p><div id="swing-table" class="scroll"></div></div>
+    </section>
+
+    <section id="news">
+      <h2>News</h2>
+      <div class="chips" id="news-tags" role="toolbar" aria-label="Filter news"></div>
+      <ul class="news" id="news-list"></ul>
+      <p class="small muted" id="news-sources"></p>
+    </section>
+
+    <footer class="small muted">
+      Built from free public data: NSE archives &amp; APIs, Yahoo Finance, and public RSS feeds. Summary written by an
+      open-source model. For learning only, not investment advice.
+    </footer>
+  </main>
+</body>
+</html>

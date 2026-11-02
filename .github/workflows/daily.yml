@@ -1,0 +1,74 @@
+name: Daily market data
+
+on:
+  schedule:
+    - cron: "15 13 * * 1-5"   # 6:45 PM IST, Mon–Fri — full run after NSE publishes end-of-day data
+    - cron: "0 3 * * 1-5"     # 8:30 AM IST, Mon–Fri — refresh headlines + summary before the open
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "full = all data, news = headlines + summary only"
+        type: choice
+        options: [full, news]
+        default: full
+
+permissions:
+  contents: write   # commit the new data
+  models: read      # GitHub Models (open-source LLMs) via GITHUB_TOKEN
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          cache-dependency-glob: "pipeline/**/*.py"
+
+      - name: Run pipeline
+        env:
+          TZ: Asia/Kolkata
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GITHUB_MODELS_MODEL: ${{ vars.GITHUB_MODELS_MODEL }}
+        run: |
+          MODE="${{ github.event.inputs.mode }}"
+          if [ -z "$MODE" ]; then
+            if [ "${{ github.event.schedule }}" = "0 3 * * 1-5" ]; then MODE=news; else MODE=full; fi
+          fi
+          uv run pipeline/run_daily.py --mode "$MODE"
+
+      - name: Commit data
+        run: |
+          git config user.name "market-bot"
+          git config user.email "market-bot@users.noreply.github.com"
+          git add data state
+          git diff --cached --quiet || git commit -m "data: $(TZ=Asia/Kolkata date +'%Y-%m-%d %H:%M') IST"
+          git push
+
+      - name: Build site
+        run: |
+          mkdir -p _site
+          cp -r site/* _site/
+          cp -r data _site/data
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
