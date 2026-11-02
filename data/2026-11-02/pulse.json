@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T19:05:47",
+  "generated_at": "2026-11-02T19:43:46",
   "days_ahead": 7,
   "snapshot": [
     {
@@ -39,24 +39,31 @@
     },
     {
       "name": "Brent crude ($)",
-      "last": 108.87,
+      "last": 106.77,
       "date": "2026-11-02",
-      "chg_1d_pct": -7.45,
-      "chg_5d_pct": -5.99
+      "chg_1d_pct": -9.24,
+      "chg_5d_pct": -7.81
     },
     {
       "name": "Gold ($)",
-      "last": 3912.3,
+      "last": 3953.2,
       "date": "2026-11-02",
-      "chg_1d_pct": 0.34,
-      "chg_5d_pct": -3.12
+      "chg_1d_pct": 1.39,
+      "chg_5d_pct": -2.11
+    },
+    {
+      "name": "S&P 500 fut",
+      "last": 7650.75,
+      "date": "2026-11-02",
+      "chg_1d_pct": 0.48,
+      "chg_5d_pct": -0.83
     },
     {
       "name": "Nasdaq 100 fut",
-      "last": 28691.25,
+      "last": 28752.5,
       "date": "2026-11-02",
-      "chg_1d_pct": 0.55,
-      "chg_5d_pct": -2.53
+      "chg_1d_pct": 0.77,
+      "chg_5d_pct": -2.33
     },
     {
       "name": "Nikkei 225",
