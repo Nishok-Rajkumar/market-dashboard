@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-03T20:40:54+00:00",
+  "generated_at": "2026-11-03T22:32:28+00:00",
   "sources": {
     "Economic Times": {
       "ok": true,
-      "items": 43
+      "items": 49
     },
     "ET Stocks": {
       "ok": true,
@@ -33,6 +33,67 @@
   "items": [
     {
       "source": "Google News",
+      "title": "Asian Tech Stocks to Rise on AI Rally as US Votes: Markets Wrap - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPLVc2azZiNTdEZEJUM0RFOERmNk1QaTRQOGdkbE5EOUM5YVE5M2pqVTFkYmJsTC13MnpKaVRSd2ZLYmowSlhpOE5VcjdJNnJleWZsTDJ2SGN2b3JTOE9pdkZLMmdCblZhSE5ucGoyd2k2SEJwOFpVZVp1aWk1aWJYSHdvQ3VTMGtGa3FXa3NYUWxiWEsz?oc=5",
+      "published": "2026-11-03T22:20:22+00:00",
+      "summary": "Asian Tech Stocks to Rise on AI Rally as US Votes: Markets Wrap Bloomberg.com",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Copper Falls as Traders Assess AI Trade, US-Iran Diplomacy Hopes",
+      "link": "https://www.livemint.com/market/copper-falls-as-traders-assess-ai-trade-us-iran-diplomacy-hopes-11793742834384.html",
+      "published": "2026-11-03T21:53:53+00:00",
+      "summary": "Copper slumped to a seven-week low as traders assessed the artificial-intelligence trade and the prospects of diplomacy in the Middle East conflict.",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Pre-Diwali fireworks: Sensex up over 2.4k points in two days - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQY21FQ3VnZFhFejFpb21SMmxyUE5jTFNoSHU4bTFMODNVRVJJUDNvWjZoVFM4Ti1Na2NlVWd0RTVGX1ZOWW1iYzhpcEQ4cGI4bENXaW1sSU9KTmUybkhTNmhvanZkNjhXQktoc1BsOVIwZEp2ZlZOZzlzbGdDUUdzRXNJeE5Rd3huNjluVFRTMGloLUNWVUNxTVpIYTlEc2VlWU5pNktnZVpJRjJabjJWN2hEM3hRUlZMajViQ0VjSDNhQjZaYmxLSzd4ZTFYOHFaVDJmSXJxQlBza2t2bmfSAeMBQVVfeXFMTnRwVVc0RUFyM19JNW1YSGtPUGV5YVM4MzVQbkV5ajVwV05LZGpOQnNYdHJrcWIzVXNFdkJVdy13UFMxV2lCLXVqcFp0TGpPa3h3aXc5cTZxZl9lMzRhSjV5Tk15bEV0dXN6cGprTkxhOURIUV9WY2RzdzJFOTZzbzJoUTFJSGZFR2hSdHItWHVTd1l1RUV0Vll4N21hdVlFUDZFaXlvYVh1UmlYaWt2RzNPUUxOdGJpTTJ1RC12dWhxQ1lubWZIbFJOT0s1TElkYzRzMFRpYlZZVUlOWFZEWFkzZmM?oc=5",
+      "published": "2026-11-03T21:43:00+00:00",
+      "summary": "Pre-Diwali fireworks: Sensex up over 2.4k points in two days The Times of India",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "US stocks today: Nasdaq rebounds as chipmakers rally, Apple slides ahead of US midterm results",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-nasdaq-rebounds-as-chipmakers-rally-apple-slides-ahead-of-us-midterm-results/articleshow/135513181.cms",
+      "published": "2026-11-03T21:20:14+00:00",
+      "summary": "US stocks ended mixed as the Nasdaq rebounded on gains in chipmakers and AI linked heavyweights ahead of the midterm election results. Nvidia and Micron advanced, while Apple slipped over concerns about rising memory chip costs and holiday quarter margins. Investors also assessed",
+      "tags": [
+        "Results",
+        "Global"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "China’s AI stock-market struggles are a warning - The Economist",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUk5SYzV2RVRZQkdoM0syTWN4M010ZjVBWXJrVjBWdkNoNGE1ajd4Q2Y0eTdEMkJhbC1JVnNzdkJJSkNkSHhTbDNoNmw4Z1pZQk5EbGxkNUxJbTBQOTRJRGRrUzlKcTRGTWZxVVZxM2Rmb3FCVnJFQ2oyUTQ5UzhrODR4V29jM2toZFIyYVRXTVpRTVI1QXNBYk96a00weFk3T3NGZkQ3cXo?oc=5",
+      "published": "2026-11-03T20:48:59+00:00",
+      "summary": "China’s AI stock-market struggles are a warning The Economist",
+      "tags": [
+        "Global"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Number Sense: Grocery winners and losers on the stock market - Grocery Dive",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaFFFSGN5R0lsT01RSm51T3BWa0pfby1ZZjRKeDhUdDltMTk3S0lFZm9jcHlXUDI0WUZnTHF1aWxkeDVjWlp3cDd0Y3I0LWs4MVprWm1BcHcwTEt2TjFkM3VnLWxlNWFNN3lQSlpobG54Q2FVWHctWGQ4WXM5bkJRdmczUGYwYUpkei1pekxFSzFvRW5qUS1mU3JLTmprNzIxazNRYWJNSU8?oc=5",
+      "published": "2026-11-03T20:46:41+00:00",
+      "summary": "Number Sense: Grocery winners and losers on the stock market Grocery Dive",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
       "title": "Morgan Stanley Warns of Stock Market Drop Amid 3 ‘Clearing Events’: ‘Much of the Damage Already Done’ - Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTnJzZEFjbExIS3NiV2dOMjZtandIYkI2QmhraE9lOHo3bFM3YmFrM1JnS2tpSzQ0OHk2aUNQOUpUczRwY2FjMUtkbVQwdnFkSWdVaWZUWm43V213VUR6RDRCelRXUVI0M1hKV29EeWU3U2VQNklTWHNrRk8za3ZjMkE3QTBBWHhzaFdZNjFQcDJwWE5qYUJKMlpnQXgydFE?oc=5",
       "published": "2026-11-03T19:24:00+00:00",
@@ -49,6 +110,16 @@
       "summary": "November Stock Market Outlook: How to Position Your Portfolio for the Remainder of 2026 Morningstar",
       "tags": [
         "Other"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "US Treasury yields climb as strong jobs data, midterm polls weigh; 10-year yield eyes 5% again",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-treasury-yields-climb-as-strong-jobs-data-and-midterm-uncertainty-weigh-on-bonds/articleshow/135511549.cms",
+      "published": "2026-11-03T19:10:49+00:00",
+      "summary": "US Treasury yields climbed as stronger than expected September jobs data pointed to a resilient labour market, while investors awaited the midterm election results. Falling oil prices briefly eased pressure on bonds, but the move reversed as economic data reinforced growth expect",
+      "tags": [
+        "Global"
       ]
     },
     {
@@ -320,7 +391,7 @@
       "source": "Google News",
       "title": "Nov 3: Sensex Surges 1,225 Pts, Nifty Reclaims 23,800 as Rally Extends to Fourth Session - The Indian Awaaz",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeHJKcDhWaEhsTlM4cXhtZlpYdVhkMk1Wc1dZY0dBMHYtZG9INFo3M2o4Rkowc1RQdnpPMXNManFnTElEQ21uM25fQmpaMWVLQTRnc203d01BZkZDZGg3eTI0Z0tVTDg0S2haeExPeXRvTGY2VkNXVzBGOUsxcDZrZ1RHM0hGN1BJUDRRbUlqYS11Q1JUbWVOci1kNzRETnJuNE56M2h5d2FYa21IempMNUV3?oc=5",
-      "published": "2026-11-03T15:26:00+00:00",
+      "published": "2026-11-03T15:25:00+00:00",
       "summary": "Nov 3: Sensex Surges 1,225 Pts, Nifty Reclaims 23,800 as Rally Extends to Fourth Session The Indian Awaaz",
       "tags": [
         "Index"
@@ -431,16 +502,6 @@
       ]
     },
     {
-      "source": "Google News",
-      "title": "Reliance’s $19 Billion Rally Keeps India Stock Bulls in the Game - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZGN2TDJQOXRVLXRrTGpGX25HVFJaelFxYVRKejdnMGZrRnlyX2hJdHF2WVhPLWpmYXc0aWhkdWNQMUQ2b1l4bURFYVhXYi1HU0oyMFZxRnlzSmdVOWF1cG5sU2lSOEk5NlFrX3pmTzlKdjIwS21zWkRKRGpzLWlvZUtkeHB0RlRCdXdqU0g4S0RDTVR3Z0hyaWFFcjlTN2d0WnV0dEphRE5STVFCNWh1SnhNLVktUkdwNEN4N2p1aWdnTTR6NV9pVGRR?oc=5",
-      "published": "2026-11-03T14:32:59+00:00",
-      "summary": "Reliance’s $19 Billion Rally Keeps India Stock Bulls in the Game Bloomberg.com",
-      "tags": [
-        "Other"
-      ]
-    },
-    {
       "source": "Business Standard",
       "title": "What will new Samvat bring for investors? Experts to discuss at BS webinar",
       "link": "https://www.business-standard.com/markets/news/what-will-new-samvat-bring-for-investors-experts-to-discuss-at-bs-webinar-126110301735_1.html",
@@ -448,6 +509,27 @@
       "summary": "Business Standard Hindi will host a special webinar on Wednesday at noon, bringing together market experts to discuss mutual funds, equities, gold and portfolio strategies",
       "tags": [
         "Other"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "DuPont raises annual profit forecasts on strong healthcare, aerospace demand",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/dupont-raises-annual-profit-forecasts-on-strong-healthcare-aerospace-demand/articleshow/135502681.cms",
+      "published": "2026-11-03T14:14:08+00:00",
+      "summary": "DuPont has raised its full-year profit forecasts and projected fourth-quarter earnings exceed analyst estimates. The company experienced strong demand in healthcare, aerospace, and industrial water markets during the third quarter. DuPont's healthcare and water technologies segme",
+      "tags": [
+        "Results",
+        "Pharma"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "Ferrari nudges up full-year forecasts after beating consensus in Q3",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/ferrari-nudges-up-full-year-forecasts-after-beating-consensus-in-q3/articleshow/135502546.cms",
+      "published": "2026-11-03T14:08:36+00:00",
+      "summary": "Ferrari has revised its earnings outlook for 2026 due to impressive third-quarter performance that exceeded expectations. The company noted a 12% increase in adjusted EBITDA, greatly surpassing analyst forecasts. This growth stems from sales of high-margin vehicles and personaliz",
+      "tags": [
+        "Results"
       ]
     },
     {
@@ -481,7 +563,7 @@
       ]
     },
     {
-      "source": "ET Stocks",
+      "source": "Economic Times",
       "title": "Bata India Q2 Results: Profit rises 30% at Rs 18 crore, revenue rises to Rs 862 crore",
       "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/bata-india-q2-results-profit-rises-30-at-rs-18-crore-revenue-rises-to-rs-862-crore/articleshow/135502156.cms",
       "published": "2026-11-03T13:51:08+00:00",
@@ -553,7 +635,17 @@
     },
     {
       "source": "Economic Times",
-      "title": "US Stock Market Live Updates: S&P 500, Nasdaq rise ahead of midterm results; Apple falls",
+      "title": "India bonds end tad higher on softer oil",
+      "link": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-end-tad-higher-on-softer-oil/articleshow/135501245.cms",
+      "published": "2026-11-03T13:19:51+00:00",
+      "summary": "Indian government bonds experienced a modest rise as the 10-year bond yield neared a one-month peak. Investor optimism was bolstered by decreasing oil prices, although caution was still prevalent ahead of the upcoming US midterm elections. The benchmark bond yield displayed its l",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "US Stock Market Highlights: Nasdaq rebounds as semiconductor stocks gain ahead of midterm results",
       "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-apple-palantir-nvidia-midterm-elections-us-iran-war-crude-oil-prices-ai-stocks-treasury-yields-earnings-news-3rd-november-2026/liveblog/135501430.cms",
       "published": "2026-11-03T13:17:00+00:00",
       "summary": "",
@@ -563,7 +655,7 @@
       ]
     },
     {
-      "source": "ET Stocks",
+      "source": "Economic Times",
       "title": "Happiest Minds Q2 Results: Profit rises 15% to Rs 62 crore; revenue up 12% to Rs 645 crore",
       "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/happiest-minds-q2-results-profit-rises-15-to-rs-62-crore-revenue-up-12-to-rs-645-crore/articleshow/135501133.cms",
       "published": "2026-11-03T13:15:02+00:00",
@@ -594,7 +686,7 @@
       ]
     },
     {
-      "source": "ET Stocks",
+      "source": "Economic Times",
       "title": "Nexus Select Trust Q2 net operating income rises 8 pc to Rs 504 cr",
       "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/nexus-select-trust-q2-net-operating-income-rises-8-pc-to-rs-504-cr/articleshow/135501009.cms",
       "published": "2026-11-03T13:10:40+00:00",
@@ -1086,6 +1178,16 @@
     },
     {
       "source": "Google News",
+      "title": "Indian Stocks Rally 4th Day: Sensex Jumps 1,225 Pts as Oil Eases - Rediff",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWDJtMmxWSmh5eTk4TGY5NnVIZXZVMzJ2TGxXbEVKaTJjR29QNzhZdXlkZEJDNlo2QlFyX0ZqU1NvTzVZczk4TzRmcXJDaXphb2NxbzFteC0zcHhCUE8zSlZGRW00ejdheUJQeFlod2tNN0NDLXo1MVZVRFRaLTlDcnMwOW1tWFFqN3ZxaDhBTU1WaUloT28xSUNHRjF5TDFKRjg4bno5bG1vZWU3QUJ1cNIBtgFBVV95cUxNNUhjQ0VhN3hsSjBmYlphWW9GYldob1B2eDJMbnBTWkhJdmRQci1VN1lMMU0yOFVyVFE2ZERWT2VTTkVNTnpxdnVsVUE0bDc1R3pEM1V2aWF5MUR1SFltNGFrRkRJX2VfZ2pnS0kwNERrNVBRZkFyd3pfNU1lQVVXRzF6eU9LdG1KZXZDeGxPYTZVZFdKVFJCT2tuWXB4by1mRWswWlRKNk1NWHM3eHlkbGZmOG15Zw?oc=5",
+      "published": "2026-11-03T10:41:14+00:00",
+      "summary": "Indian Stocks Rally 4th Day: Sensex Jumps 1,225 Pts as Oil Eases Rediff",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
       "title": "Sensex surges 1,225 points at closing, jumps 1.62% to hit record intraday high - Telegraph India",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVk5sUVc4bmNxamFnU3dLa1AwR1FMUVhYVVpPSXBENWRCMTloMjBOeWxSM1VwX2xCTmRfUTN4RFljQVJXNWQ1QWg5ejNpX2JIamtSVnY4VHlTMTNGUzhjWGZKODI0dHB2TnljT1dHUTZUSnowZG5YbHRQTS1HSHRLMmk3U3VDR2p4N2UwZzByaW5mXzFCa2tCQ1hkSEVidk05d3FIREFWOVJfUEZrQmV5N3lBaFJuZVotNGZ0UC11X29RcC0xaENkWFVJaE9MaDliQmpVR1hoMlnSAd4BQVVfeXFMTUxDb2lQOXVGM0ZKY25PS3NQeHBxNVVFano2Ty1MMjk3TThiUzN3cXJRTWR3LWI4NW1WdTFMTlZPSlpZQVh6eW5KYWxaMlNQbGhwOXBTb2FuT1JoM1JsdktxRC1CdVNxTEpfb3RFWlY4WUVRMHU2VloxSkg3R1pibWZNaHE0aHFOT0dLN1FhSGZaTDM5RGllb3ppMVJKRGstcWoyRkZfUTJrOXJKMzBKNk1RMlRoeWVmQkp0YXdPLS1sVWE0UVJLR3Qwc01XMjJvX0FEZl9OX3hRWUxieUN3?oc=5",
       "published": "2026-11-03T10:39:19+00:00",
@@ -1536,16 +1638,6 @@
       ]
     },
     {
-      "source": "Google News",
-      "title": "Stock Market Rally continues: Sensex jumps over 900 points, Nifty crosses 23,700 - Punjab Newsline",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQVgxcElYM2xtTDdNMFN4SURYSFRidVZHWVVacVdqSXp6U1JSQTdFeW00UEhvaEdKYnZfUUNIbFd4MF9xdE1aWXU1dllCWjAyeHZTRV9VbnlDWGpZUllybGpHQTZGdVRzY29rd19KOEwzMkd5ZV9remVZZk44bGhyZFNJbVNwLWc4ZWNQQnNQNWxsUVhBV1M0MF8yemE1b3NkRXpzR2FDcXZoM3pFU2FiLW1MYzM?oc=5",
-      "published": "2026-11-03T08:05:05+00:00",
-      "summary": "Stock Market Rally continues: Sensex jumps over 900 points, Nifty crosses 23,700 Punjab Newsline",
-      "tags": [
-        "Index"
-      ]
-    },
-    {
       "source": "Livemint",
       "title": "How ITC shares are performing after Q2 results? Should you buy, sell or hold? Brokerages give targets, key levels",
       "link": "https://www.livemint.com/market/stock-market-news/how-itc-shares-are-performing-after-q2-results-should-you-buy-sell-or-hold-brokerages-give-targets-key-levels-11793688619420.html",
@@ -1679,16 +1771,6 @@
       ]
     },
     {
-      "source": "Economic Times",
-      "title": "India bonds wipe out early gains as oil rebounds",
-      "link": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-wipe-out-early-gains-as-oil-rebounds/articleshow/135487644.cms",
-      "published": "2026-11-03T07:33:35+00:00",
-      "summary": "Indian government bond yields have seen a slight uptick, predominantly influenced by the volatile crude oil market and geopolitical tensions. The market reacted sharply to recent US-Iran conflict reports. Traders are now closely watching the upcoming US midterm elections, which c",
-      "tags": [
-        "Other"
-      ]
-    },
-    {
       "source": "BusinessLine",
       "title": "India’s tax hike drives illegal gold imports to 3-year high",
       "link": "https://www.thehindubusinessline.com/markets/gold/indias-tax-hike-drives-illegal-gold-imports-to-3-year-high/article71659744.ece",
@@ -1709,7 +1791,7 @@
       ]
     },
     {
-      "source": "Economic Times",
+      "source": "ET Stocks",
       "title": "Angel One, CDSL, BSE, other capital market stocks jump up to 8%. 3 reasons behind the rally",
       "link": "https://economictimes.indiatimes.com/markets/stocks/news/angel-one-cdsl-bse-other-capital-market-stocks-jump-up-to-8-3-reasons-behind-the-rally/articleshow/135486211.cms",
       "published": "2026-11-03T07:18:59+00:00",
@@ -1990,88 +2072,6 @@
       "summary": "BLS Polymers shares debuted on the NSE at ₹248, up 65.33% from the ₹150 IPO price, after the issue was subscribed 241.22 times. The company plans to use proceeds from its fresh issue to expand its Goa manufacturing facility and meet working capital needs.",
       "tags": [
         "IPO"
-      ]
-    },
-    {
-      "source": "ET Stocks",
-      "title": "US midterm elections today: Can Trump’s pain be Dalal Street’s gain? Analysts estimate impact in 3 possible scenarios",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/us-midterm-elections-today-can-trumps-pain-be-dalal-streets-gain-analysts-estimate-impact-in-3-possible-scenarios/articleshow/135483831.cms",
-      "published": "2026-11-03T05:32:46+00:00",
-      "summary": "The United States will hold crucial midterm elections that could significantly alter the balance of power in Congress. Analysts are focusing on potential scenarios that could emerge based on whether the Democrats or Republicans hold the majority. These outcomes may impact critica",
-      "tags": [
-        "Global"
-      ]
-    },
-    {
-      "source": "Livemint",
-      "title": "Trident shares jump 13% after Q2 results; profit jumps 93%, board clears  ₹4,650 crore expansion plan | What lies ahead",
-      "link": "https://www.livemint.com/market/stock-market-news/trident-shares-jump-13-after-q2-results-profit-jumps-93-board-clears-rs-4-650-crore-expansion-plan-what-lies-ahead-11793682049671.html",
-      "published": "2026-11-03T05:25:41+00:00",
-      "summary": "Trident shares jumped 13.42% after the company reported a 93.1% year-on-year rise in September-quarter profit to ₹175.5 crore. Revenue slipped 3.8%, but EBITDA rose 46.5%. The board also gave in-principle approval for a ₹4,650 crore expansion and modernisation programme.",
-      "tags": [
-        "Results"
-      ]
-    },
-    {
-      "source": "Livemint",
-      "title": "Marico share price: FMCG stock gains 8% on strong Q2 results, nears 52-week high - Buy or sell? Check share price target",
-      "link": "https://www.livemint.com/market/stock-market-news/marico-share-price-fmcg-stock-gains-8-on-strong-q2-results-nears-52-week-high-buy-or-sell-check-share-price-target-11793680575114.html",
-      "published": "2026-11-03T05:18:01+00:00",
-      "summary": "Marico shares jumped 8.4% after Q2FY27 net profit rose 31% year on year to ₹550 crore. Revenue grew 12%, EBITDA increased 27% and margins expanded to 18.2%. The company raised its growth outlook, while brokerages remain bullish.",
-      "tags": [
-        "Results"
-      ]
-    },
-    {
-      "source": "ET Stocks",
-      "title": "Trident shares rally 13% after Q2 net profit jumps 93% to Rs 175 crore; firm plans Rs 4,650 crore capex",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/trident-shares-rally-13-after-q2-net-profit-jumps-93-to-rs-175-crore-firm-plans-rs-4650-crore-capex/articleshow/135483244.cms",
-      "published": "2026-11-03T05:17:36+00:00",
-      "summary": "Trident shares rallied 13% after the company reported a 93.1% year-on-year rise in Q2 FY27 net profit to Rs 175.50 crore. Improved EBITDA and margins supported earnings growth, while the company announced a Rs 4,650-crore capacity expansion and modernisation programme.",
-      "tags": [
-        "Results"
-      ]
-    },
-    {
-      "source": "ET Stocks",
-      "title": "Diwali stocks by Motilal Oswal: Eternal, Adani Ports among 10 stocks with upside of up to 40%. See full list",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/diwali-stocks-by-motilal-oswal-eternal-adani-ports-among-10-stocks-with-upside-of-up-to-40-see-full-list/slideshow/135483770.cms",
-      "published": "2026-11-03T05:13:53+00:00",
-      "summary": "Motilal Oswal has identified ten stocks poised for remarkable growth in the market landscape. Anticipated leaders like Kotak Mahindra Bank and Titan are forecasted to achieve significant earnings boosts. Projections for FY27 suggest a revival of double-digit growth across various",
-      "tags": [
-        "Other"
-      ]
-    },
-    {
-      "source": "Livemint",
-      "title": "Massive surge! Why Kitex Garments shares skyrocketed 16% after Q2 results | Highlights from quarterly earnings; returns",
-      "link": "https://www.livemint.com/market/stock-market-news/massive-surge-why-kitex-garments-shares-skyrocketed-16-after-q2-results-highlights-from-quarterly-earnings-returns-11793678746532.html",
-      "published": "2026-11-03T05:10:49+00:00",
-      "summary": "Kitex Garments shares opened at ₹126 apiece on NSE today, as compared to previous close of ₹115.77 on Monday and touched an intraday high of ₹137.09 on 3 November.",
-      "tags": [
-        "Results"
-      ]
-    },
-    {
-      "source": "Google News",
-      "title": "Sensex jumps over 600 points, Nifty gains as crude oil retreat and FII buying lift markets - Telegraph India",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdEI2LUNkT29rZmxrYVUzd1FmelNyQ1BXYWJrRGNBamRTY2pWdFpyWU1feEl0VnR5VW5aNDl6azV2WU5uU0NuUnp4RU1ncm1oSkdXSjJpeUZjTG41VUZiMERIdW8tSEpkYW84c0xZUzl6MEZHdHdOOU1Ya3lQUFdMXzkzWGc1MkQxT3VDMS1jX053SnF5RnJmc1QxX1FjSDFMSm1qYkJZRXhaQ1JTZGtEQ2RxYThBUkJKZ1BZRTdUZGNhRlZZZHJhd2ZQY1luMmJMb2h4NGRkaHfSAd4BQVVfeXFMT29uWWU4cFJEVEVJakRQTmlEcUNUcnVJZWx3b3B4UEZDbk9RNkxiY3R1Z1hjS2NSQkpvbnRPeTVQQ2dpbnNSRVBrMzdoMGxqSmNDcUhmSV9ubmJOb0FSLXI5THFteWJJS29JTnNnemtzckxLS1VYMGVjd2I5Y1gxaWoydnpuQTg4eHFRTHhycHVIaExkS1E1TGZRY2lIRGRxaFJOSUQzbFF0WGVOYlRjUmtWRmpUSVY4bTVlNlE5ZE9KWk1PQWdBcERZM2wtM2IwZXhHbVhXNjlrcGRFUS1B?oc=5",
-      "published": "2026-11-03T05:10:33+00:00",
-      "summary": "Sensex jumps over 600 points, Nifty gains as crude oil retreat and FII buying lift markets Telegraph India",
-      "tags": [
-        "FII/DII flows",
-        "Crude & commodities",
-        "Index"
-      ]
-    },
-    {
-      "source": "Business Standard",
-      "title": "Crude-sensitive stocks gain as oil stays below $105; HPCL, IndiGo lead",
-      "link": "https://www.business-standard.com/markets/news/crude-sensitive-stocks-gain-as-oil-stays-below-105-hpcl-indigo-rise-126110300400_1.html",
-      "published": "2026-11-03T05:08:36+00:00",
-      "summary": "Brent crude, the global oil benchmark, was marginally up but remained below $105 per barrel. It was up 0.10 per cent at $104.9, while West Texas Intermediate (WTI) crude rose 0.18 per cent to $96.63.",
-      "tags": [
-        "Crude & commodities"
       ]
     }
   ]
