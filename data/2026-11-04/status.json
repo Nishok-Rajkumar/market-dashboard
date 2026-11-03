@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-04",
+  "updated_at": "2026-11-04T02:08:36+05:30",
+  "mode": "full",
+  "steps": {
+    "pulse": {
+      "ok": true
+    },
+    "breadth": {
+      "ok": true
+    },
+    "sectors": {
+      "ok": true
+    },
+    "options_NIFTY": {
+      "ok": true
+    },
+    "options_BANKNIFTY": {
+      "ok": true
+    },
+    "swing": {
+      "ok": true
+    },
+    "levels": {
+      "ok": true
+    },
+    "participant_oi": {
+      "ok": true
+    },
+    "heatmap": {
+      "ok": true
+    },
+    "news": {
+      "ok": true
+    },
+    "summary": {
+      "ok": true
+    }
+  }
+}
