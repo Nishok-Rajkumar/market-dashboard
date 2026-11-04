@@ -37,6 +37,9 @@ The three jobs:
 | Market dashboard — night news | 23:15 | `{"ref":"main","inputs":{"mode":"news"}}` |
 | Market dashboard — morning | 08:30 | `{"ref":"main","inputs":{"mode":"morning"}}` |
 
+Between 9:00 AM and 6:30 PM IST on weekdays a **full** run skips itself (it would mix live prices into the
+previous session), so test the full job in the evening, or test with the morning job any time.
+
 Use **Test run** on each job: a `204` response means GitHub accepted it, and a new run appears under
 **Actions → Daily market data** within a few seconds.
 

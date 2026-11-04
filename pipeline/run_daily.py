@@ -127,11 +127,17 @@ def build_indexes() -> None:
 def main() -> int:
     ap = argparse.ArgumentParser(description="Daily dashboard data run.")
     ap.add_argument("--mode", choices=["full", "news", "morning"], default="full")
+    ap.add_argument("--force", action="store_true", help="allow a full run during market hours")
     ap.add_argument("--skip", nargs="*", default=[],
                     help="steps to skip: pulse breadth sectors options swing levels participant_oi heatmap")
     args = ap.parse_args()
 
     now = datetime.now(IST)
+    # A full run during market hours would mix live prices into the previous session's folder; this also
+    # catches GitHub schedule runs that start many hours late.
+    if args.mode == "full" and not args.force and now.weekday() < 5 and (9, 0) <= (now.hour, now.minute) < (18, 30):
+        print(f"skip: full run during market hours ({now:%H:%M} IST); news/morning modes are fine, or pass --force")
+        return 0
     DATA.mkdir(exist_ok=True)
     if args.mode == "full":
         day = DATA / latest_session(now.date()).isoformat()
