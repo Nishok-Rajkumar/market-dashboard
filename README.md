@@ -39,6 +39,8 @@ GitHub Actions (Mon–Fri)               data/<date>/*.json            GitHub Pa
 
 - **Data:** NSE archives & public APIs, Yahoo Finance, public RSS feeds — all free, no API keys
 - **AI brief:** Groq free tier (open-weights models); falls back to OpenRouter's free models, then to rule-based sentences
+- **On time:** GitHub's own schedule can start hours late, so an external timer (cron-job.org) triggers the runs at
+  the exact minute, with GitHub's schedule as a backup — see [docs/external-timer.md](docs/external-timer.md)
 - **Resilient:** each step runs in its own process; a failing source only blanks its own section and the page says which
 - **History:** each day is kept in `data/<date>/`, so you can open any past day from the date picker
 
