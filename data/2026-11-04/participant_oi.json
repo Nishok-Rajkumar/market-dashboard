@@ -1,0 +1,206 @@
+{
+  "generated_at": "2026-11-04T14:14:38",
+  "as_of": "2026-11-03",
+  "clients": {
+    "FII": {
+      "fut_idx_long": 33148,
+      "fut_idx_short": 235905,
+      "fut_idx_net": -202757,
+      "fut_idx_long_pct": 12.3,
+      "fut_idx_net_chg": 30442,
+      "idx_call_net": -188200,
+      "idx_put_net": 439956,
+      "fut_stk_long_pct": 58.4
+    },
+    "DII": {
+      "fut_idx_long": 49883,
+      "fut_idx_short": 6779,
+      "fut_idx_net": 43104,
+      "fut_idx_long_pct": 88.0,
+      "fut_idx_net_chg": 2132,
+      "idx_call_net": 7454,
+      "idx_put_net": 113203,
+      "fut_stk_long_pct": 6.0
+    },
+    "Pro": {
+      "fut_idx_long": 28440,
+      "fut_idx_short": 22265,
+      "fut_idx_net": 6175,
+      "fut_idx_long_pct": 56.1,
+      "fut_idx_net_chg": -6602,
+      "idx_call_net": 135271,
+      "idx_put_net": -118334,
+      "fut_stk_long_pct": 62.2
+    },
+    "Client": {
+      "fut_idx_long": 219696,
+      "fut_idx_short": 66218,
+      "fut_idx_net": 153478,
+      "fut_idx_long_pct": 76.8,
+      "fut_idx_net_chg": -25972,
+      "idx_call_net": 45476,
+      "idx_put_net": -434824,
+      "fut_stk_long_pct": 92.5
+    }
+  },
+  "fii_history": [
+    {
+      "date": "2026-09-18",
+      "fut_idx_long_pct": 12.6,
+      "fut_idx_net": -288428
+    },
+    {
+      "date": "2026-09-21",
+      "fut_idx_long_pct": 12.4,
+      "fut_idx_net": -290546
+    },
+    {
+      "date": "2026-09-22",
+      "fut_idx_long_pct": 10.5,
+      "fut_idx_net": -302908
+    },
+    {
+      "date": "2026-09-23",
+      "fut_idx_long_pct": 10.7,
+      "fut_idx_net": -298613
+    },
+    {
+      "date": "2026-09-24",
+      "fut_idx_long_pct": 11.0,
+      "fut_idx_net": -309822
+    },
+    {
+      "date": "2026-09-25",
+      "fut_idx_long_pct": 11.4,
+      "fut_idx_net": -312001
+    },
+    {
+      "date": "2026-09-28",
+      "fut_idx_long_pct": 12.2,
+      "fut_idx_net": -319669
+    },
+    {
+      "date": "2026-09-29",
+      "fut_idx_long_pct": 8.6,
+      "fut_idx_net": -267307
+    },
+    {
+      "date": "2026-09-30",
+      "fut_idx_long_pct": 8.6,
+      "fut_idx_net": -282870
+    },
+    {
+      "date": "2026-10-01",
+      "fut_idx_long_pct": 8.0,
+      "fut_idx_net": -310174
+    },
+    {
+      "date": "2026-10-05",
+      "fut_idx_long_pct": 8.1,
+      "fut_idx_net": -302391
+    },
+    {
+      "date": "2026-10-06",
+      "fut_idx_long_pct": 8.5,
+      "fut_idx_net": -293725
+    },
+    {
+      "date": "2026-10-07",
+      "fut_idx_long_pct": 9.2,
+      "fut_idx_net": -298285
+    },
+    {
+      "date": "2026-10-08",
+      "fut_idx_long_pct": 8.5,
+      "fut_idx_net": -307109
+    },
+    {
+      "date": "2026-10-09",
+      "fut_idx_long_pct": 9.6,
+      "fut_idx_net": -293988
+    },
+    {
+      "date": "2026-10-12",
+      "fut_idx_long_pct": 9.0,
+      "fut_idx_net": -295860
+    },
+    {
+      "date": "2026-10-13",
+      "fut_idx_long_pct": 9.8,
+      "fut_idx_net": -289495
+    },
+    {
+      "date": "2026-10-14",
+      "fut_idx_long_pct": 9.4,
+      "fut_idx_net": -296697
+    },
+    {
+      "date": "2026-10-15",
+      "fut_idx_long_pct": 10.8,
+      "fut_idx_net": -279827
+    },
+    {
+      "date": "2026-10-16",
+      "fut_idx_long_pct": 11.3,
+      "fut_idx_net": -272999
+    },
+    {
+      "date": "2026-10-19",
+      "fut_idx_long_pct": 10.4,
+      "fut_idx_net": -279930
+    },
+    {
+      "date": "2026-10-21",
+      "fut_idx_long_pct": 9.5,
+      "fut_idx_net": -277628
+    },
+    {
+      "date": "2026-10-22",
+      "fut_idx_long_pct": 9.9,
+      "fut_idx_net": -280300
+    },
+    {
+      "date": "2026-10-23",
+      "fut_idx_long_pct": 10.4,
+      "fut_idx_net": -280183
+    },
+    {
+      "date": "2026-10-26",
+      "fut_idx_long_pct": 12.6,
+      "fut_idx_net": -277105
+    },
+    {
+      "date": "2026-10-27",
+      "fut_idx_long_pct": 11.7,
+      "fut_idx_net": -221057
+    },
+    {
+      "date": "2026-10-28",
+      "fut_idx_long_pct": 11.7,
+      "fut_idx_net": -235042
+    },
+    {
+      "date": "2026-10-29",
+      "fut_idx_long_pct": 11.5,
+      "fut_idx_net": -238023
+    },
+    {
+      "date": "2026-10-30",
+      "fut_idx_long_pct": 11.1,
+      "fut_idx_net": -240753
+    },
+    {
+      "date": "2026-11-02",
+      "fut_idx_long_pct": 10.6,
+      "fut_idx_net": -233199
+    },
+    {
+      "date": "2026-11-03",
+      "fut_idx_long_pct": 12.3,
+      "fut_idx_net": -202757
+    }
+  ],
+  "fii_read": "Extremely bearish \u2014 FIIs hold very few longs in index futures. Traders watch extremes like this as a contrarian sign (short covering can lift the index), but they can last for weeks.",
+  "fii_pct_rank": 90,
+  "sessions": 31
+}
