@@ -52,6 +52,7 @@ const GLOSSARY = {
   maxpain: ["Max pain", "The expiry price at which option buyers together lose the most money. Prices sometimes drift toward it near expiry, but it's a tendency, not a rule."],
   walls: ["OI walls", "Strikes with the most open interest. A big call wall often acts like resistance (sellers defend it), a big put wall like support."],
   expmove: ["Expected move", "Derived from the at-the-money straddle (call + put) price: the range the options market is pricing in until expiry, with roughly 2-in-3 odds of staying inside."],
+  corpaction: ["Corporate actions", "Events that change a share's price for a mechanical reason, not because the business got better or worse. Split: 1 share becomes several, price divides. Bonus: free extra shares, price adjusts down. Demerger: part of the company becomes a separate company and you get its shares, so the old price drops by that part's value (HEG fell ~64% on its demerger day but holders lost nothing). On charts these look like crashes — check here first. ⚑ marks affected stocks across the page."],
   swing: ["Swing screener", "Looks for stocks in strong uptrends (Minervini trend template) that are near a buy point. RS = relative strength rating 1–99 (90 = beat 90% of stocks over the past year). Entry = price that must trade to trigger; Stop = where the idea is wrong; 2R = target twice the risk. Study material, not advice."],
 };
 
@@ -77,6 +78,38 @@ function initExplainers() {
   document.addEventListener("keydown", (e) => e.key === "Escape" && close());
 }
 const info = (k) => `<button class="info" data-g="${k}" aria-label="Explain ${esc(GLOSSARY[k]?.[0] || k)}">i</button>`;
+
+// ---------- corporate-action flags ----------
+
+let flags = {};  // symbol → most relevant price-adjusting action (upcoming first, else most recent)
+function setFlags(ca) {
+  flags = {};
+  (ca?.actions || []).forEach((a) => {
+    const cur = flags[a.symbol];
+    if (!cur || (a.upcoming && !cur.upcoming) || (a.upcoming === cur.upcoming && a.ex_date > cur.ex_date)) flags[a.symbol] = a;
+  });
+}
+const shortDate = (d) => new Date(d + "T00:00").toLocaleDateString("en-IN", { day: "numeric", month: "short" });
+function flag(sym) {
+  const a = flags[sym];
+  if (!a) return "";
+  const when = `${a.upcoming ? "ex-date" : "went ex"} ${shortDate(a.ex_date)}`;
+  return `<span class="flag" title="${esc(`${a.subject} — ${when}. ${a.effect}`)}">⚑ ${esc(a.kind)}</span>`;
+}
+const sym = (r) => `${esc(r.symbol)}${flag(r.symbol)}`;
+
+function renderActions(ca) {
+  const all = ca?.actions || [];
+  const cols = [{ h: "Ex-date", f: (r) => `<span class="num">${shortDate(r.ex_date)}</span>` },
+    { h: "Stock", f: (r) => `<b>${esc(r.symbol)}</b>${r.nifty500 ? ' <span class="muted small">N500</span>' : ""}<br><span class="muted small">${esc(r.company)}</span>` },
+    { h: "What", f: (r) => `<span class="badge mid">${esc(r.kind)}</span>` },
+    { h: "Price effect", f: (r) => `<span class="small" style="white-space:normal">${esc(r.effect)}</span>` }];
+  if (!ca) { $("ca-upcoming").innerHTML = empty(); $("ca-recent").innerHTML = empty(); return; }
+  $("ca-upcoming").innerHTML = table(all.filter((a) => a.upcoming), cols);
+  const recent = all.filter((a) => !a.upcoming && ($("ca-all").checked || a.nifty500)).reverse();
+  $("ca-recent").innerHTML = table(recent, cols) +
+    (!$("ca-all").checked ? `<p class="small muted" style="margin:8px 0 0">Showing Nifty 500 stocks. Tick "all stocks" for the rest.</p>` : "");
+}
 
 // ---------- sections ----------
 
@@ -141,11 +174,11 @@ function renderFlows(pulse, history) {
   });
 
   const d = pulse?.delivery || {};
-  const cols = [{ h: "Symbol", k: "symbol" }, { h: "Close", r: 1, f: (r) => fmt(r.close, 1) }, { h: "Chg", r: 1, f: (r) => signed(r.chg_pct) },
+  const cols = [{ h: "Symbol", f: sym }, { h: "Close", r: 1, f: (r) => fmt(r.close, 1) }, { h: "Chg", r: 1, f: (r) => signed(r.chg_pct) },
     { h: "Deliv %", r: 1, f: (r) => fmt(r.deliv_pct, 0) }, { h: "× 10d avg", r: 1, f: (r) => fmt(r.deliv_x_avg10, 1) }];
   $("accum").innerHTML = d.error ? empty(d.error) : table(d.accumulation, cols);
   $("distrib").innerHTML = d.error ? empty(d.error) : table(d.distribution, cols);
-  const mv = [{ h: "Symbol", k: "symbol" }, { h: "Industry", f: (r) => `<span class="muted">${esc(r.industry || "")}</span>` },
+  const mv = [{ h: "Symbol", f: sym }, { h: "Industry", f: (r) => `<span class="muted">${esc(r.industry || "")}</span>` },
     { h: "Close", r: 1, f: (r) => fmt(r.close, 1) }, { h: "Chg", r: 1, f: (r) => signed(r.chg_pct) }];
   $("gainers").innerHTML = d.error ? empty(d.error) : table(d.top_gainers, mv);
   $("losers").innerHTML = d.error ? empty(d.error) : table(d.top_losers, mv);
@@ -256,12 +289,16 @@ function renderHeatmap(h) {
   }));
   heatChart = echarts.init(el, null, { renderer: "canvas" });
   heatChart.setOption({
-    tooltip: { formatter: (p) => p.data.chg == null ? esc(p.name) :
-      `<b>${esc(p.data.full)}</b><br>${esc(p.data.ind)}<br>${esc(p.name)} · ₹${fmt(p.data.close, 2)} · ${p.data.chg > 0 ? "+" : ""}${fmt(p.data.chg, 2)}%` },
+    tooltip: { formatter: (p) => {
+      if (p.data.chg == null) return esc(p.name);
+      const a = flags[p.name];
+      return `<b>${esc(p.data.full)}</b><br>${esc(p.data.ind)}<br>${esc(p.name)} · ₹${fmt(p.data.close, 2)} · ${p.data.chg > 0 ? "+" : ""}${fmt(p.data.chg, 2)}%` +
+        (a ? `<br>⚑ ${esc(a.kind)} ${a.upcoming ? "ex-date" : "went ex"} ${shortDate(a.ex_date)}` : "");
+    } },
     series: [{
       type: "treemap", roam: false, nodeClick: false, breadcrumb: { show: false }, width: "100%", height: "100%",
       top: 0, left: 0, right: 0, bottom: 0, data,
-      label: { show: true, formatter: (p) => `${p.name}\n${p.data.chg > 0 ? "+" : ""}${fmt(p.data.chg, 2)}%`,
+      label: { show: true, formatter: (p) => `${p.name}${flags[p.name] ? " ⚑" : ""}\n${p.data.chg > 0 ? "+" : ""}${fmt(p.data.chg, 2)}%`,
         color: css("--text"), fontFamily: "Inter", fontSize: 12, lineHeight: 15 },
       upperLabel: { show: false },
       levels: [
@@ -353,6 +390,8 @@ function renderChanges(cur, prev, prevDay) {
     const added = [...wC].filter((x) => !wP.has(x)), gone = [...wP].filter((x) => !wC.has(x));
     add("★", `Swing list: <b>${added.length}</b> new${added.length ? ` (${added.slice(0, 5).map(esc).join(", ")}${added.length > 5 ? "…" : ""})` : ""}, ${gone.length} dropped`);
   }
+  const soon = (cur.ca?.actions || []).filter((a) => a.upcoming && (new Date(a.ex_date + "T00:00") - new Date(cur.day + "T00:00")) / 864e5 <= 7);
+  if (soon.length) add("⚑", `Coming up: ${soon.slice(0, 4).map((a) => `<b>${esc(a.symbol)}</b> ${esc(a.kind)} ${shortDate(a.ex_date)}`).join(", ")}${soon.length > 4 ? ` +${soon.length - 4} more` : ""} — price will adjust, not a real move`);
   $("changes-vs").textContent = prevDay ? `vs ${new Date(prevDay + "T00:00").toLocaleDateString("en-IN", { weekday: "short", day: "numeric", month: "short" })}` : "";
   $("changes-list").innerHTML = out.join("") || `<li>${empty(prevDay ? "Not enough data on both days to compare." : "No earlier day to compare with yet.")}</li>`;
 }
@@ -420,7 +459,7 @@ function renderSwing(s) {
   $("swing-meta").textContent = `${s.candidates} candidates from ${s.stocks_scanned} stocks (as of ${s.as_of}). Market: ${s.market_breadth_zone}. ` +
     "Entry = price that must trade to trigger; stop = where the idea is wrong; 2R = target at twice the risk.";
   $("swing-table").innerHTML = table(s.results, [
-    { h: "Symbol", f: (r) => `<b>${esc(r.symbol)}</b>` }, { h: "Setup", f: (r) => `<span class="badge mid">${esc(r.setup.replace(/_/g, " "))}</span>` },
+    { h: "Symbol", f: (r) => `<b>${esc(r.symbol)}</b>${flag(r.symbol)}` }, { h: "Setup", f: (r) => `<span class="badge mid">${esc(r.setup.replace(/_/g, " "))}</span>` },
     { h: "Industry", f: (r) => `<span class="muted">${esc(r.industry || "")}</span>` },
     { h: "Close", r: 1, f: (r) => fmt(r.close, 1) }, { h: "Entry", r: 1, f: (r) => fmt(r.entry_trigger, 1) },
     { h: "Stop", r: 1, f: (r) => fmt(r.stop, 1) }, { h: "Risk", r: 1, f: (r) => fmt(r.risk_pct, 1) + "%" },
@@ -459,14 +498,16 @@ let days = [], current = {};
 async function loadDay(day) {
   const p = (f) => get(`${day}/${f}`);
   const prevDay = days[days.indexOf(day) + 1];  // days are newest first
-  const [status, summary, pulse, levels, breadth, sectors, ocN, ocB, swing, news, fii, poi, heat, prev] = await Promise.all([
+  const [status, summary, pulse, levels, breadth, sectors, ocN, ocB, swing, news, fii, poi, heat, ca, prev] = await Promise.all([
     p("status.json"), p("summary.json"), p("pulse.json"), p("levels.json"), p("breadth.json"), p("sectors.json"),
     p("oc_NIFTY.json"), p("oc_BANKNIFTY.json"), p("swing.json"), p("news.json"), get("fii_dii_history.json"),
-    p("participant_oi.json"), p("heatmap.json"), prevDay ? loadCompare(prevDay) : Promise.resolve({})]);
-  current = { sectors, heat };
+    p("participant_oi.json"), p("heatmap.json"), p("corp_actions.json"), prevDay ? loadCompare(prevDay) : Promise.resolve({})]);
+  current = { sectors, heat, ca };
+  setFlags(ca);  // before the tables, so symbols get their ⚑
   renderStatus(status);
   renderSummary(summary);
-  renderChanges({ levels, breadth, pulse, ocN, sectors, swing }, prev, prevDay);
+  renderChanges({ levels, breadth, pulse, ocN, sectors, swing, ca, day }, prev, prevDay);
+  renderActions(ca);
   renderSnapshot(pulse, levels);
   renderHeatmap(heat);
   renderFlows(pulse, fii);
@@ -496,6 +537,7 @@ function initTheme() {
   initTheme();
   initExplainers();
   $("rrg-trails").onchange = () => renderRRG(current.sectors);
+  $("ca-all").onchange = () => renderActions(current.ca);
   let t;
   addEventListener("resize", () => { clearTimeout(t); t = setTimeout(() => heatChart?.resize(), 150); });
   const [index, latest] = await Promise.all([get("index.json"), get("latest.json")]);

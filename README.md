@@ -23,6 +23,7 @@ and publishes everything as a static website. No server, no subscription, no lap
 | **Sector rotation** | RRG-style rotation chart of 27 NSE sector indices with 4-week trails, plus Leading / Improving / Weakening / Lagging lists |
 | **Options** | Nifty & Bank Nifty PCR, max pain, call/put OI walls, expected range to expiry |
 | **Swing screener** | Minervini trend-template candidates with entry, stop, risk % and 2R target (study material) |
+| **Corporate actions** | Splits, bonuses, demergers and rights issues (last 90 / next 45 days) with their price effect; ⚑ flags affected stocks everywhere on the page so mechanical drops aren't mistaken for crashes |
 | **News** | ~200 headlines from 7 free RSS feeds, tagged by topic (RBI, FII, results, crude, rupee, sectors…) |
 | **ⓘ explainers** | Every jargon term (PCR, max pain, breadth, RRG, delivery %, FII positioning…) explained in plain English |
 

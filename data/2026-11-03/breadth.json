@@ -1,180 +1,174 @@
 {
-  "generated_at": "2026-11-03T04:24:17",
-  "as_of": "2026-10-30",
+  "generated_at": "2026-11-04T02:09:09",
+  "as_of": "2026-11-02",
   "universe": "nifty500",
   "stocks_analyzed": 491,
   "stocks_excluded": 10,
-  "composite_score": 28.9,
-  "zone": "WEAK",
-  "suggested_equity_exposure": "20-40%",
-  "guidance": "Narrow/declining breadth. Mostly cash; protect open gains.",
+  "composite_score": 44.4,
+  "zone": "NEUTRAL",
+  "suggested_equity_exposure": "40-60%",
+  "guidance": "Mixed tape. Be selective, smaller size, only A+ setups.",
   "components": {
     "pct_above_200dma": {
-      "value": 32.4,
-      "score": 32.4
+      "value": 35.6,
+      "score": 35.6
     },
     "pct_above_50dma": {
-      "value": 19.1,
-      "score": 19.1
+      "value": 24.0,
+      "score": 24.0
     },
     "breadth_momentum": {
-      "value": -1.4,
-      "score": 46.4,
+      "value": 1.4,
+      "score": 53.6,
       "note": "10-session change in % above 50-DMA (pts)"
     },
     "new_highs_lows": {
-      "value": "11 NH / 55 NL",
-      "score": 16.7
+      "value": "11 NH / 7 NL",
+      "score": 61.1
     },
     "index_trend": {
       "value": {
-        "close": 23053.1,
-        "dma50": 23254.75,
-        "dma200": 24041.15,
-        "above_50dma": false,
+        "close": 23440.8,
+        "dma50": 23242.0,
+        "dma200": 24027.65,
+        "above_50dma": true,
         "above_200dma": false,
-        "pct_from_200dma": -4.11
+        "pct_from_200dma": -2.44
       },
-      "score": 0
+      "score": 40
     },
     "india_vix": {
-      "value": 15.3,
+      "value": 15.5,
       "score": 75
     }
   },
   "breadth": {
-    "pct_above_20dma": 27.9,
-    "pct_above_50dma": 19.1,
-    "pct_above_200dma": 32.4,
-    "advances": 112,
-    "declines": 378,
+    "pct_above_20dma": 40.9,
+    "pct_above_50dma": 24.0,
+    "pct_above_200dma": 35.6,
+    "advances": 395,
+    "declines": 94,
     "new_52w_highs": 11,
-    "new_52w_lows": 55,
-    "within_5pct_of_52w_high": 30
+    "new_52w_lows": 7,
+    "within_5pct_of_52w_high": 34
   },
   "sectors": [
     {
       "industry": "Information Technology",
       "stocks": 24,
       "pct_above_50dma": 54.2,
-      "median_1m_return": 12.67
+      "median_1m_return": 10.6
     },
     {
       "industry": "Media Entertainment & Publication",
       "stocks": 4,
       "pct_above_50dma": 50.0,
-      "median_1m_return": 0.28
+      "median_1m_return": -6.62
+    },
+    {
+      "industry": "Oil Gas & Consumable Fuels",
+      "stocks": 17,
+      "pct_above_50dma": 47.1,
+      "median_1m_return": -0.67
+    },
+    {
+      "industry": "Telecommunication",
+      "stocks": 11,
+      "pct_above_50dma": 45.5,
+      "median_1m_return": 1.55
+    },
+    {
+      "industry": "Healthcare",
+      "stocks": 44,
+      "pct_above_50dma": 40.9,
+      "median_1m_return": -1.38
     },
     {
       "industry": "Textiles",
       "stocks": 5,
       "pct_above_50dma": 40.0,
-      "median_1m_return": -5.69
-    },
-    {
-      "industry": "Consumer Services",
-      "stocks": 23,
-      "pct_above_50dma": 39.1,
-      "median_1m_return": -4.71
-    },
-    {
-      "industry": "Healthcare",
-      "stocks": 44,
-      "pct_above_50dma": 34.1,
-      "median_1m_return": -3.04
+      "median_1m_return": -1.02
     },
     {
       "industry": "Services",
       "stocks": 13,
-      "pct_above_50dma": 30.8,
-      "median_1m_return": -7.29
+      "pct_above_50dma": 38.5,
+      "median_1m_return": -4.14
     },
     {
-      "industry": "Telecommunication",
+      "industry": "Construction Materials",
       "stocks": 11,
-      "pct_above_50dma": 18.2,
-      "median_1m_return": -2.44
+      "pct_above_50dma": 36.4,
+      "median_1m_return": -0.16
+    },
+    {
+      "industry": "Power",
+      "stocks": 17,
+      "pct_above_50dma": 35.3,
+      "median_1m_return": -4.24
+    },
+    {
+      "industry": "Consumer Services",
+      "stocks": 23,
+      "pct_above_50dma": 34.8,
+      "median_1m_return": -2.31
+    },
+    {
+      "industry": "Construction",
+      "stocks": 13,
+      "pct_above_50dma": 23.1,
+      "median_1m_return": -7.4
+    },
+    {
+      "industry": "Automobile and Auto Components",
+      "stocks": 40,
+      "pct_above_50dma": 20.0,
+      "median_1m_return": -4.15
     },
     {
       "industry": "Fast Moving Consumer Goods",
       "stocks": 28,
       "pct_above_50dma": 17.9,
-      "median_1m_return": -4.96
+      "median_1m_return": -2.58
     },
     {
-      "industry": "Power",
-      "stocks": 17,
-      "pct_above_50dma": 17.6,
-      "median_1m_return": -3.89
-    },
-    {
-      "industry": "Construction",
-      "stocks": 13,
-      "pct_above_50dma": 15.4,
-      "median_1m_return": -9.21
+      "industry": "Capital Goods",
+      "stocks": 69,
+      "pct_above_50dma": 15.9,
+      "median_1m_return": -8.31
     },
     {
       "industry": "Realty",
       "stocks": 13,
       "pct_above_50dma": 15.4,
-      "median_1m_return": -6.29
+      "median_1m_return": -6.65
     },
     {
-      "industry": "Automobile and Auto Components",
-      "stocks": 40,
-      "pct_above_50dma": 15.0,
-      "median_1m_return": -5.87
-    },
-    {
-      "industry": "Capital Goods",
-      "stocks": 69,
-      "pct_above_50dma": 14.5,
-      "median_1m_return": -10.15
+      "industry": "Financial Services",
+      "stocks": 98,
+      "pct_above_50dma": 13.3,
+      "median_1m_return": -3.65
     },
     {
       "industry": "Consumer Durables",
       "stocks": 16,
       "pct_above_50dma": 12.5,
-      "median_1m_return": -5.39
-    },
-    {
-      "industry": "Financial Services",
-      "stocks": 98,
-      "pct_above_50dma": 12.2,
-      "median_1m_return": -4.29
-    },
-    {
-      "industry": "Oil Gas & Consumable Fuels",
-      "stocks": 17,
-      "pct_above_50dma": 11.8,
-      "median_1m_return": -1.45
-    },
-    {
-      "industry": "Construction Materials",
-      "stocks": 11,
-      "pct_above_50dma": 9.1,
-      "median_1m_return": -2.97
+      "median_1m_return": -2.76
     },
     {
       "industry": "Metals & Mining",
       "stocks": 18,
-      "pct_above_50dma": 5.6,
-      "median_1m_return": -9.57
+      "pct_above_50dma": 11.1,
+      "median_1m_return": -5.71
     },
     {
       "industry": "Chemicals",
       "stocks": 26,
       "pct_above_50dma": 3.8,
-      "median_1m_return": -8.0
+      "median_1m_return": -8.61
     }
   ],
   "history_30d": [
-    {
-      "date": "2026-09-17",
-      "pct_above_20dma": 20.8,
-      "pct_above_50dma": 26.7,
-      "pct_above_200dma": 49.5
-    },
     {
       "date": "2026-09-18",
       "pct_above_20dma": 38.1,
@@ -348,6 +342,12 @@
       "pct_above_20dma": 27.9,
       "pct_above_50dma": 19.1,
       "pct_above_200dma": 32.4
+    },
+    {
+      "date": "2026-11-02",
+      "pct_above_20dma": 40.9,
+      "pct_above_50dma": 24.0,
+      "pct_above_200dma": 35.6
     }
   ],
   "excluded_tickers": [

@@ -23,7 +23,9 @@ import shutil
 import subprocess
 import sys
 import time
-from datetime import datetime
+import urllib.error
+import urllib.request
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -43,6 +45,26 @@ def run(cmd: list[str], timeout: int = 900) -> tuple[bool, str]:
     tail = (p.stderr.strip().splitlines() or p.stdout.strip().splitlines() or [""])[-1]
     print(f"  {'ok ' if p.returncode == 0 else 'ERR'} {Path(cmd[0]).name} ({time.time() - t0:.0f}s) {tail[:160]}")
     return p.returncode == 0, tail[:300]
+
+
+def latest_session(today: date) -> date:
+    """The latest NSE session with a published bhavcopy. Folders are named by this, not by the run date,
+    because GitHub can start scheduled runs hours late (past midnight IST)."""
+    ua = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
+    d = today
+    for _ in range(10):
+        if d.weekday() < 5:
+            url = f"https://archives.nseindia.com/products/content/sec_bhavdata_full_{d:%d%m%Y}.csv"
+            req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": ua, "Referer": "https://www.nseindia.com/"})
+            try:
+                with urllib.request.urlopen(req, timeout=20):
+                    return d
+            except urllib.error.HTTPError:
+                pass  # holiday, or not published yet
+            except urllib.error.URLError:
+                break
+        d -= timedelta(days=1)
+    return today
 
 
 def newest(pattern: str) -> Path | None:
@@ -102,7 +124,7 @@ def main() -> int:
     now = datetime.now(IST)
     DATA.mkdir(exist_ok=True)
     if args.mode == "full":
-        day = DATA / now.date().isoformat()
+        day = DATA / latest_session(now.date()).isoformat()
     else:  # news/morning refreshes attach to the latest full run
         days = sorted(p for p in DATA.iterdir() if p.is_dir() and p.name[:2] == "20")
         day = days[-1] if days else DATA / now.date().isoformat()
@@ -139,6 +161,7 @@ def main() -> int:
             "levels": [ROOT / "pipeline" / "levels.py", "--out", day / "levels.json"],
             "participant_oi": [ROOT / "pipeline" / "participant_oi.py", "--state", STATE, "--out", day / "participant_oi.json"],
             "heatmap": [ROOT / "pipeline" / "heatmap.py", "--out", day / "heatmap.json"],
+            "corp_actions": [ROOT / "pipeline" / "corp_actions.py", "--out", day / "corp_actions.json"],
         }
         for name, cmd in own.items():
             if name in args.skip:

@@ -34,7 +34,7 @@
     </div>
     <nav class="wrap tabs" aria-label="Sections">
       <a href="#brief">Brief</a><a href="#snapshot">Snapshot</a><a href="#heatmap-sec">Heatmap</a><a href="#flows">Flows</a>
-      <a href="#breadth">Breadth</a><a href="#sectors">Sectors</a><a href="#options">Options</a><a href="#swing">Swing</a><a href="#news">News</a>
+      <a href="#breadth">Breadth</a><a href="#sectors">Sectors</a><a href="#options">Options</a><a href="#swing">Swing</a><a href="#actions">Actions</a><a href="#news">News</a>
     </nav>
   </header>
 
@@ -118,6 +118,15 @@
     <section id="swing">
       <h2>Swing screener <span class="muted small">for study only, not recommendations</span> <button class="info" data-g="swing" aria-label="Explain the swing screener">i</button></h2>
       <div class="card"><p class="small muted" id="swing-meta"></p><div id="swing-table" class="scroll"></div></div>
+    </section>
+
+    <section id="actions">
+      <h2>Corporate actions <span class="muted small">splits, bonuses, demergers — price moves that are not gains or losses</span> <button class="info" data-g="corpaction" aria-label="Explain corporate actions">i</button></h2>
+      <div class="grid2">
+        <div class="card"><h3>Coming up <span class="muted small">next 45 days</span></h3><div id="ca-upcoming"></div></div>
+        <div class="card"><h3>Recent <span class="muted small">last 90 days</span>
+          <label class="small muted" style="float:right"><input type="checkbox" id="ca-all"> all stocks</label></h3><div id="ca-recent"></div></div>
+      </div>
     </section>
 
     <section id="news">

@@ -1,7 +1,7 @@
 {
   "date": "2026-11-03",
-  "updated_at": "2026-11-03T15:54:22+05:30",
-  "mode": "morning",
+  "updated_at": "2026-11-04T04:02:27+05:30",
+  "mode": "news",
   "steps": {
     "pulse": {
       "ok": true
@@ -35,9 +35,7 @@
     },
     "summary": {
       "ok": true
-    },
-    "snapshot": {
-      "ok": true
     }
-  }
+  },
+  "note": "renamed from 2026-11-04: run started late, data is the 3 Nov session"
 }
