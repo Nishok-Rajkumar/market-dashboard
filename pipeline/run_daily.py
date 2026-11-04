@@ -54,17 +54,27 @@ def latest_session(today: date) -> date:
     d = today
     for _ in range(10):
         if d.weekday() < 5:
+            # NSE answers HEAD with 503 for every file, so use GET and read only the first bytes.
             url = f"https://archives.nseindia.com/products/content/sec_bhavdata_full_{d:%d%m%Y}.csv"
-            req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": ua, "Referer": "https://www.nseindia.com/"})
+            req = urllib.request.Request(url, headers={"User-Agent": ua, "Referer": "https://www.nseindia.com/"})
             try:
-                with urllib.request.urlopen(req, timeout=20):
-                    return d
-            except urllib.error.HTTPError:
-                pass  # holiday, or not published yet
+                with urllib.request.urlopen(req, timeout=20) as r:
+                    if "csv" in r.headers.get("Content-Type", "") and b"SYMBOL" in r.read(200):
+                        return d
+            except urllib.error.HTTPError as exc:
+                if exc.code != 404:  # 404 = holiday or not published yet; anything else means we can't tell
+                    print(f"warning: session check got HTTP {exc.code}", file=sys.stderr)
+                    break
             except urllib.error.URLError:
                 break
         d -= timedelta(days=1)
-    return today
+    # Couldn't check: before ~7 PM IST today's session isn't final, so use the previous weekday.
+    if datetime.now(IST).hour >= 19:
+        return today
+    d = today - timedelta(days=1)
+    while d.weekday() >= 5:
+        d -= timedelta(days=1)
+    return d
 
 
 def newest(pattern: str) -> Path | None:
