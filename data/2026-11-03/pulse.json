@@ -4,73 +4,80 @@
   "snapshot": [
     {
       "name": "Nifty 50",
-      "last": 23440.8,
-      "date": "2026-11-02",
-      "chg_1d_pct": 1.68,
-      "chg_5d_pct": 3.02
+      "last": 23960.6,
+      "date": "2026-11-04",
+      "chg_1d_pct": 0.63,
+      "chg_5d_pct": 5.56
     },
     {
       "name": "Bank Nifty",
-      "last": 55002.2,
-      "date": "2026-11-02",
-      "chg_1d_pct": 0.58,
-      "chg_5d_pct": 1.17
+      "last": 55913.6,
+      "date": "2026-11-04",
+      "chg_1d_pct": 0.67,
+      "chg_5d_pct": 3.03
+    },
+    {
+      "name": "India VIX",
+      "last": 15.19,
+      "date": "2026-11-04",
+      "chg_1d_pct": -3.39,
+      "chg_5d_pct": -6.54
     },
     {
       "name": "Nifty 500",
-      "last": 22241.4,
-      "date": "2026-11-02",
-      "chg_1d_pct": 1.58,
-      "chg_5d_pct": 2.93
+      "last": 22769.2,
+      "date": "2026-11-04",
+      "chg_1d_pct": 1.1,
+      "chg_5d_pct": 4.79
     },
     {
       "name": "USD-INR",
-      "last": 94.73,
-      "date": "2026-11-03",
-      "chg_1d_pct": -0.18,
-      "chg_5d_pct": -0.48
+      "last": 94.64,
+      "date": "2026-11-04",
+      "chg_1d_pct": -0.09,
+      "chg_5d_pct": -0.57
     },
     {
       "name": "Brent crude ($)",
-      "last": 104.37,
-      "date": "2026-11-03",
-      "chg_1d_pct": -0.38,
-      "chg_5d_pct": -8.35
+      "last": 102.31,
+      "date": "2026-11-04",
+      "chg_1d_pct": -1.25,
+      "chg_5d_pct": -11.28
     },
     {
       "name": "Gold ($)",
-      "last": 3931.7,
-      "date": "2026-11-03",
-      "chg_1d_pct": -0.95,
-      "chg_5d_pct": -3.51
+      "last": 4055.1,
+      "date": "2026-11-04",
+      "chg_1d_pct": 2.91,
+      "chg_5d_pct": 0.09
     },
     {
       "name": "S&P 500 fut",
-      "last": 7596.25,
-      "date": "2026-11-03",
-      "chg_1d_pct": 0.29,
-      "chg_5d_pct": -2.09
+      "last": 7656.0,
+      "date": "2026-11-04",
+      "chg_1d_pct": 0.78,
+      "chg_5d_pct": -1.63
     },
     {
       "name": "Nasdaq 100 fut",
-      "last": 28310.0,
-      "date": "2026-11-03",
-      "chg_1d_pct": 0.65,
-      "chg_5d_pct": -5.04
+      "last": 28500.0,
+      "date": "2026-11-04",
+      "chg_1d_pct": 0.69,
+      "chg_5d_pct": -4.94
     },
     {
       "name": "Nikkei 225",
-      "last": 63081.86,
-      "date": "2026-11-02",
-      "chg_1d_pct": -0.33,
-      "chg_5d_pct": 1.43
+      "last": 62188.63,
+      "date": "2026-11-04",
+      "chg_1d_pct": -1.42,
+      "chg_5d_pct": -1.71
     },
     {
       "name": "Hang Seng",
-      "last": 23393.32,
-      "date": "2026-11-02",
-      "chg_1d_pct": 0.42,
-      "chg_5d_pct": 0.78
+      "last": 23919.5,
+      "date": "2026-11-04",
+      "chg_1d_pct": 1.67,
+      "chg_5d_pct": 3.57
     }
   ],
   "fii_dii": {
@@ -842,5 +849,6 @@
       "symbol": "TRITURBINE",
       "purpose": "Financial Results"
     }
-  ]
+  ],
+  "snapshot_updated_at": "2026-11-04T15:50:35+05:30"
 }
