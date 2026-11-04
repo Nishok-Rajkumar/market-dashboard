@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T21:00:08+00:00",
+  "generated_at": "2026-11-04T22:54:51+00:00",
   "sources": {
     "Economic Times": {
       "ok": true,
@@ -32,6 +32,56 @@
   },
   "items": [
     {
+      "source": "Google News",
+      "title": "Sensex Rises 384 Points, Nifty Closes Above 23,950 As Midcap Stocks Rally - BW Businessworld",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbWUzVkNQV0NZN3c2RVVlVEJNZW5qaGc1MDczd3ZzRzlOWTB4RnZiZnp2WUt6Tm94T2lmNUN3ampVNXFzLTh0UUpsT0NLbzBHTnNUZUZTMWNIbDhoUjVKaTkxR1hCUXZLRW5Hd0RVMnhmR0dyakZqTl9EUWtuYUxyNXdmbEVSZ052WElLSWhuWnF3TlhBNFQ5a3NPbmFXYUhrd1JwM2VYU1FfNldrNTBlR2hMdGRkMmc?oc=5",
+      "published": "2026-11-04T22:26:28+00:00",
+      "summary": "Sensex Rises 384 Points, Nifty Closes Above 23,950 As Midcap Stocks Rally BW Businessworld",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Asian Stocks to Rise as Oil Slides After US Vote: Markets Wrap - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaHBnOEludEdwalhTMXRiLWFQbk9RRVVIVGYzY3cwZUk4TmxLY1hnZExZQTZBTExfR2l2TmpJNXUwRWUwc21Jd0EzZklqc2hCbnRta19OU1lQV2NTdjhuNUZxaGQwaHlBZG51eG44WXFxNTNuX1FRYVluOGdaTFptSWRFY3J1ZTdMTlFzY3VmYVhkbDJH?oc=5",
+      "published": "2026-11-04T22:15:04+00:00",
+      "summary": "Asian Stocks to Rise as Oil Slides After US Vote: Markets Wrap Bloomberg.com",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Stock Market Today, Nov. 4: Amazon Jumps 6% From New Perspective on AWS Growth and AI Strategy Following Election Results - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWVQyS1JrNU51QVRVbjU2NU9zU1RGc2xBRnp0aUV1WmRIdG4tUkdXQ0JfS0JLWEVZUGd6VVpfZWJ6M2pzTEUxOHE0dFFpa2pGeWlIbldYZmdUS0xLVWpXX3h6NVBlRGM2RV9zcUE5RUViQklUd3VORUxJeVBrY2l5TkVUVWZPdWs2RFF3UFo2QXlFRWM?oc=5",
+      "published": "2026-11-04T22:13:28+00:00",
+      "summary": "Stock Market Today, Nov. 4: Amazon Jumps 6% From New Perspective on AWS Growth and AI Strategy Following Election Results Yahoo Finance",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Stocks Rise as Democrats Flip Control of Congress - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQ0ktb3JQam9saVhrUDhjbXZWTDVQaV9tVGFyX0VWdnh1Y3lTd3BDYlBlTFN3WS1tN0szdm4zb184WkZEcnhDZWVaS3h1RHp3azFaUEFfTWNtSjY4UXhXTG5ESjBvRmRHTzluZks0VlBrS1RzR1ZuNVJSa0s3eFNVU3J2WmZpQQ?oc=5",
+      "published": "2026-11-04T21:40:19+00:00",
+      "summary": "Stocks Rise as Democrats Flip Control of Congress The New York Times",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Stocks and Bonds Rise, Dollar Slides After US Vote: Markets Wrap - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPLVc2azZiNTdEZEJUM0RFOERmNk1QaTRQOGdkbE5EOUM5YVE5M2pqVTFkYmJsTC13MnpKaVRSd2ZLYmowSlhpOE5VcjdJNnJleWZsTDJ2SGN2b3JTOE9pdkZLMmdCblZhSE5ucGoyd2k2SEJwOFpVZVp1aWk1aWJYSHdvQ3VTMGtGa3FXa3NYUWxiWEsz?oc=5",
+      "published": "2026-11-04T21:36:03+00:00",
+      "summary": "Stocks and Bonds Rise, Dollar Slides After US Vote: Markets Wrap Bloomberg.com",
+      "tags": [
+        "Rupee"
+      ]
+    },
+    {
       "source": "Economic Times",
       "title": "Alcohol stocks jump as blue wave boosts industry prospects",
       "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/alcohol-stocks-jump-as-blue-wave-boosts-industry-prospects/articleshow/135551002.cms",
@@ -39,16 +89,6 @@
       "summary": "As the midterm elections unfold, investors are directing their focus to the alcohol sector, anticipating positive impacts on companies such as Constellation Brands due to shifting immigration policies. Optimism surrounding decreasing trade tensions with Canada also seems to uplif",
       "tags": [
         "Other"
-      ]
-    },
-    {
-      "source": "Google News",
-      "title": "Stocks and Bonds Rise, Dollar Slides After US Vote: Markets Wrap - Bloomberg",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPLVc2azZiNTdEZEJUM0RFOERmNk1QaTRQOGdkbE5EOUM5YVE5M2pqVTFkYmJsTC13MnpKaVRSd2ZLYmowSlhpOE5VcjdJNnJleWZsTDJ2SGN2b3JTOE9pdkZLMmdCblZhSE5ucGoyd2k2SEJwOFpVZVp1aWk1aWJYSHdvQ3VTMGtGa3FXa3NYUWxiWEsz?oc=5",
-      "published": "2026-11-04T20:01:22+00:00",
-      "summary": "Stocks and Bonds Rise, Dollar Slides After US Vote: Markets Wrap Bloomberg",
-      "tags": [
-        "Rupee"
       ]
     },
     {
@@ -93,20 +133,20 @@
     },
     {
       "source": "Google News",
-      "title": "Prediction: Nov. 6 Will Be a Huge Day for the Stock Market - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYWZQa0g3SjhzTjJWQ3FWUE1lRVpQSS1xVnFvN2gwbk9GYU4wWWsxVFRweDBqVTZOcG00elhWQ0pTeXRWUlJQVGUwYVc2OHpsQzZIRUpxck9LYzd3TjF1VGtBNjg2c3QxUl95UGFhNjdDcGJyclRIanJ3Z05aZUtqQzhMTzhySEVMVHdrTFJVT3lzcXg0?oc=5",
-      "published": "2026-11-04T18:35:00+00:00",
-      "summary": "Prediction: Nov. 6 Will Be a Huge Day for the Stock Market Yahoo Finance",
+      "title": "Stock market rallies, oil prices drop, after midterm elections swing Congress - OregonLive.com",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZzF0NC1CYXFvS0VJQnFUNkF4R2hUZTF3QXJrUkkydWpvQ25pZEhabXQyek5PdnhORmFoellCaGpDTEloWnFRQUdYcUpjN1hJYUlmWC1LT01ZODkxZVQybnN5aEsxcUk5VEhvSDR4d2F2WUhtTGtOVkNLZTM4RjRJTTNYby1CT0pKS0tpQV91SUFIZUFIRzFnd2RzSmQzSGI3VXlGVXlOc01OSjhoVDFnYlhXR1JNaE80NlI3ZldWUzNvZ9IB1gFBVV95cUxQaWRyanFsQ1Nyd0pKS0ZuNGw4enBGN0xMZWpQVEkwT2lRNl8wYXZNUDBjV2dLNjdReEg1Q1BuMWJlcm1MNmU4QnNQTnlMNzZIX28yaEdaVU9MY1JaQ3dxSjc0c0h5aEZkMlotak0tZlQ2bDllNXNUOVgtRDZvcXJzeXhVdU5mT29HRmpLZDVjT2Vzb1U5bmhsZkVDSWdvcVEzSHUwaTAyQUcwempiSWU2NXRGU1ZkMlNjcWItX2F0c21YSDVsWm03cjVSLTlfcVcxdGFGNE5n?oc=5",
+      "published": "2026-11-04T18:36:00+00:00",
+      "summary": "Stock market rallies, oil prices drop, after midterm elections swing Congress OregonLive.com",
       "tags": [
-        "Other"
+        "Crude & commodities"
       ]
     },
     {
       "source": "Google News",
-      "title": "Stocks Rise as Democrats Flip Control of Congress - The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQ0ktb3JQam9saVhrUDhjbXZWTDVQaV9tVGFyX0VWdnh1Y3lTd3BDYlBlTFN3WS1tN0szdm4zb184WkZEcnhDZWVaS3h1RHp3azFaUEFfTWNtSjY4UXhXTG5ESjBvRmRHTzluZks0VlBrS1RzR1ZuNVJSa0s3eFNVU3J2WmZpQQ?oc=5",
-      "published": "2026-11-04T18:22:48+00:00",
-      "summary": "Stocks Rise as Democrats Flip Control of Congress The New York Times",
+      "title": "Prediction: Nov. 6 Will Be a Huge Day for the Stock Market - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYWZQa0g3SjhzTjJWQ3FWUE1lRVpQSS1xVnFvN2gwbk9GYU4wWWsxVFRweDBqVTZOcG00elhWQ0pTeXRWUlJQVGUwYVc2OHpsQzZIRUpxck9LYzd3TjF1VGtBNjg2c3QxUl95UGFhNjdDcGJyclRIanJ3Z05aZUtqQzhMTzhySEVMVHdrTFJVT3lzcXg0?oc=5",
+      "published": "2026-11-04T18:35:00+00:00",
+      "summary": "Prediction: Nov. 6 Will Be a Huge Day for the Stock Market Yahoo Finance",
       "tags": [
         "Other"
       ]
@@ -129,16 +169,6 @@
       "summary": "Wall Street reacted unevenly to Democratic gains in Congress: Amazon, Meta, Alphabet, Microsoft and Apple rallied, while several AI-chip, memory and data-centre stocks fell. Investors weighed hopes of moderated spending against the possibility of tighter AI and data-centre oversi",
       "tags": [
         "Results"
-      ]
-    },
-    {
-      "source": "Google News",
-      "title": "Stock Market Today: S&P 500, Nasdaq, Dow Jones jump after Democratic election win - Beinsure",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBiMU5kdnJ3NnlRdlB3SHdGMXNPZXRRZTFSSWtpYU5MRXltODlSZTNvSjRTMzVYN2RqVy1seFBKbFhyQU5VS0RzbFl1a0ktUDduZzk0MXN0Ri1FUl91VkFKR1hXX2xoNEE4TU02NFJieXg3anB2TEN0OGw1T21Sdw?oc=5",
-      "published": "2026-11-04T17:37:46+00:00",
-      "summary": "Stock Market Today: S&P 500, Nasdaq, Dow Jones jump after Democratic election win Beinsure",
-      "tags": [
-        "Global"
       ]
     },
     {
@@ -427,16 +457,6 @@
       ]
     },
     {
-      "source": "Google News",
-      "title": "Stock market after midterms: S&P 500 returns since 1950 - qz.com",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1PakppelN6NzhTSlNfa1RNSnBoTFBpRzVWN1pzN0FrSHJ0Mm5PY2Jwb0pzajMxWmkxNlI5MjlIY085YlFGbGFQWE43bnNuMVBGcnkxLUNQYlh4S3pGMHhfLVpSYjh6Nkt4WjBicnJ6TQ?oc=5",
-      "published": "2026-11-04T14:59:18+00:00",
-      "summary": "Stock market after midterms: S&P 500 returns since 1950 qz.com",
-      "tags": [
-        "Global"
-      ]
-    },
-    {
       "source": "BusinessLine",
       "title": "MRPL’s Russian crude sourcing touches 32% in Q2FY27",
       "link": "https://www.thehindubusinessline.com/markets/commodities/mrpls-russian-crude-sourcing-touches-32-in-q2fy27/article71666343.ece",
@@ -454,16 +474,6 @@
       "summary": "The company reported a net profit of ₹465 crore for the quarter ended September 2026",
       "tags": [
         "IPO"
-      ]
-    },
-    {
-      "source": "Google News",
-      "title": "Tax Cut Hopes, US Midterms May Fuel India’s Nascent Stock Rebound - Bloomberg",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOekxkSG1kUlB2VnJUNmRTYWM2UDlaeTg5ZkF5WEdHNmVNX2VSRldCeW1Edk9JZjF4bVFzTWZQS0Q3V1liOThBUGpJRGpPZmhXOUN3STYzbHl0RE1UNmZIUndkLXVGVk9qRGU1c25ZWmVMdGdYSmFVV0U2bHZacUdHUEc4UkV4UDVaenNhaE5pTHJQemdTU2EzRDN5dGhLR09XU2FUVEJFU2VtclZjT3A2Tg?oc=5",
-      "published": "2026-11-04T14:45:47+00:00",
-      "summary": "Tax Cut Hopes, US Midterms May Fuel India’s Nascent Stock Rebound Bloomberg",
-      "tags": [
-        "Other"
       ]
     },
     {
@@ -549,6 +559,16 @@
       ]
     },
     {
+      "source": "Business Standard",
+      "title": "Crypto exchange hacks: How to stay safe and protect your investments",
+      "link": "https://www.business-standard.com/finance/personal-finance/crypto-exchange-hacks-how-to-stay-safe-and-protect-your-investments-126110401757_1.html",
+      "published": "2026-11-04T13:53:20+00:00",
+      "summary": "Crypto exchange hacks highlight risks to investors, who should check platforms' security, insurance and reimbursement policies and keep long-term holdings in personal wallets.",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
       "source": "RBI",
       "title": "RBI to conduct Overnight Variable Rate Reverse Repo (VRRR) auction under LAF on November 05, 2026",
       "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63919",
@@ -589,6 +609,16 @@
       ]
     },
     {
+      "source": "Google News",
+      "title": "Nifty Rallies 5% In 5 Sessions: 5 Key Factors Driving Rally? - Outlook Money",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdW5Odl81emFMNmNYZ0JlaTNvSVphaEpTY2YzblNhS1h2cktTNUlRN09ocU9PS1dXMGdQd25EWTYyTVA4RW01ZlRxektBYkFKZHNxU1VnUVRKQTM1b3p1VEN5Mldqb2JmN0hfVllDLTEzZ2pSRTkxZGNNN3FHN1BMRDJzc2s5QmFjekJhdlNsLWRpeXhxSHJoVHVIbW1TRDJteFFzbGVyaDZJc3RFX25r0gG8AUFVX3lxTFB1M0JFNzVGYnA0dGZZaDcwV3FDQ3JZUzBzRC15SVZQNUZlR1lqNXdCLVpPWUlEbU54TllSajc0aU9iYWZaQlZpUVVhN0dxd0d1anRfaVc3WlFUdnhiTWd3WWcxa0dDYlUzbGl6WVptVV8tb2toQllBcmVGNUk2enhXRE96UElaWkRsbkYtRVJUajFrbzlIWFRyVFI0Q2pIT3JvSzg4MjVsYWxDOEhoNWtLSGhaV2FsQWY4RlRW?oc=5",
+      "published": "2026-11-04T13:28:30+00:00",
+      "summary": "Nifty Rallies 5% In 5 Sessions: 5 Key Factors Driving Rally? Outlook Money",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
       "source": "Livemint",
       "title": "Diwali 2026 Muhurat Trading stock picks: Eternal, ICICI, Titan, Radico, 7 more Samvat 2083 stocks by Shriram Research",
       "link": "https://www.livemint.com/market/stock-market-news/diwali-stock-picks-eternal-icici-l-t-titan-to-radico-11-stocks-shriram-research-is-bullish-on-in-samvat-2083-11793796674218.html",
@@ -610,13 +640,12 @@
     },
     {
       "source": "Economic Times",
-      "title": "US Stock Market Live Updates: Dow soars 1,500 points as Brent oil's price drops below $95 per barrel on Democrat win, Iran peace deal hopes",
+      "title": "US Stock Market Highlights: Dow rallies 1,500 pts, S&P, Nasdaq over 1% as Democrats win midterm elections",
       "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-amd-nvidia-tesla-amazon-meta-ai-stocks-us-midterm-election-results-democrat-win-treasury-yield-news-4th-november-2026/liveblog/135540466.cms",
       "published": "2026-11-04T13:12:18+00:00",
       "summary": "",
       "tags": [
-        "Global",
-        "Crude & commodities"
+        "Global"
       ]
     },
     {
@@ -657,16 +686,6 @@
       "summary": "Margin pressure was driven by the expiry of Mobile PLI 1.0 incentives and a sharp increase in global memory prices, supported by rising demand from AI infrastructure and data centres",
       "tags": [
         "Other"
-      ]
-    },
-    {
-      "source": "Google News",
-      "title": "Sensex Rises 384 Points, Nifty Closes Above 23,950 As Midcap Stocks Rally - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNamRhMk5fQmFHRnZObnV5VWEtNjhOaXlpaXpTWEhGOEg2d2VoaUIzSXhDUU5zczdlNC1VOEF1bEZFbkJ6QzJ0X1RrMXY2S1B4NHdSRE4zZ2RFRXRqeWxNR25reTlvX1lGOXlxay1CcjVMNlZaOWQ1Xy1IMmxUczVTcGlIaXlZNC1qU3NnR2JFVEJVYUd3Z21UOEtfR3Z2SlluUTlDV041a0MyNHhMRHV6cWlJZFNCZmxodUpudGt1aWFCOUJxNTNnXw?oc=5",
-      "published": "2026-11-04T12:31:56+00:00",
-      "summary": "Sensex Rises 384 Points, Nifty Closes Above 23,950 As Midcap Stocks Rally TradingView",
-      "tags": [
-        "Index"
       ]
     },
     {
@@ -815,16 +834,6 @@
       "link": "https://www.livemint.com/market/stock-market-news/top-2-stocks-to-buy-for-short-term-gmr-airports-hal-by-nagaraj-shetti-check-stop-loss-targets-11793791298237.html",
       "published": "2026-11-04T11:52:04+00:00",
       "summary": "Indian stocks rose for a fifth straight session, with the Sensex gaining 0.50% to 77,301.40 and the Nifty 50 advancing 0.63% to 23,960.60. Analysts see further Nifty 50 upside and highlighted GMR Airports and HAL as potential buys.",
-      "tags": [
-        "Other"
-      ]
-    },
-    {
-      "source": "Google News",
-      "title": "Top 2 stocks to buy for short-term: GMR Airports, HAL by Nagaraj Shetti - Check stop loss, targets - Livemint",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOQU5MbGxxUGg0ZWZyZVBMVGlaV2hOcEtZQ2ZkQ3VYbGtvdUxUZXpuVUtQaXZjaExrVlczTzhTR1hlMXRPVUYzZE5fMkFGcGMxbHM0bzFsM2U0Q2ktZVlkaHlMVGtZRlk5SzQ2cFdWN09JdDNPS1FMdjV6azN6RGZZT2NnWVBuNjJMQjhUblE0am9JdG9FcG1MVFJLVGlSZGJ3ZklKWERTdWNzV2U5YXNwS0RvQUNiVnQ1SDB5V2xsQ1VOSHBBWGNZMktFc3E1X1FGUUR0Y0lpc3IzRmN6ZjNiLTQyYnNJY0hPMlI1eWQxRHoyckk2WUHSAfsBQVVfeXFMUG1xNmxYM2FqeWZwa2ItWGJ5MXFqSnNKNFRhOGVfWUJGQ1A0Z2JVakFPQ1pqeW1fVWFiWjY5V2NTSE51U0k2LVRDbDA0QWFQMVp4MzlaMXYtYXN1bzU5V3E3ZE9TNDNFajcwLUUwN1J5cy00b1htc243VHo5SXZCRy1ZTU1fS0JmbnZ1UFdTd29QcTlGNmJlMG41MUpvOWlocjMyNWRvVTZuckYwcnMyMllTYkpILXJpQmpRWHZ4NVowZGRYVEFNaHdDeG9SdVdUNEthcXd6eFlkd3NCcjJRTkNFRkxIVXgzUkVqdnpkcFNhNFE0MVVNQVlNVlk?oc=5",
-      "published": "2026-11-04T11:52:04+00:00",
-      "summary": "Top 2 stocks to buy for short-term: GMR Airports, HAL by Nagaraj Shetti - Check stop loss, targets Livemint",
       "tags": [
         "Other"
       ]
@@ -1192,6 +1201,16 @@
     },
     {
       "source": "Google News",
+      "title": "Sensex, Nifty extend rally for fifth session amid volatility; Midcap, Smallcap stocks surge up to 2% - ANI News",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOcXk5MjF6YzlXeVpfd09pSHZXVWRHX3F6Z3pjZjJUR00yeFVUYWVCanJIN2I0U0JiU3hIWlJkMVJ4SmtLdTc5SlJsOS05NDlaQ0RGSzBrS3pjVWpuSWloNURoZFVvYlpjaDd2NEVRRDNzcXpUbXhuOTVBMVQ5LTRIekh0RlRLdDlDeHJvUVVuNmtTNTBnNllDNUVZLVU0WV9YcnFQOVZvRHpMYWdwUjFJQVdUYUFtLUxlcDBEWm5oNjVLbWU3aDNoSFkybVE2aXdYdnhJVW81ODhqb1VxeXA2Mg?oc=5",
+      "published": "2026-11-04T10:27:00+00:00",
+      "summary": "Sensex, Nifty extend rally for fifth session amid volatility; Midcap, Smallcap stocks surge up to 2% ANI News",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
       "title": "Market wrap, Nov 4: SENSEX rises 383 pts, NIFTY50 ends at 23,960; NIFTY Smallcap 100 jumps 2%, BEL top gainer - Upstox",
       "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQbHRjR0FZSTA5SVlUNzZabUdjZXRMaHFjcmstZDJNd2JKdGg1cjJGSHNlWXhwMkNkQmR1R2poX2YwTzEzV0pFTFpYQTVoaUVJNmxXWnVmVkJDMk85Znhta01ZMVBwM1A4OHZxaUNJLTk1UDBpSlh4QktkZnR4MmVhNTEwNFE5Rl9rYnJBdm1rOTU2UFhPQmdIVkNyTVFkbkRmaUZVdlg1azJCTHBrSU9ZTlFMeENiRUJFZ0Rpam1ZZUk4ZVNYUnRWUG5IRzExa2JMTVI2YW5QNHhOZ09xVl94OWc2SXdqZ25meThjTGxfYjZPOENTeFE?oc=5",
       "published": "2026-11-04T10:25:29+00:00",
@@ -1295,10 +1314,10 @@
     },
     {
       "source": "Google News",
-      "title": "Sensex climbs 383 points to settle at 77,301, Nifty rises 149 points to 23,960 - Telegraph India",
+      "title": "Bullish run on Dalal Street: Sensex posts fifth straight gain, Nifty nears 24,000 - Telegraph India",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS2o3SHdpMkxjekx6VGpqbzNCY3FSSkFwN0c2b3E0dHJkZWJXbHgwaVFMWjU1cGRCTUJLSENUMGdmc0pNWHRKUDFlX29tTlZJYWRjbGpIczlpSUJNaWFRU3drcF9KNW5Ralhyek1ORjc1a3RYel93VUhldS0wT1BvamU3VjNqSmZNcFdkUFBXQVNuRm5aeEpZcE1KV3FxZjNQY0Uxa19FcjFNVUlYMGVZUnJ5T2JhS1VYNG1hbHF6LWhBTndpWEHSAcsBQVVfeXFMT1NOLTBiLWFHSF9xaEtnSnBQcDd6SThaRnRwM09VZVFDdFk0Z3BzMDg4VVROdXRxeWU4eU54ZlFOOVc5cWFsZE5zdzhadmdsdlVoa1Qtc1ZPQXdlMWoyMUgtSkZrT0lyVnpGemJwc0lKWkJ1WkItckVYaXhSb3BnOFNoNldvOHlIMFBSWW1CV2JkbFlHZmh3c1AwR1lCYzFiVjFhbTAwbDNzNWprTEtTYUZRVW5fUHpybWR0d1ctMm5paWI2bVVYVG4xVmM?oc=5",
       "published": "2026-11-04T10:15:27+00:00",
-      "summary": "Sensex climbs 383 points to settle at 77,301, Nifty rises 149 points to 23,960 Telegraph India",
+      "summary": "Bullish run on Dalal Street: Sensex posts fifth straight gain, Nifty nears 24,000 Telegraph India",
       "tags": [
         "Index"
       ]
@@ -1529,26 +1548,6 @@
       "tags": [
         "RBI & rates",
         "Global"
-      ]
-    },
-    {
-      "source": "Google News",
-      "title": "Motilal Oswal Nifty Smallcap 250 Index Fund- Direct Plan - Growth - Equitymaster",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdE01cVZDN25wdENBd3FRakZnUng2Qm5jMWYwTVAtNVJZcWhURVA4RU1QbEhzQXFmSkNzM0lfeTFUOEdaMjNxVmdrazFrZWYxY2NpYmRFeXJ3RHJyQ29vUTBXTFIwaHFKZ0VZSzlBQWkyQXhyRlF0MDFSRGNhMzdSRXNtU2hQVlhISWVwNHRjTVg0Q0J0NlRFcTBETXYwcFZkejU2cGF2M3NyS19XZE1sV19Ob29DRFdKbjRoNQ?oc=5",
-      "published": "2026-11-04T09:09:01+00:00",
-      "summary": "Motilal Oswal Nifty Smallcap 250 Index Fund- Direct Plan - Growth Equitymaster",
-      "tags": [
-        "Index"
-      ]
-    },
-    {
-      "source": "Google News",
-      "title": "Sensex Gains 253 Points, Nifty 50 Rises 82 Points as Markets Trade in Narrow Range - Dalal Street Investment Journal",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNR0FGWVdiajlzZTRFTWVZMHhZbjN4UXMxb3NYSG5IODUxN1RPcjBCMlNKQUY4UFVyODhIWU16ZUg3MzRHb25JcWNVSDJxS2NYX3pRd2RDOUNoSzYtWkJqcFJIYmhCSHlrTF9hZnhDbm5jcm9jaEtXNVFxeDY3WV8xWTllRHFacWNnMVZxNmxJUHJ2RHdGellGdlFKanBvaUYtbk1rRWlQZTYxR0Nsc1BPOElLVEVjY0liWGk2NFBNbkZ6MVI1NzRxTXpR?oc=5",
-      "published": "2026-11-04T09:03:49+00:00",
-      "summary": "Sensex Gains 253 Points, Nifty 50 Rises 82 Points as Markets Trade in Narrow Range Dalal Street Investment Journal",
-      "tags": [
-        "Index"
       ]
     },
     {
@@ -1829,17 +1828,6 @@
       ]
     },
     {
-      "source": "Google News",
-      "title": "Are Nifty50 and Nifty Bank preparing for a rally? What Anil Singhvi thinks - Zee Business",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZ0ZxdzN1ay00WUhlbVZzZVJxTGdKVnVmLU02d0hJQkVpR0dhZjVhZXhPS001c3RLbktjS3FYcjl0YWEyT183Ml9KRUtNbzl1ajdpOG14TTItUkJ4bElmSU9pb3lRV2RLVjlGWkc2c2NGTEkyQ1NGT01GZ1gwYzRQcEhqa3RUU2V4OGJvU19PUGcwRklyRVJkajNPSDNCdTZoWUh2NUF6OVFxbUNobnlyY2U3d2EybWJtLUFZ?oc=5",
-      "published": "2026-11-04T07:24:01+00:00",
-      "summary": "Are Nifty50 and Nifty Bank preparing for a rally? What Anil Singhvi thinks Zee Business",
-      "tags": [
-        "Banks",
-        "Index"
-      ]
-    },
-    {
       "source": "Livemint",
       "title": "Frozen Turkish Funds’ Blue-Chip Holdings Sold Off-Market",
       "link": "https://www.livemint.com/market/frozen-turkish-funds-blue-chip-holdings-sold-offmarket-11793776847983.html",
@@ -2070,6 +2058,16 @@
       "summary": "Market analysts are tentatively optimistic about Indian equity markets seeing a resurgence in the next financial year. Expectations suggest that both the Sensex and Nifty may rise to their past peak levels by Diwali 2027, driven by improving corporate profitability. While favorab",
       "tags": [
         "Index"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "BLS Polymers shares rally 6% after strong stock market debut",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/bls-polymers-shares-rally-6-after-strong-stock-market-debut/articleshow/135526812.cms",
+      "published": "2026-11-04T06:12:32+00:00",
+      "summary": "BLS Polymers shares extended their strong debut gains, rising nearly 6% on Wednesday after listing at a 65% premium to the IPO price. The issue received 241 times subscription, while the company reported higher income and profit in FY26.",
+      "tags": [
+        "Other"
       ]
     }
   ]
