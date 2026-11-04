@@ -19,12 +19,5 @@
   "zone": "NEUTRAL",
   "pct_above_50dma": 24.0,
   "pct_above_200dma": 35.6
- },
- {
-  "date": "2026-11-04",
-  "score": 58.9,
-  "zone": "NEUTRAL",
-  "pct_above_50dma": 34.4,
-  "pct_above_200dma": 42.7
  }
 ]
