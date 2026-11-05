@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T21:16:58+00:00",
+  "generated_at": "2026-11-05T22:53:36+00:00",
   "sources": {
     "Economic Times": {
       "ok": true,
@@ -32,13 +32,53 @@
   },
   "items": [
     {
+      "source": "Livemint",
+      "title": "Yen Rises on Haven Demand as CIBC, Nomura See Room for More Gain",
+      "link": "https://www.livemint.com/market/yen-rises-on-haven-demand-as-cibc-nomura-see-room-for-more-gain-11793918153390.html",
+      "published": "2026-11-05T22:35:52+00:00",
+      "summary": "The Japanese yen rose as a selloff in US technology shares led traders to seek safer assets — a trend that strategists at CIBC and Nomura expect will continue.",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
       "source": "Google News",
-      "title": "S&P 500 Tumbles Most Since April 2025 on AI Fears: Markets Wrap - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaHBnOEludEdwalhTMXRiLWFQbk9RRVVIVGYzY3cwZUk4TmxLY1hnZExZQTZBTExfR2l2TmpJNXUwRWUwc21Jd0EzZklqc2hCbnRta19OU1lQV2NTdjhuNUZxaGQwaHlBZG51eG44WXFxNTNuX1FRYVluOGdaTFptSWRFY3J1ZTdMTlFzY3VmYVhkbDJH?oc=5",
-      "published": "2026-11-05T20:53:39+00:00",
-      "summary": "S&P 500 Tumbles Most Since April 2025 on AI Fears: Markets Wrap Bloomberg.com",
+      "title": "Stock Market Today, Nov. 5: Intel Falls on Weak Fourth-Quarter Sales Outlook Amid Chip Selloff - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaWhaVnNQQ0NfVzEtRm5QUzQ4WjYwMk9ES00ya1BXODBHclpwQ3lfN1lYUnA0b21VaERMQ2NWTVBMbHRGQkhJV0luNnlIbG5rSWl3YzF3YUhGNVBqWUY0U2pOcVZLemZCc2k4Y25DR2lvZ3hPZW5QMEd0LW9JZlg2NkNGQS1takVBTnhmam1QNGlkMHc?oc=5",
+      "published": "2026-11-05T22:22:16+00:00",
+      "summary": "Stock Market Today, Nov. 5: Intel Falls on Weak Fourth-Quarter Sales Outlook Amid Chip Selloff Yahoo Finance",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Asian Stocks Brace for Selloff as AI Rout Deepens: Markets Wrap - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOX2RxUlFvNmxoUFFUd2pmeUk3MTJoSkNvTkxwOS1TUlNFd1hDZkNZZ0huMHIxQXhDeWtpWVdVcmJGcDQwdVcwMFJTaHg2Q040OTBCZm5Ja2doTnpQcTh1OFFSdDNucHFXVzFRR2EyTEJfa3BRWDFUY19lcFNNXzRmR2F2UEw4dlVOUW1xSnFqNmI1Wmtr?oc=5",
+      "published": "2026-11-05T22:17:59+00:00",
+      "summary": "Asian Stocks Brace for Selloff as AI Rout Deepens: Markets Wrap Bloomberg.com",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Nasdaq Stock Market Correction: History Says This Is What Happens Next - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdTk3NXpmbE1wWUNkNmFyUUtpeUhBYVNjT2tOY1hhRHJBTG1kOUlpRy16UGRRV1hDM25pX2ItSlJMWl9wZXlLbEhTMUFoZnEzcFdSamJjeGlrZElqZUpmM2R1U1VoWFlCRkxDRzNzcGN6ODJIcEZGSDJxWmoxNl9sX2ktRU9EQjNMWEJRZUhLdDhRME04RVd4SFRMRDB3SHJYOUxqazFB?oc=5",
+      "published": "2026-11-05T21:39:01+00:00",
+      "summary": "Nasdaq Stock Market Correction: History Says This Is What Happens Next Yahoo Finance",
       "tags": [
         "Global"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "TSX posts steepest decline in five months as US tech rout hits Canadian shares",
+      "link": "https://www.livemint.com/market/tsx-posts-steepest-decline-in-five-months-as-us-tech-rout-hits-canadian-shares-11793913236017.html",
+      "published": "2026-11-05T21:13:55+00:00",
+      "summary": "CANADA-STOCKS/ (UPDATE 2):CANADA STOCKS-TSX posts steepest decline in five months as US tech rout hits Canadian shares",
+      "tags": [
+        "Other"
       ]
     },
     {
@@ -97,6 +137,16 @@
       "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-yields-fall-in-choppy-session-as-oil-rises-and-equities-sink/articleshow/135585328.cms",
       "published": "2026-11-05T19:19:17+00:00",
       "summary": "As geopolitical tensions change the landscape, US Treasuries are witnessing a spike in demand while equity markets take a hit and oil prices show volatility. Investors are reassessing their outlook on the US-Iran relations following new election results. The labor market remains ",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Domestic equity markets extend winning streak for sixth consecutive session - News On AIR",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQmNMVWxrOHl3TmlCamVLZU50Y3VhZWlrQU11bDFieDZOMWw5U2tfLXhpYndqMDB3VXJMUlNBVDFsSk1SWVQ1NVZfTHVfSWJKMDZ3bk55ZVpxMlZsd1ZyMkZTWkJfTWV5Rml5YnJTVkQ1YUtFdVlqMEdyMGxEbzlfcEcxdDFjT3Z5NWZZMi1VaWFTcVVRWENTUnBNMUE?oc=5",
+      "published": "2026-11-05T19:12:41+00:00",
+      "summary": "Domestic equity markets extend winning streak for sixth consecutive session News On AIR",
       "tags": [
         "Other"
       ]
@@ -219,16 +269,6 @@
       "link": "https://www.thehindubusinessline.com/economy/prices-drop-at-fcis-wheat-sales-in-major-growing-states-as-indian-govt-doubles-quantity/article71670525.ece",
       "published": "2026-11-05T16:27:17+00:00",
       "summary": "Barring Maharashtra, prices declined by Rs 59-344 a quintal this week, when 1.99 lakh tonnes were offered",
-      "tags": [
-        "Other"
-      ]
-    },
-    {
-      "source": "Google News",
-      "title": "The year’s most successful stock-market trades are unraveling — perhaps for good - MarketWatch",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcjVHaTVZUGZPdHEwc0VxRzluQmx6dEFfMW5uMzJFa0d0am5zWGVOS3pESTNGc1BmSkFxOXphd2dQNE5tQ0ZuV1FhY0dQRzVsZVo3Ykt6SE80YWQ1NzBJZ1YtS3ZOVzNQcmRmVXdCSU02T1BBRTY3d1BWTlpwbEgzdkplc2pmc2d1WG1aV20xVWF2NUJnblBRaUVhYmNNQlhQN1FhWmJHbUV6UnhpbmVqWW9LTTV6MkVTaGpxaw?oc=5",
-      "published": "2026-11-05T16:23:00+00:00",
-      "summary": "The year’s most successful stock-market trades are unraveling — perhaps for good MarketWatch",
       "tags": [
         "Other"
       ]
@@ -533,18 +573,6 @@
       ]
     },
     {
-      "source": "Google News",
-      "title": "Sensex Surges Over 2000 Points, Nifty Tops 24,500 as Global Rally and Crude Slump Lift Markets - Pragativadi",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcVVXRnp0ZkFaQXpTMkdyMkpFcndFcENUalVsRWltb3NFSTBja0ZPU3VwYnFGaUFzNzc3WXhiaFZDbkFjVjZqX0x6U0FyRzVtMWFYVHltODh1bzZMRnM5YXhfbHFXREVGWC03UUV2VEVoeVZyMmQwWXRSVmo1M0xBbmVaa0FvSGpKLXViS0ZMX1Q1bDZHdGN4OFpWMmNRN19ZRXd5aHIyN3J4RGxodXFzVWhZQUFsa1Z6?oc=5",
-      "published": "2026-11-05T14:32:41+00:00",
-      "summary": "Sensex Surges Over 2000 Points, Nifty Tops 24,500 as Global Rally and Crude Slump Lift Markets Pragativadi",
-      "tags": [
-        "Global",
-        "Crude & commodities",
-        "Index"
-      ]
-    },
-    {
       "source": "BusinessLine",
       "title": "SEBI allows net settlement of funds for MFs from April",
       "link": "https://www.thehindubusinessline.com/markets/sebi-allows-net-settlement-of-funds-for-mfs-from-april/article71670319.ece",
@@ -552,6 +580,17 @@
       "summary": "Move to ease funding needs, improve liquidity management and boost operational efficiency for AMCs",
       "tags": [
         "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Nifty Bounces Back to Beat All of Asia on Foreign Flows, Earnings - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQ2o2c3VHc2xWRkRrMjdWWEJ4bHlIUzBQR2ozUms2Y1RRajRtMEc5Z2tDRE0tRlFybWpJakp6TGpYTGk2RFJpTFFtUWpWNEVyTE95cUVWbFNwRU9jM3JIQlNLRUVLWUJaR1B5M1NFRTJvRG80VFRsWjBObThGOVhWZThaeDFrNXM3OWNCdnVsVE1UQkFnaWRUMEd4VkFTVUw0WWFVNmQ4RmZ6YkhUZHdqUkxUa294RDRLa3c?oc=5",
+      "published": "2026-11-05T14:31:34+00:00",
+      "summary": "Nifty Bounces Back to Beat All of Asia on Foreign Flows, Earnings Bloomberg.com",
+      "tags": [
+        "Results",
+        "Index"
       ]
     },
     {
@@ -572,16 +611,6 @@
       "summary": "The rupee closed at 94.47 against the dollar, its strongest level since October 21, while the benchmark 10-year bond yield eased to 7.17 per cent as crude oil prices declined",
       "tags": [
         "Rupee"
-      ]
-    },
-    {
-      "source": "Google News",
-      "title": "MP tribal girls tackle taboo with nifty feet, finish top football league unbeaten - The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNUXJxUmd0VG5kVXd2R1ZIUWNQaV82UFNaNTlwbHh0dk5ta215Mlc5X1RIVDZCU2Nra3YxYkdEX1MwV24xZ0haand3WG5LT3Z2Z3paZmZQcnRQSkpWSjM1LWpkcEk0eWFIa01QbjVyWGZXbW5JUWdXS01VcXNYOTZWR09NQ2s0RlZqRlhBUGNGZzJoSV91NVNrNndKTEVXN3lMNGJ6ZnZLN1dfNlR0djNGYldPcnpOS210STc4OHp3YVVpOFhFNGFGX295Y3BKMnRfRGZSeGJoaUtXWmdkcXhUR2VBdjVaSFRzRzc0Zk930gHvAUFVX3lxTE5UZEVPdUhsRE5mc0stb2dydHdvclJGMjhQbEpXdmZMSHdaSm9LQ2c4ZThIRVZfTFRDRUt0bjBCQzc5ZzJYS0p5ZklmU1RncDRXcHo2SUktb1JVM21YdVlqNWk3WFNrNVV1NWF1OG11X3lCSWVNTkVCQTFFMEdFM2dFdXBTWGtoNHpHcXRobGtqYWMzc0hGXzRBR2l2d29nRC10MnYydUNSQy1sZjZILWR3eEVYNUhMaG5hV3dkZFpjOVE4SV9tczB0VURPZ2l3R1FZQlE5aEl0YnhibzFNSXpWMjdBTmltLXQ1OUItRnlF?oc=5",
-      "published": "2026-11-05T14:04:00+00:00",
-      "summary": "MP tribal girls tackle taboo with nifty feet, finish top football league unbeaten The Times of India",
-      "tags": [
-        "Index"
       ]
     },
     {
@@ -687,16 +716,6 @@
     },
     {
       "source": "Google News",
-      "title": "Stock Market News for Nov 5, 2026 - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYWFqemcyWm1fMTVnR1REOGdlc3VtM09WZmQyaG14S0ZwNEl4NnZvbUNXZXdHNFNKT0dOc0ZDN1h3SjNnblI5VThwQkpLeGw0MUNzMlVkZDNnVXkzT19COE9EMi1yc0hwdEJoYmljRDd6M09EQV9hMXBQc0JiSE0xZGVwb0NLWmVoV0RQbjhtTTRNQQ?oc=5",
-      "published": "2026-11-05T13:25:00+00:00",
-      "summary": "Stock Market News for Nov 5, 2026 Yahoo Finance",
-      "tags": [
-        "Other"
-      ]
-    },
-    {
-      "source": "Google News",
       "title": "Sensex 6,849 points, Nifty 1,822 points away from lifetime highs; falling crude fuels recovery hopes - ANI News",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUVBCMDdjeExSRExWV3M2OWFTT1FuS2VvTVdhb2ltZnhDX0xMc2pBNkczYVoxLVlWZ250QUU0MUlrS1ZJbVdYUkpTR0ljTzVCUXVwbU9pbzFIekVSQ2FLdG9nczlUMnJfV0pfclRUWjJuUWpXTzR5aWNrWUFwbmN6M0lFd0hNbDZTUGt0T21IaW96MjdZclBDLUJDNGlJS2hyNGkySW1yVDNCSXNHOWJrMWVXbEREN1hJY2wtMDRWemhGQjZfN2hCQjNydzhqTnE2Z1M4UEJIaDZPSWR6NVcxUw?oc=5",
       "published": "2026-11-05T13:17:00+00:00",
@@ -719,7 +738,7 @@
     },
     {
       "source": "Economic Times",
-      "title": "Stock Market Live Updates: Dow plunges 1,800 pts, Nasdaq 5.5% on fears of AI regulations; S&P 500 wipes out $3 trillion",
+      "title": "Stock Market Highlights: Dow plunges 1,800 pts, Nasdaq 5.5% on fears of AI regulations; S&P 500 wipes out $3 trillion",
       "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-qualcomm-nvidia-coreweave-tesla-amazon-meta-ai-stocks-data-center-stocks-semiconductor-stocks-brent-crude-us-jobs-report-federal-reserve-treasury-yield-news-5th-november-2026/liveblog/135575228.cms",
       "published": "2026-11-05T13:10:30+00:00",
       "summary": "",
@@ -1245,16 +1264,6 @@
       ]
     },
     {
-      "source": "Google News",
-      "title": "Stock Market Holiday 2026: When will BSE and NSE be closed for Diwali? Check list of remaining market holi - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQMUlzTzZodDlENXlmemZrQjUxYlBaOGUxOV9PR1p4eE9CUjNxWm95MzdLNTNycFQwWDkyVXItSHBsemI2MnlBMGN0MURXaDktNG1UdW5jaTB4enhqMm1hdW83UUUxWlZoWmRiRjFBREh6RnowenFBRFNINDE0cVdIMnB6OUt0enprMGJIa1lndkVQc2tpYjRrNUJyXzhsa3RFSWJGQi1mNzMtRlZTUEhIVWs2LWk4REtuLTF1MXREelRfZEVjQWxrb0VORmFoV3VUUTNuclFxUERycDdkQVVZcXNNUzQ5MmFVQi11aURVdjBTQzd6UzVST3l4RjMwTjRKcUE4RS02YTNJUGR0d3RNS2ppakNRNzkySFk0MdIBogJBVV95cUxQczdXbDBIRmR4Z29lM3lmVG5Bc1pya1RIeFNFWTJyN2pldXhRWUFXdFFQNTA3YTRJczRLdE1DdzhUM3R6d191c0tEZzVVdy1rcEYwQ2tlOWlxbC05WWFiOV9mZzFobXVhdzAySlNia2xFSVRsejlzTlpiWXpwRHVSRVBIYXlPSjZ1Q0czMnlvTW1WNDhTd1Y2dXE2VktDMVNET0I4ZVpLYTRmTVJVUE8tREpraGVxNWdTdFFzczA0TnVJTl96VE11QW1NdWhGclk0VkRGVUFFc3VkMk1iN2VKSnZmdndmelU1MV9sendjSEx5RDlvMjh6OUtwU3REREZuXzZJa0pwSVg1QWVxaTNrN3FlVmtORWg1TzZHSkNVcW9hQQ?oc=5",
-      "published": "2026-11-05T10:29:18+00:00",
-      "summary": "Stock Market Holiday 2026: When will BSE and NSE be closed for Diwali? Check list of remaining market holi The Economic Times",
-      "tags": [
-        "Other"
-      ]
-    },
-    {
       "source": "BusinessLine",
       "title": "PI Industries shares crash 19% after Q2 profit plunges",
       "link": "https://www.thehindubusinessline.com/markets/pi-industries-shares-crash-18-after-q2-profit-plunges/article71668682.ece",
@@ -1760,16 +1769,6 @@
       ]
     },
     {
-      "source": "Livemint",
-      "title": "Diwali dhamaka! Multibagger stock to consider 1:10 stock split, 4:5 bonus, 100% dividend; record date, other details",
-      "link": "https://www.livemint.com/market/stock-market-news/diwali-dhamaka-multibagger-stock-declares-1-10-stock-split-4-5-bonus-shares-100-dividend-record-date-other-details-11793862848124.html",
-      "published": "2026-11-05T07:16:34+00:00",
-      "summary": "SC Agrotech shares rose 4.98% to a 52-week high and hit the BSE upper circuit as investors anticipated possible corporate actions. The board is scheduled to consider a share split, bonus issue, dividend of up to 100%, and related capital changes at its November 13 meeting.",
-      "tags": [
-        "Other"
-      ]
-    },
-    {
       "source": "RBI",
       "title": "Directions under Section 35A read with Section 56 of the Banking Regulation Act, 1949 – The Pusad Urban Co-operative Bank Ltd., Pusad, Dist. Yavatmal, Maharashtra – Extension of Period",
       "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63924",
@@ -1790,16 +1789,6 @@
         "Results",
         "Crude & commodities",
         "Index"
-      ]
-    },
-    {
-      "source": "Livemint",
-      "title": "Up 40% in YTD!  ₹100 Small-cap stock hits 5% upper circuit for the fourth straight session; do you own?",
-      "link": "https://www.livemint.com/market/stock-market-news/up-40-in-ytd-rs-100-small-cap-stock-hits-5-upper-circuit-for-the-fourth-straight-session-do-you-own-11793861438325.html",
-      "published": "2026-11-05T07:11:19+00:00",
-      "summary": "Mold-Tek Technologies shares hit the 5% upper circuit for a fourth straight session after the company reported record Q2 FY27 results. Revenue rose 51.2% year on year to ₹60.81 crore, while net profit jumped 197.32% to ₹9.62 crore.",
-      "tags": [
-        "Other"
       ]
     },
     {
@@ -2069,6 +2058,16 @@
       "tags": [
         "Auto",
         "Index"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "Cert-In warns banks, fintech firms of AI-driven fund transfer fraud",
+      "link": "https://www.business-standard.com/industry/banking/cert-in-warns-banks-fintech-firms-of-ai-driven-fund-transfer-fraud-126110500550_1.html",
+      "published": "2026-11-05T05:04:46+00:00",
+      "summary": "India's cybersecurity watchdog has flagged an escalating AI-powered campaign targeting banks, NBFCs and fintech firms, with attackers exploiting payment APIs to carry out unauthorised fund transfers",
+      "tags": [
+        "Banks"
       ]
     },
     {
