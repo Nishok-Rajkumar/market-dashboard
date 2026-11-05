@@ -1,0 +1,760 @@
+{
+  "generated_at": "2026-11-06T02:44:26",
+  "days_ahead": 7,
+  "snapshot": [
+    {
+      "name": "Nifty 50",
+      "last": 23960.6,
+      "date": "2026-11-04",
+      "chg_1d_pct": 0.63,
+      "chg_5d_pct": 5.56
+    },
+    {
+      "name": "Bank Nifty",
+      "last": 55913.6,
+      "date": "2026-11-04",
+      "chg_1d_pct": 0.67,
+      "chg_5d_pct": 3.03
+    },
+    {
+      "name": "India VIX",
+      "last": 15.19,
+      "date": "2026-11-04",
+      "chg_1d_pct": -3.37,
+      "chg_5d_pct": -6.52
+    },
+    {
+      "name": "Nifty 500",
+      "last": 22769.2,
+      "date": "2026-11-04",
+      "chg_1d_pct": 1.1,
+      "chg_5d_pct": 4.79
+    },
+    {
+      "name": "USD-INR",
+      "last": 94.46,
+      "date": "2026-11-05",
+      "chg_1d_pct": -0.3,
+      "chg_5d_pct": -0.78
+    },
+    {
+      "name": "Brent crude ($)",
+      "last": 98.5,
+      "date": "2026-11-05",
+      "chg_1d_pct": 4.1,
+      "chg_5d_pct": -14.26
+    },
+    {
+      "name": "Gold ($)",
+      "last": 4099.5,
+      "date": "2026-11-05",
+      "chg_1d_pct": 0.65,
+      "chg_5d_pct": 1.69
+    },
+    {
+      "name": "S&P 500 fut",
+      "last": 7377.5,
+      "date": "2026-11-05",
+      "chg_1d_pct": -4.44,
+      "chg_5d_pct": -4.86
+    },
+    {
+      "name": "Nasdaq 100 fut",
+      "last": 26710.25,
+      "date": "2026-11-05",
+      "chg_1d_pct": -6.5,
+      "chg_5d_pct": -9.65
+    },
+    {
+      "name": "Nikkei 225",
+      "last": 62188.63,
+      "date": "2026-11-04",
+      "chg_1d_pct": -1.42,
+      "chg_5d_pct": -1.71
+    },
+    {
+      "name": "Hang Seng",
+      "last": 23919.5,
+      "date": "2026-11-04",
+      "chg_1d_pct": 1.67,
+      "chg_5d_pct": 3.57
+    }
+  ],
+  "fii_dii": {
+    "latest": [
+      {
+        "date": "2026-11-05",
+        "category": "DII",
+        "buy_cr": 22168.28,
+        "sell_cr": 32612.82,
+        "net_cr": -10444.54
+      },
+      {
+        "date": "2026-11-05",
+        "category": "FII",
+        "buy_cr": 31797.86,
+        "sell_cr": 16823.18,
+        "net_cr": 14974.68
+      }
+    ],
+    "history_days": 7,
+    "FII": {
+      "sum_5d_cr": 35808.74,
+      "sum_20d_cr": 37568.22,
+      "days_available": 7,
+      "streak_days": 7
+    },
+    "DII": {
+      "sum_5d_cr": -19045.33,
+      "sum_20d_cr": -15166.62,
+      "days_available": 7,
+      "streak_days": -5
+    }
+  },
+  "fo_ban": {
+    "header": "Securities in Ban For Trade Date 06-NOV-2026:",
+    "symbols": [
+      "KAYNES"
+    ]
+  },
+  "delivery": {
+    "bhavcopy_date": "2026-11-05",
+    "sessions_used": 11,
+    "accumulation": [
+      {
+        "symbol": "ASAHIINDIA",
+        "industry": "Automobile and Auto Components",
+        "close": 1020.8,
+        "chg_pct": 3.8,
+        "deliv_pct": 54.3,
+        "deliv_x_avg10": 6.83,
+        "turnover_cr": 80.3
+      },
+      {
+        "symbol": "JKCEMENT",
+        "industry": "Construction Materials",
+        "close": 5250.1,
+        "chg_pct": 3.42,
+        "deliv_pct": 73.1,
+        "deliv_x_avg10": 6.81,
+        "turnover_cr": 98.5
+      },
+      {
+        "symbol": "BAJFINANCE",
+        "industry": "Financial Services",
+        "close": 1070.0,
+        "chg_pct": 7.65,
+        "deliv_pct": 73.1,
+        "deliv_x_avg10": 4.44,
+        "turnover_cr": 3139.4
+      },
+      {
+        "symbol": "M&M",
+        "industry": "Automobile and Auto Components",
+        "close": 3127.5,
+        "chg_pct": 5.59,
+        "deliv_pct": 60.5,
+        "deliv_x_avg10": 4.42,
+        "turnover_cr": 2755.7
+      },
+      {
+        "symbol": "INDUSINDBK",
+        "industry": "Financial Services",
+        "close": 911.45,
+        "chg_pct": 5.35,
+        "deliv_pct": 53.3,
+        "deliv_x_avg10": 4.23,
+        "turnover_cr": 726.3
+      },
+      {
+        "symbol": "INDIGO",
+        "industry": "Services",
+        "close": 5420.0,
+        "chg_pct": 5.43,
+        "deliv_pct": 50.2,
+        "deliv_x_avg10": 4.08,
+        "turnover_cr": 1213.2
+      },
+      {
+        "symbol": "CHOLAHLDNG",
+        "industry": "Financial Services",
+        "close": 1412.7,
+        "chg_pct": 2.76,
+        "deliv_pct": 56.9,
+        "deliv_x_avg10": 3.88,
+        "turnover_cr": 75.2
+      },
+      {
+        "symbol": "HOMEFIRST",
+        "industry": "Financial Services",
+        "close": 1103.4,
+        "chg_pct": 1.95,
+        "deliv_pct": 85.8,
+        "deliv_x_avg10": 3.86,
+        "turnover_cr": 60.0
+      },
+      {
+        "symbol": "ICICIBANK",
+        "industry": "Financial Services",
+        "close": 1500.0,
+        "chg_pct": 5.33,
+        "deliv_pct": 70.8,
+        "deliv_x_avg10": 3.84,
+        "turnover_cr": 5677.2
+      },
+      {
+        "symbol": "ACC",
+        "industry": "Construction Materials",
+        "close": 1226.7,
+        "chg_pct": 3.49,
+        "deliv_pct": 62.9,
+        "deliv_x_avg10": 3.58,
+        "turnover_cr": 93.8
+      },
+      {
+        "symbol": "DLF",
+        "industry": "Realty",
+        "close": 745.2,
+        "chg_pct": 3.5,
+        "deliv_pct": 57.0,
+        "deliv_x_avg10": 3.55,
+        "turnover_cr": 529.0
+      },
+      {
+        "symbol": "GRASIM",
+        "industry": "Construction Materials",
+        "close": 3227.6,
+        "chg_pct": 2.86,
+        "deliv_pct": 62.6,
+        "deliv_x_avg10": 3.54,
+        "turnover_cr": 437.4
+      },
+      {
+        "symbol": "BPCL",
+        "industry": "Oil Gas & Consumable Fuels",
+        "close": 317.1,
+        "chg_pct": 4.07,
+        "deliv_pct": 57.4,
+        "deliv_x_avg10": 3.53,
+        "turnover_cr": 537.9
+      },
+      {
+        "symbol": "BALKRISIND",
+        "industry": "Automobile and Auto Components",
+        "close": 2401.9,
+        "chg_pct": 7.05,
+        "deliv_pct": 52.5,
+        "deliv_x_avg10": 3.38,
+        "turnover_cr": 258.1
+      },
+      {
+        "symbol": "RBLBANK",
+        "industry": "Financial Services",
+        "close": 372.4,
+        "chg_pct": 2.1,
+        "deliv_pct": 53.9,
+        "deliv_x_avg10": 3.37,
+        "turnover_cr": 340.3
+      }
+    ],
+    "distribution": [
+      {
+        "symbol": "RHIM",
+        "industry": "Capital Goods",
+        "close": 360.55,
+        "chg_pct": -0.91,
+        "deliv_pct": 73.5,
+        "deliv_x_avg10": 11.15,
+        "turnover_cr": 54.0
+      },
+      {
+        "symbol": "JMFINANCIL",
+        "industry": "Financial Services",
+        "close": 108.79,
+        "chg_pct": -4.53,
+        "deliv_pct": 52.9,
+        "deliv_x_avg10": 4.91,
+        "turnover_cr": 83.7
+      },
+      {
+        "symbol": "UBL",
+        "industry": "Fast Moving Consumer Goods",
+        "close": 1196.9,
+        "chg_pct": -0.63,
+        "deliv_pct": 72.0,
+        "deliv_x_avg10": 3.51,
+        "turnover_cr": 82.7
+      },
+      {
+        "symbol": "GESHIP",
+        "industry": "Services",
+        "close": 1460.0,
+        "chg_pct": -7.11,
+        "deliv_pct": 55.1,
+        "deliv_x_avg10": 2.83,
+        "turnover_cr": 277.6
+      },
+      {
+        "symbol": "AIAENG",
+        "industry": "Capital Goods",
+        "close": 3202.2,
+        "chg_pct": -0.55,
+        "deliv_pct": 65.9,
+        "deliv_x_avg10": 2.82,
+        "turnover_cr": 83.8
+      },
+      {
+        "symbol": "POWERGRID",
+        "industry": "Power",
+        "close": 261.15,
+        "chg_pct": -0.34,
+        "deliv_pct": 72.0,
+        "deliv_x_avg10": 2.02,
+        "turnover_cr": 408.2
+      }
+    ],
+    "top_gainers": [
+      {
+        "symbol": "UNOMINDA",
+        "industry": "Automobile and Auto Components",
+        "close": 1335.0,
+        "chg_pct": 11.54,
+        "deliv_pct": 33.1,
+        "deliv_x_avg10": 5.27,
+        "turnover_cr": 811.2
+      },
+      {
+        "symbol": "ASHOKLEY",
+        "industry": "Capital Goods",
+        "close": 170.21,
+        "chg_pct": 10.5,
+        "deliv_pct": 28.0,
+        "deliv_x_avg10": 3.96,
+        "turnover_cr": 1670.7
+      },
+      {
+        "symbol": "AIIL",
+        "industry": "Financial Services",
+        "close": 569.6,
+        "chg_pct": 10.4,
+        "deliv_pct": 32.2,
+        "deliv_x_avg10": 7.82,
+        "turnover_cr": 75.0
+      },
+      {
+        "symbol": "PIRAMALFIN",
+        "industry": "Financial Services",
+        "close": 2119.6,
+        "chg_pct": 8.91,
+        "deliv_pct": 56.7,
+        "deliv_x_avg10": 2.0,
+        "turnover_cr": 157.0
+      },
+      {
+        "symbol": "DEVYANI",
+        "industry": "Consumer Services",
+        "close": 129.21,
+        "chg_pct": 8.87,
+        "deliv_pct": 20.3,
+        "deliv_x_avg10": 3.94,
+        "turnover_cr": 127.4
+      },
+      {
+        "symbol": "SOBHA",
+        "industry": "Realty",
+        "close": 1291.9,
+        "chg_pct": 8.75,
+        "deliv_pct": 14.6,
+        "deliv_x_avg10": 2.38,
+        "turnover_cr": 128.0
+      },
+      {
+        "symbol": "JKTYRE",
+        "industry": "Automobile and Auto Components",
+        "close": 361.95,
+        "chg_pct": 8.74,
+        "deliv_pct": 22.8,
+        "deliv_x_avg10": 4.08,
+        "turnover_cr": 118.5
+      },
+      {
+        "symbol": "FIVESTAR",
+        "industry": "Financial Services",
+        "close": 429.85,
+        "chg_pct": 8.23,
+        "deliv_pct": 19.2,
+        "deliv_x_avg10": 1.59,
+        "turnover_cr": 163.9
+      },
+      {
+        "symbol": "MOTILALOFS",
+        "industry": "Financial Services",
+        "close": 1095.0,
+        "chg_pct": 8.09,
+        "deliv_pct": 29.9,
+        "deliv_x_avg10": 2.61,
+        "turnover_cr": 320.0
+      },
+      {
+        "symbol": "GROWW",
+        "industry": "Financial Services",
+        "close": 223.89,
+        "chg_pct": 8.04,
+        "deliv_pct": 45.3,
+        "deliv_x_avg10": 3.5,
+        "turnover_cr": 1821.3
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "PIIND",
+        "industry": "Chemicals",
+        "close": 1770.0,
+        "chg_pct": -19.07,
+        "deliv_pct": 30.6,
+        "deliv_x_avg10": 14.76,
+        "turnover_cr": 1848.5
+      },
+      {
+        "symbol": "CUMMINSIND",
+        "industry": "Capital Goods",
+        "close": 4058.9,
+        "chg_pct": -14.11,
+        "deliv_pct": 47.8,
+        "deliv_x_avg10": 9.33,
+        "turnover_cr": 2442.6
+      },
+      {
+        "symbol": "APTUS",
+        "industry": "Financial Services",
+        "close": 179.93,
+        "chg_pct": -12.77,
+        "deliv_pct": 48.2,
+        "deliv_x_avg10": 8.53,
+        "turnover_cr": 372.5
+      },
+      {
+        "symbol": "KIRLOSENG",
+        "industry": "Capital Goods",
+        "close": 1592.4,
+        "chg_pct": -11.63,
+        "deliv_pct": 43.9,
+        "deliv_x_avg10": 4.64,
+        "turnover_cr": 402.7
+      },
+      {
+        "symbol": "CHENNPETRO",
+        "industry": "Oil Gas & Consumable Fuels",
+        "close": 1418.5,
+        "chg_pct": -9.47,
+        "deliv_pct": 41.6,
+        "deliv_x_avg10": 2.94,
+        "turnover_cr": 500.9
+      },
+      {
+        "symbol": "TDPOWERSYS",
+        "industry": "Capital Goods",
+        "close": 669.2,
+        "chg_pct": -8.13,
+        "deliv_pct": 44.6,
+        "deliv_x_avg10": 1.6,
+        "turnover_cr": 352.5
+      },
+      {
+        "symbol": "MRPL",
+        "industry": "Oil Gas & Consumable Fuels",
+        "close": 173.73,
+        "chg_pct": -7.16,
+        "deliv_pct": 44.9,
+        "deliv_x_avg10": 1.74,
+        "turnover_cr": 255.1
+      },
+      {
+        "symbol": "GESHIP",
+        "industry": "Services",
+        "close": 1460.0,
+        "chg_pct": -7.11,
+        "deliv_pct": 55.1,
+        "deliv_x_avg10": 2.83,
+        "turnover_cr": 277.6
+      },
+      {
+        "symbol": "BEML",
+        "industry": "Capital Goods",
+        "close": 1990.9,
+        "chg_pct": -6.22,
+        "deliv_pct": 28.0,
+        "deliv_x_avg10": 2.48,
+        "turnover_cr": 143.2
+      },
+      {
+        "symbol": "PFOCUS",
+        "industry": "Media Entertainment & Publication",
+        "close": 288.25,
+        "chg_pct": -5.66,
+        "deliv_pct": 19.4,
+        "deliv_x_avg10": 1.54,
+        "turnover_cr": 169.5
+      }
+    ],
+    "advances": 356,
+    "declines": 136
+  },
+  "upcoming_results": [
+    {
+      "date": "2026-11-07",
+      "symbol": "DIVISLAB",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-07",
+      "symbol": "FINCABLES",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-07",
+      "symbol": "HBLENGINE",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-07",
+      "symbol": "TATACHEM",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-07",
+      "symbol": "TATASTEEL",
+      "purpose": "Financial Results/Other business matters"
+    },
+    {
+      "date": "2026-11-09",
+      "symbol": "OLECTRA",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-09",
+      "symbol": "WHIRLPOOL",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-10",
+      "symbol": "AVANTIFEED",
+      "purpose": "Financial Results/Other business matters"
+    },
+    {
+      "date": "2026-11-10",
+      "symbol": "BAJFINANCE",
+      "purpose": "Other business matters"
+    },
+    {
+      "date": "2026-11-10",
+      "symbol": "COCHINSHIP",
+      "purpose": "Financial Results/Dividend"
+    },
+    {
+      "date": "2026-11-10",
+      "symbol": "IIFL",
+      "purpose": "Fund Raising"
+    },
+    {
+      "date": "2026-11-10",
+      "symbol": "KALYANKJIL",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-10",
+      "symbol": "MMTC",
+      "purpose": "Financial Results/Other business matters"
+    },
+    {
+      "date": "2026-11-10",
+      "symbol": "MRF",
+      "purpose": "Financial Results/Dividend"
+    },
+    {
+      "date": "2026-11-10",
+      "symbol": "TITAGARH",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-11",
+      "symbol": "CUPID",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-11",
+      "symbol": "GRSE",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-11",
+      "symbol": "HINDCOPPER",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-11",
+      "symbol": "TATAPOWER",
+      "purpose": "Financial Results/Other business matters"
+    },
+    {
+      "date": "2026-11-11",
+      "symbol": "TRITURBINE",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "ACE",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "ALKEM",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "BDL",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "CAPLIPOINT",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "EIHOTEL",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "HAL",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "IDEA",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "IFCI",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "IRCTC",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "MANAPPURAM",
+      "purpose": "Financial Results/Dividend/Other business matters"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "NAVA",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "NMDC",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "NSLNISP",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "OIL",
+      "purpose": "Financial Results/Dividend"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "PAGEIND",
+      "purpose": "Financial Results/Dividend"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "POWERINDIA",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "RPOWER",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "TDPOWERSYS",
+      "purpose": "Financial Results/Dividend"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "TECHNOE",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-13",
+      "symbol": "ABB",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-13",
+      "symbol": "BBOX",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-13",
+      "symbol": "DEEPAKFERT",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-13",
+      "symbol": "EIDPARRY",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-13",
+      "symbol": "GILLETTE",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-13",
+      "symbol": "GODREJIND",
+      "purpose": "Financial Results/Other business matters"
+    },
+    {
+      "date": "2026-11-13",
+      "symbol": "GPIL",
+      "purpose": "Financial Results/Other business matters"
+    },
+    {
+      "date": "2026-11-13",
+      "symbol": "GRASIM",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-13",
+      "symbol": "NATCOPHARM",
+      "purpose": "Financial Results/Dividend"
+    },
+    {
+      "date": "2026-11-13",
+      "symbol": "RHIM",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-13",
+      "symbol": "RVNL",
+      "purpose": "Financial Results"
+    },
+    {
+      "date": "2026-11-13",
+      "symbol": "TMPV",
+      "purpose": "Financial Results"
+    }
+  ]
+}
