@@ -1,7 +1,7 @@
 {
   "date": "2026-11-04",
-  "updated_at": "2026-11-05T04:24:50+05:30",
-  "mode": "news",
+  "updated_at": "2026-11-05T15:44:38+05:30",
+  "mode": "morning",
   "steps": {
     "pulse": {
       "ok": true
@@ -37,6 +37,9 @@
       "ok": true
     },
     "summary": {
+      "ok": true
+    },
+    "snapshot": {
       "ok": true
     }
   }
