@@ -1,4 +1,4 @@
-// Market Pulse India — reads the JSON written by pipeline/run_daily.py and renders the page.
+// StockVerse — reads the JSON written by pipeline/run_daily.py and renders the page.
 // Served from GitHub Pages as /index.html + /data/…; locally from the repo root as /site/ + /data/.
 const DATA = location.pathname.includes("/site/") ? "../data/" : "data/";
 const $ = (id) => document.getElementById(id);

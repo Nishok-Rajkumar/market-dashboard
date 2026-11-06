@@ -185,7 +185,15 @@ def main() -> int:
             ok, msg = run(cmd)
             status[name] = {"ok": True} if ok else {"ok": False, "error": msg}
 
-    if args.mode == "morning" and (day / "pulse.json").exists():
+    # Only before the open: later in the day the prices belong to a new session, not to this folder's
+    # (GitHub has started the 8:30 AM run as late as 3:47 PM).
+    if args.mode == "morning" and (now.weekday() >= 5 or now.hour < 9):
+        pre_open = True
+    else:
+        pre_open = False
+        if args.mode == "morning":
+            print(f"skip snapshot: {now:%H:%M} IST is after the open; refreshing news and brief only")
+    if args.mode == "morning" and pre_open and (day / "pulse.json").exists():
         ok, msg = run([ROOT / "pipeline" / "snapshot.py", "--pulse", day / "pulse.json"])
         status["snapshot"] = {"ok": True} if ok else {"ok": False, "error": msg}
 

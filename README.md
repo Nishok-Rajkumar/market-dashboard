@@ -1,4 +1,4 @@
-# Market Pulse India 📈
+# StockVerse 📈
 
 **A free, self-updating dashboard for the Indian stock market — built to learn how the market works.**
 Every trading day it collects NSE data, news and flows, has an open-source AI model write a plain-English brief,
@@ -6,7 +6,7 @@ and publishes everything as a static website. No server, no subscription, no lap
 
 **Live:** https://nishok-rajkumar.github.io/market-dashboard/
 
-![Market Pulse India dashboard](docs/screenshot.png)
+![StockVerse dashboard](docs/screenshot.png)
 
 > For learning only. Nothing here is investment advice or a buy/sell recommendation.
 
