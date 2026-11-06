@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updated_at": "2026-11-06T20:17:30+05:30",
+  "updated_at": "2026-11-06T20:44:07+05:30",
   "mode": "full",
   "steps": {
     "pulse": {
@@ -10,8 +10,7 @@
       "ok": true
     },
     "sectors": {
-      "ok": false,
-      "error": "timed out after 900s"
+      "ok": true
     },
     "options_NIFTY": {
       "ok": true
@@ -32,8 +31,7 @@
       "ok": true
     },
     "corp_actions": {
-      "ok": false,
-      "error": "TimeoutError: The read operation timed out"
+      "ok": true
     },
     "news": {
       "ok": true
