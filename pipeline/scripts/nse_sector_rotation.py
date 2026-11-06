@@ -73,6 +73,7 @@ NSE_HEADERS = {
     "Accept": "application/json",
 }
 CACHE_DIR = Path.home() / ".cache" / "nse-skills" / "index-history"
+NSE_FAILS = {"streak": 0}  # consecutive failed NSE calls; past 3, NSE is treated as down for this run
 
 
 def nse_index_history(name: str, days: int = 730) -> pd.Series:
@@ -85,14 +86,19 @@ def nse_index_history(name: str, days: int = 730) -> pd.Series:
     end = date.today()
     start = end - timedelta(days=days)
     while start <= end:
+        if NSE_FAILS["streak"] >= 3:
+            print(f"warning: NSE not responding, skipping {name}", file=sys.stderr)
+            return pd.Series(dtype=float, name=name)
         chunk_end = min(start + timedelta(days=85), end)
         url = NSE_HIST.format(name=urllib.parse.quote(name), start=start.strftime("%d-%m-%Y"),
                               end=chunk_end.strftime("%d-%m-%Y"))
         try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers=NSE_HEADERS), timeout=30) as resp:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=NSE_HEADERS), timeout=20) as resp:
                 for row in json.loads(resp.read())["data"]:
                     points[pd.Timestamp(datetime.strptime(row["EOD_TIMESTAMP"], "%d-%b-%Y"))] = float(row["EOD_CLOSE_INDEX_VAL"])
+            NSE_FAILS["streak"] = 0
         except (OSError, ValueError, KeyError) as exc:
+            NSE_FAILS["streak"] += 1
             print(f"warning: NSE history chunk failed for {name}: {exc}", file=sys.stderr)
         start = chunk_end + timedelta(days=1)
         time.sleep(0.3)

@@ -19,6 +19,7 @@ import csv
 import json
 import re
 import sys
+import time
 import urllib.request
 from datetime import date, datetime, timedelta
 from pathlib import Path
@@ -51,8 +52,15 @@ EFFECT = {
 
 def get(url: str, referer: str = "https://www.nseindia.com/") -> bytes:
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Referer": referer, "Accept": "*/*"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return r.read()
+    for attempt in range(3):  # NSE's API is sometimes slow in the evening
+        try:
+            with urllib.request.urlopen(req, timeout=45) as r:
+                return r.read()
+        except (TimeoutError, OSError) as exc:
+            if attempt == 2:
+                raise
+            print(f"retrying after: {exc}", file=sys.stderr)
+            time.sleep(10 * (attempt + 1))
 
 
 def ratio_note(kind: str, subject: str) -> str:
