@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T14:22:55+00:00",
+  "generated_at": "2026-11-06T15:04:56+00:00",
   "sources": {
     "Economic Times": {
       "ok": true,
@@ -32,6 +32,79 @@
   },
   "items": [
     {
+      "source": "BusinessLine",
+      "title": "SEBI weighs two-year dormancy rule for demat accounts",
+      "link": "https://www.thehindubusinessline.com/markets/sebi-weighs-two-year-dormancy-rule-for-demat-accounts/article71675190.ece",
+      "published": "2026-11-06T14:58:59+00:00",
+      "summary": "Move seeks to align treatment with trading accounts and curb potential misuse of long-unused accounts",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Q2 Results Today Live: Hindalco Q2 profit zooms, Voltas up 51%, Aster DM, Gland Pharma surge 58%, Siemens grows 5%; Bosch, Coromandel, Honasa profit down",
+      "link": "https://www.thehindubusinessline.com/markets/q2-results-today-live-updates-hindalco-ind-bosch-siemens-aster-dm-coromandel-intl-gland-pharma-voltas-nuvama-wealth-3m-india-airtel-lic-titan-mahindra-ongc-company-results-06-november-2026/article71669522.ece",
+      "published": "2026-11-06T14:50:48+00:00",
+      "summary": "Q2 Results Today, 06th November 2026 Live Updates: businessline brings you the latest quarterly earnings, outlook and more.",
+      "tags": [
+        "Results",
+        "Global",
+        "Pharma"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Nifty soars 11% in 10 days, but why is your portfolio not moving up? - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUlRqWmo0Qjg2cHpXR3Z0UE9QbjcxTGN1SFdqNEJLbW1XWVRnUzE3Sk5iNDlxTmNORk8wUm1oWk5qaUkyTnZQZU5mTTR5N3AxcjdGSGxfQjBqM20yeVJjWGxValcyeHNtQ3ZzaTY3OHJLT0l2S0xyUHhTcHpfaXhWZ3Jra085U0I1ekJxSkdGMFR4ZnlqMUtUMmRrVk1FbVVjMW02WEhSMlRIMWFGWFRZckNyNjBsemVhU1o5Mm43T3VQNmJMaG5DZ0thSGRQdVQtVkl1SmxB0gHbAUFVX3lxTE1zb014cWlrQzladVVvVVFXMDVUOExsOG1zRG9Hd255TmpDNWtfamdHVnE3WU9zUzBGVDliT0lJM2hkSFl5UFV5bDVXekhxZm9KdGl3Yi1meUhkbmozZTlwVVdWR3lncThUZUF2S0hpeC1OdC1wNFhXaE5oMkJ2VUVfUzdlb2hNVFlrUFdxem9XRUo0SHNRejVuUmV6aWtMOU9xTWs2NEpHSGM3NGZfTy1LRXhiQ0x0VlZkVVNWSGd2R3ZVNXdUTmJSQ19SQ3JSRkFLVW9ZY3dNYTVjOA?oc=5",
+      "published": "2026-11-06T14:41:07+00:00",
+      "summary": "Nifty soars 11% in 10 days, but why is your portfolio not moving up? The Economic Times",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "Record FII selling of ₹4.55 trillion meets record DII buying in Samvat 2082",
+      "link": "https://www.business-standard.com/markets/news/record-fii-selling-of-4-55-trillion-meets-record-dii-buying-in-samvat-2082-126110601834_1.html",
+      "published": "2026-11-06T14:38:32+00:00",
+      "summary": "FIIs sold a record ₹4.55 trillion worth of Indian equities in Samvat 2082, while DIIs bought ₹8.55 trillion, cushioning the market against global turmoil and foreign selling",
+      "tags": [
+        "FII/DII flows"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Sensex posts best weekly gain in six years, defies global rout - IndiaIPO",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMHhwN0RjRXBNNnVEdV9xX2ZkZ3duMHVPRVp4bUhMLThjS1l5NWk0VmRQclBDbjg5YUY0S1p1dkllVHVtZTB0NUdHQ3J3LXdlR25hbVFMdmJRUmpRYXFGcERWN2hnOW84c1hZZmlMRkNSbWdnOERYLUVBLUpkMjhOMV9lYk5qVWJ1Y3hMMXlKTlRjaFZUTE5rbkFfWncxQQ?oc=5",
+      "published": "2026-11-06T14:37:45+00:00",
+      "summary": "Sensex posts best weekly gain in six years, defies global rout IndiaIPO",
+      "tags": [
+        "Global",
+        "Index"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Karnataka flags ethanol levels crossing the permissible 20% limit in petrol samples",
+      "link": "https://www.thehindubusinessline.com/news/national/karnataka-flags-ethanol-levels-crossing-the-permissible-20-limit-in-petrol-samples/article71674289.ece",
+      "published": "2026-11-06T14:31:41+00:00",
+      "summary": "Tests detect ethanol levels up to 31.2 per cent, raising mileage concerns",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Stock Market Today: Election Results Continue to Ease Market Fears - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOLXpFLURUZjdQRjVwS25ZN01ZWk91Qkc1Zk9EVkNGYzM5aUVXYmNLRGdhSm44OTBJSDRCNTdvWC03VXA1dHc3QnlwYVBuREJ1eDlndmV6SzNXUWZ6QlN0NEhxYWRRUGFvLUh4YU16cW1YYWNEcUZadUhpNThWYkE2NGhoQ0Vlc0YxRlMtWGg0QlZyN0pJd3VjbTZJa25KRy0xb0E?oc=5",
+      "published": "2026-11-06T14:28:16+00:00",
+      "summary": "Stock Market Today: Election Results Continue to Ease Market Fears Yahoo Finance",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
       "source": "Livemint",
       "title": "Pulse of the Street: Dalal Street shines before Diwali. Can the rally last?",
       "link": "https://www.livemint.com/market/pulse-of-the-street-dalal-street-shines-before-diwali-can-the-rally-last-11793965614339.html",
@@ -52,6 +125,16 @@
       ]
     },
     {
+      "source": "Business Standard",
+      "title": "Pressure on rupee continues in Samvat 2082; 10-year bond yields harden",
+      "link": "https://www.business-standard.com/markets/news/pressure-on-rupee-continues-in-samvat-2082-10-year-bond-yields-harden-126110601774_1.html",
+      "published": "2026-11-06T14:10:40+00:00",
+      "summary": "The rupee depreciated 6.37 per cent against the dollar in Samvat 2082 amid FPI outflows and global uncertainty, while the benchmark 10-year bond yield rose 69 basis points",
+      "tags": [
+        "Rupee"
+      ]
+    },
+    {
       "source": "Google News",
       "title": "Our top 10 things to watch in the stock market Friday - CNBC",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUzBUbGNJckt0OUZLMGZ3eS1MNUJFcnJ6TXJ3eV9FelREOTltU3dQNDFMZ2VSaGhhZEZjSTlQZ3RIcVozZEJZWkFFeGFLTUFSdnpPTzRDcVU5ZmtQT2xuNGtVZXFDV0F1V2ROWTA2b1FPaXJEaGtJZE5uT3JlMlczQ0xJX2VIMlQyMENyZDh0MEtjRWp5MU9ldDdDYmtBbTFrc25sdUVRUQ?oc=5",
@@ -69,18 +152,6 @@
       "summary": "Mahanadi Coalfields filed its draft red herring prospectus (DRHP) with the Sebi in September. The proposed IPO will be entirely an offer for sale (OFS) by promoter",
       "tags": [
         "IPO"
-      ]
-    },
-    {
-      "source": "BusinessLine",
-      "title": "Q2 Results Today Live: Hindalco Q2 profit zooms, Voltas up 51%, Aster DM, Gland Pharma surge 58%, Siemens grows 5%; Bosch, Coromandel, Honasa profit down",
-      "link": "https://www.thehindubusinessline.com/markets/q2-results-today-live-updates-hindalco-ind-bosch-siemens-aster-dm-coromandel-intl-gland-pharma-voltas-nuvama-wealth-3m-india-airtel-lic-titan-mahindra-ongc-company-results-06-november-2026/article71669522.ece",
-      "published": "2026-11-06T14:00:49+00:00",
-      "summary": "Q2 Results Today, 06th November 2026 Live Updates: businessline brings you the latest quarterly earnings, outlook and more.",
-      "tags": [
-        "Results",
-        "Global",
-        "Pharma"
       ]
     },
     {
@@ -186,6 +257,16 @@
     },
     {
       "source": "Google News",
+      "title": "Be ready for a stock market crash - Yahoo Finance UK",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fbXVYOXdQM01GUkx1eFhYR1p0dXhIS3ZwUW03TVV2emdaaVZFS2dLMi1rMFFBMy1sRWhQaExIZU5nWnk4bWpubi1yV3FnV09IdVhJcUVkWC1fR3JCLXRFUkVaRTYwQ3BNZmUxRzA1OFNna3drTDhWZ1Vhd0JBZw?oc=5",
+      "published": "2026-11-06T13:21:00+00:00",
+      "summary": "Be ready for a stock market crash Yahoo Finance UK",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
       "title": "Sensex, Nifty surge nearly 9%, best weekly rally since Feb 2021; Rs 28.70 lakh crore added – Muhurat trading in focus - Zee Business",
       "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQM3NXUXFyZFUtLVVodzVIWDNpSFFFSWhhSDc1ODE0T0xzemVsNnc3MEw1V0FGa2sxZjNhOEljQXZRRzRUNXNZM3dxTC03aWhXMHBWV0tMSE1lalQxVkhlREhBZVRSWGhVSGVzZEJqY3hNbmtkeUdmVXRRZUhDbTVMd29NUEtBNExjWmhVN2RhVWg5UFFzMTBYSEt3YnZ4Qkd1M2pqZXpaY0lGeG5uZzRVckwwdlhVVHdFbUJzSGFsdHlfT25UOFB3Z3ZScnVKTVZFZ0xSRzZ4NnBkZTR0NDZ6N0pYR1JqTzVMYXNXaUdETUF4ZmJnTElKZTJ0dmdLc1ptQWVPRjAySQ?oc=5",
       "published": "2026-11-06T13:11:38+00:00",
@@ -208,7 +289,7 @@
       "source": "Business Standard",
       "title": "Ecom, qcom companies gear up for Diwali rush with expanded offerings",
       "link": "https://www.business-standard.com/markets/news/ecom-qcom-companies-gear-up-for-diwali-rush-with-expanded-offerings-126110601644_1.html",
-      "published": "2026-11-06T13:05:17+00:00",
+      "published": "2026-11-06T13:05:25+00:00",
       "summary": "E-commerce order volumes rose 21% YoY during the festive period, with quick commerce leading at 75% growth as platforms expanded offerings across gifting, fashion and decor",
       "tags": [
         "Other"
@@ -616,17 +697,6 @@
       ]
     },
     {
-      "source": "Google News",
-      "title": "Sensex Jumps 1,718 Pts, Nifty Reclaims 25,000 Amid Global Rout - Rediff MoneyWiz",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVk80bGxUcFB1YjZCeUZ6bTFVY2g3QW1kb21aaDlLWkV4bmFwYktRbE80TFNBdWtFbGlHUkJSQTRiZ01WSTkyNlRRRExjNXhyemQxQngzcmc2NHZVZ1hrYnZiSFJkRVZPaGczQnBGOGMxOTYyUDFlcW1PcjUyaHdNTTg1VlVIY1dxQnZDWEltR2oyc3QxUXVPS056dFl4OFZHSGRraVpSQnNBVmRSc0wtbjNGQdIBuAFBVV95cUxOc1lFTm90QkRHMFhKd29OYWJkRWM0cUs4cGhUZDVYalkwOFcyZGdWQWMxdWNNcTFZVkNkYjJfalQyWUVSQUJoMXpMX0V1alB3djNkbkg0cEFBcjdHWWJtaENoN1NSaUE3cWhtd0pqeEVoQ3k3Y0M2RHI3Q0plYWxnOUk5UHhHZ212UlN3anpPTjE0bnhLWDZvcFByQm1FZlhYRk5RUnFCWVVlOFN1N0lQVk1xclpxSUg3?oc=5",
-      "published": "2026-11-06T10:53:58+00:00",
-      "summary": "Sensex Jumps 1,718 Pts, Nifty Reclaims 25,000 Amid Global Rout Rediff MoneyWiz",
-      "tags": [
-        "Global",
-        "Index"
-      ]
-    },
-    {
       "source": "BusinessLine",
       "title": "Thermax shares fall 20% to 52-week low on weak Q2, JM Financial maintains sell",
       "link": "https://www.thehindubusinessline.com/markets/thermax-shares-fall-20-to-52-week-low-after-q2-results-jm-financial-maintains-sell/article71673760.ece",
@@ -800,16 +870,6 @@
       ]
     },
     {
-      "source": "Google News",
-      "title": "Sensex jumps 1,718 points to settle at 81,028, Nifty surges 493 points to 25,030 - Telegraph India",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRXFpaVRxX19Rb2diLUd4ZEpENHZEOVZsVkdkV1J0S3BDbE9VMEVybS1nSElkQjlZdlN6ZlpnYmZSeGd0RWlJRlgzWm96UFdUZG9uWDhlZzZ0OGFSMDNjb1l3M1l4b0NSb05GNE0xbV9JZnhUUVFvNXZ5VU0wTlp1Y3RvZFY3TnJFbXRXVC1jdVZOcmJxU2NhSVVkYkZHS0dXS2lFazBQQktRNDZTeG1zLTJhUThma09aNml0am94TWp0MEkzN2dZ0gHMAUFVX3lxTFBSd1VqR2cwZk81UVF3TzMyYnlsc0RJeVJZTkgzSGdmMU5RYnVPdWpuMW9HQ3hNOElpNnptbVh5bVpfZEJHMjRSRy1iaG85Y2k0b0VpTUpRU2VaY3p1NzB2aGVVbnd1UUhPdFNJcThfbEF2NS0wZDBGdDlhZWhLV1lISTBqQW5aak52M29pVURUOGcxank3a19XSkVtS0tDZlI5MWNTSExMbE9OUFJCWWFudGlJdkRpLVFCVDlaajhQTl9kR3JURnk5ZzNFYw?oc=5",
-      "published": "2026-11-06T10:12:59+00:00",
-      "summary": "Sensex jumps 1,718 points to settle at 81,028, Nifty surges 493 points to 25,030 Telegraph India",
-      "tags": [
-        "Index"
-      ]
-    },
-    {
       "source": "BusinessLine",
       "title": "Anti-AI trade makes Indian stocks Asia’s lone bright spot",
       "link": "https://www.thehindubusinessline.com/markets/anti-ai-trade-makes-indian-stocks-asias-lone-bright-spot/article71673785.ece",
@@ -872,17 +932,6 @@
       ]
     },
     {
-      "source": "Google News",
-      "title": "Nifty can hit 29,000 next year on earnings growth, attractive valuations: Compounding Asset CIO - CNBC TV18",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMkZJR1VtQnJMaVVicDVvVVNzZEN5anRGRzJ0RFV5anJhWUFEZllGNEhpTlJacm9uTUUzVkcyVzZMR1BBQkQ4U0ZmN3cyV2hyNW9veWl4YjVCWW9jeWEzNmpueV9RdGhLbDVtb3hVNUo1dXdWNUl1OVFCNlltOGhxcmlMM3J1ZWxZWXZiRjlMZHVWODFBQmNnZkRrUEw5Rlc3bWMwOG55WHhfUWlGc2Z6VFpLV1A5TzdQR2VKbnAzZDUyOW02V2JJc3NVZGs5UdIB0wFBVV95cUxOdzgwVF91M29OS1dQTXZxdERSTEROcWQzLUF0eXFjYVpkbzJuNENSaV9PSjcyTnpyNHlfalN0bHZIZXZmMzlRZU1zVlNQbExNbmZTX3lLZGM2bHV0dDBEX3VCY1ZTZkw0SlBVeUk0VWVSS0FaYXBwUVVrRklTQjUxcVpuaEFFV1U2YnVjQzNNbUxkZE1FdFRsZEY5ZXI2SDExbDFGN3I2MzhmNE9VdkpReVBqbjR6aHZrTDFhd3M3WHFRTWRJUmsxQkN3dFUxWUFGcXVF?oc=5",
-      "published": "2026-11-06T09:56:14+00:00",
-      "summary": "Nifty can hit 29,000 next year on earnings growth, attractive valuations: Compounding Asset CIO CNBC TV18",
-      "tags": [
-        "Results",
-        "Index"
-      ]
-    },
-    {
       "source": "Livemint",
       "title": "13% single-day gain! This Tata Group stock skyrockets on Dhanteras - Do you own? Check annual return, technical targets",
       "link": "https://www.livemint.com/market/stock-market-news/13-single-day-gain-this-tata-group-stock-skyrockets-on-dhanteras-do-you-own-check-annual-return-technical-targets-11793958763606.html",
@@ -890,6 +939,17 @@
       "summary": "Tata Teleservices (Maharashtra) shares rose nearly 13% on Friday amid positive market sentiment and trading volumes more than 2.79 times higher. The stock traded at ₹39.89, while analysts identified ₹40–42 as a key resistance zone.",
       "tags": [
         "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Sensex Reclaims 80,000 Mark; Nifty 50 Crosses 24,700 Despite Global Market Weakness - Dalal Street Investment Journal",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX2l5ZlBYQ2JJR3dqbkI2M0JpUE55Vk9JTmpXVEUwZXVGeXZLdWp6SFlWVUtJVGg0NFJxeDZXNmNydkFJbzI4aElpZE5ETjU0UHQyVUQzSHZDSlBxbUNqZG1YMTA5YVZkQ0xBc2VvX3lfOVUtbHNXVG92cW1oOTFyOXplYzhJYWNlV3FjVDZXdDBzUmIzWXZEZENJSDBKczhuSXFqS1F1d0c3ZkEzRGVma3Yyd1NfNGdoemcwT21yS2FaSlVZZWV1OQ?oc=5",
+      "published": "2026-11-06T09:48:19+00:00",
+      "summary": "Sensex Reclaims 80,000 Mark; Nifty 50 Crosses 24,700 Despite Global Market Weakness Dalal Street Investment Journal",
+      "tags": [
+        "Global",
+        "Index"
       ]
     },
     {
@@ -1054,6 +1114,17 @@
       "summary": "Nasdaq Crashes, Nifty Climbs: Is India the New Hedge Against AI Fears? Equitypandit",
       "tags": [
         "Global",
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "HDFC Bank and the Nifty are set to pull off a feat last seen five years ago; Details here - CNBC TV18 - LinkedIn",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa0hvTXVwaTVxLUhNeU0zenBXOXlYSUVBSnBJRWJ6YnhELWdxZmpGNnM3Z1FCd00zY1VqaWZPdmtBLV9VMGVEbVpwSUtjeWlfQXFsTmgwUDdRRXJQZmtKWkszRlhjU3dXY2MyRUxjWVN1ejdkYVRJRS1xaGpnVmJzX3YyODdzTW1HanRnMnRKRmxITEtUd0U5d195MVVOcHdEVVhfTzQ4VGp6b0VMSlFzTnhtc1hWUFJJdVE?oc=5",
+      "published": "2026-11-06T08:32:58+00:00",
+      "summary": "HDFC Bank and the Nifty are set to pull off a feat last seen five years ago; Details here - CNBC TV18 LinkedIn",
+      "tags": [
+        "Banks",
         "Index"
       ]
     },
@@ -1366,17 +1437,6 @@
       ]
     },
     {
-      "source": "Google News",
-      "title": "HDFC Bank and the Nifty are set to pull off a feat last seen five years ago; Details here - CNBC TV18",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNRl9iSG1WSGQ5S3NTWHV0ZUJnSTlsblkzLUFDSC1acXBaSHhkbnI4clB1Uk9uLVE4dlBoTXZTVjZ4Nnd4V2hPUmJlVGQ0b05oeXVxWTltWEVNaEZOa0VzQS1QcTZLM0V0SEVnZFJJdG9IeF9hZGJ5ckU4RmdRSVJ4WEdyM25jbDhKeC16bGtVdlh0YkJDZkExUURIQ2xZYkNGVVhlc2F0NHU0TVJRcGF3TzhiUWZLNkZZU2xua3dlOTQzQTdZQXNDRXNIY3VrNnBlNzRmLS1RQXpLcGfSAeABQVVfeXFMTUpYQTVHYUdEeFg0NmpKNGE2c3VBM3NNYzZaLUZma2xsd0tLSWFReVVsVEp2NFU1SUZ0RnlfM2NLRHFCTUdJa2NjU0h3b3k2VWhkWVBzNnJsYzhQSk10bVphSnV4TmhhclRscmNtMzRIQ3dmakF3UURLUTRiOHdPWkdzMnlGWnhQTnI1eXNOemNmQWwxM2Y2cXNkSU5kNWQ0dGNjWTNJNm9FcEhkb1dlRzM4TVJ1cGY2RDJEZWNaZTRSN0xaTUNJcU9OdGc3V1dzNjg3ZVlQOGtCQk81QzREb0E?oc=5",
-      "published": "2026-11-06T06:28:46+00:00",
-      "summary": "HDFC Bank and the Nifty are set to pull off a feat last seen five years ago; Details here CNBC TV18",
-      "tags": [
-        "Banks",
-        "Index"
-      ]
-    },
-    {
       "source": "BusinessLine",
       "title": "Govt bonds emerge as top Asian performers as oil, Treasury yields decline",
       "link": "https://www.thehindubusinessline.com/markets/govt-bonds-emerge-as-top-asian-performers-as-oil-treasury-yields-decline/article71673151.ece",
@@ -1531,17 +1591,6 @@
       "summary": "Spot gold fell ‌1.1% to $4,044.09 per ounce by 0501 GMT, but was on track for its best week since late ‌August",
       "tags": [
         "Crude & commodities"
-      ]
-    },
-    {
-      "source": "Google News",
-      "title": "asian markets crash us selloff nifty bank nifty levels strategy - Zee Business",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOR0dNUDdrbzNiVThOY2h2ZzFHSGRnUTlmV2FEdDZid2poTWt5aF92dW1aTVN2SmpkUkxZRG9POTIxYmpNUC12bkZRekNDdEEyUldlTTc1RFg5VVlOV0JtV3NydlZrVkNQZjg4YlhMYXdNSHNLdTJyVFdVN3BvNFM5UlU4b3RlTDlWcjRvdnpfT3VJQ1BwR3YtemEtakczdUdHZnJPc0xDajBETUhJTlFCSGozOUlaaVRyWnZn?oc=5",
-      "published": "2026-11-06T05:36:01+00:00",
-      "summary": "asian markets crash us selloff nifty bank nifty levels strategy Zee Business",
-      "tags": [
-        "Banks",
-        "Index"
       ]
     },
     {
@@ -2040,57 +2089,6 @@
       "summary": "Infosys ADR ends higher despite selloff in Nasdaq",
       "tags": [
         "Index"
-      ]
-    },
-    {
-      "source": "Economic Times",
-      "title": "Power Grid Share Price Highlights: Power Grid Stock Price History",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/power-grid-share-price-live-06-nov-2026/liveblog/135591983.cms",
-      "published": "2026-11-06T03:25:24+00:00",
-      "summary": "",
-      "tags": [
-        "Other"
-      ]
-    },
-    {
-      "source": "Economic Times",
-      "title": "BPCL Share Price Highlights: BPCL Stock Price History",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bpcl-share-price-today-live-06-nov-2026/liveblog/135591973.cms",
-      "published": "2026-11-06T03:25:06+00:00",
-      "summary": "",
-      "tags": [
-        "Other"
-      ]
-    },
-    {
-      "source": "BusinessLine",
-      "title": "Japan’s Nikkei plunges 5.7%, South Korea’s Kospi falls 7.4% amid AI stock rout",
-      "link": "https://www.thehindubusinessline.com/markets/stock-markets/japans-nikkei-plunges-57-south-koreas-kospi-falls-74-amid-ai-stock-rout/article71672730.ece",
-      "published": "2026-11-06T03:22:36+00:00",
-      "summary": "Concerns over expensive AI infrastructure, stretched technology valuations and potential data centre construction delays have intensified selling pressure across global equity markets",
-      "tags": [
-        "Other"
-      ]
-    },
-    {
-      "source": "BusinessLine",
-      "title": "Rupee to draw support from return of foreign flows amid tech meltdown",
-      "link": "https://www.thehindubusinessline.com/markets/forex/rupee-to-draw-support-from-return-of-foreign-flows-amid-tech-meltdown/article71672733.ece",
-      "published": "2026-11-06T03:15:27+00:00",
-      "summary": "The rupee has ⁠advanced 0.5% so far this week, hitting a two-week high of 94.32 in Thursday's session before settling at 94.4750; It is ‌expected to open largely flat, with a slight positive bias",
-      "tags": [
-        "Global",
-        "Rupee"
-      ]
-    },
-    {
-      "source": "Economic Times",
-      "title": "ONGC Share Price Highlights: ONGC Stock Price History",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ongc-stock-price-today-live-06-nov-2026/liveblog/135591741.cms",
-      "published": "2026-11-06T03:12:29+00:00",
-      "summary": "",
-      "tags": [
-        "Other"
       ]
     }
   ]
