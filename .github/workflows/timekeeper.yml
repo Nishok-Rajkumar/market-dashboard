@@ -1,0 +1,29 @@
+name: Timekeeper
+
+# GitHub's scheduler can start jobs hours late. This wakes often and starts "Daily market data" at the exact
+# minute (or straight away if an update was missed). See pipeline/timekeeper.py.
+on:
+  schedule:
+    - cron: "17,47 * * * *"   # every 30 minutes; most wake-ups exit within seconds
+  workflow_dispatch:
+
+permissions:
+  actions: write   # start the daily workflow and read its runs
+  contents: read
+
+concurrency:
+  group: timekeeper
+  cancel-in-progress: true   # a newer wake-up takes over any wait
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: pipeline/timekeeper.py
+          sparse-checkout-cone-mode: false
+      - run: python3 pipeline/timekeeper.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,11 +1,8 @@
 name: Daily market data
 
 on:
-  # Times are UTC (IST = UTC + 5:30). Odd minutes avoid GitHub's top-of-the-hour queue delays.
-  schedule:
-    - cron: "45 14 * * 1-5"   # 8:15 PM IST — full run; NSE's last file (F&O participant OI) is out by ~8 PM
-    - cron: "45 17 * * 1-5"   # 11:15 PM IST — news + brief: late results, US data and US open
-    - cron: "0 3 * * 1-5"     # 8:30 AM IST — news + brief + overnight global prices before the open
+  # Started by the Timekeeper workflow at 8:15 PM (full), 11:15 PM (news) and 8:30 AM IST (morning), Mon–Fri.
+  # GitHub's own schedule ran these 2–7 hours late, so it is no longer used here.
   workflow_dispatch:
     inputs:
       mode:
@@ -42,15 +39,7 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
         run: |
-          MODE="${{ github.event.inputs.mode }}"
-          if [ -z "$MODE" ]; then
-            case "${{ github.event.schedule }}" in
-              "45 17 * * 1-5") MODE=news ;;
-              "0 3 * * 1-5")   MODE=morning ;;
-              *)               MODE=full ;;
-            esac
-          fi
-          uv run pipeline/run_daily.py --mode "$MODE"
+          uv run pipeline/run_daily.py --mode "${{ github.event.inputs.mode || 'full' }}"
 
       - name: Commit data
         run: |
