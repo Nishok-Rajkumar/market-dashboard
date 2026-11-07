@@ -51,7 +51,8 @@ WEEKEND_SYSTEM = (
     "You write a short weekend brief on the Indian stock market for a retail learner. "
     "Use only the numbers and headlines given; never invent figures. Use INR, crore, and Indian index names. "
     "Write about 180 words in 3 short paragraphs: (1) how the week went for Indian markets (weekly index moves, "
-    "money flows) and the biggest stories behind it, (2) IPOs: what is open or coming next week and how recent "
+    "money flows) and the biggest stories behind it; the figures are for the whole week or as of the last close, "
+    "and breadth_trend describes the trend across stocks, not one day, (2) IPOs: what is open or coming next week and how recent "
     "listings did, using only the IPO data given, (3) the key news from India and abroad that could move the "
     "market next week. Explain jargon in a few words. Never say an IPO or stock is good, cheap or worth applying "
     "for, and give no buy/sell advice. Plain text only, no markdown. "
@@ -120,22 +121,31 @@ def ipo_facts(path: Path) -> dict:
 
 
 def weekend_facts(day: Path, ipo: Path) -> dict:
+    """Weekly figures only. Single-day numbers (Friday's % change, advancers vs decliners) are left out: the
+    model mixed them up with the weekly picture, e.g. calling breadth healthy while quoting more decliners."""
     f = {"last_session": day.name, "ipos": ipo_facts(ipo)}
     daily = facts(day)
-    for k in ("snapshot", "fii_dii_5d_sum_cr", "fii_dii_streak_days", "breadth", "sector_quadrants"):
-        if k in daily:
-            f[k] = daily[k]
+    if "snapshot" in daily:
+        f["week_prices"] = [{"name": x["name"], "last": x["last"], "chg_week_pct": x["chg_5d_pct"]} for x in daily["snapshot"]]
+    if "fii_dii_5d_sum_cr" in daily:
+        f["fii_dii_week_net_cr"] = daily["fii_dii_5d_sum_cr"]
+    if "fii_dii_streak_days" in daily:
+        f["fii_dii_streak_days"] = daily["fii_dii_streak_days"]
+    if "breadth" in daily:
+        f["breadth_trend"] = {k: v for k, v in daily["breadth"].items() if k not in ("advances", "declines")}
+    if "sector_quadrants" in daily:
+        f["sector_quadrants"] = daily["sector_quadrants"]
     return f
 
 
 def weekend_rule_based(f: dict) -> str:
     parts = []
-    snap = {s["name"]: s for s in f.get("snapshot", [])}
+    snap = {s["name"]: s for s in f.get("week_prices", [])}
     if "Nifty 50" in snap:
         n = snap["Nifty 50"]
-        parts.append(f"Nifty 50 ended the week at {n['last']:,.0f}, {n['chg_5d_pct']:+.2f}% over 5 sessions.")
-    if "fii_dii_5d_sum_cr" in f:
-        x = f["fii_dii_5d_sum_cr"]
+        parts.append(f"Nifty 50 ended the week at {n['last']:,.0f}, {n['chg_week_pct']:+.2f}% over 5 sessions.")
+    if "fii_dii_week_net_cr" in f:
+        x = f["fii_dii_week_net_cr"]
         parts.append(f"Over the last 5 sessions FIIs were net {x.get('FII', 0):+,.0f} Cr and DIIs {x.get('DII', 0):+,.0f} Cr.")
     ip = f.get("ipos", {})
     live = ip.get("open", []) + ip.get("upcoming", [])
