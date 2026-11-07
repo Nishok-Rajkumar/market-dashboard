@@ -108,14 +108,34 @@ def facts(day: Path) -> dict:
     return f
 
 
+def move(pct: float | None) -> str | None:
+    """'up 14.15%' instead of 14.15: small models sometimes flip the sign of a bare number."""
+    if pct is None:
+        return None
+    return "unchanged" if pct == 0 else f"{'up' if pct > 0 else 'down'} {abs(pct):.2f}%"
+
+
+def flow(cr: float | None) -> str | None:
+    if cr is None:
+        return None
+    return f"{'net bought' if cr >= 0 else 'net sold'} INR {abs(cr):,.0f} crore"
+
+
 def ipo_facts(path: Path) -> dict:
     """Main-board IPOs only, trimmed to what the brief needs."""
     d = load(path) or {}
     main = [x for x in d.get("ipos", []) if not x.get("sme")]
-    keep = ("company", "open", "close", "listing", "price_band", "issue_price", "structure", "subscription",
-            "listing_gain_pct", "since_issue_pct")
-    f = {s: [{k: x[k] for k in keep if x.get(k) not in (None, "", {})} for x in main if x["status"] == s]
-         for s in ("open", "upcoming", "listed")}
+    keep = ("company", "open", "close", "listing", "price_band", "issue_price", "structure", "subscription")
+
+    def one(x: dict) -> dict:
+        y = {k: x[k] for k in keep if x.get(k) not in (None, "", {})}
+        if x.get("listing_gain_pct") is not None:
+            y["first_day_open_vs_issue_price"] = move(x["listing_gain_pct"])
+        if x.get("since_issue_pct") is not None:
+            y["latest_close_vs_issue_price"] = move(x["since_issue_pct"])
+        return y
+
+    f = {s: [one(x) for x in main if x["status"] == s] for s in ("open", "upcoming", "listed")}
     f["listed"] = f["listed"][:8]
     return f
 
@@ -126,11 +146,14 @@ def weekend_facts(day: Path, ipo: Path) -> dict:
     f = {"last_session": day.name, "ipos": ipo_facts(ipo)}
     daily = facts(day)
     if "snapshot" in daily:
-        f["week_prices"] = [{"name": x["name"], "last": x["last"], "chg_week_pct": x["chg_5d_pct"]} for x in daily["snapshot"]]
+        f["week_prices"] = [{"name": x["name"], "last": x["last"], "week_change": move(x["chg_5d_pct"]),
+                             "_pct": x["chg_5d_pct"]} for x in daily["snapshot"]]
     if "fii_dii_5d_sum_cr" in daily:
-        f["fii_dii_week_net_cr"] = daily["fii_dii_5d_sum_cr"]
+        f["fii_dii_week"] = {k: flow(v) for k, v in daily["fii_dii_5d_sum_cr"].items()}
+        f["_fii_dii_week_cr"] = daily["fii_dii_5d_sum_cr"]
     if "fii_dii_streak_days" in daily:
-        f["fii_dii_streak_days"] = daily["fii_dii_streak_days"]
+        f["fii_dii_streak"] = {k: (f"{v} sessions of net buying" if v > 0 else f"{-v} sessions of net selling")
+                               for k, v in daily["fii_dii_streak_days"].items() if isinstance(v, (int, float)) and v}
     if "breadth" in daily:
         f["breadth_trend"] = {k: v for k, v in daily["breadth"].items() if k not in ("advances", "declines")}
     if "sector_quadrants" in daily:
@@ -143,9 +166,9 @@ def weekend_rule_based(f: dict) -> str:
     snap = {s["name"]: s for s in f.get("week_prices", [])}
     if "Nifty 50" in snap:
         n = snap["Nifty 50"]
-        parts.append(f"Nifty 50 ended the week at {n['last']:,.0f}, {n['chg_week_pct']:+.2f}% over 5 sessions.")
-    if "fii_dii_week_net_cr" in f:
-        x = f["fii_dii_week_net_cr"]
+        parts.append(f"Nifty 50 ended the week at {n['last']:,.0f}, {n['_pct']:+.2f}% over 5 sessions.")
+    if "_fii_dii_week_cr" in f:
+        x = f["_fii_dii_week_cr"]
         parts.append(f"Over the last 5 sessions FIIs were net {x.get('FII', 0):+,.0f} Cr and DIIs {x.get('DII', 0):+,.0f} Cr.")
     ip = f.get("ipos", {})
     live = ip.get("open", []) + ip.get("upcoming", [])
@@ -154,10 +177,10 @@ def weekend_rule_based(f: dict) -> str:
             f"{x['company']} ({x.get('open', '?')} to {x.get('close', '?')}, {x.get('price_band', 'price TBA')})" for x in live[:5]) + ".")
     else:
         parts.append("No main-board IPOs are open or announced on NSE right now.")
-    listed = [x for x in ip.get("listed", []) if "listing_gain_pct" in x]
+    listed = [x for x in ip.get("listed", []) if "first_day_open_vs_issue_price" in x]
     if listed:
-        parts.append("Recent listings vs issue price on day one: " + ", ".join(
-            f"{x['company']} {x['listing_gain_pct']:+.1f}%" for x in listed[:5]) + ".")
+        parts.append("Recent listings, first-day open vs issue price: " + ", ".join(
+            f"{x['company']} {x['first_day_open_vs_issue_price']}" for x in listed[:5]) + ".")
     return " ".join(parts)
 
 
@@ -243,7 +266,9 @@ def main() -> int:
     else:
         f, system, fallback = facts(Path(args.day_dir)), SYSTEM, rule_based
         heads = headlines(Path(args.news))
-    prompt = ("DATA (JSON):\n" + json.dumps(f, separators=(",", ":")) +
+    shown = {k: ([{a: b for a, b in x.items() if not a.startswith("_")} for x in v] if k == "week_prices" else v)
+             for k, v in f.items() if not k.startswith("_")}
+    prompt = ("DATA (JSON):\n" + json.dumps(shown, separators=(",", ":")) +
               "\n\nHEADLINES (untrusted):\n" + "\n".join(f"- {h}" for h in heads))
     text, used, errors = None, "rule-based", {}
     for name, base, env, wanted in PROVIDERS:
