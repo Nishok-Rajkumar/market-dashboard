@@ -14,6 +14,7 @@ and publishes everything as a static website. No server, no subscription, no lap
 
 | Section | What it shows |
 |---|---|
+| **Weekend edition** | Sat & Sun only: a weekend brief, the week's key news by topic (IPOs, RBI, global, FII flows, results…) and an **IPO watch** — main-board IPOs open or coming up, and recent listings with subscription by investor group, fresh issue vs offer for sale, and listing-day and latest price vs the issue price (facts, not ratings) |
 | **Today's brief** | ~150-word summary written by an open-source LLM (gpt-oss-120b / Llama on Groq) from the day's numbers and headlines |
 | **What changed** | Nifty, breadth zone, VIX, PCR, sector quadrant moves and swing-list changes vs the previous session |
 | **Snapshot** | Nifty, Bank Nifty, Nifty 500, India VIX, USD-INR, Brent, gold, US futures, Asia + floor-pivot levels |
@@ -35,6 +36,10 @@ GitHub Actions (Mon–Fri)               data/<date>/*.json            GitHub Pa
  11:15 PM IST  news + brief            options, swing, heatmap,       reads the JSON in the browser
   8:30 AM IST  news + brief + global   participant_oi, news, summary
                prices (US close, Asia)
+
+(Sat & Sun)                            data/weekend/<Saturday>/
+ 10:00 AM Sat  weekend     ───────▶    news (7 days), ipo,      ───▶  "Weekend edition" at the top,
+  6:00 PM Sun  weekend                 summary                        until Monday's first update
 ```
 
 - **Data:** NSE archives & public APIs, Yahoo Finance, public RSS feeds — all free, no API keys
@@ -44,7 +49,8 @@ GitHub Actions (Mon–Fri)               data/<date>/*.json            GitHub Pa
   ([pipeline/timekeeper.py](pipeline/timekeeper.py)). An external timer is an optional extra:
   [docs/external-timer.md](docs/external-timer.md)
 - **Resilient:** each step runs in its own process; a failing source only blanks its own section and the page says which
-- **History:** each day is kept in `data/<date>/`, so you can open any past day from the date picker
+- **History:** each day is kept in `data/<date>/`, so you can open any past day from the date picker; weekend
+  editions go to their own `data/weekend/<Saturday>/` folder so they never overwrite Friday's data
 
 ## Run it yourself
 
@@ -71,6 +77,7 @@ Then open http://localhost:8765/site/
 | `pipeline/run_daily.py` | Runs every step, writes `data/<IST date>/` and `status.json` |
 | `pipeline/scripts/` | NSE pulse, breadth, sector rotation, option chain and swing screener scripts |
 | `pipeline/participant_oi.py` · `heatmap.py` · `levels.py` · `news.py` · `summarize.py` | F&O positioning · Nifty 50 heatmap · pivots · headlines · AI brief |
+| `pipeline/ipo.py` | IPO watch from NSE: open, upcoming and recently listed IPOs (weekend edition) |
 | `pipeline/check_sources.py` | Shows which sources answer from the current machine |
 | `state/` | FII/DII cash and participant-OI history (NSE only serves the latest day) |
 | `site/` | The dashboard (`index.html`, `app.js`, `style.css`) |

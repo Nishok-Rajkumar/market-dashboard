@@ -11,6 +11,7 @@ Usage:
   uv run pipeline/run_daily.py                 # full evening run (after NSE's last file, ~8 PM IST)
   uv run pipeline/run_daily.py --mode news     # night: refresh headlines + summary only
   uv run pipeline/run_daily.py --mode morning  # morning: headlines + summary + overnight global prices
+  uv run pipeline/run_daily.py --mode weekend  # Sat/Sun: week's news + IPO watch + weekend brief → data/weekend/
   uv run pipeline/run_daily.py --skip swing # skip slow steps while testing
 """
 
@@ -124,9 +125,40 @@ def build_indexes() -> None:
         (DATA / "fii_dii_history.json").write_text(json.dumps(rows, indent=1))
 
 
+def run_weekend(now: datetime) -> int:
+    """Weekend update. It has its own folder, named by the weekend's Saturday, so it never overwrites the
+    last trading session's news and brief."""
+    sat = now.date() - timedelta(days=(now.weekday() - 5) % 7)
+    wk = DATA / "weekend" / sat.isoformat()
+    wk.mkdir(parents=True, exist_ok=True)
+    sessions = sorted(p for p in DATA.iterdir() if p.is_dir() and p.name[:2] == "20")
+    print(f"run weekend → {wk.relative_to(ROOT)} (last session {sessions[-1].name if sessions else 'none'})")
+    status: dict = {}
+
+    ok, msg = run([ROOT / "pipeline" / "news.py", "--weekly", "--out", wk / "news.json"])
+    status["news"] = {"ok": True} if ok else {"ok": False, "error": msg}
+    ok, msg = run([ROOT / "pipeline" / "ipo.py", "--out", wk / "ipo.json"])
+    status["ipo"] = {"ok": True} if ok else {"ok": False, "error": msg}
+    if sessions:
+        ok, msg = run([ROOT / "pipeline" / "summarize.py", "--weekend", "--day-dir", sessions[-1], "--ipo", wk / "ipo.json",
+                       "--news", wk / "news.json", "--out", wk / "summary.json"], timeout=180)
+        status["summary"] = {"ok": True} if ok else {"ok": False, "error": msg}
+
+    stamp = now.isoformat(timespec="seconds")
+    info = {"date": sat.isoformat(), "updated_at": stamp, "last_session": sessions[-1].name if sessions else None}
+    (wk / "status.json").write_text(json.dumps({**info, "mode": "weekend", "steps": status}, indent=2))
+    (DATA / "weekend" / "latest.json").write_text(json.dumps(info, indent=2))
+    weekends = sorted(p.name for p in (DATA / "weekend").iterdir() if p.is_dir())
+    (DATA / "weekend" / "index.json").write_text(json.dumps({"weekends": weekends}, indent=1))
+
+    failed = [k for k, v in status.items() if not v.get("ok")]
+    print(f"done: {len(status) - len(failed)}/{len(status)} steps ok" + (f"; failed: {', '.join(failed)}" if failed else ""))
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="Daily dashboard data run.")
-    ap.add_argument("--mode", choices=["full", "news", "morning"], default="full")
+    ap.add_argument("--mode", choices=["full", "news", "morning", "weekend"], default="full")
     ap.add_argument("--force", action="store_true", help="allow a full run during market hours")
     ap.add_argument("--skip", nargs="*", default=[],
                     help="steps to skip: pulse breadth sectors options swing levels participant_oi heatmap")
@@ -139,6 +171,8 @@ def main() -> int:
         print(f"skip: full run during market hours ({now:%H:%M} IST); news/morning modes are fine, or pass --force")
         return 0
     DATA.mkdir(exist_ok=True)
+    if args.mode == "weekend":
+        return run_weekend(now)
     if args.mode == "full":
         day = DATA / latest_session(now.date()).isoformat()
     else:  # news/morning refreshes attach to the latest full run

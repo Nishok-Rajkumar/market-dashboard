@@ -6,6 +6,7 @@
 
 Usage:
   uv run pipeline/news.py --out data/news.json [--max-age-hours 48]
+  uv run pipeline/news.py --out data/weekend/2026-11-07/news.json --weekly   # last 7 days, plus IPO news
 """
 
 from __future__ import annotations
@@ -33,6 +34,13 @@ FEEDS = {
     "BusinessLine": "https://www.thehindubusinessline.com/markets/feeder/default.rss",
     "RBI": "https://www.rbi.org.in/pressreleases_rss.xml",
     "Google News": "https://news.google.com/rss/search?q=Nifty+OR+Sensex+OR+%22stock+market%22&hl=en-IN&gl=IN&ceid=IN:en",
+}
+
+# Extra feeds for the weekend digest: Google News searches reach back a whole week, which the publishers'
+# own feeds (latest ~50 stories) don't.
+WEEKLY_FEEDS = {
+    "Google News · week": "https://news.google.com/rss/search?q=Sensex+OR+Nifty+OR+%22Dalal+Street%22+when:7d&hl=en-IN&gl=IN&ceid=IN:en",
+    "Google News · IPO": "https://news.google.com/rss/search?q=IPO+India+(SEBI+OR+%22price+band%22+OR+DRHP+OR+%22NSE+India%22+OR+BSE)+-Kenya+-Nairobi+when:7d&hl=en-IN&gl=IN&ceid=IN:en",
 }
 
 # First matching keywords decide the tags; a headline can carry several.
@@ -90,8 +98,12 @@ def norm(title: str) -> str:
 def main() -> int:
     ap = argparse.ArgumentParser(description="Fetch Indian market RSS headlines.")
     ap.add_argument("--out", required=True)
-    ap.add_argument("--max-age-hours", type=float, default=48)
+    ap.add_argument("--max-age-hours", type=float, default=None, help="default 48, or 168 with --weekly")
+    ap.add_argument("--weekly", action="store_true", help="weekend digest: 7 days of news plus IPO news")
     args = ap.parse_args()
+    feeds = {**FEEDS, **WEEKLY_FEEDS} if args.weekly else FEEDS
+    max_age = args.max_age_hours or (168 if args.weekly else 48)
+    limit = 400 if args.weekly else 200
 
     def safe(item):
         source, url = item
@@ -101,9 +113,9 @@ def main() -> int:
             return source, [], str(exc)[:200]
 
     with ThreadPoolExecutor(max_workers=8) as pool:
-        results = list(pool.map(safe, FEEDS.items()))
+        results = list(pool.map(safe, feeds.items()))
 
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=args.max_age_hours)
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=max_age)
     seen, items = set(), []
     for _, feed_items, _ in results:
         for it in feed_items:
@@ -120,12 +132,12 @@ def main() -> int:
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "sources": {s: ({"ok": True, "items": len(i)} if err is None else {"ok": False, "error": err})
                     for s, i, err in results},
-        "items": items[:200],
+        "items": items[:limit],
     }
     Path(args.out).parent.mkdir(parents=True, exist_ok=True)
     Path(args.out).write_text(json.dumps(out, indent=2, ensure_ascii=False))
     ok = sum(1 for v in out["sources"].values() if v["ok"])
-    print(f"wrote {args.out}: {len(out['items'])} headlines from {ok}/{len(FEEDS)} feeds")
+    print(f"wrote {args.out}: {len(out['items'])} headlines from {ok}/{len(feeds)} feeds")
     return 0 if items else 1
 
 

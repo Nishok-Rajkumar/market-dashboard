@@ -9,7 +9,7 @@ GitHub starts this script every 30 minutes (late, but often). Each time it:
   - waits until an update due within the next 90 minutes, then starts it, or
   - exits.
 
-Updates (IST, Mon–Fri): 20:15 full · 23:15 news · 08:30 morning.
+Updates (IST): Mon–Fri 20:15 full · 23:15 news · 08:30 morning; Sat 10:00 and Sun 18:00 weekend.
 
 Usage (in GitHub Actions, with GITHUB_TOKEN and GITHUB_REPOSITORY set):
   uv run pipeline/timekeeper.py
@@ -28,20 +28,19 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 IST = ZoneInfo("Asia/Kolkata")
-SLOTS = [((20, 15), "full"), ((23, 15), "news"), ((8, 30), "morning")]
+SLOTS = [((20, 15), "full"), ((23, 15), "news"), ((8, 30), "morning")]  # Mon–Fri
+WEEKEND_SLOTS = {5: [((10, 0), "weekend")], 6: [((18, 0), "weekend")]}  # Sat, Sun
 WAIT_AHEAD = timedelta(minutes=90)  # how long one wake-up may wait for an update
 CATCH_UP = timedelta(hours=8)       # how late a missed update is still worth starting
 API = "https://api.github.com"
 
 
 def slots_around(now: datetime) -> list[tuple[datetime, str]]:
-    """Weekday update times from yesterday to tomorrow, sorted."""
+    """Update times from yesterday to tomorrow, sorted."""
     out = []
     for offset in (-1, 0, 1):
         day = (now + timedelta(days=offset)).date()
-        if day.weekday() >= 5:
-            continue
-        for (h, m), mode in SLOTS:
+        for (h, m), mode in (SLOTS if day.weekday() < 5 else WEEKEND_SLOTS[day.weekday()]):
             out.append((datetime(day.year, day.month, day.day, h, m, tzinfo=IST), mode))
     return sorted(out)
 

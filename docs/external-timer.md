@@ -1,8 +1,9 @@
 # On-time updates with an external timer
 
 GitHub's built-in schedule can start runs hours late. A free timer service (cron-job.org) can instead ask GitHub
-to start the run at the exact minute; GitHub then starts it within seconds. GitHub's own schedule stays on as a
-backup, and a duplicate run is harmless because each run writes to the folder of the NSE session it covers.
+to start the run at the exact minute; GitHub then starts it within seconds. The Timekeeper workflow stays on as a
+backup: when it wakes it checks for a run that has already started and does not start a second one. A duplicate
+run would be harmless anyway, because each run writes to the folder of the NSE session it covers.
 
 ## 1. Create a GitHub token that can only start this repo's workflows
 
@@ -15,11 +16,11 @@ backup, and a duplicate run is harmless because each run writes to the folder of
 This token can only start or cancel workflow runs in this one repository. It cannot read your other repos or
 change code.
 
-## 2. Create three jobs on cron-job.org
+## 2. Create five jobs on cron-job.org
 
-Sign up at https://cron-job.org (free), then **Create cronjob** three times with these settings.
+Sign up at https://cron-job.org (free), then **Create cronjob** five times with these settings.
 
-Common to all three:
+Common to all five:
 
 | Field | Value |
 |---|---|
@@ -27,15 +28,17 @@ Common to all three:
 | Advanced → Request method | `POST` |
 | Advanced → Headers | `Authorization: Bearer <your github_pat_ token>` · `Accept: application/vnd.github+json` · `X-GitHub-Api-Version: 2022-11-28` · `Content-Type: application/json` |
 | Advanced → Time zone | `Asia/Kolkata` |
-| Schedule | Custom: Monday–Friday at the time below |
+| Schedule | Custom: the days and time below |
 
-The three jobs:
+The five jobs:
 
-| Title | Time (IST) | Request body |
-|---|---|---|
-| Market dashboard — full | 20:15 | `{"ref":"main","inputs":{"mode":"full"}}` |
-| Market dashboard — night news | 23:15 | `{"ref":"main","inputs":{"mode":"news"}}` |
-| Market dashboard — morning | 08:30 | `{"ref":"main","inputs":{"mode":"morning"}}` |
+| Title | Days | Time (IST) | Request body |
+|---|---|---|---|
+| Market dashboard — full | Mon–Fri | 20:15 | `{"ref":"main","inputs":{"mode":"full"}}` |
+| Market dashboard — night news | Mon–Fri | 23:15 | `{"ref":"main","inputs":{"mode":"news"}}` |
+| Market dashboard — morning | Mon–Fri | 08:30 | `{"ref":"main","inputs":{"mode":"morning"}}` |
+| Market dashboard — weekend (Sat) | Saturday | 10:00 | `{"ref":"main","inputs":{"mode":"weekend"}}` |
+| Market dashboard — weekend (Sun) | Sunday | 18:00 | `{"ref":"main","inputs":{"mode":"weekend"}}` |
 
 Between 9:00 AM and 6:30 PM IST on weekdays a **full** run skips itself (it would mix live prices into the
 previous session), so test the full job in the evening, or test with the morning job any time.
@@ -48,7 +51,7 @@ Use **Test run** on each job: a `204` response means GitHub accepted it, and a n
 | Response | Meaning |
 |---|---|
 | 204 | Started |
-| 401 | Token wrong or expired: make a new one and update the three jobs |
+| 401 | Token wrong or expired: make a new one and update all the jobs |
 | 403 | Token lacks *Actions: Read and write* on this repo |
 | 404 | URL typo, or the token doesn't include this repository |
-| 422 | Body wrong: check the JSON and that `mode` is `full`, `news` or `morning` |
+| 422 | Body wrong: check the JSON and that `mode` is `full`, `news`, `morning` or `weekend` |

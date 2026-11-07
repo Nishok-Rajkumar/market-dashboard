@@ -53,6 +53,7 @@ const GLOSSARY = {
   walls: ["OI walls", "Strikes with the most open interest. A big call wall often acts like resistance (sellers defend it), a big put wall like support."],
   expmove: ["Expected move", "Derived from the at-the-money straddle (call + put) price: the range the options market is pricing in until expiry, with roughly 2-in-3 odds of staying inside."],
   corpaction: ["Corporate actions", "Events that change a share's price for a mechanical reason, not because the business got better or worse. Split: 1 share becomes several, price divides. Bonus: free extra shares, price adjusts down. Demerger: part of the company becomes a separate company and you get its shares, so the old price drops by that part's value (HEG fell ~64% on its demerger day but holders lost nothing). On charts these look like crashes — check here first. ⚑ marks affected stocks across the page."],
+  ipo: ["IPO terms", "Subscription: how many times the shares on offer were bid for — 10× means bids for ten times the shares available. QIB = big institutions (mutual funds, insurers, foreign funds); NII = wealthy individuals and companies; Retail = individuals bidding up to ₹2 lakh. Fresh issue = new shares, the money goes to the company; OFS (offer for sale) = existing owners sell, the company gets nothing. Listing gain = first-day opening price vs the issue price. SME IPOs are small companies on a separate, riskier platform. High demand or a big listing gain does not mean a company is good."],
   swing: ["Swing screener", "Looks for stocks in strong uptrends (Minervini trend template) that are near a buy point. RS = relative strength rating 1–99 (90 = beat 90% of stocks over the past year). Entry = price that must trade to trigger; Stop = where the idea is wrong; 2R = target twice the risk. Study material, not advice."],
 };
 
@@ -89,7 +90,7 @@ function setFlags(ca) {
     if (!cur || (a.upcoming && !cur.upcoming) || (a.upcoming === cur.upcoming && a.ex_date > cur.ex_date)) flags[a.symbol] = a;
   });
 }
-const shortDate = (d) => new Date(d + "T00:00").toLocaleDateString("en-IN", { day: "numeric", month: "short" });
+const shortDate = (d) => (d ? new Date(d + "T00:00").toLocaleDateString("en-IN", { day: "numeric", month: "short" }) : "—");
 function flag(sym) {
   const a = flags[sym];
   if (!a) return "";
@@ -486,6 +487,79 @@ function renderNews(n) {
   $("news-sources").textContent = src.length ? "Feeds: " + src.map(([k, v]) => `${k} ${v.ok ? "✓" : "✗"}`).join(" · ") : "";
 }
 
+// ---------- weekend edition ----------
+
+const WK_TAGS = ["IPO", "RBI & rates", "Global", "FII/DII flows", "Results", "Crude & commodities", "Rupee", "Index"];
+const times = (x) => (x == null ? "—" : `${fmt(x, x < 10 ? 2 : 1)}×`);
+
+function renderWeekend(wk) {
+  const { status, summary, news, ipo } = wk;
+  const when = status?.updated_at ? new Date(status.updated_at).toLocaleString("en-IN", { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", timeZone: "Asia/Kolkata" }) : "";
+  $("wk-meta").textContent = when ? `updated ${when} IST` : "";
+  $("wk-summary").textContent = summary?.text || "No weekend brief yet.";
+  const by = summary?.model === "rule-based" ? "Auto-written from the numbers (no AI model reachable)" : `Written by ${summary?.model}`;
+  $("wk-model").textContent = summary ? `${by}. For learning only, not investment advice.` : "";
+
+  // Up to 4 headlines per topic, topics in a fixed order of importance. Several outlets cover the same story,
+  // so a headline sharing half its words with one already shown is skipped.
+  const COMMON = new Set("the and for with from after over into its ipo ipos files filed filing papers draft drhp sebi nod shares share crore india indian market markets stock stocks nifty sensex week says rs".split(" "));
+  const words = (t) => new Set((t.toLowerCase().replace(/\s+-\s+[^-]+$/, "").match(/[a-z0-9]{3,}/g) || []).filter((w) => !COMMON.has(w)));
+  const shown = [];
+  const fresh = (i) => {
+    const w = words(i.title);
+    return !shown.some((s) => [...w].filter((x) => s.has(x)).length >= Math.max(1, 0.5 * Math.min(w.size, s.size)));
+  };
+  $("wk-news").innerHTML = WK_TAGS.map((t) => {
+    const items = [];
+    for (const i of news?.items || []) {
+      if (items.length === 4) break;
+      if (i.tags.includes(t) && fresh(i)) { items.push(i); shown.push(words(i.title)); }
+    }
+    if (!items.length) return "";
+    return `<b>${esc(t)}</b>` + items.map((i) => {
+      const href = /^https?:\/\//.test(i.link) ? i.link : "#";
+      return `<a href="${esc(href)}" target="_blank" rel="noopener noreferrer">${esc(i.title)}</a>`;
+    }).join("");
+  }).join("") || empty("No headlines.");
+
+  const sme = $("wk-sme").checked;
+  const list = (ipo?.ipos || []).filter((x) => sme || !x.sme);
+  const name = (x) => `${esc(x.company)}${x.sme ? '<span class="tag-sme">SME</span>' : ""}${x.industry ? `<div class="small muted">${esc(x.industry)}</div>` : ""}`;
+  const sub = (x) => (x.subscription ? times(x.subscription.total) : "—");
+  const live = list.filter((x) => x.status !== "listed");
+  $("wk-ipo-live").innerHTML = live.length ? table(live, [
+    { h: "Company", f: name },
+    { h: "Status", f: (x) => (x.status === "open" ? '<span class="badge good">open</span>' : '<span class="badge mid">upcoming</span>') },
+    { h: "Bidding", f: (x) => `${shortDate(x.open)} – ${shortDate(x.close)}` },
+    { h: "Price band", f: (x) => esc(x.price_band || "TBA") },
+    { h: "Lot", r: 1, f: (x) => fmt(x.lot) },
+    { h: "Type", f: (x) => esc(x.structure || "—") },
+    { h: "Subscribed", r: 1, f: sub },
+  ]) : empty(ipo ? "No main-board IPOs are open or announced on NSE right now." : "IPO data not available.");
+
+  const recent = list.filter((x) => x.status === "listed");
+  $("wk-ipo-recent-meta").textContent = ipo ? `last ${ipo.recent_days} days · prices vs issue price` : "";
+  $("wk-ipo-recent").innerHTML = recent.length ? table(recent, [
+    { h: "Company", f: name },
+    { h: "Listed", f: (x) => shortDate(x.listing) },
+    { h: "Issue ₹", r: 1, f: (x) => fmt(x.issue_price) },
+    { h: "Type", f: (x) => esc(x.structure || "—") },
+    { h: "QIB", r: 1, f: (x) => times(x.subscription?.qib) },
+    { h: "Retail", r: 1, f: (x) => times(x.subscription?.retail) },
+    { h: "Total", r: 1, f: sub },
+    { h: "Listing day", r: 1, f: (x) => signed(x.listing_gain_pct, 1) },
+    { h: "Now", r: 1, f: (x) => signed(x.since_issue_pct, 1) },
+  ]) : empty("No listings in this period.");
+}
+
+// The weekend edition shows above the daily page until the next trading-day update replaces it.
+let weekend = null;
+function toggleWeekend(day, latest) {
+  const show = !!weekend && day === latest?.date && new Date(weekend.status?.updated_at || 0) > new Date(latest?.updated_at || 0);
+  $("weekend").hidden = !show;
+  $("weekend-tab").hidden = !show;
+}
+
 // ---------- boot ----------
 
 const COMPARE = { levels: "levels.json", breadth: "breadth.json", pulse: "pulse.json", ocN: "oc_NIFTY.json", sectors: "sectors.json", swing: "swing.json" };
@@ -540,11 +614,19 @@ function initTheme() {
   $("ca-all").onchange = () => renderActions(current.ca);
   let t;
   addEventListener("resize", () => { clearTimeout(t); t = setTimeout(() => heatChart?.resize(), 150); });
-  const [index, latest] = await Promise.all([get("index.json"), get("latest.json")]);
+  const [index, latest, wkLatest] = await Promise.all([get("index.json"), get("latest.json"), get("weekend/latest.json")]);
+  if (wkLatest?.date) {
+    const w = (f) => get(`weekend/${wkLatest.date}/${f}`);
+    const [status, summary, news, ipo] = await Promise.all([w("status.json"), w("summary.json"), w("news.json"), w("ipo.json")]);
+    weekend = { status, summary, news, ipo };
+    renderWeekend(weekend);
+    $("wk-sme").onchange = () => renderWeekend(weekend);
+  }
   days = (index?.days || []).slice().reverse();
   if (!days.length) { $("updated").textContent = "No data yet — run the pipeline once."; return; }
   $("day").innerHTML = days.map((d) => `<option value="${esc(d)}">${esc(new Date(d + "T00:00").toLocaleDateString("en-IN", { weekday: "short", day: "numeric", month: "short", year: "numeric" }))}</option>`).join("");
   $("day").value = latest?.date && days.includes(latest.date) ? latest.date : days[0];
-  $("day").onchange = () => loadDay($("day").value);
+  $("day").onchange = () => { toggleWeekend($("day").value, latest); loadDay($("day").value); };
+  toggleWeekend($("day").value, latest);
   await loadDay($("day").value);
 })();

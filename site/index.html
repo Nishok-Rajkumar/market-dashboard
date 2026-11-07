@@ -34,13 +34,38 @@
       </div>
     </div>
     <nav class="wrap tabs" aria-label="Sections">
-      <a href="#brief">Brief</a><a href="#snapshot">Snapshot</a><a href="#heatmap-sec">Heatmap</a><a href="#flows">Flows</a>
+      <a href="#weekend" id="weekend-tab" hidden>Weekend</a><a href="#brief">Brief</a><a href="#snapshot">Snapshot</a><a href="#heatmap-sec">Heatmap</a><a href="#flows">Flows</a>
       <a href="#breadth">Breadth</a><a href="#sectors">Sectors</a><a href="#options">Options</a><a href="#swing">Swing</a><a href="#actions">Actions</a><a href="#news">News</a>
     </nav>
   </header>
 
   <main class="wrap">
     <div id="alerts"></div>
+
+    <section id="weekend" hidden>
+      <h2>Weekend edition <span class="muted small" id="wk-meta"></span></h2>
+      <div class="grid-brief">
+        <div class="card">
+          <h3>The week in brief</h3>
+          <p id="wk-summary" class="summary">…</p>
+          <p class="small muted" id="wk-model"></p>
+        </div>
+        <div class="card">
+          <h3>Key news this week</h3>
+          <div id="wk-news" class="wk-news"></div>
+        </div>
+      </div>
+      <div class="card" style="margin-top:12px">
+        <h3>IPO watch <span class="muted small">main board, from NSE</span> <button class="info" data-g="ipo" aria-label="Explain IPO terms">i</button>
+          <label class="small muted" style="float:right"><input type="checkbox" id="wk-sme"> show SME IPOs</label></h3>
+        <h4>Open now &amp; coming up</h4>
+        <div id="wk-ipo-live"></div>
+        <h4>Recently listed <span class="muted small" id="wk-ipo-recent-meta"></span></h4>
+        <div id="wk-ipo-recent"></div>
+        <p class="small muted">Facts only, not a rating or a recommendation to apply. Subscription = how many times each
+          investor group bid for the shares on offer. Read the company's red herring prospectus (RHP) before deciding anything.</p>
+      </div>
+    </section>
 
     <div class="grid-brief">
       <section id="brief" class="card">

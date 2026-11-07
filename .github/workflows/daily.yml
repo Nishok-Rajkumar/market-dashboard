@@ -1,14 +1,15 @@
 name: Daily market data
 
 on:
-  # Started by the Timekeeper workflow at 8:15 PM (full), 11:15 PM (news) and 8:30 AM IST (morning), Mon–Fri.
+  # Started by the Timekeeper workflow at 8:15 PM (full), 11:15 PM (news) and 8:30 AM IST (morning), Mon–Fri,
+  # and 10:00 AM Sat + 6:00 PM Sun IST (weekend).
   # GitHub's own schedule ran these 2–7 hours late, so it is no longer used here.
   workflow_dispatch:
     inputs:
       mode:
-        description: "full = all data, news = headlines + brief, morning = news + brief + global prices"
+        description: "full = all data, news = headlines + brief, morning = news + brief + global prices, weekend = week's news + IPO watch"
         type: choice
-        options: [full, news, morning]
+        options: [full, news, morning, weekend]
         default: full
 
 permissions:
