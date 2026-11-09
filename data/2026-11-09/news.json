@@ -1,0 +1,2099 @@
+{
+  "generated_at": "2026-11-09T16:56:06+00:00",
+  "sources": {
+    "Economic Times": {
+      "ok": true,
+      "items": 50
+    },
+    "ET Stocks": {
+      "ok": true,
+      "items": 50
+    },
+    "Livemint": {
+      "ok": true,
+      "items": 35
+    },
+    "Business Standard": {
+      "ok": true,
+      "items": 35
+    },
+    "BusinessLine": {
+      "ok": true,
+      "items": 60
+    },
+    "RBI": {
+      "ok": true,
+      "items": 10
+    },
+    "Google News": {
+      "ok": true,
+      "items": 100
+    }
+  },
+  "items": [
+    {
+      "source": "Livemint",
+      "title": "AMD stock rallies 12% as Google Cloud taps its EPYC processors for next-generation AI infrastructure",
+      "link": "https://www.livemint.com/market/stock-market-news/amd-stock-rallies-12-as-google-cloud-taps-its-epyc-processors-for-next-generation-ai-infrastructure-11794242504072.html",
+      "published": "2026-11-09T16:54:24+00:00",
+      "summary": "AMD shares rose 12.5% after the company announced its fifth-generation EPYC processors will power Google Cloud TPU 8tx systems. The partnership combines AMD CPUs and security technology with Google’s AI accelerators to support confidential AI workloads, protecting sensitive data ",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Top 10@10 | Nifty eyes long-term buy signal, SpiceJet fleet shrinks to 12 aircraft, and Delhi AQI crosses 400 - LinkedIn",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZzB2ZzFnVGNOWktITEVSNmp2b1hiRzVSUTF6SGh6WF9FNWVHNmg4VWh2Ml9jVnpLbVkzZ1FiNTI1SXpvMHlQeGxZQ2JTTHQwbmptai1KbUlvWExzdVczbEQxY2d4SzJhVHlHWjAtM1RsNko3OE91NWd1WVNfYzZBRzBONmJLdEZCZkhEaGhQQm1oTWVRQ1JkU3diZV9ZcG9xdWc?oc=5",
+      "published": "2026-11-09T16:30:48+00:00",
+      "summary": "Top 10@10 | Nifty eyes long-term buy signal, SpiceJet fleet shrinks to 12 aircraft, and Delhi AQI crosses 400 LinkedIn",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "US dollar dips as easing AI and Mideast worries limit its appeal",
+      "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/us-dollar-dips-as-easing-ai-and-mideast-worries-limit-its-appeal/articleshow/135687593.cms",
+      "published": "2026-11-09T16:16:36+00:00",
+      "summary": "After a six-month high, the US dollar is now on a downward trend, largely spurred by impressive job growth figures. Investors are eagerly awaiting the upcoming consumer price index data, a key factor for Federal Reserve rate considerations. Meanwhile, the euro and other currencie",
+      "tags": [
+        "Rupee"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Indian IT stocks strengthen buoyed by weakness in the global AI trade and attractive valuations",
+      "link": "https://www.thehindubusinessline.com/markets/indian-it-stocks-strengthen-buoyed-by-weakness-in-the-global-ai-trade-and-attractive-valuations/article71683017.ece",
+      "published": "2026-11-09T15:52:02+00:00",
+      "summary": "The IT sector emerged as the strongest-performing sector, gaining 17.69 per cent over the month, leading ahead of healthcare and bank services",
+      "tags": [
+        "Global",
+        "IT"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Wall Street bounces back from AI sell-off, Nasdaq rallies over 3%, but Nvidia plunges 9% on Jensen Huang controversy",
+      "link": "https://www.livemint.com/market/stock-market-news/wall-street-bounces-back-from-ai-sell-off-nasdaq-rallies-over-3-but-nvidia-plunges-9-on-jensen-huang-controversy-11794238373887.html",
+      "published": "2026-11-09T15:49:00+00:00",
+      "summary": "US stocks rebounded Monday after their worst weekly performance in nearly two years, with the Dow, S&amp;P 500 and Nasdaq rising as lower oil prices and bargain-buying lifted sentiment. Investors turned their attention to upcoming inflation data and earnings from AI-related compa",
+      "tags": [
+        "Global"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Nifty 50 only major index to end October in green; IT stocks rally 18%: Motilal Oswal MF - Zee Business",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOa1ZfVWZKZVpERnJFVmlTc1lyLV84OHdsdVZ2ZjFYcFU5Z01nRlE2MDAwY25zZUlwMGJubnZrd2pZdWhuWDR2anJWd0xEeWFfQk1fdXlaeDU2djBkYnEtVGxoVVduRzZMTHJwUlozV0h3cFV1bC1xMm5ER0s3YTRvdmNzT0ttQUpTYS1maXlJQWpOV2tRX3QtSFMxSllpcUZlcjQ0SDE3R2x2Qndjemo2Nm5HcFJ1TFJ5YzZIeWxTYkZBR3gtMDJRZGZwWDI?oc=5",
+      "published": "2026-11-09T15:26:55+00:00",
+      "summary": "Nifty 50 only major index to end October in green; IT stocks rally 18%: Motilal Oswal MF Zee Business",
+      "tags": [
+        "IT",
+        "Index"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Rupee’s 5-day winning streak ends with the currency closing at ₹93.93",
+      "link": "https://www.thehindubusinessline.com/markets/forex/rupees-5-day-winning-streak-ends-with-the-currency-closing-at-9393/article71683133.ece",
+      "published": "2026-11-09T15:13:08+00:00",
+      "summary": "The Indian currency closed at 93.93 per US dollar (USD) against last Friday’s close of 93.91 and in intraday trade, it tested a high/ low of 93.69/94.11",
+      "tags": [
+        "Rupee"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "More buyers, lighter bills: Indian jewellery retailers log strong festive sales",
+      "link": "https://www.thehindubusinessline.com/markets/commodities/more-buyers-lighter-bills-indian-jewellery-retailers-log-strong-festive-sales/article71683196.ece",
+      "published": "2026-11-09T15:09:44+00:00",
+      "summary": "Diamond jewellery demand saw a spike, but silver sales were down",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "HSBC upgrades Indian equities to 'overweight', cuts China to 'neutral'",
+      "link": "https://www.business-standard.com/markets/news/hsbc-upgrades-indian-equities-to-overweight-cuts-china-to-neutral-126110901244_1.html",
+      "published": "2026-11-09T15:07:33+00:00",
+      "summary": "HSBC upgraded Indian equities to 'overweight' after a market correction, citing reasonable valuations, resilient earnings and strong credit growth, while downgrading Chinese stocks to 'neutral",
+      "tags": [
+        "Global"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "US stocks: Dow Jones rallies 500 points, Nasdaq over 2% as chip stocks rebound; Nvidia probe weighs",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-opens-higher-after-last-weeks-ai-rout/articleshow/135685663.cms",
+      "published": "2026-11-09T15:05:56+00:00",
+      "summary": "Wall Street's indexes climbed as investors honed in on Nvidia CEO Jensen Huang's investigation and awaited crucial inflation data. Nvidia's shares faced declines due to worries over foreign intelligence, yet analysts proposed that the sell-off in AI stocks was potentially overblo",
+      "tags": [
+        "Global"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "US stock market today: Dow, S&P 500, Nasdaq rise as investors return to AI shares; oil slides - CNBC TV18",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQenVHa2VGSXRXTFkySkJ1bnR1a1R5SUhqVHllNXV4OEZvMGdUbEI4bllXdFN1bmF3VVVzRERiSVFEYmc5YlRuOEZFc245MWhFanRHMkNieFloaDllUG1Jb29pX2g2SzlEQ3FXTG5FdFJqdVNkOFJhUVhkQ0p0UVFJRFJfbnYxSGJTNXdhRDFrNkxJUWtCM2NzSjJ3eVc2bmhFbWduTVY5Qk5PMnR60gGyAUFVX3lxTE12V2UwWmx4X3R1NG1vT0RkSEhHLTNWNG9HWEdTNnVnU1BkSXB2NENIdFFVMExEeF9rdTVmeVBFeXlKeUJraTJlU0lHeS1pcDNFODYwOG9ndGlEM1FkT3pqTVFUUjdDZjZaNU5Ybk5ZaWJFc0xMZnk2Y3FyY1FFbmx5Sl9xRkxFOHNLQ21WdUNiQkFWQjBwVm1tb2JzQmxXZUhYbnd3bFF4c1VYdzltTV94MEE?oc=5",
+      "published": "2026-11-09T15:05:15+00:00",
+      "summary": "US stock market today: Dow, S&P 500, Nasdaq rise as investors return to AI shares; oil slides CNBC TV18",
+      "tags": [
+        "Global"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Promoter holding in Nifty 50 firms falls to 40%",
+      "link": "https://www.thehindubusinessline.com/markets/promoter-holding-in-nifty-50-firms-falls-to-40/article71683186.ece",
+      "published": "2026-11-09T15:04:17+00:00",
+      "summary": "Private Indian promoter share hits 29-quarter low, while ownership across broader listed market rises to seven-quarter high",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "MARKET NOV 9: Sensex, Nifty end higher as PSU banks rally; Nifty reclaims 25,000 - The Indian Awaaz",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNc1dkaGMzbzV2SEpsbHFtUTAtVlNDTmZRdDUyOWRMU21UMzE5U3hlXzN5Sk93czhvZVdudjRrSmFITVJNbzc4amFYbEY0YlZuWW51cHh0TXdjNjV0OGV4aFJPM2k4bFA0SFJVR3BQdEwwR0VhampRT1pIUzhtblJEbWRRTlgzQURUMHFRT192aUZYMmMySUtLTnQzaWc4S0k0Wm9hX3g5aw?oc=5",
+      "published": "2026-11-09T15:01:00+00:00",
+      "summary": "MARKET NOV 9: Sensex, Nifty end higher as PSU banks rally; Nifty reclaims 25,000 The Indian Awaaz",
+      "tags": [
+        "Banks",
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Stock Market Today (Nov. 9, 2026): Nasdaq futures climb as Wall Street watches AI stocks - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMHlYODZ1M2owN0VLM0lSQnBSV2FSMlk2U3l6b0o4d0pTQV80WVp6dnZmZEFhRkxaSU1uRXlTQkdDVnJqWGtJZGdCT0szVTNQTWg0LVI5T3Q2Vi1oSFd4bG1aazlpRGNOcVlqcFk2WkR0NWVScS11YzJSOEFOQmpQX0REWUpKaEZqQzN5MnVDX3NoR00?oc=5",
+      "published": "2026-11-09T14:57:14+00:00",
+      "summary": "Stock Market Today (Nov. 9, 2026): Nasdaq futures climb as Wall Street watches AI stocks Yahoo Finance",
+      "tags": [
+        "Global"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Eternal shares rebound over 70% from March lows, emerge as top Nifty 50 recovery stock; what drove the rally?",
+      "link": "https://www.livemint.com/market/eternal-shares-rebound-over-70-from-march-lows-emerge-as-top-nifty-50-recovery-stock-what-drove-the-rally-11794234112702.html",
+      "published": "2026-11-09T14:47:23+00:00",
+      "summary": "Eternal shares have rebounded 71% from their March low, making the company a standout Nifty recovery story as Swiggy struggles. Growth is supported by Blinkit’s expanding store network, rising order value and six consecutive quarters of improving margins.",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "STT and LTCG should not co-exist, one of them must go: Nilesh Shah",
+      "link": "https://www.thehindubusinessline.com/markets/stt-and-ltcg-should-not-co-exist-one-of-them-must-go-nilesh-shah/article71683138.ece",
+      "published": "2026-11-09T14:45:54+00:00",
+      "summary": "Nilesh Shah, Managing Director of Kotak AMC, on how global investors are rediscovering India, and how valuations are far more reasonable and more",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Tech set to still sway US stock market's course despite AI-driven swoon - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOXdISHo5SVE3RnA1bXZ4V05tYlAzSk5ZcUgwRUpycnVmOHlPeHQwbURpeHF2am5xQjU3ZVhMY0tweVVndXNjMUVpQUdCcXEyZlg5a1ZFVW9TNkkxdGJLaGllT3ZiM3pqLUxYVnRaNDVWZG1USmItMlJkU0pnc3Z0U2Zwd0l3UnowbDQ0UVN5cEJDQU9nS3FxbDFEc2RJRjV3NkpSeEdUNDEwWXJIUkVwR2ZB?oc=5",
+      "published": "2026-11-09T14:44:36+00:00",
+      "summary": "Tech set to still sway US stock market's course despite AI-driven swoon Reuters",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "Nvidia sell-off continues: Chipmaker stock plunges 9% as Jensen Huang faces espionage controversy",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/nvidia-stock-crashes-8-after-a-foreign-intelligence-probe-initiated-by-ai-company-into-ceo-jensen-huang/articleshow/135685302.cms",
+      "published": "2026-11-09T14:44:09+00:00",
+      "summary": "Nvidia has opened an investigation following CEO Jensen Huang's connection with an executive linked to intelligence efforts. The company announced this after Huang acknowledged his relationship with the executive, raising concerns over security. Nvidia's shares plummeted 8% amids",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Festival boost: Indian gold jewellery sales top $6.6 billion in 2 days",
+      "link": "https://www.thehindubusinessline.com/markets/gold/festival-boost-indian-gold-jewellery-sales-top-66-billion-in-2-days/article71682622.ece",
+      "published": "2026-11-09T14:44:05+00:00",
+      "summary": "Fall in gold prices boost sales during the auspicious occasions of Lakshmi Pooja, Dhanteras",
+      "tags": [
+        "Crude & commodities"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Investments in gold ETFs turn mixed as the precious metal turns volatile",
+      "link": "https://www.thehindubusinessline.com/markets/investments-in-gold-etfs-turn-mixed-as-the-precious-metal-turns-volatile/article71683169.ece",
+      "published": "2026-11-09T14:32:50+00:00",
+      "summary": "For the first time in recent months, Chinese and UK investors redeem their investments",
+      "tags": [
+        "Crude & commodities"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "How to choose a foreign broker? Check the plumbing, not just the app",
+      "link": "https://www.business-standard.com/markets/news/how-to-choose-a-foreign-broker-check-the-plumbing-not-just-the-app-126110901189_1.html",
+      "published": "2026-11-09T14:24:39+00:00",
+      "summary": "Buying foreign stock can now be achieved in just a few taps, but you need to know who sits behind those taps and who regulates them",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "US stock market outlook: AI sell-off, Anthropic IPO and Nvidia earnings keep investors on alert | Hindustan Times - Hindustan Times",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNZldfS185cUlybkJKaE9DakZkV2drWVI2bWhOUmFHZC1DZDF5Y2tranQtU1BGV0hZQjI1REFWOVRBWEt0amFOWUg0dGtqbmthOUVEdGZaMUI2aExRWUlzajJMT1JyeDBEd0RyN0NvMXJtNkhjaE12eklmbHVYYnBUYzluc0VlcWE2WVlTX3BVZkxVa0hPVFRZZ01aOGhJZ0pycVp1dVc0NUpNM2p0NU1td3YyYTBMVXFma0lyem5wOE5HaFpFUnpaQk1NYkx5U09GdmZEdEV5WWJIbk5CczdrYjZsR1NKdjdqRUk0SUtSRHllWXZVUVI00gH8AUFVX3lxTFBtZlpTSXlTTXhVQ3RBamU1ZEhoekJ6YjI3ZXR2NENGZ0lleU9fWnFIRjVVZnB0NU9uUmNpT3FiZjV0a2lFOHJlQU1tTHJ4NGQxa3pOVUk2WDl1ZE1WZVp3NU45OHpnVU02Y3pGTzVmS21TMW1oX3VRNTRmTF9hSUNUVjN0c2plZ2lVOXgwVHZGT1B0Z0xTM0hpLUlDQ3JFc2FYdE10Z3l3Tmo3SFNxVkVOUU5IUmtROGR6eHY5LXZ3STdPRTRjZklDNEhrZXNnY3NlN2FLdHVUeUJmR0ZtdWIyV1lPYWo4MUJqU2FndVZVY0QySnpHOG1VLVRnMw?oc=5",
+      "published": "2026-11-09T14:24:25+00:00",
+      "summary": "US stock market outlook: AI sell-off, Anthropic IPO and Nvidia earnings keep investors on alert | Hindustan Times Hindustan Times",
+      "tags": [
+        "Results",
+        "IPO"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Gold vs silver vs copper vs platinum: Which metal could deliver the biggest returns in Samvat 2083?",
+      "link": "https://www.livemint.com/market/commodities/gold-vs-silver-vs-copper-vs-platinum-which-metal-could-deliver-the-biggest-returns-in-samvat-2083-11794232375711.html",
+      "published": "2026-11-09T14:01:28+00:00",
+      "summary": "Silver has the strongest potential among the four metals for Samvat 2083 after a steep correction, though its volatility poses significant risk. Gold may suit investors seeking resilience, thanks to central bank buying and ETF holdings.",
+      "tags": [
+        "Crude & commodities"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "HSBC upgrades India to Overweight, cuts China to Neutral; Citi, Jefferies also favour Indian equities",
+      "link": "https://www.thehindubusinessline.com/markets/hsbc-upgrades-india-to-overweight-cuts-china-to-neutral-in-asia-strategy-shift/article71682343.ece",
+      "published": "2026-11-09T13:40:28+00:00",
+      "summary": "Credit growth rose 21% year-on-year in October, with corporate lending up around 24% and MSME credit climbing 25%",
+      "tags": [
+        "Global"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "FIIs extend buying spree, pump ₹7,212 crore into equities as Nifty hits 9-month high - CNBC TV18",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMVVsZTE0NGx4NmtrTnFFNWkxZDJHQXV6cVpUZC1DemY4MXZBRWNuR084WkZnOExCeEJPQ2pWNTB2SG9YTS1NVWdxRFhvVERXR1pvQ0FtN1d1Y0xieElLS0x4QlRFS1lnVHFPMU90YzZCeGZ4TjlTSU5yNURVbFhGdDl1aDZLQS1ESUkzb1otaC1fQXZtS0dIanJiVU5Kc0RQLVlVNjdrbEpHWWlMNVVrWEVwM1R2RkpvdV82RV96OTPSAcYBQVVfeXFMTmJqdF9IcWh3RlZlQXdrTExjcXlYRFF6SHNXS0JQdkZEU3lxaTU2Q1R5MDBVVGIyY0o0LXFMckE4cXMwbVdIa0FzZ0hHc0M5d0JRZ3FlX09kUVlpS1lJQ0FkWDVNOHJ4bHQyQ2o1dG9wVWJOMFdMa0VZNU1YbUJQc3ZzN19JQ1AzVDY1cnluRnYtaUZ1a2pRck1NQ09Na1oyZk80TVdzaG1vZUM0WTRQUk1kOEQ4OXRGS0JzVzdybmdiSGNJLUlR?oc=5",
+      "published": "2026-11-09T13:38:15+00:00",
+      "summary": "FIIs extend buying spree, pump ₹7,212 crore into equities as Nifty hits 9-month high CNBC TV18",
+      "tags": [
+        "FII/DII flows",
+        "Index"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Nifty holds 25,000 after volatile session; PSU Banks surge 3.7%, IT drags",
+      "link": "https://www.thehindubusinessline.com/markets/nifty-holds-25000-after-volatile-session-psu-banks-surge-37-it-drags/article71682374.ece",
+      "published": "2026-11-09T13:27:23+00:00",
+      "summary": "The Sensex ended at 81,106.65, up 107.25 points or 0.13%, while the Nifty settled at 25,044.65, gaining 58.25 points or 0.23%",
+      "tags": [
+        "Banks",
+        "Index"
+      ]
+    },
+    {
+      "source": "RBI",
+      "title": "Auction of Government of India Dated Security",
+      "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63952",
+      "published": "2026-11-09T13:25:00+00:00",
+      "summary": "Government of India (GoI) has announced the sale (re-issue) of one dated security for a notified amount of ₹34,000 crore as per the following details: Sr No Security Date of Repayment Notified Amount (₹ Crore) GoI specific Notification Auction Date Settlement Date 1 6.94% GS 2036",
+      "tags": [
+        "RBI & rates"
+      ]
+    },
+    {
+      "source": "RBI",
+      "title": "Supersession of Board of Directors of Abhyudaya Co-operative Bank Ltd., Mumbai - Extension of period",
+      "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63951",
+      "published": "2026-11-09T13:20:00+00:00",
+      "summary": "The Reserve Bank of India, in exercise of its powers under Section 36AAA read with Section 56 of the Banking Regulation Act, 1949, had superseded the Board of Directors of Abhyudaya Co-operative Bank Ltd., Mumbai (the bank) for one year on November 24, 2023 , due to material conc",
+      "tags": [
+        "RBI & rates",
+        "Banks"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Chemplast Sanmar shares jump over 11% in biggest single-day gain in 10 months as Q2 rally gathers pace",
+      "link": "https://www.livemint.com/market/stock-market-news/chemplast-sanmar-shares-jump-over-11-in-biggest-single-day-gain-in-10-months-as-q2-rally-gathers-pace-11794229336025.html",
+      "published": "2026-11-09T13:14:09+00:00",
+      "summary": "Chemplast Sanmar shares jumped 11.44% to ₹237 after stronger-than-expected Q2 FY27 results. Revenue rose 28% year on year to ₹1,323 crore, EBITDA reached ₹111 crore, and net loss narrowed to ₹5 crore.",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "Dow Jones| Nasdaq | US Stock Market Today | Live: Dow rallies 800 pts, S&P, Nasdaq 2% as crude falls 5%; Nvidia stock crashes 8%",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/dow-jones-us-stock-market-live-updates-nasdaq-sp-500-iran-war-hormuz-deal-brent-crude-oil-inflation-fed-rate-nvidia-jensen-huang-marvell-tech-qualcomm-meta-micrsoft-ai-chip-stock-price-news-9th-november-2026/liveblog/135683531.cms",
+      "published": "2026-11-09T13:11:00+00:00",
+      "summary": "",
+      "tags": [
+        "Global",
+        "Crude & commodities"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Broker’s Call: Healthcare Global Enterprises (Buy)",
+      "link": "https://www.thehindubusinessline.com/markets/brokers-call-healthcare-global-enterprises-buy/article71682158.ece",
+      "published": "2026-11-09T12:59:43+00:00",
+      "summary": "Axis Securities",
+      "tags": [
+        "Global",
+        "Pharma"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Sensex Gains 107 Points, Nifty Closes Above 25,000 - News Mobile",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWmozZnhVcUJkczlKb2ZsT0ZMSm9GWmdDU3QxZkI4ZkduNXVhYWZMazdmSnM0NFRTU0h3eXNheldwQ0xuSGNKbUFSTHBIWW9XcXE1TjBVRFdsY01jZ3FmNjdkM0tqMWRMV2M3SmIwLXBYNmNJc0RhLTJLc0wycG1aajRJYWh2bi1GMUNUTndCak9JZw?oc=5",
+      "published": "2026-11-09T12:43:57+00:00",
+      "summary": "Sensex Gains 107 Points, Nifty Closes Above 25,000 News Mobile",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Nvidia's Troubles, AMD's Boost, Nasdaq Futures | Barron's Daily November 9 - Barron's",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbnNaaFc3Q25MN1dGYTV6ZHBfOHhfZmUycDdtZTE3dUVmLW1iWmw2aFJNWVlmbGdieGVJV3pyWER2eXVvYTFxRXhsNFdWcGc5Q2ZsMHhPRW9BWjFJNl9ualp1Y2pPaW9sNzZCa0h0Ulo1NWdXUFR1QTlsRTlaOTNBeA?oc=5",
+      "published": "2026-11-09T12:39:00+00:00",
+      "summary": "Nvidia's Troubles, AMD's Boost, Nasdaq Futures | Barron's Daily November 9 Barron's",
+      "tags": [
+        "Global"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "KPI Green Energy shares jump 9% on massive volume spike ahead of Q2 results; what's driving the rally?",
+      "link": "https://www.livemint.com/market/stock-market-news/kpi-green-energy-shares-jump-9-on-massive-volume-spike-ahead-of-q2-results-whats-driving-the-rally-11794225977234.html",
+      "published": "2026-11-09T12:38:44+00:00",
+      "summary": "KPI Green Energy shares rose 9% to ₹331 on Monday as trading volume surged to 64.35 times the weekly average, despite no immediate fundamental trigger. The rally came ahead of quarterly results and followed new project capacity energisations, though the stock remains down 34%.",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "BSE Sensex: Top gainers today - Rediff",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaTBQbGlVeUhoRXNLNnIteGV3VzZjYWQtX0NPaGZhU3dtUXk5R3RYU21KVkY1LU1HSUhCOTZ2eDNDU2tfZkM1VnQwTFlHRHI2MFM5U3E4VTJraEVNZ1dWR2c5dW54Q2szVVB5Yl9KWWR4eVJfOTNQMGxQVko3aE10aDBvck84eGlGdENBMGU2SjlaU1gxazUxbGNhTWNKMlJTQzV0SUh3bTZlODcxZU5XbGFn?oc=5",
+      "published": "2026-11-09T12:31:36+00:00",
+      "summary": "BSE Sensex: Top gainers today Rediff",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "The India Upside to Jensen Huang’s Nvidia Crisis - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRkdWN01xQ20zeEJ1RWZHbG9NQVNFUjZtdTdKXzhpU0N0UEUwc2ZqVk5KcklOcVVIWng2SVd4dGtabFVnM3c2WkN4SHdSOVB3WHFQRW1XZHptZXJiM18xaWxjYWpiRC13ZExiZWNrMFNXMUZ0OFU2SWxCYkNmbnpjNWtJQmppZ3ROZURqbk1LVGRwRVV4SURSZ0tnY21Hd3FGZ3pzdjZiRFJVZmNfT3JpUF91anJ5Zw?oc=5",
+      "published": "2026-11-09T12:30:01+00:00",
+      "summary": "The India Upside to Jensen Huang’s Nvidia Crisis Bloomberg.com",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Sensex gains 107 points - Rediff",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNks1Q3BQQ1JjV0ptZGtuRzVEWjZtTDE3SDJsejVPOTBwUEMtUlZkYXJXTlpQUDFrX1VPczE1NVh1Xy05VDlIYWp5aG51TWtld0JuaEU4SlhlNlFLOUpmLURPRXB6VC1talR5dGQ1UkJqR09VQmtSNlVQdXg1ZzlHTzFWUmpRNUJITGNWTEx3dHNsOVlWV0RzbG1oU3pkMDI5YWRuRVk4MTNzQ3c?oc=5",
+      "published": "2026-11-09T12:29:36+00:00",
+      "summary": "Sensex gains 107 points Rediff",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Stock Market Holiday: Will NSE, BSE remain closed on November 10? Check details - CNBC TV18 - LinkedIn",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN19EdHNlNVdENzBxSUhfaVc1VFFUTmdhX2k4QjZkQ1lrTzhYTFloVjIzakhJYk5sMGN6cDd1N0ZpMS03SHBFUm14ZnV6NGpWYjZYWGhLQlpPRlEyTHBUR25TQ0VLODZRS1k5QVVFR0tTczAzWDV5YjJlaFVxNm5BdkxZQ2hLUXVuZ0ZDRE9lbjdjT2hudWJ1NFJTMFV1aWtpT3EtejNzdkFKanFhdEh1SUJDb280Zw?oc=5",
+      "published": "2026-11-09T12:26:12+00:00",
+      "summary": "Stock Market Holiday: Will NSE, BSE remain closed on November 10? Check details - CNBC TV18 LinkedIn",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Sensex ends 107 points higher, Nifty closes above 25,000; PSU Banks Rally - Punjab Newsline",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNmYyNUQ3VmVTTG9iTW5vTWRaTzIyQ2ZBTkFPdTgxWWpMN2tUaGtsSFlVS1NxdEhZWTZKUG85TE8xcGtJWnltX1pvNzVoUXVsbDh0S0FOVlI1TnRRZDVsbkZIZkhMS2ZKSzJPcmJab3gtWW5kQ2pEZS1mOVZ3dEZVMzJ5Vlp2Y3ZSMDQ4dUx3NlhfMjQ0cDl6b3dYVl80V3MzV1pDNw?oc=5",
+      "published": "2026-11-09T12:25:58+00:00",
+      "summary": "Sensex ends 107 points higher, Nifty closes above 25,000; PSU Banks Rally Punjab Newsline",
+      "tags": [
+        "Banks",
+        "Index"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Top 3 stocks to buy this week: Union Bank, Ather Energy, Laurus Labs by market expert; check stop-loss, target price",
+      "link": "https://www.livemint.com/market/stock-market-news/top-3-stocks-to-buy-this-week-union-bank-ather-energy-laurus-labs-by-market-expert-check-stop-loss-target-price-11794224157187.html",
+      "published": "2026-11-09T12:22:10+00:00",
+      "summary": "Indian benchmarks rose to their highest levels in over eight months, with the Nifty gaining 0.23% and Sensex 0.13%, as crude prices eased. Markets close Tuesday for Diwali. Analyst Chandan Taparia recommended Union Bank of India, Ather Energy and Laurus Labs, citing bullish techn",
+      "tags": [
+        "Banks"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "700% return in 5 years: KP Energy share price rallies 20% to hit upper circuit ahead of Q2 results 2026- Check details",
+      "link": "https://www.livemint.com/market/stock-market-news/700-return-in-5-years-kp-energy-share-price-rallies-20-to-hit-upper-circuit-ahead-of-q2-results-2026-check-key-detai-11794223729241.html",
+      "published": "2026-11-09T12:18:55+00:00",
+      "summary": "KP Energy shares surged 19.99% to ₹204.95 on Monday, hitting the upper circuit as trading volume rose more than tenfold ahead of the company’s Q2 FY27 results. Its board is scheduled to review the results on November 13.",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Stock Market Holiday: Will NSE, BSE remain closed on November 10? Check details - CNBC TV18",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOOXdZWl91TVdxUy1ZSlpiYmZkOF9QdDhjTWJwMWIzcGtnTUl1WHRNYXhMVGl0a0FaTVdpSUgwdFctZG41RXNZN1VkQlJwUWtBQ0R4MURQMmhkMHBkXy1CblFoWDJPbGh1MWFmZEtBbG0xT29fLWo1bl92eFZIVU1xRUwwMEpPbUxoZjJWNlp0TEtRTVI0MlhQVWp5RENBTjREN3BQbGcyT2VtUERzQnZWZzdxcHZYSG5HSVhBaWtJTXRRRlZOS2hvTWtR0gHPAUFVX3lxTE54VHVxT1p5SEY5REZGSi1TNFQwc0FXVUNMM1h1MWU0S1pqalZuRVoxbEdzbUtBMGFXNm5CWHFFRG5tOG1YZTF1ZWpvRXVydDlNalRtX0FHTmdRaWV6dUVTWVFjSGJGd1ZKQ1VLdzhVanpnb3ZsZ2RIOGljTDFNdDNGcTFDMjJWX3NqbU1EX0ZsNmFPY2VyUXhUVHlidXY5TThiM3RvLVdFV1lyMjNtdHpHZDRmaWNzSFFVdGdHUHV0cWhNS1lfNDE0QlloMlRGRQ?oc=5",
+      "published": "2026-11-09T12:14:56+00:00",
+      "summary": "Stock Market Holiday: Will NSE, BSE remain closed on November 10? Check details CNBC TV18",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "India bonds continue rally ahead of inflation data",
+      "link": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-continue-rally-ahead-of-inflation-data/articleshow/135681750.cms",
+      "published": "2026-11-09T12:11:27+00:00",
+      "summary": "Indian government bond yields extended their rally on Monday, with the benchmark 10-year yield falling nearly 4 basis points as easing crude oil prices and hopes of a US-Iran peace deal improved sentiment. Investors are now watching US and Indian inflation data for cues on the ou",
+      "tags": [
+        "RBI & rates"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Nifty IT index falls over 1% as global AI stocks stage recovery; Mphasis, HCL Tech, Infosys down 2-3% - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNYUpmX0FOX1VFeC1EM0xQdHFEcHVTZTJCRUVSSmN5QVVETGdFQ0dDcjF5RGw4RklGSU1CVFVSTWNUYTZWQVF2ZTN0a0Z0anh6VkpoTnplUEFOcGFIcmxnSHA2OWRoMGNnbW5wZTZfSE5ZUmZnVEpEQlItY00wVW1RRzJSOHRjMXNkTGV1LUNkd1IweFE1Z0lsVTFXZ3NZM25kRDY2cFF1ZzJxVDlDb2pteDhJNjZBMWZQNFkteC0yZkNRaWxjQThhNU16VjRqc1dDaHEybkRlQ0o4NlJ2RElhNWtlLUc0eE5wZU5NQk5pQTZ5M2fSAfgBQVVfeXFMTVZJd3p0Z3BIYW15c3AzU1MyRmk1a2d6TlhqOWhTMVBzY3ZYVG1qTm1aUy0xQXBBOFRaRk1MeHo3U2s0VGFoaENObFI3cklIeDdRdzV3dnNCZGNTdWxGaTFLZHVLVlFNcEs2NmlrenFvZ3RWb2ZxVjkxQ1M4MmtPd0RIZXFISjVyUHNRX0ZuQm04ZUltV0FhT1VTZ09NRy1CZ3FfQ0V5QUxySjZoZnRkTHpaY1hzZ3NMeVJRVUcyampmR0psbmxHcEN5ekZSMWNPZUlkT2lhU0oxU1BQdmRNNHJhY2wtUnk1d0s3UlpFUmdsZjVRNzlOSnQ?oc=5",
+      "published": "2026-11-09T11:57:27+00:00",
+      "summary": "Nifty IT index falls over 1% as global AI stocks stage recovery; Mphasis, HCL Tech, Infosys down 2-3% Moneycontrol.com",
+      "tags": [
+        "Global",
+        "IT",
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Sensex, Nifty Close at 8-Month High as Crude Falls to $97, Foreign Investor Inflows Strengthen – Monday Market Report - Moneylife",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxObHhfUDIzYktjcXB3TUpTMlh2T19wOFdvQ3QtcjhuTGpYelFPSFZrR3ktZ3UycFBDN2VfejZQRU04Y2wtYWRnSFFWVzFnTnVWa0VxM1RUTjBnWmNtcW05SzN2UjZjQUVBYkFOR21zeTNSbWp0V3pfX1I1cjAtZnlCTVVTSEtNT3pESjZ1eDB1eW5WSWdaT2ZOR212X2Z5Njcxdy1pZHUtMXlocjg3UUhFeWVMQlVLbkJ3Vl9mSy12TXJaMW5jcV9qbUVIY0FBZ0dLSUFsTlJtVWNGd2RwWEs0Wm9kaHkwMzY0eVdF?oc=5",
+      "published": "2026-11-09T11:54:35+00:00",
+      "summary": "Sensex, Nifty Close at 8-Month High as Crude Falls to $97, Foreign Investor Inflows Strengthen – Monday Market Report Moneylife",
+      "tags": [
+        "FII/DII flows",
+        "Crude & commodities",
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "🚀 HSBC upgrades India to Overweight from Neutral, downgrades China 📈 Citi raises Nifty target to 28,000 🛢️ Strong growth, lower oil & slower AI development in focus Sudarshan Kumar explains #HSBC #Citi #Nifty #NiftyTarget #StockMarket #Sensex #CNB - LinkedIn",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaGY3dFBPZWdJVFRmOHMzNl9EQkJtWGExU05zYnppZmlGWnRueG9saW9sTXluU1MtSlFUeTBrUXJ1UnREdEszSHpCVzhzX0Z4cU5NVE0zWnN1c00tUDl0eTZNdzdQbkZzdUczQTg2bTdsWlY1WnNEcElUVzUxTjhaTnJma0UwYURyUENpV0hjcXcwRloz?oc=5",
+      "published": "2026-11-09T11:50:07+00:00",
+      "summary": "🚀 HSBC upgrades India to Overweight from Neutral, downgrades China 📈 Citi raises Nifty target to 28,000 🛢️ Strong growth, lower oil & slower AI development in focus Sudarshan Kumar explains #HSBC #Citi #Nifty #NiftyTarget #StockMarket #Sensex #CNB LinkedIn",
+      "tags": [
+        "Global",
+        "Index"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "Uno Minda among 7 stocks hitting 52-week highs; rally up to 26% in a month",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/uno-minda-among-7-stocks-hitting-52-week-highs-rally-up-to-26-in-a-month/slideshow/135681703.cms",
+      "published": "2026-11-09T11:49:40+00:00",
+      "summary": "",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Sensex gains 107 points, Nifty reclaims 25k amid easing oil prices, buying in banks - ThePrint",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNEZhaUFsaXMtSWxRdThPbmN2VlZrejNwaG1fSjRyWlA4TWZkWUVpckZlb3BGV1hHSXFaUVlFanI1RExqZUVtV05UWHdIb3RGYkZLWVE2RlI3MWhOcE9zRGNsSEh4Qk5YbjhDa1pHeUVXLWN4M0ZKV3gxc0VMVEdUWWJvWFlob1E2cTN4S25VM3JWdkJOS180NEJURENoZUFBMG5DSUVXUU9IWTFzU3pqNVBlbGlNNmpkWkHSAb8BQVVfeXFMTUpYdkNkTzJOVFN6SzJzMzhuWXF3NnhXTFZ5OG94ZFRia2tKazV3dEZ4dFpibFdfZURTTldrYXNRaGFXcmZsU281Z3d1YXN2WFgwNHFndXZvSzVBUUxQY3ZOclFXczlFYnpyMHRfQUNsLVpYR1RkeW5pMm8xY0EyMGtxbGhPS1d3RVMwbWJqVVBQaUJsVVBIdmdLcWtCZFJ4Yk5NUllwdGYxdi02dnRCeWktalRvcGNwTWcxdDNSM2s?oc=5",
+      "published": "2026-11-09T11:46:28+00:00",
+      "summary": "Sensex gains 107 points, Nifty reclaims 25k amid easing oil prices, buying in banks ThePrint",
+      "tags": [
+        "Crude & commodities",
+        "Banks",
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Market wrap: SBI, Trent, Tata Steel, HCL Tech top gainers and losers on Nifty and Sensex on Monday - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPODJOSTgxTmlWWUNsTjJSLV92ZU1lOVVVZENiWGdPNmpxSVh2YWNDMVkzX0lfd3lwOUQ4dUxCZEJZeHpJWVBPckwtUnlKRkpDelZLWE9saHQ1a2RQVVVMczFBeVNRaC1qazBjU3d3TmFzU3hsQnNvSEE0czlKaXYwTVYzR1JxVXUxV0RlbjVjSlVwYUd0aDJySWd1VjlNSmQtTmhUSFlBZjlLT3BndkhVMVJKVXdTa0t3a3piWTgtZW1wQmFyOE1JVkNGSXlEZzdUaGNpSEs4cUotZ2d5OWZSRk9jMXlnN3hLd2ptZDM4MVQ4WlJyYndrRmk4YmzSAYICQVVfeXFMTU9RNUxvQWM3VGZMX1d4dUsyYmNxZU90THpqVW9PVmdueU9sX0xMOXJhNk1vWUgxX2g4M2lNUEpXNWl5eWZOMzBITmN1TEppN29nRUVXQ2htbTBrM2tOaGJJVzd3Y3c2U2R1Qkx5LWF1Y2lXd2xrUU1TdFpteTZPejN4SmtBSUNWWFAzemxrR19mb2hRMkZ1ekEwVnE1QkF6UFo4WkdKdDJldlVkWi03azEwZTJ4eU4zb1RNbVFjcHRMV1hXamRpOGxidkxkejV3LUw0X2RlTjdtZ2pIYVNQdl82LXBuVDRKWHJ5b1ZXSEtuNFE1elBMNHJoUG02SWFZLW1R?oc=5",
+      "published": "2026-11-09T11:45:42+00:00",
+      "summary": "Market wrap: SBI, Trent, Tata Steel, HCL Tech top gainers and losers on Nifty and Sensex on Monday The Economic Times",
+      "tags": [
+        "Banks",
+        "IT",
+        "Index"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Broker’s Call: Mrs Bector Food (Buy)",
+      "link": "https://www.thehindubusinessline.com/markets/brokers-call-mrs-bector-food-buy/article71682126.ece",
+      "published": "2026-11-09T11:42:21+00:00",
+      "summary": "Anand Rathi Research",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Nvidia shares drop nearly 6% in pre-market as alleged China spy links put Jensen Huang under board scrutiny",
+      "link": "https://www.livemint.com/market/stock-market-news/nvidia-shares-drop-nearly-6-in-pre-market-as-alleged-china-spy-links-put-jensen-huang-under-board-scrutiny-11794222872171.html",
+      "published": "2026-11-09T11:40:40+00:00",
+      "summary": "Nvidia shares fell 6% in pre-market trading after the company’s board launched an investigation into CEO Jensen Huang following reports of an affair with a woman suspected by US authorities of spying for China.&nbsp;",
+      "tags": [
+        "Global"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Technical View: Nifty 50 must cross 25,200 to resume uptrend, until then range-bound trading may continue;... - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPSVY2bFR5U1NQWlBLbW1icmtKenlnQ1BQeDhuc3NLeXhwbzUwZXFITHkwX2dCSDRvbFI2Yy0wWTZ2bFpTSXVEQTk0SlpKVlk0dDRMOGo2T0NRM05nczRySmRkcHJSd0dXRG4tbFVReFdDVHM5R0NJbkQ0aXNBOEpMN3RLVkpjanh2S29PRUwxdGFjblViVVJHWDdCNnk3N2t6MmV6R3AyNkdfQzlVV0hRa0JHdHFLOFNld2Vhd1dHY0xaeXJ2MUJZSEFnQkZYVGJDQS16aXRta2cyTDBENXRzSm5KU1FqT3Q0eUtLU2ZNbHZzaDh1cjd5MlVCRVRvWlFMQnh1VC1hS3I0bXNPZTJwOUV5ZV9GQUdPbGJWSmtjVUZXZzNQbHVndVVfMHc0M2pkY1NKWUFzbmlKZ9IBvwJBVV95cUxNNlJlNlJWUDJtSWRmTV8xTTdMbThodGFNQ1VtRTdOa2duNkNrTUtia0xXWXMyTUpFQUZCMDZfU3JDeWFPRUNQa3BxOFROcVhaRFlyTTVzRUtUWE5VWmctNWM4N1ljdEhmVHVsUUZtRmZ5bG1jMlBQX0VUUURmdDVLbldkQl9FSkk2cmRPTlB3NXk1eG1Ub3pJcnBlMHpxYkhCQmZ4bkxoWVhQLWNTZlE4SnFHcUozeDlNZjlaajE3SWlMa1NwLXNLWHBpR3ZsOGtoRGQ2UkJqR2NldVZWRW44dEU0Q1Fyb3VlVHFfdWhBOUNLVHRjWXQxTktxWDNBSjVWOHh2R2RUbjRDWkRCSVluaGZVdFpOVjUzYzFTUjl4WHpEdjIxY1cxcWtaYnlqc0xJVkFBU2RURU5ldExmYXlF?oc=5",
+      "published": "2026-11-09T11:39:26+00:00",
+      "summary": "Technical View: Nifty 50 must cross 25,200 to resume uptrend, until then range-bound trading may continue;... Moneycontrol.com",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "NSE deploys liquid cooling for AI infra, plans over 80 GPUs this quarter",
+      "link": "https://www.business-standard.com/technology/artificial-intelligence/nse-deploys-liquid-cooling-for-ai-infra-plans-over-80-gpus-this-quarter-126110900780_1.html",
+      "published": "2026-11-09T11:39:02+00:00",
+      "summary": "The exchange plans to scale GPU capacity beyond 80 this quarter and eventually to 224, while extending liquid cooling technology to its co-location data centre in the future.",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Sensex Gains 107 Points and Nifty Closed Above 25,000 - SMEStreet",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWk5saEI1YXIxLWtvbDA1UU9fLTVXa0VfSmp3clFab2NTZmtxbjBQVUU4N2VmcW9BaGk2SzkzSDRHQlZkMU0wbU9NQkJOMmtVTUlEME8zemc4QmtmWEpHb0xLUmNZOTRhNG5nQk1KSkUtVEh4R2x0dFgwMlo2Nm9VTDNmQV9USWZBQm5vcVJ1MmZGQ2FEckJ4QW9ETdIBmwFBVV95cUxNWk5saEI1YXIxLWtvbDA1UU9fLTVXa0VfSmp3clFab2NTZmtxbjBQVUU4N2VmcW9BaGk2SzkzSDRHQlZkMU0wbU9NQkJOMmtVTUlEME8zemc4QmtmWEpHb0xLUmNZOTRhNG5nQk1KSkUtVEh4R2x0dFgwMlo2Nm9VTDNmQV9USWZBQm5vcVJ1MmZGQ2FEckJ4QW9ETQ?oc=5",
+      "published": "2026-11-09T11:33:18+00:00",
+      "summary": "Sensex Gains 107 Points and Nifty Closed Above 25,000 SMEStreet",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "IFSCA proposes model portfolios in GIFT City by research entities",
+      "link": "https://www.business-standard.com/markets/news/ifsca-proposes-model-portfolios-in-gift-city-by-research-entities-126110900766_1.html",
+      "published": "2026-11-09T11:30:54+00:00",
+      "summary": "The proposed framework requires research entities to disclose portfolio risks, investment strategies and rebalancing schedules, while benchmarking performance against relevant indices",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Alphabet eyes $3 billion bond sale in Hong Kong, Singapore: How Google parent is leveraging Asian markets amid AI fears",
+      "link": "https://www.livemint.com/market/stock-market-news/alphabet-eyes-3-billion-bond-sale-in-hong-kong-singapore-how-google-parent-is-leveraging-asian-markets-amid-ai-fears-11794219861137.html",
+      "published": "2026-11-09T11:29:32+00:00",
+      "summary": "Google parent company considers raising funds in Asian currencies as investors reassess technology firms' AI spending and borrowing costs rise",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Stock markets end higher amid easing crude oil prices, buying in banks - The Hindu",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVTB5YjhLMkhDUlRYRmtybjFRcWliV1ZrOFJHNGs0VldFaHZ5QlFTVjRUOXhjbnllYkFiUjNNV3haNGxZcFVGYXBWUmR5TDdkS08wTjB1OHVRem1pdm5FeUdPdEpMQkUxWHJNSWJHQ1l6dnV2ckJuYktNbzJCNVozV0RKR0p1eUowVTJUNm9pOE00b3dxbGlUbm1KbGpucUJ6WXljUlBmSmpNcGtWZDVOcTNoS2FiREZpdl9EVWs4bWpXclhXQUx5bndnQdIB0gFBVV95cUxNZEdNU0RBWjdwV19XN2laZUh5enhIbExoYTR3QlU2MVQ1QTdmeTVHd2JEZEdSNGlrdTBhdHBqN05HWHc5ZWtGNmpnMUEwbTZqd0Q2Y0VSN0FIQXVudTc4eUllam0wWWQzSGpBQ0R2R1dnYUZaRmhYRXczZ3BzN1FQV0k1dnBhVlFobFVFVkM3OGFURHQtLXpzaXBzWnRfaU5KQlFCUHBCSF9iaVRnMVNycjZaeGV1LWVhdURXQWhGTEhESXJfVkEzVVNJa3FNZzBBWVE?oc=5",
+      "published": "2026-11-09T11:25:47+00:00",
+      "summary": "Stock markets end higher amid easing crude oil prices, buying in banks The Hindu",
+      "tags": [
+        "Crude & commodities",
+        "Banks"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Best power stock to buy: Samvat 2083 picks | Adani Power, Tata Power, Vedanta Power to NTPC — What market experts say",
+      "link": "https://www.livemint.com/market/stock-market-news/best-power-stock-to-buy-samvat-2083-picks-adani-power-tata-power-vedanta-power-to-ntpc-what-market-experts-say-11794218332905.html",
+      "published": "2026-11-09T11:20:38+00:00",
+      "summary": "Samvat 2083 stock picks: Investors looking for safe growth and income, shares of NTPC and Power Grid Corporations can be bought, say experts",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "US markets still reliant on tech stocks despite AI selloff and Democrat-win triggered political risks",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-markets-still-reliant-on-tech-stocks-despite-ai-selloff-and-democrat-win-triggered-political-risks/articleshow/135679992.cms",
+      "published": "2026-11-09T11:16:25+00:00",
+      "summary": "The US stock market is currently experiencing a significant pullback in technology and AI-related stocks. Investors are concerned that Democratic victories in the midterm elections may result in reduced data center spending. Despite recent declines, the technology sector remains ",
+      "tags": [
+        "Global"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Nvidia shares drop after CEO Huang’s affair triggers board probe",
+      "link": "https://www.thehindubusinessline.com/markets/nvidia-shares-drop-after-ceo-huangs-affair-triggers-board-probe/article71682207.ece",
+      "published": "2026-11-09T11:11:48+00:00",
+      "summary": "The stock was down about 6% in early trading before the opening bell, while shares in Nvidia’s Asian suppliers shrugged off the news, largely tracking the broad rebound in stateside peers",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "FPI investments in FAR G-Secs rise nearly ₹8,000 cr as rupee gains, bond yields ease",
+      "link": "https://www.thehindubusinessline.com/markets/fpi-investments-in-far-g-secs-rise-nearly-8000-cr-as-rupee-gains-bond-yields-ease/article71682301.ece",
+      "published": "2026-11-09T11:11:41+00:00",
+      "summary": "During the same period, the Indian rupee appreciated from 94.90 on November 2 to 93.74 against the US dollar today, while the yield on the 10-year benchmark government security eased by nearly 0.14 per cent to 7.178 per cent on Monday from 7.315 per cent on November 2.",
+      "tags": [
+        "FII/DII flows",
+        "Rupee"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "FIIs cut stake in 10 smallcap stocks for 3 consecutive quarters; shares fall up to 70% in CY26",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/fiis-cut-stake-in-10-smallcap-stocks-for-3-consecutive-quarters-shares-fall-up-to-70-in-cy26/slideshow/135680171.cms",
+      "published": "2026-11-09T11:10:47+00:00",
+      "summary": "FIIs reduced stakes in 235 BSE smallcap companies for three consecutive quarters. Nine stocks suffered 50–70% declines in CY26, highlighting sustained foreign investor selling and significant market corrections.​",
+      "tags": [
+        "FII/DII flows",
+        "Results"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Indian Equities See Modest Gains Amidst Oil Price Correction, Strong Bank Performance - Rediff",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVmRHTUtNR2NJcXVrUG52Q01HYXEwLTROZGs5SHZMN2JvY0l3WEpNVlpubUdsOEV5czllWUtJSjNZd3BSZHVkaHdZc2E4cGxLTU5BX1hJTVBuTWEtd2VOazY2VHE1Qm5jdTZ4RFBPWGtRcjVOTjVxUFhGS1J0NHhpSUNackc5U3o1dEd3VnpFUFFRcVByY1hvaFNJMWYwRWtPWDJQRUVtSzRpNm1FZ0dDRVBiMU1GbUVJaU5TME44clfSAcMBQVVfeXFMUFVuYnRHZ3pfY29HZjI4LURwb1VsUGdiV2QyYzdUQ0d6WFBRQXJ0c1RmRWlBbnJ4NjJtYkZOVmFWU3hWRGtZVTUwX0dscEw4VmlLcmdxNGxwSGZWNVBTTDZXT1hhcXlaX0t4NC1FZUdTWTJtSGd6YXNPUDB4dDZLUGcxcnpLckZnWjRtZGtHYm10aDBhQlVvSkVWZWpBcmpxa2hPUXNZd1h1azFLVlRkNWZ0VmVUUl9XRHNxVTh1Q2lnRnQ4?oc=5",
+      "published": "2026-11-09T11:09:29+00:00",
+      "summary": "Indian Equities See Modest Gains Amidst Oil Price Correction, Strong Bank Performance Rediff",
+      "tags": [
+        "Crude & commodities",
+        "Banks"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Indian Stock Market Closes in Green: Sensex Surpasses 81,000, Nifty Settles Above 25,000 - tennews.in",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTEY4NnBCMmRPcDA4aWc0SXI4MDdYTXVwN1ZrdXRuUXFHblYtNmc0bzdjSTFiYUoxUVZfMWotTUEyT1RYT2NndFpMbjJsNEVEaENOZHRrY282WWNDaVZQNWdka0lHazh2UkpyVnlyQ05iY19MeFgzdGdJSW5fTWRteXcyVVFYaGpDaUhiclFiM3NaU0xheGV5emY4NzNQVDcxVnhIMHVVaw?oc=5",
+      "published": "2026-11-09T11:08:26+00:00",
+      "summary": "Indian Stock Market Closes in Green: Sensex Surpasses 81,000, Nifty Settles Above 25,000 tennews.in",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Dalal Street extends winning rally: Nifty, Sensex rebound to hit eight-month high - The Week",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMlpoZG9hMk0teGVXLXZKV0l4ZnZzRVdvMlNFVlVqVVdjSlV1T3IyYzFmMXEyYnNRWFlhRmVXd0tLNVRCOXE0eTkxdE80bE1fWWR4Ri01MnkwQWxBckdqQmQ0ZXRMaXgyN0lDbkd5UzV3X2dnSW84OHBCQ2gwNmNLV2UxbWFodl95T2RwYTVJeXM1WXpLdkdaWVg5eXUyZjZKYWRPeEczbzZJbTFCOXBfN1VPUFFwOVNnb2lBZUtSQjN2Z2RDeE53UnNuOTHSAdIBQVVfeXFMTncwYmF1czAzSDlod3BmR3F3cTRhSFBfbXVYQWRiLWszbm1pakFOSWVsdmJVMWgxZXRpUklRcG9ZVENRMEU5RXE1LWY3Zk82Tnl6dzlFUE40YjI5QzBrS0VqZ19QaFBVb3ZROW1hTE1RQ3ZoMHowRWstUThKS3hyS090SlVhb0M4VEJXYWFaS0puZ1V6RXVjeTlOZFhHZHdtRzdZMW9nc2ZDbmI2TmNwNGVCS0R0b1JFcHh2MW1fN21RbEwycThrd0xNMjd5OFhhS193?oc=5",
+      "published": "2026-11-09T11:01:40+00:00",
+      "summary": "Dalal Street extends winning rally: Nifty, Sensex rebound to hit eight-month high The Week",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Bulls maintain firm grip on market as benchmarks stage a strong recovery from day’s low - The New Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTlNVMzNkM0s4b1hSblFSTl8yc29rVGgxb3hWN2pJNUJaaTRwMzl0ZXRhcEVwTDM2VDNKU2RMN3QyUks3NXNpeU5LS2ZUdGxtVVZvQXlsUEhCOHlEcGRrWVNIWm5kT1BnSE9nZ0psSHhzTkxPcHc5WTZXamR2czM3bVZHNUIxRlV6WHBFbU5ZVlMwU1hzdmNRVFJKVHM0NlMxZjlTd3U1eHJuWnNMZWpIdTRVY1dYQWstRDNTVEpYLWxFVnkzTnE1RE83Rkh1S1lpeDNubklZRdIB5AFBVV95cUxOMVl5T3dUNHV1WVZ5UGJDR0E4ZFlPZmhReVliRlVfWWh2amUtblFYaU9NdXhGeG9waGF2ZjgyTXZCQWdtc0lMSU45Um5PZ1pHTlhCVklhUUFMYzJZbnplMHY3ZGlpRHFFV2NvUFZpVi00VUJIZWMtODVxUHpXOFlEZkxPVHk4SS14MF9ESDNRQVpSQWlDWHZzUFFib1JSeTUwMU84S1ZhRjlFY3V2VlZJSXBOS1F2bWJmMmFMb0RvUjVCbFBOTkRIVU1MbkpqdlRWYVYyU05BcmROUXMzdVU5S0hEci0?oc=5",
+      "published": "2026-11-09T11:01:03+00:00",
+      "summary": "Bulls maintain firm grip on market as benchmarks stage a strong recovery from day’s low The New Indian Express",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "RBI",
+      "title": "State Government Securities - Full Auction Result",
+      "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63950",
+      "published": "2026-11-09T10:55:00+00:00",
+      "summary": "The result of the auction of State Government Securities held on November 09, 2026 is as under: (Amount in ₹ Crore) ASSAM SGS 2046 BIHAR SGS 2044* BIHAR SGS 2051 CHHATTISGARH SGS 2036 # Notified Amount 1000 2000 2000 900 Tenor Re-issue of 7.83% ASSAM SGS 2046 issued on 29-APR-202",
+      "tags": [
+        "RBI & rates"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Top PSU stock to buy: Brokerage sees 50% upside! Gujarat Energy shares gain 2% as profit surges 26% - Check target price",
+      "link": "https://www.livemint.com/market/stock-market-news/top-psu-stock-to-buy-brokerage-sees-50-upside-gujarat-energy-shares-gain-2-as-profit-surges-26-check-target-price-11794218975640.html",
+      "published": "2026-11-09T10:47:20+00:00",
+      "summary": "Gujarat Energy shares rose nearly 2% after the company reported a 21.9% year-on-year increase in second-quarter net profit to ₹639.27 crore. Motilal Oswal maintained its Buy rating and ₹325 target price, citing strong gas distribution growth and other business strengths.",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Sensex today | Stock Market Highlights: Stock markets end higher amid easing crude oil prices, buying in banks",
+      "link": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-9-november-2026/article71681002.ece",
+      "published": "2026-11-09T10:44:11+00:00",
+      "summary": "Sensex, Nifty, Share Prices Highlights: Market benchmark indices Sensex and Nifty ended higher on Monday amid a correction in crude oil prices and buying in blue-chip bank and financial stocks.",
+      "tags": [
+        "Crude & commodities",
+        "Banks",
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Stock market holiday tomorrow: BSE, NSE shut on November 10 for Diwali Balipratipada after Sunday Muhurat,... - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQSmRxeW5QSzhsYWt0MktaMTBGc2EwdHRmMEttbk1aMFRCSjk4Sld6ZjJ6bzZTd0VGd3NiOXowWlN1MlpMZmVHV3VKMlVBSlB4MmtxcG1hMENENGNSLWRGQnpCbGM3TzZBZ2gyOHMxTkd1RjA5ZmczelU1SnlrbHpOT2pMQTRWVndEdkIxbjhPVV9weVNKdE9DQkdBUHZtRzNqbmhDeXdpbVNnU2xUZ2FIRVgxNXV2UUlST3lVWkhFejhkTV9Fc0NaRllCV1h2UGFTZUpCNjJYUEIzNVVxQjRPMC1UbGdQSU1NcnpLb01ZMXhsckYyME9lVTJuYndFM2l2ZDZPRXNZcHFGRmlMREHSAZMCQVVfeXFMTWJrVlN1TE53VUFUTDgzaGJrMUtmemZYOTFKSk9jRWtTb0dROXV4YUkzREJVOHNsR2p2Tm40MmE1SmNERkM4eUFob0tFdXhnNVd5SEdDbVZYN1ZTUm5UNnlPZlQ5R28wWjdJS3Z5YVJ5bG5PeEhiM1pyYTVEUlF5bnJ5QXZ6MXBhWE82ZlRPNU5fUlNKWVcxVVpGYW9pMlVzemRtakd2dklzNTNSU3dLd19LZXI1UW1rb294QUhmMmhrUEI0Vlgwd2VWQXU3UzczeXg5YXE1UHExRWcwQVNJWXY4WlVENV9LczRLNURJbEhETWtnQnd3ZHhhRUt6WVh2b0dJQlp2dmRrczB1LVFPUGFIdVU?oc=5",
+      "published": "2026-11-09T10:41:35+00:00",
+      "summary": "Stock market holiday tomorrow: BSE, NSE shut on November 10 for Diwali Balipratipada after Sunday Muhurat,... Moneycontrol.com",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "RBI",
+      "title": "Reserve Bank cancels Certificate of Registration of Gandhinagar Leasing and Finance Ltd.",
+      "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63949",
+      "published": "2026-11-09T10:40:00+00:00",
+      "summary": "In exercise of the powers conferred under Section 45-IA (6) of the Reserve Bank of India Act, 1934, the Reserve Bank has cancelled the Certificate of Registration (CoR) issued to the following Non-Banking Financial Company (NBFC): Name of the NBFC Registered Office Address CoR No",
+      "tags": [
+        "RBI & rates",
+        "Banks"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "India stocks higher at close of trade; Nifty 50 up 0.23% - Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSmZKRncwTlIyeUk1QUFycktMQXlnc2xyNjZHWml3OW8zRGRLZWpVSmxQb2dTOERwRnlGeEhXdjhST0NtMjdXSlFGcHlLLVVNQUl6NXFsWHVPdHplRGFjMXE5ZmFBa2xRVXd6MHVmNklkc3V1RDBicWhmWkhuaVUzWk9PSDdOTUdCZnFrZFZYQ0pDa1RiOHNrMm1ySGZBV2FQQlU4RmFyT0FlN0loRUsw?oc=5",
+      "published": "2026-11-09T10:37:35+00:00",
+      "summary": "India stocks higher at close of trade; Nifty 50 up 0.23% Investing.com",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Winter is coming! Voltas delivers strong Q2 results. Should you buy the Tata Group AC maker as cold winds rise?",
+      "link": "https://www.livemint.com/market/stock-market-news/winter-is-coming-voltas-delivers-strong-q2-results-should-you-buy-the-tata-group-ac-maker-as-cold-winds-rise-11794212915132.html",
+      "published": "2026-11-09T10:37:31+00:00",
+      "summary": "Voltas shares rose 2.5% after Q2 FY27 net profit increased 51.4% year on year to ₹47.71 crore and revenue grew 15.3% to ₹2,706.57 crore. Room air conditioners led growth, while project revenue fell. Brokerages differed on the stock, with target prices ranging from ₹1,160 to ₹1,50",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Nifty 50 ETFs or index funds? Compare returns, expense ratios and tracking errors before choosing where to invest - Livemint",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNRVlUY3hIR3J3ZGNEN043aTZCRUNvLXhidmN4UnhCMnE1VmE0RGtLUzUyUXNoUks0Z3hqbkJpQnR0Z1cxR1E1WEVYb2FCQ0VXeHhkX2J6dTQ4cXVEbGhKLW9uX3ZOUVFaX05qSEdpNEI4bENsWnRqRU5qbUl3QWswWFlDY3FJcjhsYnZiRVZhSE1WSVhnelBqaENzWG5uLThVVk05M0kxUm93UGdGWDNkcG0xU001amU5elBSWFloSEpQRXdJT005N1FXZ0w5cm9pTFZFTGVvVm45am5nWFMzTE9JRVdtSHowZjBJR0tUaHd1LVdKRlNRVEFXZkhIand5eFV6WmhTdkx3ZEXSAZACQVVfeXFMTUU3UWFIVWNEQ1g5elRObEV4TUVGZnROdUVBRXZwM2NQRzhUUjBxZVdlOGhjSFd0c2tqd3ptcG56ejZLeWliOG9xTFlmOHJ4Zzl3SUNzdDBISDZCbmdpLXRFYWFodGUzY3E3dDhGVm8zcmhBQjRaLXpaTC1rN0dRYV9iMWpTeUJEUUZhbmkyenprZ2JhNmhESGViUDBtblh4Y1lZbFFQRGRfTnZCeHg4bXJiM2hOb2hMa3pPUnhqeVNNV2dZejJWMHVaQkUzWnh6dDNnT0ZJVWQyc2dGcUptUDgtczRVTHdtczVsaEc5NG9BUERCTlRlMnRoVnRTOTlYZm9KSExYZ09iYkVuc1J0bVI?oc=5",
+      "published": "2026-11-09T10:36:33+00:00",
+      "summary": "Nifty 50 ETFs or index funds? Compare returns, expense ratios and tracking errors before choosing where to invest Livemint",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "India shares higher at close of trade; Nifty 50 up 0.23% - Investing.com India",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOGxzbG5PY3N0aXJuQ2RnZjZyd2JWY3FRY2E1ejBacnd6R1lVRHJOcGs1Nml2X0NoaGJoc3dkTEJqX1dRSDR2ZzZxMWVDbWtWNlBLcnNCb25NOWZvT0dQeTJaX24xRG9ZVkEtTnc0bW5vM2JkOU0yVWkwUW5Sbm1mb091dWFtVmF0T2ZlWlp3MzFDM21MeUNTSThIREw1d3l3WWstNHVfWU1XNWY0emc?oc=5",
+      "published": "2026-11-09T10:34:49+00:00",
+      "summary": "India shares higher at close of trade; Nifty 50 up 0.23% Investing.com India",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Closing Bell: Nifty 50 Closes Above 25,000 as Sensex Gains 107 Points; PSU Banks Rally 3.73% - Dalal Street Investment Journal",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeFREbVJReS14WVRmVjJ2TVE4NWpnV1VoX0hlZmVJNlNCd0t5ZW9xUWdQbTdwU2I4cWxMTnpTQ0lJSE43Q1I5bGVBYWw0aDVfV2IzYXlVYXlkT1QwZDNOWTB4aGVBTXVva2lUbFF4emx1MzFySTZSUzBxcWxhdmJqLXgwUnV0UEJ5Qlo1UVRSOS1ZRzFQaDByWWxCd0dhU3FKcHE1N0FNeWhGaXVxSnd2NnY4WFRvcWVsczhESU54cVpzNWVHQm1Kb3Z2YXMyd0lBWWc?oc=5",
+      "published": "2026-11-09T10:33:17+00:00",
+      "summary": "Closing Bell: Nifty 50 Closes Above 25,000 as Sensex Gains 107 Points; PSU Banks Rally 3.73% Dalal Street Investment Journal",
+      "tags": [
+        "Banks",
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Sensex Today Ends 107 Points Higher | Nifty Above 25,000 | Data Patterns Up 9% - Equitymaster",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVEpWVHJTYVJtdTkyODdFeWpTRnByOFVnVVRjWkt4RnBpTjlYTzJPZk9qemVWMEFhVDliTEJpb2RITjZNcE96S3V3SXlBYmxWWG5sMXZ0amVvUWVSUVltT1NSZTcwOXZ3cGZDeU1qMUpIYlk4bnJ4dlhyejhKcjEwbzItclhSdjAtM2F0U3hXTVpQcDFXc1RUU2NORGJWNUd6S1Y1MDdFX2NPVDdIVHBjX0JGci04ZmxXVXM1cVg0Z1F5MkJpeEZxWWNER3YtNHc?oc=5",
+      "published": "2026-11-09T10:30:47+00:00",
+      "summary": "Sensex Today Ends 107 Points Higher | Nifty Above 25,000 | Data Patterns Up 9% Equitymaster",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Rupee breaks six-day winning streak on state banks' dollar bids",
+      "link": "https://www.thehindubusinessline.com/markets/forex/indian-rupee-breaks-six-day-winning-streak-on-state-banks-dollar-bids/article71682202.ece",
+      "published": "2026-11-09T10:29:29+00:00",
+      "summary": "The rupee hit a six-month high of 93.69 per dollar, extending last week's rally ‌of more than 1% but closed slightly lower at 93.9275, from the previous close ‌at 93.9050",
+      "tags": [
+        "Rupee",
+        "Banks"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Stock Market Highlights: Nifty Reclaims 25,000 After Muhurat Dip; Sensex Ends 100 Pts Higher. Check Key Gainers - NDTV Profit",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZmxRSVlEM2EzLVNFZjNYSjlPMG9ONXZVOGJoQ3BJMkJEZWU5Y2Q5MklUVDl3ZGVwemNuTG1IVWtrbTFCRDJHTEpnZmZNWnVDcTVFZmtJYjdreno3RlVCRWVMbjJuMGUyZldEeUNjUWVCTXRDSkMwaFE0WE1CbkdFT0hxTmVLMTZFWVBxMHlZYXhFZFhRNTVIaVVfV19Md0VHQ1N1SXp5dkRabjN0M3lOTHE4WWNEVkJqRFkyOXRaNEN4c05qSHdpaEFJU00td3REU0RBUUFOUnZWSHfSAeMBQVVfeXFMUE1vNVZkR0pETG9lU0JzR2VNVVhMcFRtMVZwTEJnenQ5NGIwRlh3LUhFVlZCYllKQVhtcXNUNkw1dlFGMzFBM0pPYldOcExJdHd6alJZS2h4ODdSZVNOYmNXQk9USGdRSEhFZFplcGdLcnhfLWVjLUFvLTJpSHlsU0FZZzJLTVoxbE5yQ1gxT04ybUQzTmo0YkhTWlpJR1BaWVoyZWRXV2RBT2ZFYWVPMGcwaVZEdFRxc0VzTXRJT0toeHJVWFk5MEtZWkxzTHNDNjgtZEpCY2Y3WnhnZmdrLThzNEE?oc=5",
+      "published": "2026-11-09T10:25:07+00:00",
+      "summary": "Stock Market Highlights: Nifty Reclaims 25,000 After Muhurat Dip; Sensex Ends 100 Pts Higher. Check Key Gainers NDTV Profit",
+      "tags": [
+        "Results",
+        "Index"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "Indian rupee breaks six-day winning streak on state banks' dollar bids",
+      "link": "https://economictimes.indiatimes.com/markets/forex/indian-rupee-breaks-six-day-winning-streak-on-state-banks-dollar-bids/articleshow/135678769.cms",
+      "published": "2026-11-09T10:24:26+00:00",
+      "summary": "The Indian rupee snapped its six-session winning streak on Monday, November 9, as dollar purchases by state-run banks outweighed positive momentum. The currency touched a six-month high of 93.69 per dollar before closing slightly lower at 93.9275. Lower crude oil prices and forei",
+      "tags": [
+        "Rupee",
+        "Banks"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Market wrap, Nov 9: SENSEX rises 107 pts, NIFTY50 ends at 25,044 as PSU Bank, pharma stocks rally; SBI leads gains - Upstox",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQY3U1MElSQlJrX1NGTFpBOHBUaGthQWdhUUt2b2JNQS1SaGUyMkZ1eU4zQTlIVDNZelgtaUE3NmZWVGxBdFBKcHJPdUJGcjl3VkliYXl2M05RZzVJbUpFcFRQWFNHMHp5MVVYSmQ3R0FlX1Bra0x4YU1fbGg0eHgydmFNMS1YX3R2bXdfN2ROcVZSSkZtR1NJUjlCY1RBcHRTRXRhN2F5VXp6c3NLZERtVFM3Qk50cnV3eGpwR0lhZnFKb2xqWFF5R1FiWEFBT3JDV0VxR3BpUl9wNUtZaDZQYk1YTENxdGxDUUpRNWVOa0lkNFYtU0VSUHlBclpOZw?oc=5",
+      "published": "2026-11-09T10:22:52+00:00",
+      "summary": "Market wrap, Nov 9: SENSEX rises 107 pts, NIFTY50 ends at 25,044 as PSU Bank, pharma stocks rally; SBI leads gains Upstox",
+      "tags": [
+        "Banks",
+        "Pharma",
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Sensex, Nifty end flat after range-bound trade; PSU Bank stocks lead gains - ANI News",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNHRfR3dLNF9lWTEzTU5yVkZncVozTy02QTh5aDFEWG42Ump3ZEtfTW43X2pnVHBVR2dFVDl4WW9XQzlLWmhhOHRsN283T2pKM0RybmZiRDhtTlc0ZThNY29wYlBVR2tRaUplTU9LaVRkU21aclNhdmRzZG5tNWN2RE9KcnpUalJzV0F1cTFTT2luSEVnRDVLZ3hxdVlPc0VLV1B2ZGUtMlZYMlZ2MWUyLWNDdm9LOTZRcVZ3WlVzUGU?oc=5",
+      "published": "2026-11-09T10:20:00+00:00",
+      "summary": "Sensex, Nifty end flat after range-bound trade; PSU Bank stocks lead gains ANI News",
+      "tags": [
+        "Banks",
+        "Index"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "₹13 to  ₹82: This multibagger small-cap stock turns  ₹1 lakh into 6.5 lakh in just 10 months. Do you own it?",
+      "link": "https://www.livemint.com/market/stock-market-news/rs-13-to-rs-82-this-multibagger-small-cap-stock-turns-rs-1-lakh-into-6-5-lakh-in-just-10-months-do-you-own-it-11794218451880.html",
+      "published": "2026-11-09T10:19:54+00:00",
+      "summary": "Rajvi Logitrade shares have surged 566% in 2026, rising from ₹13 to ₹83, while a ₹1 lakh investment at the start of the year would be worth about ₹6.5 lakh. The logistics company has a market capitalisation of ₹52 crore, but thin trading volumes may limit liquidity.",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Sensex up 100 points, Nifty above 25000 - ChiniMandi",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Kc3VvUVhxSlMzSlRIdmhCdEdKTHpYQjZWM2pla2ZUcnNQYndmMGFzS2ozZFZnaFRqamZBSXBhMW5VVHZ1UWZrZm8yYmhhYXM0R0pDZ1M4MlM1aHRMZVJJY0xOM25GY1Q4RlJKUHNSMHNuNjVC?oc=5",
+      "published": "2026-11-09T10:15:01+00:00",
+      "summary": "Sensex up 100 points, Nifty above 25000 ChiniMandi",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Sensex, Nifty end higher: 3 reasons why PSU banks, defence stocks rallied today - CNBC TV18",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMktHQ3FYckd1dHBobXRwdWFkVnZYX0xQRTFQWEZBR1FPcjVvUHFZcHRqaE5FaENPWGZnanh5V0FVM3BHVjVzd2FRbG1HRHpDam44aHhmMldOa2lCa24tV2RmbHo0WVVVcEEtVWQzWEIzdUUzdkIydmdWRkNaYU9HQnBpUXIzdDR5eUZoeVdNYkdtS3NlTWhYeWp3YW44ZzJxR2dJQmotd2Y5YW0zX1VrWmhNOWk3SkRfZUtZdEln0gHDAUFVX3lxTE9MNTFIQW1qcjcwbzFZYzdDckRDQjVtWUgxem81VjdTTld0VE1NWXlac0o3V1FPNHlUMjd4N3NsQ1RzQUJNa0x3QnRXOUNUbl9wVkRkcm02X0x0T1E4bDFieFRkUDktd3NVcUZ0cWlYRmF1QnNXbWpXdzRwRWdiQ0lHTnczYnZ1MmdaSFk0RVpQRnZBVm1DUEZVdnpRS21SUVFGRGt1Mk4yUklEMzNuN21hRWRHbFZjUjVDYmFlNi1fOEp6MA?oc=5",
+      "published": "2026-11-09T10:12:03+00:00",
+      "summary": "Sensex, Nifty end higher: 3 reasons why PSU banks, defence stocks rallied today CNBC TV18",
+      "tags": [
+        "Banks",
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Closing Bell: Sensex gains over 100 points, Nifty crosses 25,000; PSU Bank stocks rally, IT shares drag - Zee Business",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOeG05NXN4YklFZUYyQTRHQTdGM2RidC0tT3hxWWJDZk1qTlE5ODlQVllSWkh1OE1COXZ4bWl0eklwREV4Q2RiNlFpQldvcktfVGUzZDFaUENadW95bV9fOXBPN29QWlRNRTZJaWpkazNiV0ZERFRlWE1ZdXBpSm9rRnN6b1oxRE1HQm5FLWVKLWY3Qm1sLWV2ak1IQi1FSTRqRGdkcXc1cVB1aHFQcnpzSzlEVXVqUDAzaTh1TzFvc3BDR3dCT012LWZGN3g2U2pOOEllN0szdHUxRFBsYnc?oc=5",
+      "published": "2026-11-09T10:06:05+00:00",
+      "summary": "Closing Bell: Sensex gains over 100 points, Nifty crosses 25,000; PSU Bank stocks rally, IT shares drag Zee Business",
+      "tags": [
+        "Banks",
+        "Index"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "RBI's $239 bn forward dollar position to limit rupee gains despite FPI inflows: Report",
+      "link": "https://economictimes.indiatimes.com/markets/forex/rbis-usd-239-bn-forward-dollar-position-to-limit-rupee-gains-despite-fpi-inflows-report/articleshow/135678171.cms",
+      "published": "2026-11-09T10:04:34+00:00",
+      "summary": "The Reserve Bank of India currently has a net short position of USD 239 billion in the forward market, which may hinder the rupee's ability to strengthen, even as foreign portfolio investor inflows improve. This influx could potentially be managed by the Reserve Bank, capping any",
+      "tags": [
+        "RBI & rates",
+        "FII/DII flows",
+        "Rupee"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "₹17 share declares  ₹40 dividend; hits 5% upper circuit ahead of record date | Do you own as ex-date to fall soon",
+      "link": "https://www.livemint.com/market/stock-market-news/rs-17-share-declares-rs-40-dividend-hits-5-upper-circuit-ahead-of-record-date-do-you-own-as-ex-date-to-fall-soon-11794217379790.html",
+      "published": "2026-11-09T09:46:16+00:00",
+      "summary": "Taparia Tools shares hit the 5% upper circuit at ₹17.89 ahead of the November 12 dividend record date. The company announced an interim dividend of ₹40 per share.&nbsp;",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "Pharmacy retail stock Entero Healthcare zooms 33% in 1 week; hits new high",
+      "link": "https://www.business-standard.com/markets/news/pharmacy-retail-stock-entero-healthcare-zooms-33-in-1-week-hits-new-high-126110900567_1.html",
+      "published": "2026-11-09T09:41:41+00:00",
+      "summary": "Entero Healthcare Solutions' share price moved higher by 4% to ₹2,095.30, also its new high, bouncing back 7% from its intraday low of ₹1,967 on Monday.",
+      "tags": [
+        "Pharma"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "Data Patterns shares zoom 9% post Q2 show, nearly double from Jan lows",
+      "link": "https://www.business-standard.com/markets/news/data-patterns-shares-zoom-9-post-q2-show-nearly-double-from-jan-lows-126110900563_1.html",
+      "published": "2026-11-09T09:39:55+00:00",
+      "summary": "Data Patterns posted a profit after tax (PAT) of 21.97 crore in Q2 FY27 as against 49.19 crore in Q2 FY26, a reduction of 55.3 per cent year-on-year (YoY).",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "IREDA shares jump 7% despite 20% fall in one year on high trading volume | Check target, stop loss, stock performance",
+      "link": "https://www.livemint.com/market/stock-market-news/ireda-shares-jump-7-despite-20-fall-in-one-year-on-high-trading-volume-check-target-stop-loss-stock-performance-11794214570839.html",
+      "published": "2026-11-09T09:34:49+00:00",
+      "summary": "IREDA shares opened at ₹111.62 apiece on the NSE, against their previous close of ₹111.46, and climbed to an intraday high of ₹119.58, marking a gain of around 7.3% from the previous closing price.",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Bank Nifty surges 1% to trade above 59,500; PSU banks lead gains: What lies ahead? - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMmFSVVRkVGN0MXV2WFdGbUhETjZRQXNhR25lYTVYZnJxcmxEeGtwRnY5R0k2UHpJMHhBQmp6c3QxTnVHcWthbjRMcEl5UGxiT2xmX0lGTTFYM3NEN2dQNnJzZVJFMExFZUY4WjZSRlpHcDlibS1fZ3oxZ1RCR3V5MElzZ0VGaEtJS1k2TGFBQ2NtZnZDemkwR3dFaEd3RlhRUjFzRDNUa3dFRmlYUWxDcUdyOTd2eDhUNmVjbUhPZnlDenhRS1h3ZlJjOXIteWZ1bW1wd25WOE1QdTjSAeABQVVfeXFMUEctaC11QWw5R3JWRkFUVVUzMG1jR3doVlNfXy0zRUh0RnNlazBuZ3pwWTB3M3hZV0F4eW1malF4OUxfcFhwcmlLS2c4cV9jTkRJdW5QMG1OazRNYVREMWVja1FpYjZ1cWJqSG03eGdOREtacTZSZkpZMjJfRXhSaVVmUkp5MVEzdC13VWNTVzNPWXloa2phVk84OXpHZ2RCT0x2N1VPdFBJM0oxNTk5NkdJV2JKcVpNZ3doLWszd1lVay1VemVPdm4xWVY1c3RmaG92eU9zN0VWTl9NZEVVcHA?oc=5",
+      "published": "2026-11-09T09:34:39+00:00",
+      "summary": "Bank Nifty surges 1% to trade above 59,500; PSU banks lead gains: What lies ahead? Moneycontrol.com",
+      "tags": [
+        "Banks",
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Live: Nifty recovers 100 pts from day's low; Oil at $96, rupee back above 94/$ | Closing Bell - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPVzI3X19TRU55el9Rd0wySWxmc1R4cGE5dHJJNU9LZGUyYXMtYzRlVndONWFhekZ6TzRMb2tDSWVyQ0hRb2lQdHhHVTBFUzVjajZOWDNfVXowZGNDUHRjemtMZWVDSFpVSTdMd3QzUlV2WVFkaXhtOEt5X1hxTEFoQlh3YVhBaTNXeGVtUThyMFUzT1BkbGxFX2wwaXpIQVM3VkhlUzhCUkNySU9IUHQyZnlrQUo1SUtpc0Y3VnhSWGViRUpfbjRIWnk0V3RpVi1ZUzRFbWxXSTRuekk3SnAzZWx5X1RBNUJEYkRuRG130gHzAUFVX3lxTE80SUttX0k5VEFyU3dYQmtyb3kyOXN3aTNXTGxlZ0NyaDdfN2lTclJJak5yR2lidjQtYVM5UDN1cjNyUnVOdFpwQ0tLeC1YVlVZT1B2YVc2UFhKX1lZYjVOM0FBWHFUa2w4NzlCR3J3OHAzMGtuZzNwN29GdFlhRnZJWEVLUmNqQ1lMaVZQQ1Bya19tVHZ3Rmk2cHAxbVBSSzRwbGtnWGJJbDV5UEJkaEdJQlN3a2ZFTE9TVkxmbVpNWUlyNEFQeU9oeEJyd1N0dXl5azFERE8zR0c0cUNnODVFRTRvTVk0Q2dMUUlxdGE1VmNiTQ?oc=5",
+      "published": "2026-11-09T09:31:01+00:00",
+      "summary": "Live: Nifty recovers 100 pts from day's low; Oil at $96, rupee back above 94/$ | Closing Bell Moneycontrol.com",
+      "tags": [
+        "Rupee",
+        "Index"
+      ]
+    },
+    {
+      "source": "RBI",
+      "title": "Result of Yield/Price Based Auction of State Government Securities",
+      "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63948",
+      "published": "2026-11-09T09:25:00+00:00",
+      "summary": "Sr. No State/UT Amount to be raised (₹ Crore) Amount Accepted (₹ Crore) Cut off Price (₹)/ Yield (%) Tenor (Year) 1. Assam 1000 1000 97.55/8.0814 Re-issue of 7.83% Assam SGS 2046, issued on April 29, 2026 2. Bihar* 2000 1533.882 8.10 18 2000 2000 96.56/8.0816 Re-issue of 7.76% Bi",
+      "tags": [
+        "RBI & rates"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Global pricing pressure drags down Indian oilmeal exports 36% in August",
+      "link": "https://www.thehindubusinessline.com/economy/agri-business/global-pricing-pressure-drags-down-indian-oilmeal-exports-36-in-august/article71681746.ece",
+      "published": "2026-11-09T09:22:44+00:00",
+      "summary": "India exported 1.76 lakh tonnes of oilmeals in August 2026 against 2.76 lakh tonnes in August 2025; overall shipments down 13%",
+      "tags": [
+        "Global"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "Nvidia's shares slide as chip giant probes CEO Huang over spy claims",
+      "link": "https://www.business-standard.com/markets/news/nvidia-s-shares-slide-as-chip-giant-probes-ceo-huang-over-spy-claims-126110900547_1.html",
+      "published": "2026-11-09T09:12:38+00:00",
+      "summary": "Nvidia's shares tumbled more than 6% in Frankfurt trading, extending last ​week's selloff and pushing the stock to fresh multi-month lows",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "IRB Infra share price climbs 7% as toll collections boost Q2 earnings",
+      "link": "https://www.business-standard.com/markets/news/irb-infra-share-price-climbs-7-as-toll-collections-boost-q2-earnings-126110900539_1.html",
+      "published": "2026-11-09T09:06:57+00:00",
+      "summary": "IRB Infra share price target: MOFSL has retained its earnings estimates and reiterated a 'Buy' rating on IRB Infra stock, with a target price of ₹22.",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Welspun Corp, JSW Steel, SAIL, NMDC to Tata Steel: Which metal stock to buy in Samvat 2083? Experts' views, targets, SL",
+      "link": "https://www.livemint.com/market/stock-market-news/welspun-corp-jsw-steel-sail-nmdc-to-tata-steel-which-metal-stock-to-buy-in-samvat-2083-experts-views-targets-sl-11794209957357.html",
+      "published": "2026-11-09T09:04:20+00:00",
+      "summary": "Samvat 2083 stock picks: Experts believe selecting the right metal stock depends on your investment goal: capital appreciation &amp; volume growth, dividend yields, or structural outperformance",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Is stock market closed tomorrow in India? Holiday in NSE, BSE or trading of shares allowed? Check exchange calendar",
+      "link": "https://www.livemint.com/market/stock-market-news/is-stock-market-closed-tomorrow-in-india-holiday-in-nse-bse-or-trading-of-shares-allowed-check-exchange-calendar-11794214735706.html",
+      "published": "2026-11-09T09:03:16+00:00",
+      "summary": "NSE and BSE will be closed on November 10 for the Diwali-Balipratipada holiday, following a special Muhurat trading session on November 8.&nbsp;",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Airtel's subscriber additions plunge as Jio gains, despite ARPU growth",
+      "link": "https://www.livemint.com/market/mark-to-market/airtels-subscriber-additions-plunge-as-jio-gains-despite-arpu-growth-11794207042610.html",
+      "published": "2026-11-09T09:01:54+00:00",
+      "summary": "The plan was significant as it offered a relatively low-cost entry point for users with a daily data limit of 1GB. After scrapping the plan on 12 August, Airtel’s cheapest entry-level plan was the ₹349 plan, offering 1.5GB of data per day.",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Persistent cost inflation delays the treat for Britannia investors",
+      "link": "https://www.livemint.com/market/mark-to-market/britannia-industries-biscuit-industry-input-cost-inflation-gross-margin-ebitda-margin-grammage-cuts-price-hikes-11794211688592.html",
+      "published": "2026-11-09T09:01:27+00:00",
+      "summary": "Higher raw-material costs and fresh competition are clouding Britannia’s margin outlook, even as rural demand and general trade volumes recover.",
+      "tags": [
+        "RBI & rates"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Sensex Falls 141 Points, Nifty 50 Slips Below 24,950 as Investors Assess U.S.-Iran Talks - Dalal Street Investment Journal",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNTVVbHFZeGxLWUlYTXh4dVU2bV9Uekozckl0ZldMVGxNc1JZbWh5WTF5TXpXZ0RrVThuejduREdobG1fc3ZfRnVfOVZLaDRaSEFfa0Q2UWNwM0hhcHgtU3ZjNjFITGt3SjZvektFWUlydTFlODgxMlJSallTZW1jNGxhZTJyd3dTTWtmN2lzWTJNcWxfYkJfRUlWellzZHRjXzJROEZrWEgtcVR0NWV2RUt1MWNIcDk0azVacGFoeEFZbmVLUmpvRm1GV3NNUQ?oc=5",
+      "published": "2026-11-09T08:58:47+00:00",
+      "summary": "Sensex Falls 141 Points, Nifty 50 Slips Below 24,950 as Investors Assess U.S.-Iran Talks Dalal Street Investment Journal",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "European Power Prices Shoot Above €600 as Wind Generation Slumps",
+      "link": "https://www.livemint.com/market/european-power-prices-shoot-above-600-as-wind-generation-slumps-11794214647817.html",
+      "published": "2026-11-09T08:57:27+00:00",
+      "summary": "European power prices surged above €600 a megawatt-hour for peak evening periods on Monday due to a collapse in wind generation, showing how tight electricity markets can become when renewable output is weak.",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "From family offices to affluent individuals, SIFs widen their appeal",
+      "link": "https://www.livemint.com/market/stock-market-news/specialized-investment-funds-sifs-individual-investors-11794198309627.html",
+      "published": "2026-11-09T08:53:03+00:00",
+      "summary": "Once seen largely as products for corporate treasuries and family offices, specialized investment funds have crossed ₹40,000 crore in industry assets, as a ₹10 lakh entry threshold draws a growing pool of affluent individual investors.",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Aarti Drugs shares defy weak market sentiment; skyrocket 11% today | Here's why; stock returns, performance",
+      "link": "https://www.livemint.com/market/stock-market-news/aarti-drugs-shares-defy-weak-market-sentiment-skyrocket-11-today-heres-why-stock-returns-performance-11794210277705.html",
+      "published": "2026-11-09T08:52:02+00:00",
+      "summary": "The pharma stock opened at ₹457 apiece on the BSE and surged to an intraday high of ₹513, registering strong buying interest during the session.",
+      "tags": [
+        "Pharma"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Nifty 50 rangebound amid thin holiday-influenced trade; Anil Singhvi sees support at 24,700-24,815 - Zee Business",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNXzF1VkxfVFd5RlB6Q2VqTFJ6ZjFsN2lGZFF3YWNXZzY2b25JQWUtSnpSOGlBV0hTOEdFMzVfU3FOdjYyYWtvdHNvSkx2Ml84djFzeDJrbFNpWXdLcmJEMFFjM0huN254LVlnd1I4ckNaZ0JMMTlyWHlqUXNFaVB4X3BkNjRXcjlJYTJJb1BVa2RONUlZS053YnlEYVBQT1ktMXpiOWNTZw?oc=5",
+      "published": "2026-11-09T08:49:52+00:00",
+      "summary": "Nifty 50 rangebound amid thin holiday-influenced trade; Anil Singhvi sees support at 24,700-24,815 Zee Business",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "Ashok Leyland, Paytm down after 6-day rally; analyst flags positive charts",
+      "link": "https://www.business-standard.com/markets/news/ashok-leyland-paytm-down-after-6-day-rally-analyst-flags-positive-charts-126110900526_1.html",
+      "published": "2026-11-09T08:47:44+00:00",
+      "summary": "Ashok Leyland and Paytm were down up to 3% in Friday's intraday trades, having rallied up to 23% in the preceding six trading sessions.",
+      "tags": [
+        "Global"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "CAS weighs on NSE, BSE Q2 earnings; MCX rides gold, silver volatility",
+      "link": "https://www.livemint.com/market/cas-weighs-on-nse-bse-q2-earnings-mcx-rides-gold-silver-volatility-11794206165459.html",
+      "published": "2026-11-09T08:37:48+00:00",
+      "summary": "Sebi's rollback of the closing auction session could revive trading volumes and profitability at equity exchanges, while MCX faces questions over the sustainability of its precious-metals-driven growth.",
+      "tags": [
+        "Results",
+        "Crude & commodities"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Alembic shares: Big 15% jump after Q2 results, gains 27% in two weeks: Can the rally continue? What experts say",
+      "link": "https://www.livemint.com/market/stock-market-news/alembic-share-price-jumps-15-after-q2-results-gains-27-in-two-weeks-can-the-rally-continue-expert-weighs-in-11794211767420.html",
+      "published": "2026-11-09T08:27:12+00:00",
+      "summary": "Alembic shares surged more than 15% after its Q2 FY27 results. Net profit fell 11.2% year on year to ₹67.57 crore, while revenue dropped 45.9% to ₹30.25 crore. Analysts cited strong buying interest but said a sustained move above key resistance levels is needed to confirm further",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "NIFTY Pharma rallies nearly 3% to hit fresh new peak; Divi’s Labs, Gland Pharma lead gains after Q2 results - Upstox",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPWHhteDh3YnJ0amFWMkpBSWhEU0dsY2FsYjFRNXc1dGhzall5ME9IRmV4Zm85QVY0QXpUVVBrOW42Ym03SWlVZkJDcThzMDB2anRzUDFsdEFDTE8ycG9LY19aUWVLQ3hMS0xVUXF0NjR6Sl9LaC11MzNJOHhCM1pVZEhhZUZ3ekJ4LU9XSGNSV1J1Mm0xekxyd1pnR2ZxdUV2UmQ1S2xDbkdKbzh3R0RyRDZ4cUh5QzF5MmN1YzRuWGRBM2kyWGtyb1QyWVR5RVVSbHVicG9OMWpVMmc0QlNyMXNqZ1JFb3BXWFA1TGlJUE9lZTNkN0E?oc=5",
+      "published": "2026-11-09T08:26:17+00:00",
+      "summary": "NIFTY Pharma rallies nearly 3% to hit fresh new peak; Divi’s Labs, Gland Pharma lead gains after Q2 results Upstox",
+      "tags": [
+        "Results",
+        "Pharma",
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Stock Market Holiday 2026: Is stock market closed on Tuesday? Check remaining holidays for the year - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQd2cwbGNvdUFEWnBhVHp0NlA0RWFuV2tqcU1TUWV1YkkxaVlrYU1JZjdQeTN5YkVMT2poT2hfQnZHaV9Xdy1SRzZ6OE9HcXlPbHZHV04wNTNBOFNRWUo0dVVJUkV0M2tscTg4WmMzZ3Nua2FWTlh2ejZxRk43T2Jad24xZWY5N1gzV0Zrb2YzMVdSWU5KZllCOWRQcm9MamNabHNBMy1CUkFfc01Db1VuUkJjMHBLMEVhRV9pQ3FyU1kzYktUNnVKc1h0TnVNNTBVbEwwZk9hajlUM0J5LXJaWEQ2TWhqTEFOR2NqTzJNWFhyaTU5WWhaRlNRWFZldW9l0gGGAkFVX3lxTE0xbHpncDVfb0lGc3hfdW5PVndDWU9rZVNUM2ZiUUlxMXFrU2hXeTgzSDQ1Mkt2QmFfbExRN09BT1llZ2JFOXFxWUJZX0xhbU42NXZiVnBlNjJxRHpNdEkwMVZuTGkzMTZmaU1xempGWUE1Q3Bsb25IUTlPZzlOZ1Bib3BPUHBRS0s4VTZ1QTctNDVQWlo2NGM5MHBiX0piTnpCWHdrSjVQZmM4ajF5OXR5Y3N1QXFmNE14bllPQWxNcDN1WVRVbkZ2R3Q0dTJOalM5UXB3NGJWYTFxOU5OMzdWSlpUQ0FJU3N6ZmlVRWt3bFAzYU83Q3gwbm1hMFlPQ1BWbDIwRWc?oc=5",
+      "published": "2026-11-09T08:22:39+00:00",
+      "summary": "Stock Market Holiday 2026: Is stock market closed on Tuesday? Check remaining holidays for the year The Economic Times",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Today’s Gold Rate: Latest Gold prices in Coimbatore, Nagpur, Jaipur & Other Cities",
+      "link": "https://www.thehindubusinessline.com/gold-rate-today/gold-price-today-in-coimbatore-nagpur-visakhapatnam-surat-jaipur-lucknow-chandigarh-gold-rates-other-cities-november-9-2026/article71681862.ece",
+      "published": "2026-11-09T08:15:51+00:00",
+      "summary": "22, 24 carat Gold prices up across other cities on November 9",
+      "tags": [
+        "Crude & commodities"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "The Stock Market Has 2 Chances To Bounce and It’s Already Wasted One - Investing.com India",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRnN0WTB2d2ZkWTljMzBmOVZ5Q1kyOTlJQ0YweUFJTVdlc3NCUEVoRHJSYTNWQTB0dUNhRFhFQ0VidXhCTU1SSzZGNXc1aDBFbjRPSlpfSzRsLURneS1hLU95cDJoVDljXzFWRWNGSkM1LTFqSGZwTDBTLTBuZXcyVkpoQVlEcUQwZkxrcEczbk42dHBOVTR3Y2U4dG91cEw5M2RURkdhWFkzOWVidUxnLQ?oc=5",
+      "published": "2026-11-09T08:15:35+00:00",
+      "summary": "The Stock Market Has 2 Chances To Bounce and It’s Already Wasted One Investing.com India",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Today’s Gold Rate, November 9: Check gold rates in Delhi, Mumbai, Chennai",
+      "link": "https://www.thehindubusinessline.com/gold-rate-today/gold-price-today-in-delhi-mumbai-kolkata-chennai-bengaluru-hyderabad-pune-gold-rates-metro-cities-november-9-2026/article71681861.ece",
+      "published": "2026-11-09T08:14:16+00:00",
+      "summary": "22, 24 carat Gold prices up across metro cities on November 9",
+      "tags": [
+        "Crude & commodities"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "MakeMyTrip's India arm gets Sebi nod to float IPO",
+      "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/makemytrips-india-arm-gets-sebi-nod-to-float-ipo/articleshow/135675673.cms",
+      "published": "2026-11-09T08:12:31+00:00",
+      "summary": "MakeMyTrip's India subsidiary, MMT India, has received approval from Sebi for an initial public offering. This approval follows a confidential filing of draft papers made in July. The IPO will involve the sale of equity shares by MakeMyTrip and its subsidiary, ibibo Group Holding",
+      "tags": [
+        "IPO"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Nifty slips to 24,882 at midday; IT, Steel, Cement drag as Rupee hits 2026 high",
+      "link": "https://www.thehindubusinessline.com/markets/nifty-slips-to-24882-at-midday-it-steel-cement-drag-as-rupee-hits-2026-high/article71681848.ece",
+      "published": "2026-11-09T08:10:53+00:00",
+      "summary": "The Sensex declined 362.13 points, or 0.45 per cent, to 80,637.27 from its previous close of 80,999.40, as selling pressure broadened across IT, metals and cement sectors, overwhelming early gains in banking and pharma stocks.",
+      "tags": [
+        "Rupee",
+        "Index"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Nifty’s 25,000 hurdle: Bulls see breakout, bears dig in for weekly expiry today",
+      "link": "https://www.livemint.com/market/stock-market-news/india-stock-markets-today-nifty-sense-levels-call-options-put-options-11794206566782.html",
+      "published": "2026-11-09T08:08:56+00:00",
+      "summary": "Nearly 9 of 13 percentage points gain since the 52-week low on 8 October came in the first week of November following the oil price decline after Democrats' victory in US midterm polls&nbsp;",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "Uno Minda zooms 26% in November, stock nears record high; here's why",
+      "link": "https://www.business-standard.com/markets/news/uno-minda-zooms-26-in-november-stock-nears-record-high-here-s-why-126110900464_1.html",
+      "published": "2026-11-09T08:07:32+00:00",
+      "summary": "Uno Minda's share price hit a 52-week high of ₹1,367.50, gaining 4% on the NSE in Monday's intraday deals.",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Indian stock market outlook for Samvat 2083: Top-10 factors investors should watch - Business Today",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSi1YWkd2b1VQS0ZuVm5ZTk9KUGVSVHZnZnFqZC14Z080MWJ2QVBmbVlCYUwzczNXdEVRQUxXSjItTnBmQmdvdDdNTDhwaXY3ZzZzSDlPZzZUZVhyS18zQnY0TWFXZUltdGdROHZxdGtWMzNMbzRTT3pHQkx6dW56b3VVRlc5dVNkam93Nl90SHBNenZ2VDZ4d2cxb3JvT09UaGY2NGJGSGhfbndGS2tHVXFVcDR5YTBBd0VhRTNLQWNsQWpYMVVGVDVQUVRzOHAxZnI4SEJCZTYzZ9IB3wFBVV95cUxQeWY3S05sYWg0S1dPeGc5N3FEVjg3M0xpMUdmYklFNEI4WWs3d1hITzhYajRJbzRNNFhEaHRlT2V2SlhHQlNUMXQ0bjJtUC1DZTlnZHRnSEIzbFdpZ3RFTE9NaDQyS2dmWmljakpMR3pwT09BV3pSeWpOUWJRZ3NicEFuLUFJaG80VW03ME1NWU1saGFYNHBfRlhXdW94b29SSllHaGlGMUVuMk5MMFVOenhHaXVWWnBoX0FGZlVSX0tFSVRyZGtjYVVXUkdQaDR2dWFZSllxVlhGeEhSSmNB?oc=5",
+      "published": "2026-11-09T08:02:19+00:00",
+      "summary": "Indian stock market outlook for Samvat 2083: Top-10 factors investors should watch Business Today",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "ZEEL extends gains, rises 11% in 2 days as board to mull buyback, dividend",
+      "link": "https://www.business-standard.com/markets/news/zee-entertainment-share-price-extends-gains-rises-11-in-2-days-as-board-to-mull-buyback-dividend-126110900445_1.html",
+      "published": "2026-11-09T07:51:54+00:00",
+      "summary": "ZEEL settled with a bullish reversal candlestick pattern on its weekly charts, signalling a potential relief rally toward the 80 mark in the near term, show tech charts.",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "PVR Inox rises 3% to 52-wk high as Ramayana's box-office biz tops ₹500 cr",
+      "link": "https://www.business-standard.com/markets/news/pvr-inox-rises-3-to-52-wk-high-as-ramayana-s-box-office-biz-tops-500-cr-126110900453_1.html",
+      "published": "2026-11-09T07:49:35+00:00",
+      "summary": "Notably, the Ranbir Kapoor-Sai Pallavi starrer 'Ramayana: Part One', which was released on November 5, today entered the ₹500 club, according to data provided by Sacnilk.",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Why Sun Pharma Advanced Research shares surge 11% despite weak sentiments on D-Street; what's boosting medical stock?",
+      "link": "https://www.livemint.com/market/stock-market-news/why-sun-pharma-advanced-research-shares-surge-11-despite-weak-sentiments-on-d-street-whats-boosting-medical-stock-11794207169769.html",
+      "published": "2026-11-09T07:40:58+00:00",
+      "summary": "The pharma stock opened in green at ₹198.50 apiece on the NSE today, as compared to the previous close of ₹197.03 on Sunday's Muhurat Trading and touched an intraday high of ₹219.49 on 9 November.",
+      "tags": [
+        "Pharma"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "HSBC, Citi turn bullish as domestic markets draw record inflows",
+      "link": "https://www.thehindubusinessline.com/markets/hsbc-citi-turn-bullish-as-domestic-markets-draw-record-inflows/article71681706.ece",
+      "published": "2026-11-09T07:36:44+00:00",
+      "summary": "The views signal a reset in sentiment towards Indian stocks as investors seek stocks that are less vulnerable to concerns over stretched AI valuations",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "Indian bonds drift with oil; inflation data in focus",
+      "link": "https://economictimes.indiatimes.com/markets/bonds/indian-bonds-drift-with-oil-inflation-data-in-focus/articleshow/135674915.cms",
+      "published": "2026-11-09T07:33:21+00:00",
+      "summary": "Indian government bonds exhibited limited movement today as oil prices showed signs of stabilization. Investors are remaining cautious, especially with inflation data from both the United States and India on the horizon. Scheduled for later today is a bond auction totaling 290.5 ",
+      "tags": [
+        "RBI & rates"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "Explained: Why Nvidia shares dropped 4% in overnight trade and what analysts warn can trigger a bloodbath?",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/explained-why-nvidia-shares-dropped-4-in-overnight-trade-and-what-analysts-warn-can-trigger-a-bloodbath/articleshow/135674705.cms",
+      "published": "2026-11-09T07:30:59+00:00",
+      "summary": "Nvidia shares dropped over 4% after CEO Jensen Huang acknowledged an affair with Alice Huang. Jensen Huang's relationship with Alice, a Chinese national, raised security concerns following intelligence reports. Nvidia has initiated an investigation into these allegations, althoug",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "47% rally in one month! Infra stock under  ₹100 inches close to 52-week high after announcement of Q2 Results 2026 date",
+      "link": "https://www.livemint.com/market/stock-market-news/47-rally-in-one-month-infra-stock-under-rs-100-inches-close-to-52-week-high-after-announcement-of-q2-results-2026-date-11794207997999.html",
+      "published": "2026-11-09T07:10:10+00:00",
+      "summary": "Highway Infrastructure shares rose nearly 1.18% in Monday’s intraday trade ahead of a board meeting scheduled for November 14. Directors will review half-year and quarterly results for the period ended September 30, 2026.&nbsp;",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "BlueStone shares jump 3% after jeweller reports 45% festive season sales surge",
+      "link": "https://www.thehindubusinessline.com/markets/stock-markets/bluestone-shares-jump-3-after-jeweller-reports-45-festive-season-sales-surge/article71681712.ece",
+      "published": "2026-11-09T07:03:30+00:00",
+      "summary": "The stock opened at ₹715.30, touched a high of ₹736.90, and traded a volume of 3.74 lakh shares worth ₹26.97 crore by mid-session",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "HFCL shares locked in 5% lower circuit, down 21% in a month despite record Q2 profit: What lies ahead?",
+      "link": "https://www.livemint.com/market/stock-market-news/hfcl-shares-locked-in-5-lower-circuit-down-21-in-a-month-despite-record-q2-profit-what-lies-ahead-11794206445672.html",
+      "published": "2026-11-09T07:02:11+00:00",
+      "summary": "HFCL shares hit the 5% lower circuit despite record Q2 FY27 results, with net profit rising to ₹394.22 crore and revenue more than doubling. The company expects at least 80% FY27 revenue growth, backed by a ₹28,900 crore order book and planned ₹1,800 crore capacity investments.",
+      "tags": [
+        "Results",
+        "Global"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Nifty close above 25,500 by November-end will trigger long-term buy signal: CLSA - CNBC TV18",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNcXNuR2FjQVJjOEJfUVg1RlZ5akQxQU1CYXJHMGR6d3JFeHRGRi1iYTdDeElnMDBDYXc2Y2FKS0lLUDF2T294Wmw2UGdxNW5oeDg4bTRyN2pDeTZvSlh1aU1abVV0ZUg1LUhXMUVnNHNVYkEzODlHZlVuWF9hclNnckJOdGctZkRRWEFnSW5KdmpicEhiQWlMemxyak1Qc0RIQlh3UDZGVW5aNlF1VEJ5d2ZEUE8wQ19adzJPc0VIWHFCOTJqX0ZvbkFZM3Q4RTBmMDBUTnBiSTNzdXIzX1NMcndqOWduRldnejM1ZGQxWkhwRzVITlZRM9IB_gFBVV95cUxPcVpDTUlGNXI4bWs4MXFma3pTYUt6OTR6bWVyTzJEYlc5QlRESVlCUTdDZXFlU2xkUmoxd3dna1k0QmNwTHlEamZFajFVV1VDal9qT0FMazQwUnZKNUl5LU83T3ZaeThIRDVMakdzLUdBdUpqQVd6TFJ3WUZPcDVGdkN0LWRVRkpEbXVRb3lXRG1lcjJCZTh1azZEZkpyTjh2enpDYzNES0lUSlNTWjBza2ZURUFfcmx4b3ktdWNwRWo5cks4Sk91ZjlsbE5VVG5yVnFOeFRuX0xPYncwVS0xcFVJQVhBVENpLTB5NC1GZDNvYjBsbGVJNFE2VjVwZw?oc=5",
+      "published": "2026-11-09T07:00:17+00:00",
+      "summary": "Nifty close above 25,500 by November-end will trigger long-term buy signal: CLSA CNBC TV18",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Honasa shares rise nearly 2% as strong Q2 results draw mixed analyst calls",
+      "link": "https://www.thehindubusinessline.com/markets/stock-markets/honasa-shares-rise-nearly-2-as-strong-q2-results-draw-mixed-analyst-calls/article71681701.ece",
+      "published": "2026-11-09T06:58:52+00:00",
+      "summary": "The Honasa stock has gained nearly 75% over the past year and trades at a P/E of 53.67x",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "Pharma shares shine: Sai, Gland, Divi's, Laurus, Glenmark surge up to 9%",
+      "link": "https://www.business-standard.com/markets/news/pharma-shares-shine-sai-gland-divi-s-laurus-glenmark-surge-up-to-9-126110900372_1.html",
+      "published": "2026-11-09T06:53:39+00:00",
+      "summary": "Divi's Labs, Laurus Labs, Sai Life Sciences and Glenmark Pharma quoted at their respective record highs in Monday's trade.",
+      "tags": [
+        "Pharma"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Hindalco trades higher after record Q2; analysts hold Buy ratings despite target cuts",
+      "link": "https://www.thehindubusinessline.com/markets/stock-markets/hindalco-trades-higher-after-record-q2-analysts-hold-buy-ratings-despite-target-cuts/article71681663.ece",
+      "published": "2026-11-09T06:49:15+00:00",
+      "summary": "The stock opened at ₹947.90, touched an intraday high of ₹960.70 and a low of ₹919.30. Buy orders accounted for 57.91 per cent of total activity, with traded volume of 47.20 lakh shares worth ₹444.28 crore.",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "SBI, PNB, Bank of Baroda: NIFTY PSU Bank index rallies up to 3.7% amid weak market; what’s powering PSU bank stocks? - Upstox",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQRkNzTldJRWsxNzZycHJHaHhnbGJzLTZneVhLOXFDcmlzd0hNUEZLZU10YzhNQ3E2UnFBc3dKR0pOZzh1UU1QcUtfZng3eUxLVjFkV0lTT05oQjk5U1lLOGd5UHRkRmZQUUFoQkVDY1MxeWdOZVlwN19jRzV0R0t3Yk1Ea2tRX0ZRTVZvUGhyblFpekZwd0RaMnZHYWFpY0VRNDlQc2d6Q3F6eHhubXprQUhYYlhJTXRFbEd1X2l1VnIycFhVRWxXRmVZcE5JMjZGTTVSNWJzMUtKa28wRmlENUMzMVBsWmJJbjRvY3dtbEZ0Vi1sR2pGaFBZR3NyUQ?oc=5",
+      "published": "2026-11-09T06:48:47+00:00",
+      "summary": "SBI, PNB, Bank of Baroda: NIFTY PSU Bank index rallies up to 3.7% amid weak market; what’s powering PSU bank stocks? Upstox",
+      "tags": [
+        "Banks",
+        "Index"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "Nvidia stock in focus: 3 key risks after Jensen Huang probe",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/nvidia-stock-in-focus-3-key-risks-after-jensen-huang-probe/slideshow/135674350.cms",
+      "published": "2026-11-09T06:43:18+00:00",
+      "summary": "Nvidia CEO Jensen Huang faces scrutiny after the company launched an independent probe into allegations that he was targeted by a foreign intelligence operation. The controversy has raised concerns over leadership, corporate governance, China-related business and investor confide",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "Gold, silver extend gains as softer oil prices ease inflation concerns",
+      "link": "https://www.business-standard.com/markets/commodities/gold-silver-extend-gains-as-softer-oil-prices-ease-inflation-concerns-126110900378_1.html",
+      "published": "2026-11-09T06:40:43+00:00",
+      "summary": "Gold crossed $4,100 per ounce in the international market. However, expectations that the US Federal Reserve could maintain a tight monetary policy stance capped some of the gains",
+      "tags": [
+        "RBI & rates",
+        "Crude & commodities"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "Nuvama Wealth Management Q2 Results: Profit rises 19% YoY to Rs 304 crore",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/nuvama-wealth-management-q2-results-profit-rises-19-yoy-to-rs-304-crore/articleshow/135673703.cms",
+      "published": "2026-11-09T06:39:56+00:00",
+      "summary": "Nuvama Wealth Management Ltd achieved a consolidated net profit of Rs 303.5 crore for Q2 FY27. The company saw a revenue increase of 20.35% to Rs 1,366 crore for the same quarter. Client assets reached Rs 5.5 lakh crore, reflecting a 25% year-on-year growth. Wealth management, as",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "NIFTY, SENSEX continue to trade lower in noon deals; HDFC Bank, SBI, L&T, PVR Inox, Divi's Labs among top buzzing stocks - Upstox",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcmpvWTEtVzZQaFRJT0YtMm5SVnh0VDV4QTJBTXczT2FtcnJPS0tlUm9YRUd2RlZzaHI4dWJ6QVRlLWVPYlpvTUFTYzBPWDZwemtBQ0lPVnd1bVphSWszdW1ublpubThqYTdvbUQwY2JlZm5fTFIweUJINHFYT3dIdTJ3OHVITUdXejg0LTduQXUzRF9mY2ljNnAzZWRpMEVRTXFpeUlGZjdKUS1TTGZwNXVSODZ3bVJ1d09rSC1Cb0VEbUVmOWN6dVJaaHlFeDl0T250QVdRQ2NGUmxTZ19z?oc=5",
+      "published": "2026-11-09T06:36:23+00:00",
+      "summary": "NIFTY, SENSEX continue to trade lower in noon deals; HDFC Bank, SBI, L&T, PVR Inox, Divi's Labs among top buzzing stocks Upstox",
+      "tags": [
+        "Banks",
+        "Index"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Divi’s Labs hits 52-week high as street cheers record Q2; Elara at ‘Sell’",
+      "link": "https://www.thehindubusinessline.com/markets/stock-markets/divis-labs-hits-52-week-high-as-street-cheers-record-q2-elara-at-sell/article71681646.ece",
+      "published": "2026-11-09T06:35:24+00:00",
+      "summary": "The stock opened flat at ₹11,097 but gathered pace after the market digested Saturday’s quarterly results",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Q2 results effect? Small-cap stock under  ₹50 MIC Electronics rises 3% despite weak market trends. Do you own?",
+      "link": "https://www.livemint.com/market/stock-market-news/q2-results-effect-small-cap-stock-under-50-mic-electronics-rises-3-despite-weak-market-trends-do-you-own-11794204057991.html",
+      "published": "2026-11-09T06:35:22+00:00",
+      "summary": "Small-cap stock under ₹50: The small-cap stock opened in green at ₹40.96 apiece on BSE today, as compared to the previous close of ₹40.19 on Sunday's Muhurat Trading and touched an intraday high of ₹41.64 on 9 November.",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Coal India, IOCL, Vedanta to BPCL: What dividends mean for the Indian stock market amid bull trend buzz? Experts decode",
+      "link": "https://www.livemint.com/market/stock-market-news/coal-india-iocl-vedanta-to-bpcl-what-dividends-mean-for-the-indian-stock-market-amid-bull-trend-buzz-experts-decode-11794196051354.html",
+      "published": "2026-11-09T06:34:34+00:00",
+      "summary": "Dividend stocks in the energy segment have given up to 7% dividend yield in 2026, which signals huge cash flow in these companies despite high volatility in the Indian stock market, say experts&nbsp;",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Nifty swings around 25,000 as banks, pharma offset IT drag; Muhurat streak ends - Fortune India",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNc2hYd0UxYlotcGlneTRTMWdEdUtINHRZSDVTd1JfXzBCVlRDbnZtVFhoV0hfdWJJZGhPYU1YRnpwcWt0cFB4MnpYUVc4cXdIMElKVGx1QUtWZWFOMVBOUWc0TThkX2RhVncyeU02ci1mSkVINldPeUdLV1BTOGtaZE83R3Y1OUdxX1Vic19IQmlleE9uS2JWRFQ2anhtQlkyTlVpZXVDY2lEM2poTjVjTXdvTXJGU2hwY2lxcNIBygFBVV95cUxNWFRGMzFkSmNFbjFLOFFKRHYtVl8ycGVaZG5DQVVPV2hiWmpRRzEwZk9Xc0VxTHRLeldZWUFtdmZscnZJNTdYUU45OHk5NEFreHVPbC1aZVU3Q3ppVVFPZGdUbmtpSzBZRmtUZTY3T0VrOE45eXVDX0gyd0p6VHlILUx5VkFrNm1McUdLZUlXOHpqaDNlbnMyQnFxa19XODgzWkxqZnBDYlNTeUF1VXIwTzR3OTJNU3JHc0V6cVpfMVVfRWtwMFdaMldB?oc=5",
+      "published": "2026-11-09T06:33:50+00:00",
+      "summary": "Nifty swings around 25,000 as banks, pharma offset IT drag; Muhurat streak ends Fortune India",
+      "tags": [
+        "Banks",
+        "Pharma",
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Sensex ends 600 pts higher from day's low, Nifty closes above 25,000: Key reasons behind market gain - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQWGVjdGtkcE5hck80RUhEZXNZS0lobjhrc3BmcnhnZTA2R3VfNndYUHdZc1pBbDdiT2ZDT1lQdlg3MXlxOGxUZEhFelVranhqdGUyekp4MVRoTUhBYVBFN0xEZDgtR2E0dS1kS0NfWG5pLWVIdy1PeHNKVHpGVHlLaE9DeXU1QVB0Nk90cDRxRDRhVVk5S0hFR2xtOFczSExCTHhqUjBWNDRIRm9tUFZWakdKNHg4RjE0T2xDay0zeW80MjNneU9taW1USXRhRlhhVlNMZmtuQ3I0WHZaZ0tGY1RjSU15SnpNQUJlWkc4VkpGUdIB9wFBVV95cUxPYmE1dkhYaHE5dng1bjBnX3FzUVZ6RVhLdXJEZ2V3aDNlenpiUnZxSGZqczk3bjg2ZGVpS1F6R0NBMkdxZlNJVUpPdERneVlWVlptQ0VXVmZrZ1M3ZW9oY0JwdENHSEJ1Um1SVzk2M3NUZzdGd1pHbjVvOHRyNVNudklaMGd4STlRWFVTRloxLXYwVE9BU1hQYzdDMTczU2JLellBMXZsTmJtOGVwWTFNWExONlBobEcwT1d2N1l2OFViTkJlUmxydVdEYm9qUGlGR3Nxbkw4YXlNWXJoTXZoc2JVcVc2UlVPV3hGM2hKd1Zab2xZVnVn?oc=5",
+      "published": "2026-11-09T06:32:00+00:00",
+      "summary": "Sensex ends 600 pts higher from day's low, Nifty closes above 25,000: Key reasons behind market gain Moneycontrol.com",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Airtel dips 1.2% post-results as Citi flags ₹299 plan reversal; analysts hold Buy",
+      "link": "https://www.thehindubusinessline.com/markets/stock-markets/airtel-dips-12-post-results-as-citi-flags-299-plan-reversal-analysts-hold-buy/article71681616.ece",
+      "published": "2026-11-09T06:28:44+00:00",
+      "summary": "Despite the subscriber miss, brokerages remain constructive on the stock",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Tata Steel slides 2.75% at open despite in-line Q2 results; analysts divided on recovery path",
+      "link": "https://www.thehindubusinessline.com/markets/stock-markets/tata-steel-slides-275-at-open-despite-in-line-q2-results-analysts-divided-on-recovery-path/article71681592.ece",
+      "published": "2026-11-09T06:24:02+00:00",
+      "summary": "Sell orders accounted for 71.18 per cent of total order flow against 28.82 per cent buy interest, with over 2.45 crore shares changing hands worth ₹459.92 crore by 11.33 pm.",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Stock market holiday: Will NSE and BSE remain closed on Tuesday, November 10? Check list of holidays this month - Upstox",
+      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPc3JEYmc1SUlWTmlZcjFuVHBZWG93Umd2ckVpdHY4eDRENzQzWXZrR2dQWVJ0LTllQTc4N0tldmQza1h2RFRXcnVjZmxiVk9JZ3RVU3dJR1BrWVFjUmRKME9ycUZIOFh3WDdRNlM4M193LVl1aHJaVEhyOWRJa19pOWlieEZsZFVzeEhUZ09hOUxIWEREbWl2ZXNPT2xCWHI3aWRLV3NXbEJScmlxMEdIQXVTRHJtRWFPZHFBYjZlZERRRlk1ZlVITjJKbnJzZE5adFpKNXJnaHYyOTVTZGNfSURZbjdXZFpUVTVudmFlXzJTdkhXN2pVeS1ZNlpxVnFjVW9YOUhB?oc=5",
+      "published": "2026-11-09T06:23:37+00:00",
+      "summary": "Stock market holiday: Will NSE and BSE remain closed on Tuesday, November 10? Check list of holidays this month Upstox",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "IRB Infra shares surge 6% after Q2 results: Is a bigger breakout on the cards? Stock market experts identify key levels",
+      "link": "https://www.livemint.com/market/stock-market-news/irb-infra-shares-surge-6-after-q2-results-is-a-bigger-breakout-on-the-cards-experts-identify-key-levels-to-watch-11794203964814.html",
+      "published": "2026-11-09T06:23:06+00:00",
+      "summary": "IRB Infrastructure shares rose over 6% on 9 November after the company reported an 84.85% year-on-year increase in Q2 FY27 net profit to ₹260.15 crore. Higher toll revenue and InvIT distributions supported growth, while analysts saw potential for the stock to move towards ₹20.",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "Global Markets: 5 key themes to watch this week",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-markets-5-key-themes-to-watch-this-week/slideshow/135673587.cms",
+      "published": "2026-11-09T06:14:18+00:00",
+      "summary": "Global markets face a volatile week as investors assess the AI-led technology selloff, US inflation data, oil prices and geopolitical risks. China’s economic releases, European growth indicators and the COP31 climate summit will also shape sentiment.",
+      "tags": [
+        "Global"
+      ]
+    },
+    {
+      "source": "RBI",
+      "title": "Money Market Operations as on November 08, 2026",
+      "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63947",
+      "published": "2026-11-09T06:10:00+00:00",
+      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 0.00 - - I. Call Money 0.00 - - II. Triparty Repo 0.00 - - III. Market Repo 0.00 - - IV. Repo in Corporate Bond 0.00 - - B. Te",
+      "tags": [
+        "RBI & rates"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Jewellers expect fall in gold prices to boost Dhanteras sales",
+      "link": "https://www.thehindubusinessline.com/markets/gold/jewellers-expect-fall-in-gold-prices-to-boost-dhantera-sales/article71670298.ece",
+      "published": "2026-11-09T06:09:48+00:00",
+      "summary": "Coins and bars are expected to lead sales, driven by investment sentiment and gifting traditions, say stakeholders",
+      "tags": [
+        "Crude & commodities"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Money managers push for tax cuts to stem foreign portfolio outflow",
+      "link": "https://www.thehindubusinessline.com/markets/indias-money-managers-push-for-tax-cuts-to-stem-foreign-exodus/article71681492.ece",
+      "published": "2026-11-09T06:08:38+00:00",
+      "summary": "Removing capital gains levies could help improve after-tax returns for foreigners, a key factor in their calculations for portfolio allocation, say asset managers",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "Multibagger stock: Sai Life Sciences surges 9% to record high after Q2 nos",
+      "link": "https://www.business-standard.com/markets/news/multibagger-stock-sai-life-sciences-surges-9-to-record-high-after-q2-nos-126110900299_1.html",
+      "published": "2026-11-09T06:08:33+00:00",
+      "summary": "Sai Life Sciences' consolidated net profit increased by 17 per cent Y-o-Y to ₹98 crore in the September quarter of FY27. Its revenue grew by 23 per cent Y-o-Y to ₹659 crore.",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "What the global AI rout means for India",
+      "link": "https://www.livemint.com/market/stock-market-news/india-ai-trade-global-shares-it-firms-data-centre-11794200311059.html",
+      "published": "2026-11-09T06:07:54+00:00",
+      "summary": "India has only a few companies building AI models, and the rout could make them harder to fund. Of the 84 leading private AI companies identified by Goldman Sachs in October, only seven focus on models, model training, or AI integration",
+      "tags": [
+        "Global"
+      ]
+    },
+    {
+      "source": "RBI",
+      "title": "Money Market Operations as on November 07, 2026",
+      "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63946",
+      "published": "2026-11-09T06:05:00+00:00",
+      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 21,872.47 5.57 4.50-5.81 I. Call Money 846.10 5.20 5.00-5.70 II. Triparty Repo 20,814.50 5.59 4.50-5.81 III. Market Repo 211.8",
+      "tags": [
+        "RBI & rates"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Up 118% in 6 months! This volume shocker pharma stock skyrockets 14% despite weak trends on Dalal Street Do you own?",
+      "link": "https://www.livemint.com/market/stock-market-news/up-118-in-6-months-this-volume-shocker-pharma-stock-skyrockets-14-despite-weak-trends-on-dalal-street-do-you-own-11794204037727.html",
+      "published": "2026-11-09T06:04:04+00:00",
+      "summary": "IOL Chemicals and Pharmaceuticals shares surged nearly 14% in Monday trading as volume jumped more than eightfold. The rally followed quarterly results showing net profit more than doubling to ₹65.03 crore and revenue rising to ₹795.03 crore.",
+      "tags": [
+        "Pharma"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "Jubilant FoodWorks dips 5% post Q2, but brokerages remain firm; here's why",
+      "link": "https://www.business-standard.com/markets/news/jubilant-foodworks-share-price-dips-5-post-q2-but-brokerages-remain-firm-here-s-why-126110900280_1.html",
+      "published": "2026-11-09T05:54:15+00:00",
+      "summary": "MOFSL said it remains positive on Jubilant Food's medium-term outlook, supported by 5-7 per cent LFL growth potential, strong Popeyes momentum, and healthy international performance.",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Bosch shares falls 3% after stock split, bonus issue, Q2 results announcement | What should investors do?",
+      "link": "https://www.livemint.com/market/stock-market-news/bosch-shares-falls-3-after-stock-split-bonus-issue-q2-results-announcement-what-should-investors-do-11794201416845.html",
+      "published": "2026-11-09T05:52:10+00:00",
+      "summary": "Bosch shares opened at ₹50,985 per share on NSE today, as compared to previous close of ₹50,800 on Sunday (Muhurat Trading) and touched an intraday low of ₹49,105 on 9 November.",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "PSU Banks in focus; SBI, BOI, PNB, Indian Bank, Canara, UBI gain up to 3%",
+      "link": "https://www.business-standard.com/markets/news/psu-banks-in-focus-sbi-boi-pnb-indian-bank-canara-ubi-gain-up-to-3-126110900233_1.html",
+      "published": "2026-11-09T05:32:22+00:00",
+      "summary": "The Nifty PSU Bank index was the top gainer among sectoral indices up 2% in Monday's intraday deals, while the Nifty slipped 0.3%.",
+      "tags": [
+        "Banks"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Nifty target: 40,000 in long term | CLSA's Laurence Balanco sees 20% upside in banking stocks - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQckFnOUllbmlZQ3VVZzI0ZGUwMXFzelJqbnhYZnBDMVpuaGFXNHVQQU1RN3JRdkh4Y05hdnZpVUxZS1NpTWVtZEVOZ2taSE1KQVd0bm1XWWhRMnpEOEotWkEzTmNkV2ZzV0RTc0M0OTVKU2ZMUm5uOWhqb25nT3M1VHhVOG44THVKOUxFOGxlR3BtWWZILTFXREFuM2FwMENnQ2lrcDRlTHliUlUwRGs3VTdCY3YxRV9EeF9BUURJeWhGTUtWdERwZGRVVDhJN0c2NmsxYnEyaGljQ3hHNHFkZEJpVTJwWmQ0YWfSAe8BQVVfeXFMTUU5T0FrM0ExYmcwNEg3U1JWR2dBNDlTeFVOUWtXNTRoYXNUcURNb20xd28xM2ZlT0JSY0JVa0Y1R3ZZNEtzV3lTVVdJNTBrQnJWYXk4Z3VtM0tZZUpjWlpIX0E5dy11aVgxMjJsX2JNd01DczVta1RxWktZbW10VFhMQWZfQl9vZWZPMG03VWhETWJxa1IyUGs4dlpjaThoVWJqYW5JckozbFJqc1M1SWtsSlhUVDdpRXFxR0ZSNkZNNmpYb2NJWUU1OTNXT1pqQXlYc1hSR2NCcHVkMVkxMFFGbXRHMm9SanlIQ1FSems?oc=5",
+      "published": "2026-11-09T05:23:16+00:00",
+      "summary": "Nifty target: 40,000 in long term | CLSA's Laurence Balanco sees 20% upside in banking stocks Moneycontrol.com",
+      "tags": [
+        "Banks",
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Stock market holiday this week: BSE, NSE opened on Sunday but will be closed on this day - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQaGdWNnl0cWNFa0JjTTdjM1prM0Y2b2NLV0FEWmxKR0t6dUF1cUE3cjNLdjVDU3E4ekt5N3FQQWNRWHo0X2VoRTNMLUVBaXdaWTAwc1gydWRvbVRQM0Z0TWc0dkc2eGVtaFZuU1RXNXhPSU5RWFVtVTdneHVwY0RJQm0xd0M5T1BxOVVpUGFOZXJrZkZIV1pTYTA2dVdwbWkwb2FFRGxQeVRkVkFnUmJYTUIyZFpMa3Y2allYa1RDVGI1Y2dIUGtFVllpaFdJb19NV1NBSERRUHNrWkFmZU55cnBoN3pRaU5FTi0yVVRINWRyUdIB9wFBVV95cUxPT0E0NlRkRjdhV29QZ2RnV3hJVjZvSThzdjZlbDd0NDdDejhteTNBamN6Zlh5UlRkU3JVWXdXWlh6Mk45M05FX004cnZEZUhDUDVMMkVITnZRVjJXUDJ1aUhHeXREQmplb2xzUmNPREIwYXZBNElTWjZ5OVVOQkg0STB1eVgwS21JZlF4STFrYlFpS1R1OFFnWk00ajdsYjdEWk9ob29lNEJiMGNaVEVGTWJ2elhWVi1mSHhQNENwT2tNM2hIOVozZDJQRzY2TEN1RHdTYVE1UzBiMVdLbXhlWmZvcnljbEpVSGVjRm55MEpFM2FnSDY0?oc=5",
+      "published": "2026-11-09T05:17:02+00:00",
+      "summary": "Stock market holiday this week: BSE, NSE opened on Sunday but will be closed on this day The Economic Times",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "RBI",
+      "title": "Result of the 4-day Variable Rate Repo (VRR) auction held on November 09, 2026",
+      "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63945",
+      "published": "2026-11-09T05:15:00+00:00",
+      "summary": "Tenor 4-day Notified Amount (in ₹ crore) 50,000 Total amount of bids received (in ₹ crore) 62,872 Amount allotted (in ₹ crore) 50,003 Cut off Rate (%) 5.51 Weighted Average Rate (%) 5.54 Partial Allotment Percentage of bids received at cut off rate (%) 15.18 Ajit Prasad Deputy Ge",
+      "tags": [
+        "RBI & rates"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "After a 10% rally, Sensex and Nifty lose early momentum. What’s weighing on markets? - The Statesman",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZWh1RkhaOUtvVjVLVF9jck83RU1LY3dJSFdaeEVJZTlQVlFEaWRjd3BLR2t3dDRaY0VKRUtmTGZSMXY4M3B5VTlxbG1UTl95WUo4NFJNSHhBbEFQSWZRVV8wT3NrOGx1WGdwS0tBWFpDUWp6TkNURUFGWl9CVWJvQm16WjIwYzJQRDVFaDVJdTRyNE5HU3lsZ0JwQ3kyYzlmckhrMjAzc2NONlpVYXNvcy1zMmNUbS10cW12OXhUelptVDlR0gHKAUFVX3lxTE92VmVibWM5MWpVNnhGcXhNcmZlNmNWODFuaFFfQmZaZHVXX0xrcDFRU2NJdFNTZHVzRHB0UEFsQU0ySVhTekxuRW5UdFI5MWFTZzhiTGRUUHAxT2E2ZlBxQXRFMW9VcjB1aGU3bnV5YUxhMzMzQ1p1MWhDZGgyeE5WbjhrX3ZhdnRKZ1hBcWZkU05BOHJ0YV9OUXh6cmxxdGp5M0FyTm9vWEpieGhxYlZqWk1qU09Qdk45Q1MwTFpBbGQxaExrRlFxYmc?oc=5",
+      "published": "2026-11-09T05:13:00+00:00",
+      "summary": "After a 10% rally, Sensex and Nifty lose early momentum. What’s weighing on markets? The Statesman",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "Voltas dips 8% in two sessions post Q2 earnings; Emkay retains 'Buy' rating",
+      "link": "https://www.business-standard.com/markets/news/voltas-dips-8-in-two-sessions-post-q2-earnings-emkay-retains-buy-rating-126110900238_1.html",
+      "published": "2026-11-09T05:12:33+00:00",
+      "summary": "Analysts at Emkay retained 'Buy' rating on Voltas with a target price of ₹1,500 as valuations remain attractive and the stock trades near the lower end of the historical range.",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "Citi, HSBC turn bullish on India as oil slide, AI rotation lift markets",
+      "link": "https://www.business-standard.com/markets/stock-market-news/citi-bullish-on-indian-equities-sees-nifty-at-28-000-by-end-2027-126110900222_1.html",
+      "published": "2026-11-09T05:09:56+00:00",
+      "summary": "The calls come ​after the Nifty surged more than 10% over seven sessions through Friday with foreign ‌investors buying more than $4.1 billion of shares this month",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Gold rises over 1% as softer oil prices ease inflation worries",
+      "link": "https://www.thehindubusinessline.com/markets/commodities/gold-rises-over-1-as-softer-oil-prices-ease-inflation-worries/article71681460.ece",
+      "published": "2026-11-09T05:06:24+00:00",
+      "summary": "Investors eye US inflation data and fresh clues on the Federal Reserve’s policy outlook",
+      "tags": [
+        "RBI & rates",
+        "Crude & commodities"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Nifty, Sensex decline in early trade as profit-taking sets in - The New Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRml0clo4N1M3WmxpTDVpTU5YRTlQT1JLYzYwNkYwNjRRcDlMNkZlaXhzd0Z2OVhGMmR0NUVPTDkwQ0duemlyRHNSaFYySmtCTHpRSGtlMFQ3M0xzdTBROUQ4OTJCMDd2Y18tQzJGN0JzbmYzNG4wVVA1QkJ2LXBvcktMYWJaUEY0aHZ2ek9rTUhHLXM0WjdzeDQ2UTB1S1dYOUVtQVRzWmIwUnJidE1xelFuU1HSAcIBQVVfeXFMT3J0RDlrQm43cTJobGpYbzFDeWJWNEFDeHdsd0s1SW1wZnkxcklPOFJDcmYyalhYR3BrRVdRV1k3N29YYWxXcFYwcnk4c0JIckhWeXpwN3o4NGpiMHJWUTJxZUlPV1EtanBiczZtLXpwVlhkNkh5VV9GODg3SjYzRk9LajdNSjh1OFRZWEUtVlFHdjFodGhJSGJ0SVkzUmZQOXBGOFhHX1k2NmgybmNveWVPTDNmRHJ3LXBZZERxTWVjdHc?oc=5",
+      "published": "2026-11-09T05:03:37+00:00",
+      "summary": "Nifty, Sensex decline in early trade as profit-taking sets in The New Indian Express",
+      "tags": [
+        "Results",
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Markets slip into red after opening in green, Sensex falls 93.95 points; Nifty below 24,950 - Telegraph India",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVWNqNFpVTmtCVGlrelh1bW9DeE5pREhNczVnQnZKWThGNGw2dms0TjhYN0hqMV9CMmdZSjhZd2pqS3lSUkxKN1c0U3cwSndleWw3eE5rUVFVbE9vazB1MlNHR1EzT1Q3MXptZ2NubF8yTmYtNXZnQ3hBUXVZanBpV1ZHODNFeHVKck0xdGxxNWZzd1gwMjR4MkJjTUlHWnAxQVRHQU13a0xucnNZbU9mYmZFcHhnNVlRM21QRHRVUEHSAcYBQVVfeXFMTzFUb1F6OGdFbTRsR0lxVzJFeDlIdnVzZkxlcTRFNlliMl8xaUtvT1BxdE5NcUNXRHhQLWowek9QTnhuTTRzUEJ2Rmtjd0tnWTdQTGxLbjZJZzVWRmdyZ3p3VjFvd3dCSlphcHA0enVGTFZDSkowd2x0bE1IUzh0NTBzSGVXaGpXMUVYeWJIUDJNV0ZfMWxzRTFScEl1c2FnSElTemw4a25QYUNwY016RDJYUG5QWUVJSkpUYXFSU3hReklnVDFB?oc=5",
+      "published": "2026-11-09T04:58:36+00:00",
+      "summary": "Markets slip into red after opening in green, Sensex falls 93.95 points; Nifty below 24,950 Telegraph India",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Samvat 2083 outlook: 8 triggers that could turn Sensex, Nifty correction into a rally by next Diwali - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOZWlBZGZDcnRvNmRjUHlWRVpYZGZ2SFBVYm13SWFibWZhNVJ0Vkk3U1YydXJrQ3NpYld3UlllTm9DQzB5V0R4Qm5BNzR1TUtLRlVXWlI2b3ItTmlsR1JWR1lMdGZLT0NDMk4yNFVRVnlBMXB4Um9wNlRPQ3Rhbkw1eUJaX0dmaDA5ZldMbDlhS2E1YUpKc0ZCUXhsUUxPb1ZTbkg0S3BzZ18xU3luLWRxMHRtMlNIVUxmaC1tNk9iRVJoMkRYTU5rMVMtQ2JlWERCYm5kbnB6Z1NBeFJ1XzFPT0hDVTlRQ0VVbnFsWm1qSVBpczA3M09iaXQzRmotX1N2RFHSAYcCQVVfeXFMTTgwWnBDWEt5ZjJyRE40ZFJqSTV3VEpuLVh6OWU3TjFrWUpOaWRiWENKZlNBY3B5bm9rMFQxLVdPVk9KZ3BuVkJvV0FjMldxcGRuNVI5UUJ3YnRtLUNUYmZiV0luMFJFeVhMREJ4cTZkTW1STnp2QklpZHhERFlYaEJ3R1lrWVVFSE1rZnpDMHFiQ2NBalNNcncxOC1ZZnMwRGMxaGlpcjBrTDZQeGlkTkdBQkRiNG5qelAzSWFIRXNDVl9ocHdYR0lHcWtibjNhZW9YeXVKNTdzYktQN3ZINTRSQVBzSTg2bnNCNFJ2VlQwekhHTV9vNF9POWVwLXItR1pDQlhCRUU?oc=5",
+      "published": "2026-11-09T04:55:45+00:00",
+      "summary": "Samvat 2083 outlook: 8 triggers that could turn Sensex, Nifty correction into a rally by next Diwali The Economic Times",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Sensex falls 700 pts from day’s high, Nifty near 24,850: Profit booking among key factors behind market... - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOYl8yMlVJN3ZmdzJya3BxRGExYndObFdMa3pIMnVkY1Y3MVFTNWd4MTIxRl9JYXlqcEE5b1paOVAzaDY4UTNzR1gtc2oySHlzU2RVVWRpc3A0LXNMbWc5dGRFS3lNamYxdW9VcDRDRzlpd09HTmswdDV1czhPeHhfYjFmdWlpR2dlRTI1M1BPVDlyeWRnV21uVWJlMnBTbU1RNXRfb0c5VTZ1ZWhUQUFEVmRqSHBQZGlYckhSSlZMbE9vWGhrbWtmR3dhSFhQZjNUQXhnWEx1c0I4VzFRbWF4WFEtOXdicGdiVDVqX0NDYl8wMFU0dHFQOGpqMzhQMmtFVGVrRFRn0gGLAkFVX3lxTE5hV2VVczdveFphWmNtbFYyMkJiT0MxOVBvQ2k4WTJRXzE4YjJFZHE5dldVWmZDNlV3R25nRTU0M2ktUU5QMDA1UzFvTW94Z1dKbnFUWGg1dmZGcEtjWEVzQzh2Z2t5bEhVTHlKdzF0WHV2d1NKTVJmRjBQSnc2MEllTlNDSkZNQ3dPdndGb21KTV9ETnB3R1ROa09oV24ybG8wR3ZoREUzZE5NY3Vnbm40UTlwY2VUZGIwbDF0NDJXWVg5UlEwR2dObUlCcWNQRXZ6SUlqQlRsVElyV0x4Tm94RUtyWjkwM2Zva2Qyb1NvYW1NckYwQ3RsTjdYZG1yOVlIWW9Wd3QxRnJlRQ?oc=5",
+      "published": "2026-11-09T04:53:42+00:00",
+      "summary": "Sensex falls 700 pts from day’s high, Nifty near 24,850: Profit booking among key factors behind market... Moneycontrol.com",
+      "tags": [
+        "Results",
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Nifty, Sensex drop after winning streak: Three key factors influencing Dalal Street today - The Week",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZjNqZWJXWXVYd0xYM3Z0SXlPODVHZUdxSEk1MzdDMzdTSDAwS2ljNHNUQTVUeGx2RzdMc0lTQUpSNmx6d2VuQ3doaXd2ZWVXekFzOWF1Y2dta0Y1YzNUT3d5Z1UxV1BjZk1EeUUxVlZtVDExMWdSZjc1NUlBdWZVY0VWUkp1LTZZUThpVjhmekt2VWx6VC15dGtmdUtCMGIycmIwdFBwbFhxbE1VRlNSUmpkbzg1VXZTV1E1X3ZuZGh5c3RNdlRCUEVQRGFGREU0dlR0U3ZNRdIB3AFBVV95cUxQaVo2cmZfNVJJWkJkcDdFd0R4NjNTbDNVbUtvX0o2SG93cnNsUjRxaFp2ejlFbGp5ckVCUVNrQUlsTXhqdzlpQm1yWXZuZC1NWHI3NjJFR0hNU21CZHlqWFVUZTJuMHNOWnAtZ2RiTUJadlRmUU8yRkZzaUQyRExRRkx6THZLLW8wYUE0SFBmR2RrSlNvcTJvVlZHQW1SekxaMUgwMDluRzNXS1Q3WGlhdHl2NnVRaW5PaFVDZlBGTWxPRzF0NGVvU0JhOXdfajJRY2ZxekN6NUx6T25y?oc=5",
+      "published": "2026-11-09T04:52:34+00:00",
+      "summary": "Nifty, Sensex drop after winning streak: Three key factors influencing Dalal Street today The Week",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Citi, HSBC bet on India as oil slide, AI rotation fuel market revival - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZGhBSG5USUdjc1BWelIxb215ZlBXRjhSbGZiLVRGYzZWaE9nYXhUdHU5alNZa0xhRFZ4QnlnTnhRb0s1Z3NDTTVTV1ZMdm82N0lYMVhpb2I1VlRqeUZkVFJ1WnpPNTd1VFRjX3dvZE1MZmxwc29seXBhT3RHUnA1MlYyTjZSWVhscHpCQlBKSXRoRVFvMWtWdnZCQzB6RTJhczVvVQ?oc=5",
+      "published": "2026-11-09T04:51:00+00:00",
+      "summary": "Citi, HSBC bet on India as oil slide, AI rotation fuel market revival Reuters",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "Nvidia falls about 3% in after-hours and perpetual futures trade",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/nvidia-falls-about-3-in-after-hours-and-perpetual-futures-trade/articleshow/135671212.cms",
+      "published": "2026-11-09T04:50:48+00:00",
+      "summary": "Nvidia's shares saw a decline in after-hours trading following an announcement regarding CEO Jensen Huang. The company indicated that it is investigating potential foreign intelligence efforts aimed at Huang. Perpetual futures on the Hyperliquid exchange and shares trading on the",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Stock Markets Decline: Sensex, Nifty Down on IT Selling - Rediff MoneyWiz",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOVM3eGJwQm51bmVvUTRQbldrcFJzWWVoeVN5VDEzdkxianZkblRGUFF1QmdEYjNGSlJrcEQ0amdiSXpNT01qVkNISDNzTTdiQ21IcUhUXzYzQ3VzZ01UT19nV3Zoa1FmVFc3MXdPanRXcExZS1ctLWZIVUR3djZFTGFKdGFXczJqZm96bHdkRlZzdWdya2psOEx2UTFZUWozN0VaRDJsVTbSAa4BQVVfeXFMUHNldW9aUGVpWWlpNGgwRHpza0hMODNGOFVBeWxPLTMybkJWcW5OQVRldXBPYUVualVmTFhrMlpYV1hjaFBHSmVZaW9IQWxHeXhZR1U3S2x0dm5PVnFpSkpIVmNiczlVcU0zYzlnTHlHZDNieUM2aXJ5MjFkUkFkRE5KU3BWdHhFTnA2U2V1d0tSQXZvaXlUNFdBUHZJTXF2TU9tTEVBazc3M0FzSEdn?oc=5",
+      "published": "2026-11-09T04:46:33+00:00",
+      "summary": "Stock Markets Decline: Sensex, Nifty Down on IT Selling Rediff MoneyWiz",
+      "tags": [
+        "Global",
+        "Index"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "Citi bullish on Indian equities, sees Nifty at 28,000 by end-2027",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/citi-bullish-on-indian-equities-sees-nifty-at-28000-by-end-2027/articleshow/135671094.cms",
+      "published": "2026-11-09T04:45:45+00:00",
+      "summary": "Citi Research projects that India's benchmark Nifty 50 index could hit 28,000 points by the end of 2027. This forecast is based on strong earnings prospects and falling oil prices. Recent foreign portfolio investor activity has contributed significantly to the positive sentiment ",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Brent oil futures flat after Trump’s remarks on Iran war",
+      "link": "https://www.thehindubusinessline.com/markets/commodities/brent-oil-futures-flat-after-trumps-remarks-on-iran-war/article71681409.ece",
+      "published": "2026-11-09T04:43:39+00:00",
+      "summary": "At 10.02 am on Monday, January Brent oil futures were at $98.26, down by 0.06%, and December crude oil futures on WTI (West Texas Intermediate) were at $91.26, up by 0.47%",
+      "tags": [
+        "Global",
+        "Crude & commodities"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Rupee rises 24 paise to 93.74 against US dollar in early trade",
+      "link": "https://www.thehindubusinessline.com/markets/forex/rupee-rises-24-paise-to-9374-against-us-dollar-in-early-trade/article71681425.ece",
+      "published": "2026-11-09T04:42:42+00:00",
+      "summary": "The rupee opened at around 93.85, then gained ground to touch 93.74, up 24 paise from its previous session's closing level",
+      "tags": [
+        "Rupee"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Sensex Today Trades Lower | Nifty Below 24,500 | HCL Tech & Bharti Airtel Top Losers - Equitymaster",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUmcxY01ZMFFxNVBTU1YxaVNIdkxKdlNoeXdBS0hYLUZ2TFhEWFRiSzJqeV9BZTdJNnVjZHZTYmNJdFF4MHVqWk5XOTBTOWs0U3ZZUjEtMDRvT21XVWVLZHdyNjBIOG9qbUR2emNhV28ycW5UYlVLMEU4a0t5eGhJUzBBS0lWWFFjbi1RdXpCVlFIUWlQY2MyeE80TFRmamxqZmpvNE52MWZ3NDh3OWZCY3JOTGpDT3B2dTltSXpiTlBGYlJLSHlubGx1NHZhWkZWYXNhd0k2NA?oc=5",
+      "published": "2026-11-09T04:40:51+00:00",
+      "summary": "Sensex Today Trades Lower | Nifty Below 24,500 | HCL Tech & Bharti Airtel Top Losers Equitymaster",
+      "tags": [
+        "IT",
+        "Index"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "Coal India Share Price Highlights: Coal India Ltd Stock Price History",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/coal-india-ltd-stock-price-today-live-09-nov-2026/liveblog/135671037.cms",
+      "published": "2026-11-09T04:36:43+00:00",
+      "summary": "",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Markets slip into red after opening in green, Sensex down 150 points, Nifty below 25,000 - ChiniMandi",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdXZfM3BNNTVhWjQ3LUZSWnJJVXZkczhNQ3hXd1VlSEFrN055cEFWZllJMUF0d2tidFVwakgxM1picDFuUFNMdW1xVmw5VThHWHU2Qks4WlVDejFCSWtBcHd5VmVIV3NGZnRBWFNWOFZSVGNuMi0tN0xlZU5GSjBrclF3SHBsVXVyNFhRV2R6M2paUVZaRnVaZWZtWlBfRkpmVThTbVVRT01pcm5MQUxaZUU4bw?oc=5",
+      "published": "2026-11-09T04:34:20+00:00",
+      "summary": "Markets slip into red after opening in green, Sensex down 150 points, Nifty below 25,000 ChiniMandi",
+      "tags": [
+        "Global",
+        "Index"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "BPCL Share Price Highlights: BPCL Stock Price History",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bpcl-share-price-live-09-nov-2026/liveblog/135670950.cms",
+      "published": "2026-11-09T04:33:09+00:00",
+      "summary": "",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "Divis joins ₹3 trn market cap club; rallies 15% in 2 days post Q2 results",
+      "link": "https://www.business-standard.com/markets/news/divis-joins-3-trn-market-cap-club-rallies-15-in-2-days-post-q2-results-126110900182_1.html",
+      "published": "2026-11-09T04:32:24+00:00",
+      "summary": "The stock price of Divi's Labs quoted higher for the 12th straight trading day, surging 32 per cent during the period.",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "Honasa Consumer gains 5% as brokerages raise target, earnings post Q2",
+      "link": "https://www.business-standard.com/markets/news/honasa-consumer-share-price-gains-5-as-brokerages-raise-target-earnings-post-q2-126110900201_1.html",
+      "published": "2026-11-09T04:30:40+00:00",
+      "summary": "In 2026 so far, Honasa shares have climbed 70 per cent and are up 76 per cent on a one-year basis, according to NSE data.",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "Tata Steel dips 1.5% after 5-day rally; brokerages stay upbeat on India biz",
+      "link": "https://www.business-standard.com/markets/news/tata-steel-dips-1-5-after-5-day-rally-brokerages-stay-upbeat-on-india-biz-126110900194_1.html",
+      "published": "2026-11-09T04:28:50+00:00",
+      "summary": "Tata Steel has posted a more than 16 per cent Y-o-Y rise in consolidated net profit to ₹3,700 crore in the September quarter, driven by higher revenues, mainly from India operations.",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Market resumes Diwali cheers: Sensex rises 107 points, Nifty ends near 25,050. Why Citi, HSBC are turning - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOZkg4WklpYmNESnBJcm5mSm1jVnVVR3ZERTVRSTVydFE5TllON1FRZU9HNEo5c00xanUtU3pST25NeHQ1S3p2dkpSdmE4a3Zxb2Zma1ZLY1RwalRIX2FodUpqMUVfaVZ6SEYyRnJSQ19nbU02bllhcDhSLU16eE5MYXFPYXpnWFBUMm8waWNLOHE4NjZXUmgyS2ZZT1JiaDRRREV6RVl4TDRGUlRrZkJ2NWhnak5TbXlkQnAyUkM5UHR0dXhWZXhvVm96OWZENEsxTUN5U1dDa0F5YVpmczlOVmY2OU43QmRWdkoxX1N5WnhhWjhTVlNV0gH8AUFVX3lxTE96MTZzQXRGaVlIenlwS1RoOGVKRms0N0xxMWRyY2ZfZFFYQW05d0FUYWc2dEFXR052ZThQRjhWcG1RUk9LeWxZdXUxLU1waDZhQ3BwcENMU3FRUW1EMDF3czNJTF9MSjJHbnJEUFpuREhyaVd1Vm1XdzlrSFhRTmFtMW8xVTZxdUNud1ozV0JWbHRCNE5WRkdmWkw2QURyVGtfRUkyWlFfMlpoRXBOM1RCb01NQW5DcHhORkZTbThScEpidE9TSFVUbEFkeGZ3TU5CRW5aMFpZdWNUUUllbnp3Tmw4U0FleHF4MmhZdF9vR1RkT3BPSnp4T1lCXw?oc=5",
+      "published": "2026-11-09T04:25:44+00:00",
+      "summary": "Market resumes Diwali cheers: Sensex rises 107 points, Nifty ends near 25,050. Why Citi, HSBC are turning The Economic Times",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Citi bullish on Indian markets, sees Nifty at 28,000 by end-2027 - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWlJGbG9TdWNoNERBRDh6a1VfV2FYNTdkS2dSRXRNVk5PdlZBNmZwVUU5WTNOQlVTQ29PS0NVWWIyWi0xVHZVamJ5M1FRWWp1RHBCaXQxRWhiQXRwbXJfQzRFOVRFbzFCZ2tHV0NSTTRLLXV5ak5fNkdGaEtQLUtqZXJIZXFJTFdyNW80RGI3Uy1kVjlQN2U0TWVLVVUzWmRWbFlhT2R2YnNreDg4TVVncldROTFiSUhlbGpoX3FONnZtcmhvLWU40gHMAUFVX3lxTE8xWHNHT1MxblVwcldPSUQ1cWVWWnNJVTNZNnZJNG5ocjB2OXhUX01vOWtvVEhZNTdhdlBiMGYtNFJ0eG9va1hJOG84N1hLYWd3SFB4UDk2djZBODFyWEFvbVcwRkF3cldEY085TUR6SjZZenAtdlcwVGdDeWxNNDYyZ1JKMzB4OXktUFdKSkJZZzNaaGhROEJYa2pCb2tmaWpjeDdQdVM1MnFWbUNqYXhrOWwwNTdXZDRXNElWSmVnbU5DVG9OZnBwREd6cw?oc=5",
+      "published": "2026-11-09T04:25:02+00:00",
+      "summary": "Citi bullish on Indian markets, sees Nifty at 28,000 by end-2027 Moneycontrol.com",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "IndusInd Bank Share Price Highlights: IndusInd Bank Stock Price History",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/indusind-bank-share-price-live-updates-09-nov-2026/liveblog/135670809.cms",
+      "published": "2026-11-09T04:22:58+00:00",
+      "summary": "",
+      "tags": [
+        "Banks"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Nifty slips below 25,000 as IT, power stocks drag; banks, pharma hold firm",
+      "link": "https://www.thehindubusinessline.com/markets/nifty-slips-below-25000-as-it-power-stocks-drag-banks-pharma-hold-firm/article71681395.ece",
+      "published": "2026-11-09T04:21:42+00:00",
+      "summary": "SBI led Nifty50 gains, up 1.82% to ₹1,034.45 from ₹1,016, on 49.10 lakh shares worth ₹506.18 crore",
+      "tags": [
+        "Banks",
+        "Pharma",
+        "Index"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "Jio Financial Services Share Price Highlights: Jio Financial Services Stock Price History",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/jio-financial-services-share-price-live-09-nov-2026/liveblog/135670421.cms",
+      "published": "2026-11-09T04:03:20+00:00",
+      "summary": "",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "NIFTY50 fails to sustain 25,000, SENSEX declines 260 points after positive open; IT stocks among top losers - Upstox",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNa0FnX0lLZFhHcTV3MUg1U1lJWGk5Mm93dUk3X1JYT2Z1NWJjTnUzMEpwSWVDRUdfRVhIcW9JQmdTNFRGcDByMG03cnFUajY0Zll5VENiS3c2Ul9pN0V2a1Rzd2ZIUG0zREJTM0pQSHlNU1VZanAtQmNmOW5RcVRpaUhpNGlNOHpIT3N2WkZjNWVsR2FsZk9kdnkyZVBacFBXc2VzeEo3LUNsay1wMjVkb19oeGY4S2Y5UjlDNGRxVDJ1cWJPMW53TjdSdzNHZWJicDZaOWlSbFd1UzA4Ty1ONUJUNEI4blY4ODFkZGpYd0dVSzVVYlpzUkU3MHRoVXRDS2pVMmdzeU4?oc=5",
+      "published": "2026-11-09T04:00:04+00:00",
+      "summary": "NIFTY50 fails to sustain 25,000, SENSEX declines 260 points after positive open; IT stocks among top losers Upstox",
+      "tags": [
+        "IT",
+        "Index"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "Bajaj Finserv Share Price Highlights: Bajaj Finserv Stock Price History",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-finserv-stock-price-livestock-price-today-live-updates-09-nov-2026/liveblog/135670255.cms",
+      "published": "2026-11-09T03:55:58+00:00",
+      "summary": "",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "India short bonds may underperform on rate hikes, cash squeeze",
+      "link": "https://economictimes.indiatimes.com/markets/bonds/india-short-bonds-may-underperform-on-rate-hikes-cash-squeeze/articleshow/135669996.cms",
+      "published": "2026-11-09T03:53:12+00:00",
+      "summary": "India's bond market is experiencing changes due to recent interest rate hikes and tightening liquidity conditions. The Reserve Bank of India is anticipated to raise interest rates significantly in the coming months. Short-term bonds are expected to be more sensitive to these mone",
+      "tags": [
+        "RBI & rates"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "MTAR Technologies among 3 stocks showing White Marubozu pattern",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/mtar-technologies-among-3-stocks-showing-white-marubozu-pattern/slideshow/135670237.cms",
+      "published": "2026-11-09T03:52:08+00:00",
+      "summary": "Three Nifty50 stocks that gained over 3% on November 8 featured in StockEdge’s White Marubozu bullish scanner. The candlestick pattern indicates strong buying momentum, with prices closing near the session high.",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Stock Market Today: Sensex, Nifty trade lower; IT stocks drag, Banking shares offer support - Zee Business",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUXlrWGlMQ1d0YkFUZE0xZDlVVXJYcEJGRXRBLWhEYmZPT3ByNmd5SUhEQm5Dcnl3djZvMlctMzhEOTVDa2NXQXlha2FnODdMRFA2d2JkQnJxMDc1RDRXMkRxdzZaLTFzaHg0WWU1RVlSVXBoQ2ZINjNmdVpvcWhPTjBwSnpPV0tmbEpxNDZtV042cDkyYi1kY1FubFBXT3c5Q0NBaUJkSDVtMlY1Y1l0TTU3U2ZLSVB2UXd3TUR3QXpoQkdRVWVaelZ3YUdzS1k?oc=5",
+      "published": "2026-11-09T03:50:37+00:00",
+      "summary": "Stock Market Today: Sensex, Nifty trade lower; IT stocks drag, Banking shares offer support Zee Business",
+      "tags": [
+        "Banks",
+        "IT",
+        "Index"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Sensex opens 100 points lower, Nifty below 25,000; IT stocks tumble - India Today",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQRU5iV2pJRXZuaXFBbGwzVVhtU3JXR29lZ3dsbVdycFlwTGNlT0RTM0tJenZCakxfenFBWUVTVjRoUUI5N0ZvR3hLdlhzaTJ2XzZ2NkkyY2dRZjc2RlJCek54NkJ1ZnhIZkRfTHRsTFV1dHl6Rk5Nbl9fUk1CUlhkTjBBaFplM1VrZDFDbEpzMmdhWHVMbjJEVFF4ZEVnNk9nXzY4RWg1UVlnYnBKb1c5aWttUkxRcG9DakM1Nng5cmpHU3BjQmtUTl8wZ0lTX0s5WEowcUdnZkdyZ1FiUS1zeGNOTWx1UdIB6wFBVV95cUxONGwxekQtbG9HRlo5TWZWZHFvaEVjTTFnWmNrQkkwTWNuQzJEVFFSUmdoTDRjaWhMTUwyREY4ZEZVQ1hZdjJ2RjdsY1RLbHNBY1ZkV0tzYVNTTUZJUmJ1Q3JkWFk0dkpVSzNTNm1keVZKeEVnNTN6RFRmOVJnd3ZKTVZjT0NrNl9vV2wtSV9vNWt3elVMWnN5Slhwc1FOeDloVmZ6aVJRNTEtYVJZdDlRUFFxdzFBR0FjN0pCa3ZucWNXR1ZVYUZGM3JPLS1oTno0OThXa1ZESFFrSzdwdnhjcVN2OFFSUVBORURB?oc=5",
+      "published": "2026-11-09T03:49:11+00:00",
+      "summary": "Sensex opens 100 points lower, Nifty below 25,000; IT stocks tumble India Today",
+      "tags": [
+        "IT",
+        "Index"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "HUL Share Price Highlights: HUL Stock Price History",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hul-stock-price-livestock-price-today-live-updates-09-nov-2026/liveblog/135670110.cms",
+      "published": "2026-11-09T03:48:39+00:00",
+      "summary": "",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Sensex, Nifty open higher on lower oil prices, foreign inflow optimism | Business News - Hindustan Times",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMngxQml3ZEFRSzd4VUxKVm5MTEs5b0h6REkwRUNxcEtKeUxnMy0tLThMWlZhc19sVnctM2g0SUtNdk12VVZnNURLQnBManptMURpX2ZQdmVWNElEVDFFbllZMXJxRlVxR0F5SmRIbmNua2hlaHd5MTVSMTFBMGc5QWV6Z0xLUXFjSGVpY1lxQlBJN0pRcUNSOUNheW1fbkE0R3g3VG5QWm5uTVE0MEJ6Q0pfNjNWMFRlQUxKdlJNNFp5ekpmRHVUddIBzgFBVV95cUxNQlBqRVNjOW4wNDltclRDUkkwSGdldUJjMmxpX1ZQNmNCV2JvWXpzNmQ0QlBiaHBIWEpXcy0wZDBycTRuT2dQV2JRdGNvSzRoRkQxekVIMGxWNU93MUdVN0otWlhjRzFXQlFNakNfbENJYndPODUtVjlEbGpfeXVnM2JUQVFuaF8tSkgxMHg2S3JDQWdyV0E1alR4UVJrLW5kT2NlSnlQR094MHcySWtEbzBISXJSWE5aUmw3MkFwdlEwakF1RHNkaXBrWVdRZw?oc=5",
+      "published": "2026-11-09T03:47:04+00:00",
+      "summary": "Sensex, Nifty open higher on lower oil prices, foreign inflow optimism | Business News Hindustan Times",
+      "tags": [
+        "Crude & commodities",
+        "Index"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "Vedanta Aluminium Metal among 5 stocks showing bullish RSI upswing",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/vedanta-aluminium-metal-among-5-stocks-showing-bullish-rsi-upswing/slideshow/135670091.cms",
+      "published": "2026-11-09T03:43:33+00:00",
+      "summary": "Five Nifty200 stocks featured in StockEdge’s RSI Trending Up scan on November 8, with their Relative Strength Index (RSI) crossing above 50 from below, signalling strengthening price momentum.",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "India bonds could rally some more as fundamentals favour bulls",
+      "link": "https://www.thehindubusinessline.com/markets/india-bonds-could-rally-some-more-as-fundamentals-favour-bulls/article71681355.ece",
+      "published": "2026-11-09T03:36:02+00:00",
+      "summary": "Benign oil prices and Treasury yields boost investor ‌sentiment",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "L&T Finance among 6 stocks that dropped below their VWAPs",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/lampt-finance-among-6-stocks-that-dropped-below-their-vwaps/slideshow/135669893.cms",
+      "published": "2026-11-09T03:33:49+00:00",
+      "summary": "Four Nifty500 stocks closed over 1% below their VWAPs on November 8, signalling weakness relative to their average traded prices during the session.",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "RBI",
+      "title": "Money Market Operations as on November 06, 2026",
+      "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63944",
+      "published": "2026-11-09T03:30:00+00:00",
+      "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 20,970.90 5.55 5.00-7.50 I. Call Money 1,337.15 5.25 5.00-5.62 II. Triparty Repo 12,590.85 5.50 5.02-5.75 III. Market Repo 321",
+      "tags": [
+        "RBI & rates"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "Divis Labs Share Price Highlights: Divis Labs Stock Price History",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/divis-labs-stock-price-livestock-price-today-live-updates-09-nov-2026/liveblog/135669678.cms",
+      "published": "2026-11-09T03:25:30+00:00",
+      "summary": "",
+      "tags": [
+        "Other"
+      ]
+    }
+  ]
+}
