@@ -19,7 +19,7 @@ import sys
 import urllib.error
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 import pandas as pd
@@ -45,7 +45,9 @@ def latest_bhavcopy() -> tuple[date, pd.DataFrame]:
                 df.columns = [c.strip() for c in df.columns]
                 df = df[df["SERIES"].str.strip() == "EQ"].copy()
                 df["SYMBOL"] = df["SYMBOL"].str.strip()
-                return d, df.set_index("SYMBOL")
+                # A holiday file can hold the previous session, so take the date from inside it.
+                session = datetime.strptime(str(df["DATE1"].iloc[0]).strip(), "%d-%b-%Y").date()
+                return session, df.set_index("SYMBOL")
             except urllib.error.HTTPError:
                 pass
         d -= timedelta(days=1)

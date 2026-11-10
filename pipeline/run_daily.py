@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import io
 import json
 import shutil
 import subprocess
@@ -60,8 +61,12 @@ def latest_session(today: date) -> date:
             req = urllib.request.Request(url, headers={"User-Agent": ua, "Referer": "https://www.nseindia.com/"})
             try:
                 with urllib.request.urlopen(req, timeout=20) as r:
-                    if "csv" in r.headers.get("Content-Type", "") and b"SYMBOL" in r.read(200):
-                        return d
+                    head = r.read(400).decode("utf-8", "replace")
+                if "csv" in r.headers.get("Content-Type", "") and "SYMBOL" in head:
+                    # On some holidays NSE republishes the previous session under today's name, so trust
+                    # the date inside the file (DATE1), not the file name.
+                    row = next(csv.DictReader(io.StringIO(head), skipinitialspace=True))
+                    return datetime.strptime(row["DATE1"].strip(), "%d-%b-%Y").date()
             except urllib.error.HTTPError as exc:
                 if exc.code != 404:  # 404 = holiday or not published yet; anything else means we can't tell
                     print(f"warning: session check got HTTP {exc.code}", file=sys.stderr)

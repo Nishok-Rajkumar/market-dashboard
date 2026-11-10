@@ -145,7 +145,10 @@ def bhavcopies(n: int = 11) -> list[tuple[date, pd.DataFrame]]:
             df["SYMBOL"] = df["SYMBOL"].str.strip()
             for col in ("CLOSE_PRICE", "PREV_CLOSE", "TTL_TRD_QNTY", "DELIV_QTY", "DELIV_PER", "TURNOVER_LACS"):
                 df[col] = pd.to_numeric(df[col], errors="coerce")
-            out.append((d, df.set_index("SYMBOL")))
+            # A holiday file can repeat the previous session; date it by its contents and count it once.
+            session = datetime.strptime(str(df["DATE1"].iloc[0]).strip(), "%d-%b-%Y").date()
+            if all(s != session for s, _ in out):
+                out.append((session, df.set_index("SYMBOL")))
         d -= timedelta(days=1)
     for f in sorted(bdir.glob("*.csv"), key=lambda p: p.stat().st_mtime)[:-30]:
         f.unlink()  # keep the cache small

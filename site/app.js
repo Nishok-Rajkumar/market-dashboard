@@ -114,7 +114,7 @@ function renderActions(ca) {
 
 // ---------- sections ----------
 
-function renderStatus(status, latest) {
+function renderStatus(status) {
   const s = status || {};
   const when = s.updated_at ? new Date(s.updated_at).toLocaleString("en-IN", { dateStyle: "medium", timeStyle: "short", timeZone: "Asia/Kolkata" }) : "unknown";
   const ageH = s.updated_at ? (Date.now() - new Date(s.updated_at)) / 36e5 : 999;
@@ -576,7 +576,7 @@ async function loadDay(day) {
     p("status.json"), p("summary.json"), p("pulse.json"), p("levels.json"), p("breadth.json"), p("sectors.json"),
     p("oc_NIFTY.json"), p("oc_BANKNIFTY.json"), p("swing.json"), p("news.json"), get("fii_dii_history.json"),
     p("participant_oi.json"), p("heatmap.json"), p("corp_actions.json"), prevDay ? loadCompare(prevDay) : Promise.resolve({})]);
-  current = { sectors, heat, ca };
+  current = { sectors, ca };
   setFlags(ca);  // before the tables, so symbols get their ⚑
   renderStatus(status);
   renderSummary(summary);
