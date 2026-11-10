@@ -1,9 +1,9 @@
 # On-time updates with an external timer
 
-GitHub's built-in schedule can start runs hours late. A free timer service (cron-job.org) can instead ask GitHub
-to start the run at the exact minute; GitHub then starts it within seconds. The Timekeeper workflow stays on as a
-backup: when it wakes it checks for a run that has already started and does not start a second one. A duplicate
-run would be harmless anyway, because each run writes to the folder of the NSE session it covers.
+GitHub's built-in schedule can start runs hours late (it woke the Timekeeper only about 4 times a day instead of
+48). A free timer service (cron-job.org) pokes the Timekeeper every 15 minutes instead; GitHub starts it within
+seconds, and the Timekeeper starts each update at its exact minute (or catches up one that was missed). All the
+update times stay in one place, `pipeline/timekeeper.py`, so the timer never needs changing.
 
 ## 1. Create a GitHub token that can only start this repo's workflows
 
@@ -16,42 +16,29 @@ run would be harmless anyway, because each run writes to the folder of the NSE s
 This token can only start or cancel workflow runs in this one repository. It cannot read your other repos or
 change code.
 
-## 2. Create five jobs on cron-job.org
+## 2. Create one job on cron-job.org
 
-Sign up at https://cron-job.org (free), then **Create cronjob** five times with these settings.
-
-Common to all five:
+Sign up at https://cron-job.org (free), then **Create cronjob** with:
 
 | Field | Value |
 |---|---|
-| URL | `https://api.github.com/repos/Nishok-Rajkumar/market-dashboard/actions/workflows/daily.yml/dispatches` |
+| Title | `StockVerse timekeeper` |
+| URL | `https://api.github.com/repos/Nishok-Rajkumar/market-dashboard/actions/workflows/timekeeper.yml/dispatches` |
+| Schedule | Every 15 minutes |
 | Advanced → Request method | `POST` |
-| Advanced → Headers | `Authorization: Bearer <your github_pat_ token>` · `Accept: application/vnd.github+json` · `X-GitHub-Api-Version: 2022-11-28` · `Content-Type: application/json` |
-| Advanced → Time zone | `Asia/Kolkata` |
-| Schedule | Custom: the days and time below |
+| Advanced → Headers (add four) | `Authorization` = `Bearer <your github_pat_ token>` · `Accept` = `application/vnd.github+json` · `X-GitHub-Api-Version` = `2022-11-28` · `Content-Type` = `application/json` |
+| Advanced → Request body | `{"ref":"main"}` |
 
-The five jobs:
-
-| Title | Days | Time (IST) | Request body |
-|---|---|---|---|
-| Market dashboard — full | Mon–Fri | 20:15 | `{"ref":"main","inputs":{"mode":"full"}}` |
-| Market dashboard — night news | Mon–Fri | 23:15 | `{"ref":"main","inputs":{"mode":"news"}}` |
-| Market dashboard — morning | Mon–Fri | 08:30 | `{"ref":"main","inputs":{"mode":"morning"}}` |
-| Market dashboard — weekend (Sat) | Saturday | 10:00 | `{"ref":"main","inputs":{"mode":"weekend"}}` |
-| Market dashboard — weekend (Sun) | Sunday | 18:00 | `{"ref":"main","inputs":{"mode":"weekend"}}` |
-
-Between 9:00 AM and 6:30 PM IST on weekdays a **full** run skips itself (it would mix live prices into the
-previous session), so test the full job in the evening, or test with the morning job any time.
-
-Use **Test run** on each job: a `204` response means GitHub accepted it, and a new run appears under
-**Actions → Daily market data** within a few seconds.
+Press **Test run**: `204` means GitHub accepted it, and a new run appears under **Actions → Timekeeper** within a
+few seconds. Most pokes find nothing due and finish in seconds; near an update time the Timekeeper waits for the
+exact minute (a newer poke takes over the wait, so you will see some runs marked *cancelled* — that is normal).
 
 ## Troubleshooting
 
 | Response | Meaning |
 |---|---|
 | 204 | Started |
-| 401 | Token wrong or expired: make a new one and update all the jobs |
+| 401 | Token wrong or expired (header must be `Bearer ` + token): make a new one and update the job |
 | 403 | Token lacks *Actions: Read and write* on this repo |
 | 404 | URL typo, or the token doesn't include this repository |
-| 422 | Body wrong: check the JSON and that `mode` is `full`, `news`, `morning` or `weekend` |
+| 422 | Body wrong: it must be exactly `{"ref":"main"}` |
