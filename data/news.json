@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T15:52:41+00:00",
+  "generated_at": "2026-11-10T19:52:49+00:00",
   "sources": {
     "Economic Times": {
       "ok": true,
@@ -32,6 +32,171 @@
   },
   "items": [
     {
+      "source": "Google News",
+      "title": "Opinion | Wall Street is becoming the world’s stock market - The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPanBuN0lUX2VwNHZKbGNzNml5LWY4TllER2ZNVGFERDBhNVZHS2tIRzJfaGpsSlRncFl5WEFQMERwd3d3c005YUx1NEVocExLWjFHMFcwY1JfUjFPV0dYQUtxUWhoX2NybklLbmJ5VTBhYlNyd1ZaSTEwWU5iRXlYVml0QlhDWktOQzBtUUpVaW5HQmVmWWNWWGtn?oc=5",
+      "published": "2026-11-10T19:49:03+00:00",
+      "summary": "Opinion | Wall Street is becoming the world’s stock market The Washington Post",
+      "tags": [
+        "Global"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Wall St retreats as hot inflation data, Fed comments fuel rate worries",
+      "link": "https://www.livemint.com/market/wall-st-retreats-as-hot-inflation-data-fed-comments-fuel-rate-worries-11794339875709.html",
+      "published": "2026-11-10T19:44:35+00:00",
+      "summary": "USA-STOCKS/ (UPDATE 6, GRAPHIC):US STOCKS-Wall St retreats as hot inflation data, Fed comments fuel rate worries",
+      "tags": [
+        "RBI & rates",
+        "Global"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Corn Soars After USDA Cuts American Yield in Another Surprise",
+      "link": "https://www.livemint.com/market/corn-soars-after-usda-cuts-american-yield-in-another-surprise-11794339085566.html",
+      "published": "2026-11-10T19:31:25+00:00",
+      "summary": "Corn surged the most in three months after the US Department of Agriculture surprised traders with a bigger-than-expected cut to yield and production of America’s most widely grown crop.",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Gold falls nearly 3% as CPI tops forecasts, lifting dollar and yields",
+      "link": "https://www.livemint.com/market/gold-falls-nearly-3-as-cpi-tops-forecasts-lifting-dollar-and-yields-11794337899940.html",
+      "published": "2026-11-10T19:11:39+00:00",
+      "summary": "GLOBAL-PRECIOUS:Gold falls nearly 3% as CPI tops forecasts, lifting dollar and yields",
+      "tags": [
+        "RBI & rates",
+        "Crude & commodities",
+        "Rupee"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "The Stock Market Is Shaky Right Now. Here's Why I'm Not Worried. - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPU01LNDk5Qm84M2c1T0FzcmRRc3JhTHhiQThMV3VoZkw3QnpjdUNTNGl2R3JtWlRRNGUwOXlSNWhyeU04MXByTHltcm8zN1NjQnJNdXhjbGd3dXJNcDRXbUhpeDdXMWtaVlNCU2sxMy1aX2JyYnNEQU1EcnR6dngtNEtwRGh0bTZOeUk4cy1tajVtT2FmUE83bw?oc=5",
+      "published": "2026-11-10T19:05:00+00:00",
+      "summary": "The Stock Market Is Shaky Right Now. Here's Why I'm Not Worried. Yahoo Finance",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Anthropic targets valuation of up to $1.4tn in stock market flotation - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRWZNcUt6ZldxUnNyTXZySGZacWZueTYtS0JOUVZ2S3JUWENYcThEMm9CSnVXX25QTGJYZGc3UVhKNXloQ0pPdUJpbkxZQ3Q1NEdSMzJEWjB5M3UwVDJ5UjhxdllTMEhjQm41UDg1QndqbE5KWkNBZ3RoMlhHSjM5SDkyN2tmQjZjcEpyNGMxVjF1MV9vRmpJb3d4X1NibmRYd3V5TUNxMGtacGJjXzNqRURn?oc=5",
+      "published": "2026-11-10T19:02:00+00:00",
+      "summary": "Anthropic targets valuation of up to $1.4tn in stock market flotation The Guardian",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "US stocks: Five things to know about Anthropic",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-five-things-to-know-about-anthropic/articleshow/135718802.cms",
+      "published": "2026-11-10T18:53:44+00:00",
+      "summary": "Founded by former OpenAI researchers, Anthropic has grown into a major AI company backed by Amazon, Alphabet, Microsoft and Nvidia. As the Claude developer prepares for a landmark IPO, its safety-focused philosophy, unconventional roots and clash with the Pentagon are drawing ren",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Soybeans, corn rally after USDA pegs US harvest, stocks below expectations",
+      "link": "https://www.livemint.com/market/soybeans-corn-rally-after-usda-pegs-us-harvest-stocks-below-expectations-11794336087036.html",
+      "published": "2026-11-10T18:41:26+00:00",
+      "summary": "GLOBAL-GRAINS/ (UPDATE 2):GRAINS-Soybeans, corn rally after USDA pegs US harvest, stocks below expectations",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "Chipmakers warn AI demand is creating bottlenecks in automotive supply chain",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/chipmakers-warn-ai-demand-is-creating-bottlenecks-in-automotive-supply-chain/articleshow/135718403.cms",
+      "published": "2026-11-10T18:25:20+00:00",
+      "summary": "Nexperia says it is heavily oversubscribed as chipmakers redirect capacity towards higher-margin AI data-centre products, creating shortages of mature semiconductors used in vehicles and industrial equipment. Industry executives warn that the AI investment boom is worsening bottl",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "US Fed's Logan calls for two more rate hikes, possibly rapidly",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-feds-logan-calls-for-two-more-rate-hikes-possibly-rapidly/articleshow/135718142.cms",
+      "published": "2026-11-10T18:05:16+00:00",
+      "summary": "Dallas Fed President Lorie Logan said the central bank needs at least two more quarter-point rate increases to curb persistent inflation and prevent price pressures from becoming entrenched. She suggested policymakers could accelerate the pace of tightening this winter, beginning",
+      "tags": [
+        "RBI & rates",
+        "Global"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Stock Market Midday, Nov. 10: Stocks Slide on Hot Inflation Data - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPWnI5ckxDNGlvME5HRnloLWtkSVAxRXUwRmxTVkxLLWtHMHZRTjlPWS10RnpVdjhzYS1VaEE1NmFBMVY5enFFUFR4eF9fNVdpa0psNkEtRG9aOEpKSWlBQmFRYzB6LTBHSGtmYlVwVUh4ZHQweWJVMXY1MmVUemlmYnE1dkw3b1UyQlBuZkVQZlV6UWdvUVE?oc=5",
+      "published": "2026-11-10T17:40:20+00:00",
+      "summary": "Stock Market Midday, Nov. 10: Stocks Slide on Hot Inflation Data Yahoo Finance",
+      "tags": [
+        "RBI & rates"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Nvidia sell-off deepens, fall 6.3%; wipes $10 billion off Jensen Huang's wealth, slips to 12th on Forbes rich list",
+      "link": "https://www.livemint.com/market/stock-market-news/nvidia-sell-off-deepens-fall-6-3-wipes-10-billion-off-jensen-huangs-wealth-slips-to-12th-on-forbes-rich-list-11794327860453.html",
+      "published": "2026-11-10T17:40:01+00:00",
+      "summary": "The latest crash in Nvidia shares has dealt a major blow to Jensen Huang's net worth, which is on track to decline by another $10 billion to $145.6 billion from $154 billion at the previous close, according to Forbes.",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "The turn of the tide: Foreign investors return, signalling longer India bet",
+      "link": "https://www.business-standard.com/markets/news/the-turn-of-the-tide-foreign-investors-return-signalling-longer-india-bet-126111000761_1.html",
+      "published": "2026-11-10T17:29:29+00:00",
+      "summary": "FPIs bought ₹53,172 crore of equities and ₹7,480 crore of government bonds in the first nine days of November, ending a 10-month streak of monthly equity outflows.",
+      "tags": [
+        "FII/DII flows"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "Wall St slips as hot inflation data fuels rate-hike jitters; Nvidia down 4%",
+      "link": "https://www.business-standard.com/markets/news/wall-st-slips-as-hot-inflation-data-fuels-rate-hike-jitters-nvidia-down-4-126111001020_1.html",
+      "published": "2026-11-10T16:52:36+00:00",
+      "summary": "Wall Street fell after stronger-than-expected US inflation data fuelled expectations of a December Fed rate hike, while Brent crude briefly dropped below $90 a barrel.",
+      "tags": [
+        "RBI & rates",
+        "Global"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Patna Municipal Corporation lists Bihar’s first municipal bond on NSE",
+      "link": "https://www.thehindubusinessline.com/markets/patna-municipal-corporation-lists-bihars-first-municipal-bond-on-nse/article71686272.ece",
+      "published": "2026-11-10T16:11:33+00:00",
+      "summary": "The issue, which had a base size of ₹100.03 crore and a greenshoe option of ₹99.96 crore, received investor interest at nearly twice its base issue size",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Ahead of Market: 10 things that will decide stock market action on Wednesday - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeEQ4OVQ1MTM5Vy16eGhvUF9YZlh5NHMzSWN1MXVkWnZwbGJUQVBmQklGR3VpdnVTeTBWa3Jhay1jbGJldF9Xd1lxNHU0RF9fSGV2RUpETnQ5TDdkcXp4SGlkZW52YlBnUEJPUEpKdmw1UThRWG5PeENWTDB4UVY0Ty1tRUNIaWVRRVJfaGIta2FGc0liZnBFU0ZHam1RT0dVMk5MNlN3a2dfRU9KNlIxWjlDcVdLaEFCUTQ3Nm01YkNIVmlHMEphYW5VTE04T0QzZEtSUkwxM3o2c2U5R2l4WTh2Y9IB6AFBVV95cUxNNklaVHZicXk5ekJ5TU1lTHpBNTRaY2hEUzFyU3N4MVN0OF9SN25WM0xEckNjZ0pSYlZQcXNRWTdUajU5Q3dKMlZVQmhqSkp1M3ltVENhN28wVEF5bE1IbTRxajllaXBlUlJXQUtfcU1ZVWtia0NrSTQtMmU5Q0FvRElnYmFQamc1bWQ1YXdwejVpZGNUbUZ4TEpnRk0yV29qNmNxcF9aYWxRRTBUa1NyTWJ4WkJyaGJESjBHakc2Z0FHaWNET1RXblYycFZKUHh2SkFMNWt2TUVQYW0yZkRQZFQ0R3h2dDVn?oc=5",
+      "published": "2026-11-10T16:01:59+00:00",
+      "summary": "Ahead of Market: 10 things that will decide stock market action on Wednesday The Economic Times",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
       "source": "Livemint",
       "title": "Nifty PSU Bank Index Performance: Bank of India, UCO Bank among 7 stocks rebound 15–56% from 1-yr lows - here’s why",
       "link": "https://www.livemint.com/market/stock-market-news/nifty-psu-bank-index-performance-bank-of-india-uco-bank-among-7-stocks-rebound-15-56-from-1-yr-lows-here-s-why-11794321816668.html",
@@ -55,10 +220,10 @@
     },
     {
       "source": "Economic Times",
-      "title": "US stocks: US market opens lower after October's hot inflation print",
+      "title": "US stocks: Dow Jones falls 200 points as hot inflation revives rate-hike fears; Nvidia sinks",
       "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-opens-lower-after-octobers-hot-inflation-print/articleshow/135714411.cms",
       "published": "2026-11-10T15:10:03+00:00",
-      "summary": "Wall Street's main indexes opened lower on Tuesday after hotter-than-expected inflation data for October threatened to pause a two-day rebound in tech shares and revive the selling",
+      "summary": "On Tuesday, Wall Street faced a downturn as inflation figures surpassed projections, raising worries about potential interest rate hikes. The declines were evident across the Dow Jones Industrial Average, S&P 500, and Nasdaq Composite indices. While financial stocks showed minor ",
       "tags": [
         "RBI & rates",
         "Global"
@@ -106,17 +271,6 @@
         "FII/DII flows",
         "Banks",
         "Index"
-      ]
-    },
-    {
-      "source": "Google News",
-      "title": "Stocks, Bonds Fall as CPI Data Fuel Fed-Hike Bets: Markets Wrap - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNXVKNll2bkFUUU5EVDg4eTF6a3YwZ0pIS0d4bGFTdkItMkl3SkFCbGRiZFdzSmlidHZZN3I1YzF1VkVXYlM0dDJrRlRPeDRGYXp6cVBuRGVjbl9vNWxrdlRYLTl4NTRxMnRFcGtuOUROekFvUUsxdTE1R3IwWmRKRVlUVFpFTlY0WXNlWTZTa1hIdmV1?oc=5",
-      "published": "2026-11-10T14:33:43+00:00",
-      "summary": "Stocks, Bonds Fall as CPI Data Fuel Fed-Hike Bets: Markets Wrap Bloomberg.com",
-      "tags": [
-        "RBI & rates",
-        "Global"
       ]
     },
     {
@@ -182,19 +336,9 @@
     },
     {
       "source": "Google News",
-      "title": "Is the stock market open on Veterans Day? Here's what to know - USA Today",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcHhNLVpaWWdVQUVCUjloMDgwVDE5Mjh3eTlJYUhZYk9jaHRsWVJFYzduVWY1UjAwckhkZV9scWc1ZlJPRTB5dU5OandkS3R3RmdLWFc2U3Y2TDdHQlB6N3V5S3dtTzNHZDNHdWRxVkJubXhVRzZxNjROeE5qdTh1TS16OWZiMXFFdFlxMmd0TzgyMGcxeWYyYWhBTG1tc2NGVlh4WW1seW9VdGZnZVg1YQ?oc=5",
-      "published": "2026-11-10T13:43:00+00:00",
-      "summary": "Is the stock market open on Veterans Day? Here's what to know USA Today",
-      "tags": [
-        "Other"
-      ]
-    },
-    {
-      "source": "Google News",
       "title": "US Stock market crash risks rise as AI investment faces new challenges - Beinsure",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRk13c2sxVk9OMVhPV05YQ2gxa3Jwb2hTMU1XQWJYWHNTcjdEcE1ZdGhXWWZOekh5TVh2Qk9DMmdFUmMwYWVWS1E5NUVIT3pqOU9SNVZ2dmZ6MWxFeUM2Y0VrdW1Jenl0TVhsWFBEZHJTRHFQalluSGVUandnU2FoVUl3RXdRYmFBTkxqdm5tTUd4Vnl3T3dTZUJR?oc=5",
-      "published": "2026-11-10T13:31:39+00:00",
+      "published": "2026-11-10T13:36:43+00:00",
       "summary": "US Stock market crash risks rise as AI investment faces new challenges Beinsure",
       "tags": [
         "Other"
@@ -211,31 +355,11 @@
       ]
     },
     {
-      "source": "Google News",
-      "title": "Canadian Stock Market Today: TSX Futures Nudge Higher On Crucial US Inflation Test - Yahoo Finance Singapore",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcnpYN25Pa2xpOUNVdW1yOG1VRmxIVkYxWG5xRU82RGlBckMxQ0RYS3hjWllJdG5RcTExdVFMQ1R0dXUxMjh2b2lMcGwzTTBPRm5LTHV5RGQ0LTdyS1JlMU9KMjJISTFOMldNeFhMLW1lc2lITmdBSUxBeVNFcEsza2VrbHpIM2s?oc=5",
-      "published": "2026-11-10T13:08:17+00:00",
-      "summary": "Canadian Stock Market Today: TSX Futures Nudge Higher On Crucial US Inflation Test Yahoo Finance Singapore",
-      "tags": [
-        "RBI & rates"
-      ]
-    },
-    {
       "source": "Economic Times",
-      "title": "US stocks edge lower after October's hot inflation print: Stock Market Live Updates",
+      "title": "Nasdaq drops over 1% amid tech-led rout; Nvidia drops 6%: Stock Market Live Updates",
       "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-anthropic-ipo-nvidia-intel-marvell-tech-ai-chip-stocks-inflation-fed-rate-hike-treasury-bond-yield-news-10th-november-2026/liveblog/135712173.cms",
       "published": "2026-11-10T13:03:22+00:00",
       "summary": "",
-      "tags": [
-        "RBI & rates"
-      ]
-    },
-    {
-      "source": "Google News",
-      "title": "Opinion | Wall Street is becoming the world’s stock market - The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPanBuN0lUX2VwNHZKbGNzNml5LWY4TllER2ZNVGFERDBhNVZHS2tIRzJfaGpsSlRncFl5WEFQMERwd3d3c005YUx1NEVocExLWjFHMFcwY1JfUjFPV0dYQUtxUWhoX2NybklLbmJ5VTBhYlNyd1ZaSTEwWU5iRXlYVml0QlhDWktOQzBtUUpVaW5HQmVmWWNWWGtn?oc=5",
-      "published": "2026-11-10T12:50:40+00:00",
-      "summary": "Opinion | Wall Street is becoming the world’s stock market The Washington Post",
       "tags": [
         "Global"
       ]
@@ -252,41 +376,11 @@
       ]
     },
     {
-      "source": "Google News",
-      "title": "Bill Ackman and Warren Buffett Both Have the Same Warning About the Stock Market - The Motley Fool",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcElodXJBZjFmc2NoeW5aR2YxNFNKTXpidmNPYWFTdURHVm5FV0dxcXJ4SVhmck8yZXZwMnBCdFVHb3pZY0hpaWtxZldxaWJxZGV5bjM2U1JIQ2U0cWVLUk5lS0oyc1ZmOXI0N0FueXM1d09QOEw3UGNuaUJDcWNlSmtkbDZLVy10ajZBX3c4TmtFai1CUVhGcGV5WEF5M19QQkIwVUlrTWxnMm5pMjVWU1FCUHREVjAwWG4tME5OWng?oc=5",
-      "published": "2026-11-10T12:49:00+00:00",
-      "summary": "Bill Ackman and Warren Buffett Both Have the Same Warning About the Stock Market The Motley Fool",
-      "tags": [
-        "Other"
-      ]
-    },
-    {
-      "source": "Google News",
-      "title": "Anthropic heads for lower than expected $1.3 trillion valuation in stock market debut - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ISWNuSndac0x1Ync1WkRad0JDMHZXSWtKVFJyWEViMFRVcVpNT2Nad0pQZDQ1Yjk2dDBKUi1aZVFmNmNRSzVIRDBVM0NIb2xrS0N5QzQ3S1ZRZzlFc3c?oc=5",
-      "published": "2026-11-10T12:47:18+00:00",
-      "summary": "Anthropic heads for lower than expected $1.3 trillion valuation in stock market debut BBC",
-      "tags": [
-        "Other"
-      ]
-    },
-    {
       "source": "Economic Times",
       "title": "Anthropic's IPO: A close look at AI frontrunner's rapid growth, spiraling costs",
       "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropics-ipo-a-close-look-at-ai-frontrunners-rapid-growth-spiraling-costs/articleshow/135711237.cms",
       "published": "2026-11-10T12:45:55+00:00",
       "summary": "Anthropic aims to raise up to $64.4 billion in an upcoming IPO, representing a significant market debut. The company plans a valuation of up to $1.02 trillion, showcasing its ambitions in AI. Founded by former OpenAI researchers, Anthropic's revenue has rapidly surged with enterp",
-      "tags": [
-        "IPO"
-      ]
-    },
-    {
-      "source": "Google News",
-      "title": "Anthropic IPO Meets Nvidia Scandal. Hold On to Your Hats. - Barron's",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbUJSMlJidTFiNExXLThiNlp6TTBTTEpoVHFRSFdYSXRxYVFvUFJ2dnc3QjBtZGd4c0FaM2hrc3JiRUV4TGhFU2pRblJDb05KbnAzVUxKeGhkWEV0RnpJcV82dVhsNUJITEVIYjFDRGhFb3UwTHYwSE9UY1pKSF92NA?oc=5",
-      "published": "2026-11-10T12:42:00+00:00",
-      "summary": "Anthropic IPO Meets Nvidia Scandal. Hold On to Your Hats. Barron's",
       "tags": [
         "IPO"
       ]
@@ -402,11 +496,11 @@
       ]
     },
     {
-      "source": "Business Standard",
-      "title": "Individual ownership in NSE-listed firms hits record 19.5% in Q2FY27",
-      "link": "https://www.business-standard.com/markets/news/individual-ownership-in-nse-listed-firms-hits-record-19-5-in-q2fy27-126111000550_1.html",
+      "source": "Google News",
+      "title": "Individual ownership in NSE-listed firms hits record 19.5% in Q2FY27 - Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSGdORk9YaEhtRUJiY1NDT2NHb2VlYTFoNDBfMnI1bWdwbFgzTjVtX0ZmYjBTSldTNU5xaUVudDBWWThrQnBQTTdleGZtMG8ybWNrZm5DN2NrS2dKX3YyZGZVOTZkWGJlRlB5MUZ5VjVJSmJlT3V2aldVRzV4ZzMyMjlZejB5d0NzcTNhT0VOSF9TRExUcnZrTElJOUJxQ2RXZ2FCZ2JNaExhZFd3R1NzNlZnWVpCX2d4NkpGbTFLZXZMWlFwYy11R3h6d0FHS0nSAdQBQVVfeXFMUFhYNkpJM3pMdFRGUXhEaEVoQ1dHVS16Z252TUMxMTdjdHVUOGZMZUNtMjdXLTF1TXJ3UlpBNEpacEFDNDVIUGhjZ3Q0Y0pGdHQ3dy1nMFo5el9tN3A3cEFiODVLUmpGbFpueTRvbHVHVFQ3UXZfTGZnOWI3Y0FDMjF2NHhJMEYtRGpxR19zbHdTZE1iNjgyX0RlekdncV9RbWJqNmlBU0tpOUkxOC01MUllcnJxeXowRnR0SkRPdDh1ck1BR0hkdnlxNUduU3poYnVNcHo?oc=5",
       "published": "2026-11-10T11:18:46+00:00",
-      "summary": "Combined direct and mutual fund holdings of individuals reached ₹90.4 trillion in September, while FPI ownership fell to a 21-year low of 14.7 per cent, NSE data showed.",
+      "summary": "Individual ownership in NSE-listed firms hits record 19.5% in Q2FY27 Business Standard",
       "tags": [
         "Other"
       ]
@@ -690,6 +784,17 @@
       ]
     },
     {
+      "source": "Google News",
+      "title": "Mutual funds' Nifty 50 allocation falls to 21-year low in Sept quarter - BusinessLine",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSWlnTzZNMVd5N3JyOVRKcm01ZjlkSDdfb1gzc0tTQlpXM0FRV2E4NHlkWEJDUUh5YUVYTXhfUUV0ZEJnSzJyNXZMRkZwWFYtQmNsM0lTZkxaWkkzSE9MVnQxeHBDSlVjOVZhVGp2LV8tYmlWLUx4S09sdVNVc0J2YUE5X1FXQmpqU0txZ0tKeENxUjlua0hEZTFhUEdoakhpYVBSU1hhVXhzN1JocS1ZbDM4eEdVQ0s4cHfSAcABQVVfeXFMT3A3R3Z1VUhhSlBrWE5FdGNYeVNqYk5TQnRWdmFvRWtDeXZBTG5kM05YOC1oUjBONGw2aVVwcDFtXzVmenFnVm5fZVVQa3FZYjFfVzVTRE0wM2dSaWxoY3JERFp5cXY2cnZ1VjBDckdRMnJHRXFhT0JRYWxXb2xUTWc1M0FBTEkzazNxSmJyekRlVVdYaVVwclBkQjdRSHE2cjRYMzNOcE5ZajRyQVUyeDg1cTBtbnVfWHdDNnY0SlFk?oc=5",
+      "published": "2026-11-10T08:52:28+00:00",
+      "summary": "Mutual funds' Nifty 50 allocation falls to 21-year low in Sept quarter BusinessLine",
+      "tags": [
+        "Results",
+        "Index"
+      ]
+    },
+    {
       "source": "Livemint",
       "title": "Tata Steel’s domestic business shines in Q2; Netherlands uncertainty poses risk",
       "link": "https://www.livemint.com/market/mark-to-market/tata-steel-domestic-business-q2-netherlands-uncertainty-risk-11794295394886.html",
@@ -829,17 +934,6 @@
       "summary": "Sensex, Nifty 50 outlook: On Monday, November 9, the Sensex advanced 107.25 points, or 0.13%, to close at 81,106.65, while the Nifty 50 gained 58.25 points, or 0.23%, to settle at 25,044.65.",
       "tags": [
         "Results",
-        "Index"
-      ]
-    },
-    {
-      "source": "Google News",
-      "title": "Indian markets outperform global peers since June as Nifty 500 gains - tennews.in",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQejNaV2FTVkxnbzVxbWpWUFAwWlFHRmpOV24ySm5Vdl9naXZNM3ZYZEtETGxMaUJEN29JaGJOSUZLSmwwdEhqbC1fRXJ5QmxKQmtXUkhza3lHd3NRbUFzU1JLanhJRWYxLXdjYWltLVNReXRtR0gwMmVBU1BHWEQySFIzRUtQNFFrVms0dk5CNTFJZw?oc=5",
-      "published": "2026-11-10T07:10:43+00:00",
-      "summary": "Indian markets outperform global peers since June as Nifty 500 gains tennews.in",
-      "tags": [
-        "Global",
         "Index"
       ]
     },
@@ -1009,16 +1103,6 @@
       ]
     },
     {
-      "source": "Google News",
-      "title": "Kospi Gains Over 5% as Samsung and SK Hynix Spark Chip Rebound - NiftyTrader",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5zZmtNRGlybUZrLVNRY0lTTHVzaVFMQThGUlloQV9LVHNtMGVVOG15a0RUV0ZPZ3VvTk5hd1QtTHNzRk9WWU1sNGFQcGJSVzBjbUI3RDI4NXVfM2ZMcXpTbUM0OFk2MEYtek9DakNVaUcyaGM?oc=5",
-      "published": "2026-11-10T05:44:58+00:00",
-      "summary": "Kospi Gains Over 5% as Samsung and SK Hynix Spark Chip Rebound NiftyTrader",
-      "tags": [
-        "Index"
-      ]
-    },
-    {
       "source": "Economic Times",
       "title": "Why The Trade Desk stock surged 15% despite revenue decline",
       "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/why-the-trade-desk-stock-surged-15-despite-revenue-decline/slideshow/135701057.cms",
@@ -1125,16 +1209,6 @@
       ]
     },
     {
-      "source": "Livemint",
-      "title": "Upcoming IPOs: SEBI clears 8 issues, including Mahanadi Coalfields, Veritas Finance and Sagar Defence; details here",
-      "link": "https://www.livemint.com/market/stock-market-news/upcoming-ipos-sebi-clears-8-issues-including-mahanadi-coalfields-veritas-finance-and-sagar-defence-details-here-11794281756897.html",
-      "published": "2026-11-10T04:26:46+00:00",
-      "summary": "India’s IPO pipeline is gaining pace, with eight companies—including Mahanadi Coalfields, Veritas Finance, Razorpay and MakeMyTrip’s Indian subsidiary—moving closer to public offerings. Their proposed issues range from fresh capital raises to offers for sale, and vary widely in s",
-      "tags": [
-        "Other"
-      ]
-    },
-    {
       "source": "Economic Times",
       "title": "Anthropic plans IPO live stream with Amodei, JPMorgan CEO Dimon",
       "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-plans-ipo-live-stream-with-amodei-jpmorgan-ceo-dimon/articleshow/135699137.cms",
@@ -1155,26 +1229,6 @@
       ]
     },
     {
-      "source": "Livemint",
-      "title": "US ETFs to Buy for Samvat 2083: Samco recommends 2 ETFs  with potential upside of up to 60% for Indian investors",
-      "link": "https://www.livemint.com/market/stock-market-news/us-etfs-to-buy-for-samvat-2083-samco-recommends-2-etfs-with-potential-upside-of-up-to-60-for-indian-investors-11794283267027.html",
-      "published": "2026-11-10T04:17:01+00:00",
-      "summary": "Samco Wealth recommends US-listed energy ETF XLE and healthcare ETF XLV as long-term hedges against oil-price volatility and rupee depreciation. It sees potential upside of 47% and 60%, respectively, and suggests holding both for at least two years.&nbsp;",
-      "tags": [
-        "Other"
-      ]
-    },
-    {
-      "source": "Livemint",
-      "title": "HUL dividend 2026: Tomorrow is the last day to buy | Check payout amount, record date, history, yield and returns",
-      "link": "https://www.livemint.com/market/stock-market-news/hul-dividend-2026-tomorrow-is-the-last-day-to-buy-check-payout-amount-record-date-history-yield-and-returns-11794278924006.html",
-      "published": "2026-11-10T03:45:08+00:00",
-      "summary": "HUL dividend 2026: HUL announced the interim dividend alongside its September-quarter results on October 28. The dividend amounts to 1,900% of the face value of ₹1 per equity share.",
-      "tags": [
-        "Other"
-      ]
-    },
-    {
       "source": "Business Standard",
       "title": "Asian stocks rise amid falling oil prices on hopes of US-Iran talks",
       "link": "https://www.business-standard.com/markets/news/asian-stocks-rise-amid-falling-oil-prices-on-hopes-of-us-iran-talks-126111000080_1.html",
@@ -1190,16 +1244,6 @@
       "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxNSG96TGpSbmFPTFFkNUxndXlSNmRxTUNIY3BHb2JpcjM5cElMVk5xYlhSNHlPMXdhOUotZXRWYjNBYWVIWThmM2oxVm1YN3FfSjJaZWpZT21IQmVjYlM4NnV6QkZkUGVFZUtyR0ZnVTgxNFBWcnNpd2xGeE83TmRjc0JHcmNLamF0WDJETnpERnBkV3JvUmo5UnQ2c3F4d1loS245X2REWXhvS3FFd29wRFRHS1ZJajBRUUJXQmozMFcxUFhDTmpYcVhoaXh1bEluMFZwMlhpdVlzTXgyb2o4RGk2d2czS2xqQmhBOXl0OW9GMFVQajkzZjJHVHRySkpBclQzUzFpYjB2WFhZZi1wd1lXeWtOSVNZdDdkVHln0gGjAkFVX3lxTE9iR2wtek5KT0JHZGl5VnNaQzVKSndyZDBfdk9saTlBMVR1b3VrRFVacU9xYk5rTEdTR0ozRWl5Y3pRWmZVZXFpVXYtWDFydUFVVGt5ZHk0clEwcUxiMEhnOTdkajEwT0JqcG1tX3RzVG52TGZZVFgyRUdtd0VTV2tIRmlaMXFoS2NrSzdERXNTb1dENjZhVWlQMmp2VWxqN1YtTTk5Mm9Qb2VMa2FLcEU4dWtKaURwMV9IU19uMlpTYkx6Q2oxamgtLVlGNHBGUmd4LUNhM0xMN1UxYVpjd1BxMVhVa1FwWFdYVWRxdkktdng5c2k0NU9HT3ZPd202WnAyajNXcGtRemlIazBBeVhDV3E0UVNvQV9wS1p2WDMzNUhhbw?oc=5",
       "published": "2026-11-10T03:35:00+00:00",
       "summary": "Stock market holiday today: Are NSE, BSE open or closed on November 10 for Diwali-Balipratipada? Check de The Times of India",
-      "tags": [
-        "Other"
-      ]
-    },
-    {
-      "source": "Livemint",
-      "title": "Four stocks with high dividend payout ratios to watch",
-      "link": "https://www.livemint.com/market/stock-market-news/four-stocks-with-high-dividend-payout-ratios-to-watch-11794220722375.html",
-      "published": "2026-11-10T03:30:37+00:00",
-      "summary": "Dividend-paying companies can be an important part of an investor's portfolio, particularly for those looking for regular income.",
       "tags": [
         "Other"
       ]
@@ -1256,11 +1300,11 @@
       ]
     },
     {
-      "source": "Livemint",
-      "title": "Stock market holiday: Closed today on Tuesday 10 November 2026 on Diwali-Balipratipada; no trading in NSE, BSE exchanges",
-      "link": "https://www.livemint.com/market/stock-market-news/stock-market-holiday-closed-today-on-tuesday-10-november-2026-on-diwali-balipratipada-no-trading-in-nse-bse-exchanges-11794275379042.html",
+      "source": "Google News",
+      "title": "Stock market holiday: Closed today on Tuesday 10 November 2026 on Diwali-Balipratipada; no trading in NSE, BSE exchanges - Livemint",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOU0FvTVExZkl6clFNWm5rSFk5NVhWV2szaW5SUEtpOGh3YWFpcFVQaU9CcHJZUlMyMmt5TXBkamRzSC15b2RmVk1WR2Y3ZXZEMURjZ3dnR21PTGw3Z1ZaTERlZGt1TFZJR1U5d2FNY1VHTGxINTh1dXFjWElvcFY1SkhRVkYzZ3NCbXpLRU5INXA2dF95dHQyU2lhNl9CRmg0eEg2cGJHYTM4eDVwTGpYS3I1WVFrcnNQdmtaQUo0Y3dYNFdpNTJVQVcwelRNMExYRzRId0p4SHlnTXR6YWFlamE4YlBJWElSLXVFbGxGZ3RCdDkteDBIVUxpNFVobWhJWVd6MVZzN1ZyVDA2TlFPT2NXRGxwQdIBmwJBVV95cUxQNjJUS2RpckxQMlhGcnkwUE5GMWUwY3JFakF1bXRobmxpZW1UX1BtcGd3dEEtb0EyclpJRDdNYlZuTHVGdGNVbDVsVE00RHhuOWkyLUVOSUQ4MzhUeG8ybk1QSUJwT0xPREJBQXZzZWRYd0xLeldJaXdaeGkwdFJvMXVEU3ZQTTZzNjctcmowMzJrM3g5RnR3NS1WRzFOMDVzdWF6MFFhVG9ESHdwTHpwMnNTWmdSV3lvYnZ3ZEU4UzJycHBXaW1OUTZDbzBrNFZuMnctZUJtQTlJYmoyOUJUMmEtM09FZXNtQ1RTbjhNczIzc05oRWc4bE9LU3FINGlST1RlRW5KV09VaGNQMldOLUVyN0ZmYUIxLUhN?oc=5",
       "published": "2026-11-10T02:17:28+00:00",
-      "summary": "Stock market holiday: The Indian stock market will remain closed for trading on Tuesday, November 10, on account of Diwali-Balipratipada.",
+      "summary": "Stock market holiday: Closed today on Tuesday 10 November 2026 on Diwali-Balipratipada; no trading in NSE, BSE exchanges Livemint",
       "tags": [
         "Other"
       ]
@@ -1401,6 +1445,17 @@
     },
     {
       "source": "Google News",
+      "title": "Stocks, Bonds Fall as CPI Data Fuel Fed-Hike Bets: Markets Wrap - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNXVKNll2bkFUUU5EVDg4eTF6a3YwZ0pIS0d4bGFTdkItMkl3SkFCbGRiZFdzSmlidHZZN3I1YzF1VkVXYlM0dDJrRlRPeDRGYXp6cVBuRGVjbl9vNWxrdlRYLTl4NTRxMnRFcGtuOUROekFvUUsxdTE1R3IwWmRKRVlUVFpFTlY0WXNlWTZTa1hIdmV1?oc=5",
+      "published": "2026-11-09T22:16:53+00:00",
+      "summary": "Stocks, Bonds Fall as CPI Data Fuel Fed-Hike Bets: Markets Wrap Bloomberg.com",
+      "tags": [
+        "RBI & rates",
+        "Global"
+      ]
+    },
+    {
+      "source": "Google News",
       "title": "Stock Market Today: Asian Markets Diverge as European Shares Rally on November 9, 2026 - Eurasia Business News",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTGFQVTdCUm5zZjhNTE9XTm15bC1JM2xNazFXOGZ6VC1CT1BaQ1Z3REdSTkl5UFlBVTRvNUJsY2RPNGlaZXhmTHVFV2hqRzktSmFQQmg4elBkNF9kMXltZV9PY0sxdjg3b0tJSEpFVUEyd19LOXZYV3lSYUREX1RnVDctZlBmR2x2dndfeUV1T2NNZ2NlUUhySnpsN2xKX3RDWFlVVVc4N1JyNDV0SnVwZDZmVExEZlh6YW85Z0tsU2JaQ2dJR3U0?oc=5",
       "published": "2026-11-09T21:32:36+00:00",
@@ -1427,17 +1482,6 @@
       "summary": "Sensex Today Trades Lower | Nifty Below 24,500 | HCL Tech & Bharti Airtel Top Losers Equitymaster",
       "tags": [
         "IT",
-        "Index"
-      ]
-    },
-    {
-      "source": "Google News",
-      "title": "Jewellery stocks outshine Nifty as festive gold demand fuels optimism - Business Standard",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYVZtZThiWUNhd1BvYUdUekNUcUlGM3VNZjc4UGJnTUwyS1lKY2JRemhSMmU1cHR0b3RWZ2I1blFwck5Vci00QnAxajFQcTRxc3JVU080U3FPV09YZ1Jfd0dtMWVGQnF0c1dwUzEzNjBSUklMNi15MlRSVENidWFMOWJhTUo5Nl9lYzBJLS0xM1RTclRxU2dPbDVfUjlQOGpxd0I1TEFoQmpxSUVZOEJZZ1dlM0VQYUtjQWRYUE92X0Z3aWJraWNNenNEcFRwZGVqMkHSAdcBQVVfeXFMUGR6VmQ4V0NiMmFSOTI0V3I1V2xFV2lYckdxN2NpUFNMb3Nnak5SZXIycW1xYmxEbzhreU5kTW9rMjB0VV9lVGlwVWJiOUJubWFQOVBuY2w0bkdOYmVNS0pTV2RCT3JBZVY1ZkNjcjY4NGFBU0FmVEgtLWNGR2FWQ1k0OFQ0MFlvRHVNRk0tNmNMWjNaRjE2RGg5QjRSMmxNMi1vR1gtME44S1B4ZzJacXVoOWRTbnhuX19qcUxHMVpFallPRXlGd3pxdDNGU3ozdnF2WDlLbk0?oc=5",
-      "published": "2026-11-09T18:02:56+00:00",
-      "summary": "Jewellery stocks outshine Nifty as festive gold demand fuels optimism Business Standard",
-      "tags": [
-        "Crude & commodities",
         "Index"
       ]
     },
@@ -1963,6 +2007,17 @@
       ]
     },
     {
+      "source": "Google News",
+      "title": "Bank Nifty surges 1% to trade above 59,500; PSU banks lead gains: What lies ahead? - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMmFSVVRkVGN0MXV2WFdGbUhETjZRQXNhR25lYTVYZnJxcmxEeGtwRnY5R0k2UHpJMHhBQmp6c3QxTnVHcWthbjRMcEl5UGxiT2xmX0lGTTFYM3NEN2dQNnJzZVJFMExFZUY4WjZSRlpHcDlibS1fZ3oxZ1RCR3V5MElzZ0VGaEtJS1k2TGFBQ2NtZnZDemkwR3dFaEd3RlhRUjFzRDNUa3dFRmlYUWxDcUdyOTd2eDhUNmVjbUhPZnlDenhRS1h3ZlJjOXIteWZ1bW1wd25WOE1QdTjSAeABQVVfeXFMUEctaC11QWw5R3JWRkFUVVUzMG1jR3doVlNfXy0zRUh0RnNlazBuZ3pwWTB3M3hZV0F4eW1malF4OUxfcFhwcmlLS2c4cV9jTkRJdW5QMG1OazRNYVREMWVja1FpYjZ1cWJqSG03eGdOREtacTZSZkpZMjJfRXhSaVVmUkp5MVEzdC13VWNTVzNPWXloa2phVk84OXpHZ2RCT0x2N1VPdFBJM0oxNTk5NkdJV2JKcVpNZ3doLWszd1lVay1VemVPdm4xWVY1c3RmaG92eU9zN0VWTl9NZEVVcHA?oc=5",
+      "published": "2026-11-09T09:34:39+00:00",
+      "summary": "Bank Nifty surges 1% to trade above 59,500; PSU banks lead gains: What lies ahead? Moneycontrol.com",
+      "tags": [
+        "Banks",
+        "Index"
+      ]
+    },
+    {
       "source": "RBI",
       "title": "Result of Yield/Price Based Auction of State Government Securities",
       "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63948",
@@ -2040,57 +2095,6 @@
       "summary": "MakeMyTrip's India subsidiary, MMT India, has received approval from Sebi for an initial public offering. This approval follows a confidential filing of draft papers made in July. The IPO will involve the sale of equity shares by MakeMyTrip and its subsidiary, ibibo Group Holding",
       "tags": [
         "IPO"
-      ]
-    },
-    {
-      "source": "BusinessLine",
-      "title": "Nifty slips to 24,882 at midday; IT, Steel, Cement drag as Rupee hits 2026 high",
-      "link": "https://www.thehindubusinessline.com/markets/nifty-slips-to-24882-at-midday-it-steel-cement-drag-as-rupee-hits-2026-high/article71681848.ece",
-      "published": "2026-11-09T08:10:53+00:00",
-      "summary": "The Sensex declined 362.13 points, or 0.45 per cent, to 80,637.27 from its previous close of 80,999.40, as selling pressure broadened across IT, metals and cement sectors, overwhelming early gains in banking and pharma stocks.",
-      "tags": [
-        "Rupee",
-        "Index"
-      ]
-    },
-    {
-      "source": "Business Standard",
-      "title": "Uno Minda zooms 26% in November, stock nears record high; here's why",
-      "link": "https://www.business-standard.com/markets/news/uno-minda-zooms-26-in-november-stock-nears-record-high-here-s-why-126110900464_1.html",
-      "published": "2026-11-09T08:07:32+00:00",
-      "summary": "Uno Minda's share price hit a 52-week high of ₹1,367.50, gaining 4% on the NSE in Monday's intraday deals.",
-      "tags": [
-        "Other"
-      ]
-    },
-    {
-      "source": "Business Standard",
-      "title": "ZEEL extends gains, rises 11% in 2 days as board to mull buyback, dividend",
-      "link": "https://www.business-standard.com/markets/news/zee-entertainment-share-price-extends-gains-rises-11-in-2-days-as-board-to-mull-buyback-dividend-126110900445_1.html",
-      "published": "2026-11-09T07:51:54+00:00",
-      "summary": "ZEEL settled with a bullish reversal candlestick pattern on its weekly charts, signalling a potential relief rally toward the 80 mark in the near term, show tech charts.",
-      "tags": [
-        "Other"
-      ]
-    },
-    {
-      "source": "Business Standard",
-      "title": "PVR Inox rises 3% to 52-wk high as Ramayana's box-office biz tops ₹500 cr",
-      "link": "https://www.business-standard.com/markets/news/pvr-inox-rises-3-to-52-wk-high-as-ramayana-s-box-office-biz-tops-500-cr-126110900453_1.html",
-      "published": "2026-11-09T07:49:35+00:00",
-      "summary": "Notably, the Ranbir Kapoor-Sai Pallavi starrer 'Ramayana: Part One', which was released on November 5, today entered the ₹500 club, according to data provided by Sacnilk.",
-      "tags": [
-        "Other"
-      ]
-    },
-    {
-      "source": "BusinessLine",
-      "title": "HSBC, Citi turn bullish as domestic markets draw record inflows",
-      "link": "https://www.thehindubusinessline.com/markets/hsbc-citi-turn-bullish-as-domestic-markets-draw-record-inflows/article71681706.ece",
-      "published": "2026-11-09T07:36:44+00:00",
-      "summary": "The views signal a reset in sentiment towards Indian stocks as investors seek stocks that are less vulnerable to concerns over stretched AI valuations",
-      "tags": [
-        "Other"
       ]
     }
   ]
