@@ -1,0 +1,370 @@
+{
+  "generated_at": "2026-11-10T21:20:46",
+  "as_of": "2026-11-09",
+  "universe": "nifty500",
+  "stocks_analyzed": 491,
+  "stocks_excluded": 10,
+  "composite_score": 71.8,
+  "zone": "HEALTHY",
+  "suggested_equity_exposure": "60-80%",
+  "guidance": "Most stocks trending. Normal position sizes; new breakouts OK.",
+  "components": {
+    "pct_above_200dma": {
+      "value": 49.3,
+      "score": 49.3
+    },
+    "pct_above_50dma": {
+      "value": 51.9,
+      "score": 51.9
+    },
+    "breadth_momentum": {
+      "value": 38.7,
+      "score": 100.0,
+      "note": "10-session change in % above 50-DMA (pts)"
+    },
+    "new_highs_lows": {
+      "value": "32 NH / 1 NL",
+      "score": 97.0
+    },
+    "index_trend": {
+      "value": {
+        "close": 25044.65,
+        "dma50": 23264.76,
+        "dma200": 23995.83,
+        "above_50dma": true,
+        "above_200dma": true,
+        "pct_from_200dma": 4.37
+      },
+      "score": 100
+    },
+    "india_vix": {
+      "value": 17.42,
+      "score": 45
+    }
+  },
+  "breadth": {
+    "pct_above_20dma": 75.4,
+    "pct_above_50dma": 51.9,
+    "pct_above_200dma": 49.3,
+    "advances": 315,
+    "declines": 175,
+    "new_52w_highs": 32,
+    "new_52w_lows": 1,
+    "within_5pct_of_52w_high": 71
+  },
+  "sectors": [
+    {
+      "industry": "Construction Materials",
+      "stocks": 11,
+      "pct_above_50dma": 90.9,
+      "median_1m_return": 9.27
+    },
+    {
+      "industry": "Textiles",
+      "stocks": 5,
+      "pct_above_50dma": 80.0,
+      "median_1m_return": 7.97
+    },
+    {
+      "industry": "Consumer Durables",
+      "stocks": 16,
+      "pct_above_50dma": 75.0,
+      "median_1m_return": 4.87
+    },
+    {
+      "industry": "Information Technology",
+      "stocks": 24,
+      "pct_above_50dma": 70.8,
+      "median_1m_return": 11.89
+    },
+    {
+      "industry": "Automobile and Auto Components",
+      "stocks": 40,
+      "pct_above_50dma": 65.0,
+      "median_1m_return": 7.58
+    },
+    {
+      "industry": "Healthcare",
+      "stocks": 44,
+      "pct_above_50dma": 63.6,
+      "median_1m_return": 7.09
+    },
+    {
+      "industry": "Financial Services",
+      "stocks": 98,
+      "pct_above_50dma": 61.2,
+      "median_1m_return": 5.36
+    },
+    {
+      "industry": "Oil Gas & Consumable Fuels",
+      "stocks": 17,
+      "pct_above_50dma": 58.8,
+      "median_1m_return": 3.19
+    },
+    {
+      "industry": "Services",
+      "stocks": 13,
+      "pct_above_50dma": 53.8,
+      "median_1m_return": 2.76
+    },
+    {
+      "industry": "Realty",
+      "stocks": 13,
+      "pct_above_50dma": 53.8,
+      "median_1m_return": 6.24
+    },
+    {
+      "industry": "Construction",
+      "stocks": 13,
+      "pct_above_50dma": 53.8,
+      "median_1m_return": 4.22
+    },
+    {
+      "industry": "Fast Moving Consumer Goods",
+      "stocks": 28,
+      "pct_above_50dma": 53.6,
+      "median_1m_return": 1.07
+    },
+    {
+      "industry": "Power",
+      "stocks": 17,
+      "pct_above_50dma": 52.9,
+      "median_1m_return": 6.42
+    },
+    {
+      "industry": "Media Entertainment & Publication",
+      "stocks": 4,
+      "pct_above_50dma": 50.0,
+      "median_1m_return": 2.43
+    },
+    {
+      "industry": "Consumer Services",
+      "stocks": 23,
+      "pct_above_50dma": 39.1,
+      "median_1m_return": 2.25
+    },
+    {
+      "industry": "Telecommunication",
+      "stocks": 11,
+      "pct_above_50dma": 36.4,
+      "median_1m_return": 1.37
+    },
+    {
+      "industry": "Metals & Mining",
+      "stocks": 18,
+      "pct_above_50dma": 33.3,
+      "median_1m_return": 3.32
+    },
+    {
+      "industry": "Chemicals",
+      "stocks": 26,
+      "pct_above_50dma": 30.8,
+      "median_1m_return": -3.3
+    },
+    {
+      "industry": "Capital Goods",
+      "stocks": 69,
+      "pct_above_50dma": 20.3,
+      "median_1m_return": -2.6
+    }
+  ],
+  "history_30d": [
+    {
+      "date": "2026-09-25",
+      "pct_above_20dma": 32.4,
+      "pct_above_50dma": 30.5,
+      "pct_above_200dma": 49.7
+    },
+    {
+      "date": "2026-09-28",
+      "pct_above_20dma": 18.3,
+      "pct_above_50dma": 22.0,
+      "pct_above_200dma": 46.0
+    },
+    {
+      "date": "2026-09-29",
+      "pct_above_20dma": 19.1,
+      "pct_above_50dma": 20.4,
+      "pct_above_200dma": 44.2
+    },
+    {
+      "date": "2026-09-30",
+      "pct_above_20dma": 19.6,
+      "pct_above_50dma": 22.2,
+      "pct_above_200dma": 44.6
+    },
+    {
+      "date": "2026-10-01",
+      "pct_above_20dma": 13.6,
+      "pct_above_50dma": 18.3,
+      "pct_above_200dma": 39.9
+    },
+    {
+      "date": "2026-10-05",
+      "pct_above_20dma": 16.3,
+      "pct_above_50dma": 21.2,
+      "pct_above_200dma": 40.5
+    },
+    {
+      "date": "2026-10-06",
+      "pct_above_20dma": 27.9,
+      "pct_above_50dma": 24.6,
+      "pct_above_200dma": 41.8
+    },
+    {
+      "date": "2026-10-07",
+      "pct_above_20dma": 28.1,
+      "pct_above_50dma": 24.0,
+      "pct_above_200dma": 39.7
+    },
+    {
+      "date": "2026-10-08",
+      "pct_above_20dma": 14.3,
+      "pct_above_50dma": 15.1,
+      "pct_above_200dma": 37.5
+    },
+    {
+      "date": "2026-10-09",
+      "pct_above_20dma": 20.0,
+      "pct_above_50dma": 18.5,
+      "pct_above_200dma": 39.5
+    },
+    {
+      "date": "2026-10-12",
+      "pct_above_20dma": 23.2,
+      "pct_above_50dma": 21.0,
+      "pct_above_200dma": 39.7
+    },
+    {
+      "date": "2026-10-13",
+      "pct_above_20dma": 30.1,
+      "pct_above_50dma": 22.4,
+      "pct_above_200dma": 42.0
+    },
+    {
+      "date": "2026-10-14",
+      "pct_above_20dma": 34.0,
+      "pct_above_50dma": 25.1,
+      "pct_above_200dma": 43.2
+    },
+    {
+      "date": "2026-10-15",
+      "pct_above_20dma": 30.5,
+      "pct_above_50dma": 20.6,
+      "pct_above_200dma": 42.8
+    },
+    {
+      "date": "2026-10-16",
+      "pct_above_20dma": 32.8,
+      "pct_above_50dma": 22.6,
+      "pct_above_200dma": 42.0
+    },
+    {
+      "date": "2026-10-19",
+      "pct_above_20dma": 25.3,
+      "pct_above_50dma": 19.1,
+      "pct_above_200dma": 39.9
+    },
+    {
+      "date": "2026-10-21",
+      "pct_above_20dma": 17.5,
+      "pct_above_50dma": 14.1,
+      "pct_above_200dma": 34.2
+    },
+    {
+      "date": "2026-10-22",
+      "pct_above_20dma": 16.7,
+      "pct_above_50dma": 13.4,
+      "pct_above_200dma": 32.4
+    },
+    {
+      "date": "2026-10-23",
+      "pct_above_20dma": 11.0,
+      "pct_above_50dma": 10.4,
+      "pct_above_200dma": 27.5
+    },
+    {
+      "date": "2026-10-26",
+      "pct_above_20dma": 15.5,
+      "pct_above_50dma": 13.2,
+      "pct_above_200dma": 31.4
+    },
+    {
+      "date": "2026-10-27",
+      "pct_above_20dma": 25.7,
+      "pct_above_50dma": 18.3,
+      "pct_above_200dma": 34.2
+    },
+    {
+      "date": "2026-10-28",
+      "pct_above_20dma": 27.5,
+      "pct_above_50dma": 19.6,
+      "pct_above_200dma": 34.0
+    },
+    {
+      "date": "2026-10-29",
+      "pct_above_20dma": 35.6,
+      "pct_above_50dma": 21.0,
+      "pct_above_200dma": 35.4
+    },
+    {
+      "date": "2026-10-30",
+      "pct_above_20dma": 27.9,
+      "pct_above_50dma": 19.1,
+      "pct_above_200dma": 32.4
+    },
+    {
+      "date": "2026-11-02",
+      "pct_above_20dma": 40.9,
+      "pct_above_50dma": 24.0,
+      "pct_above_200dma": 35.6
+    },
+    {
+      "date": "2026-11-03",
+      "pct_above_20dma": 48.3,
+      "pct_above_50dma": 28.9,
+      "pct_above_200dma": 38.3
+    },
+    {
+      "date": "2026-11-04",
+      "pct_above_20dma": 65.4,
+      "pct_above_50dma": 37.7,
+      "pct_above_200dma": 43.4
+    },
+    {
+      "date": "2026-11-05",
+      "pct_above_20dma": 73.1,
+      "pct_above_50dma": 47.7,
+      "pct_above_200dma": 48.1
+    },
+    {
+      "date": "2026-11-06",
+      "pct_above_20dma": 71.1,
+      "pct_above_50dma": 46.0,
+      "pct_above_200dma": 47.7
+    },
+    {
+      "date": "2026-11-09",
+      "pct_above_20dma": 75.4,
+      "pct_above_50dma": 51.9,
+      "pct_above_200dma": 49.3
+    }
+  ],
+  "excluded_tickers": [
+    "BAGMANE.NS",
+    "BHARATCOAL.NS",
+    "CLEANMAX.NS",
+    "CMPDI.NS",
+    "DUMMYHEG.NS",
+    "FRACTAL.NS",
+    "VAML.NS",
+    "VEDPOWER.NS",
+    "VISL.NS",
+    "VOGL.NS"
+  ],
+  "caveats": [
+    "Uses CURRENT index constituents (survivorship bias in history).",
+    "Yahoo Finance EOD data; may lag NSE by a session or contain gaps.",
+    "Stocks with < 200 sessions of history are excluded."
+  ]
+}
