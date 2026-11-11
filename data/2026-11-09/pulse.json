@@ -31,53 +31,46 @@
       "chg_5d_pct": 5.96
     },
     {
-      "name": "USD-INR",
-      "last": 93.92,
-      "date": "2026-11-09",
-      "chg_1d_pct": -0.57,
-      "chg_5d_pct": -1.04
-    },
-    {
       "name": "Brent crude ($)",
-      "last": 93.92,
-      "date": "2026-11-09",
-      "chg_1d_pct": -4.48,
-      "chg_5d_pct": -10.36
+      "last": 92.58,
+      "date": "2026-11-10",
+      "chg_1d_pct": 0.01,
+      "chg_5d_pct": -10.64
     },
     {
       "name": "Gold ($)",
-      "last": 4124.0,
-      "date": "2026-11-09",
-      "chg_1d_pct": 1.2,
-      "chg_5d_pct": 3.89
+      "last": 4049.4,
+      "date": "2026-11-10",
+      "chg_1d_pct": -1.58,
+      "chg_5d_pct": 2.77
     },
     {
       "name": "S&P 500 fut",
-      "last": 7546.25,
-      "date": "2026-11-09",
-      "chg_1d_pct": 1.95,
-      "chg_5d_pct": -0.37
+      "last": 7579.0,
+      "date": "2026-11-10",
+      "chg_1d_pct": 0.06,
+      "chg_5d_pct": -0.23
     },
     {
       "name": "Nasdaq 100 fut",
-      "last": 27872.0,
-      "date": "2026-11-09",
-      "chg_1d_pct": 2.9,
-      "chg_5d_pct": -0.91
+      "last": 28117.75,
+      "date": "2026-11-10",
+      "chg_1d_pct": 0.37,
+      "chg_5d_pct": -0.66
     },
     {
       "name": "Nikkei 225",
-      "last": 57434.77,
-      "date": "2026-11-06",
-      "chg_1d_pct": -5.96,
-      "chg_5d_pct": -11.17
+      "last": 60942.48,
+      "date": "2026-11-11",
+      "chg_1d_pct": 0.8,
+      "chg_5d_pct": -2.0
     },
     {
       "name": "Hang Seng",
-      "last": 24481.86,
-      "date": "2026-11-06",
-      "chg_1d_pct": -1.27,
-      "chg_5d_pct": 5.1
+      "last": 24393.06,
+      "date": "2026-11-11",
+      "chg_1d_pct": -0.67,
+      "chg_5d_pct": 1.98
     }
   ],
   "fii_dii": {
@@ -721,5 +714,6 @@
       "symbol": "SAMMAANCAP",
       "purpose": "Financial Results"
     }
-  ]
+  ],
+  "snapshot_updated_at": "2026-11-11T08:30:13+05:30"
 }
