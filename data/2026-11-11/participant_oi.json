@@ -1,0 +1,231 @@
+{
+  "generated_at": "2026-11-11T21:03:50",
+  "as_of": "2026-11-11",
+  "clients": {
+    "FII": {
+      "fut_idx_long": 57226,
+      "fut_idx_short": 127639,
+      "fut_idx_net": -70413,
+      "fut_idx_long_pct": 31.0,
+      "fut_idx_net_chg": 20328,
+      "idx_call_net": -235601,
+      "idx_put_net": 447332,
+      "fut_stk_long_pct": 58.5
+    },
+    "DII": {
+      "fut_idx_long": 54376,
+      "fut_idx_short": 27224,
+      "fut_idx_net": 27152,
+      "fut_idx_long_pct": 66.6,
+      "fut_idx_net_chg": -3305,
+      "idx_call_net": 1060,
+      "idx_put_net": 105842,
+      "fut_stk_long_pct": 7.3
+    },
+    "Pro": {
+      "fut_idx_long": 26450,
+      "fut_idx_short": 50197,
+      "fut_idx_net": -23747,
+      "fut_idx_long_pct": 34.5,
+      "fut_idx_net_chg": -3272,
+      "idx_call_net": -104601,
+      "idx_put_net": -134524,
+      "fut_stk_long_pct": 56.5
+    },
+    "Client": {
+      "fut_idx_long": 172162,
+      "fut_idx_short": 105154,
+      "fut_idx_net": 67008,
+      "fut_idx_long_pct": 62.1,
+      "fut_idx_net_chg": -13751,
+      "idx_call_net": 339141,
+      "idx_put_net": -418650,
+      "fut_stk_long_pct": 90.0
+    }
+  },
+  "fii_history": [
+    {
+      "date": "2026-09-18",
+      "fut_idx_long_pct": 12.6,
+      "fut_idx_net": -288428
+    },
+    {
+      "date": "2026-09-21",
+      "fut_idx_long_pct": 12.4,
+      "fut_idx_net": -290546
+    },
+    {
+      "date": "2026-09-22",
+      "fut_idx_long_pct": 10.5,
+      "fut_idx_net": -302908
+    },
+    {
+      "date": "2026-09-23",
+      "fut_idx_long_pct": 10.7,
+      "fut_idx_net": -298613
+    },
+    {
+      "date": "2026-09-24",
+      "fut_idx_long_pct": 11.0,
+      "fut_idx_net": -309822
+    },
+    {
+      "date": "2026-09-25",
+      "fut_idx_long_pct": 11.4,
+      "fut_idx_net": -312001
+    },
+    {
+      "date": "2026-09-28",
+      "fut_idx_long_pct": 12.2,
+      "fut_idx_net": -319669
+    },
+    {
+      "date": "2026-09-29",
+      "fut_idx_long_pct": 8.6,
+      "fut_idx_net": -267307
+    },
+    {
+      "date": "2026-09-30",
+      "fut_idx_long_pct": 8.6,
+      "fut_idx_net": -282870
+    },
+    {
+      "date": "2026-10-01",
+      "fut_idx_long_pct": 8.0,
+      "fut_idx_net": -310174
+    },
+    {
+      "date": "2026-10-05",
+      "fut_idx_long_pct": 8.1,
+      "fut_idx_net": -302391
+    },
+    {
+      "date": "2026-10-06",
+      "fut_idx_long_pct": 8.5,
+      "fut_idx_net": -293725
+    },
+    {
+      "date": "2026-10-07",
+      "fut_idx_long_pct": 9.2,
+      "fut_idx_net": -298285
+    },
+    {
+      "date": "2026-10-08",
+      "fut_idx_long_pct": 8.5,
+      "fut_idx_net": -307109
+    },
+    {
+      "date": "2026-10-09",
+      "fut_idx_long_pct": 9.6,
+      "fut_idx_net": -293988
+    },
+    {
+      "date": "2026-10-12",
+      "fut_idx_long_pct": 9.0,
+      "fut_idx_net": -295860
+    },
+    {
+      "date": "2026-10-13",
+      "fut_idx_long_pct": 9.8,
+      "fut_idx_net": -289495
+    },
+    {
+      "date": "2026-10-14",
+      "fut_idx_long_pct": 9.4,
+      "fut_idx_net": -296697
+    },
+    {
+      "date": "2026-10-15",
+      "fut_idx_long_pct": 10.8,
+      "fut_idx_net": -279827
+    },
+    {
+      "date": "2026-10-16",
+      "fut_idx_long_pct": 11.3,
+      "fut_idx_net": -272999
+    },
+    {
+      "date": "2026-10-19",
+      "fut_idx_long_pct": 10.4,
+      "fut_idx_net": -279930
+    },
+    {
+      "date": "2026-10-21",
+      "fut_idx_long_pct": 9.5,
+      "fut_idx_net": -277628
+    },
+    {
+      "date": "2026-10-22",
+      "fut_idx_long_pct": 9.9,
+      "fut_idx_net": -280300
+    },
+    {
+      "date": "2026-10-23",
+      "fut_idx_long_pct": 10.4,
+      "fut_idx_net": -280183
+    },
+    {
+      "date": "2026-10-26",
+      "fut_idx_long_pct": 12.6,
+      "fut_idx_net": -277105
+    },
+    {
+      "date": "2026-10-27",
+      "fut_idx_long_pct": 11.7,
+      "fut_idx_net": -221057
+    },
+    {
+      "date": "2026-10-28",
+      "fut_idx_long_pct": 11.7,
+      "fut_idx_net": -235042
+    },
+    {
+      "date": "2026-10-29",
+      "fut_idx_long_pct": 11.5,
+      "fut_idx_net": -238023
+    },
+    {
+      "date": "2026-10-30",
+      "fut_idx_long_pct": 11.1,
+      "fut_idx_net": -240753
+    },
+    {
+      "date": "2026-11-02",
+      "fut_idx_long_pct": 10.6,
+      "fut_idx_net": -233199
+    },
+    {
+      "date": "2026-11-03",
+      "fut_idx_long_pct": 12.3,
+      "fut_idx_net": -202757
+    },
+    {
+      "date": "2026-11-04",
+      "fut_idx_long_pct": 13.6,
+      "fut_idx_net": -185979
+    },
+    {
+      "date": "2026-11-05",
+      "fut_idx_long_pct": 21.5,
+      "fut_idx_net": -137438
+    },
+    {
+      "date": "2026-11-06",
+      "fut_idx_long_pct": 24.6,
+      "fut_idx_net": -100416
+    },
+    {
+      "date": "2026-11-09",
+      "fut_idx_long_pct": 26.8,
+      "fut_idx_net": -90741
+    },
+    {
+      "date": "2026-11-11",
+      "fut_idx_long_pct": 31.0,
+      "fut_idx_net": -70413
+    }
+  ],
+  "fii_read": "Bearish \u2014 FIIs are mostly short index futures.",
+  "fii_pct_rank": 100,
+  "sessions": 36
+}
