@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T14:47:33+00:00",
+  "generated_at": "2026-11-12T17:45:12+00:00",
   "sources": {
     "Economic Times": {
       "ok": true,
@@ -32,13 +32,233 @@
   },
   "items": [
     {
+      "source": "Livemint",
+      "title": "Nvidia stock crash: Short seller flagged Jensen Huang’s close ties to Alice Huang months before CEO’s resignation",
+      "link": "https://www.livemint.com/market/stock-market-news/nvidia-stock-crash-short-seller-flagged-jensen-huang-s-close-ties-to-alice-huang-months-before-ceo-s-resignation-11794502597338.html",
+      "published": "2026-11-12T17:25:49+00:00",
+      "summary": "A May report by short seller Culper Research questioned Nvidia CEO Jensen Huang’s ties to Megaspeed executive Alice Huang and raised concerns about Nvidia’s China-linked supply chain.&nbsp;",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "India ETFs draw ₹35,120 crore in Q3 as large-cap, precious metals lead inflows",
+      "link": "https://www.thehindubusinessline.com/markets/india-etfs-draw-35120-crore-in-q3-as-large-cap-precious-metals-lead-inflows/article71694491.ece",
+      "published": "2026-11-12T17:17:47+00:00",
+      "summary": "Technology and long-duration debt ETFs see redemptions even as the broader Asia-Pacific market returns to net inflows after two quarters of outflows",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "India overtakes Taiwan to become world’s fifth-largest stock market after $640-billion rebound",
+      "link": "https://www.thehindubusinessline.com/markets/india-overtakes-taiwan-to-become-worlds-fifth-largest-stock-market-after-640-billion-rebound/article71692889.ece",
+      "published": "2026-11-12T17:16:57+00:00",
+      "summary": "Foreign investor buying, stronger corporate earnings and falling crude prices have helped reverse months of pressure on Indian equities",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "Standard Chartered brings four Signature CIO Funds from GIFT City",
+      "link": "https://www.business-standard.com/markets/news/standard-chartered-brings-four-signature-cio-funds-from-gift-city-126111201886_1.html",
+      "published": "2026-11-12T17:14:56+00:00",
+      "summary": "Standard Chartered has partnered with Amundi Asset Management and SBI Funds International to offer multi-asset portfolios investing across global markets from GIFT City.",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Paytm shares at  ₹1,925, close in on IPO listing-day high after 100% rally from March lows. What drove the recovery?",
+      "link": "https://www.livemint.com/market/stock-market-news/paytm-shares-at-rs-1-925-close-in-on-ipo-listing-day-high-after-100-rally-from-march-lows-what-led-a-recovery-11794491626960.html",
+      "published": "2026-11-12T16:49:29+00:00",
+      "summary": "Paytm shares rose 7.3% to ₹1,925, their highest close since listing in 2021, amid optimism that merchant discount rate charges could lift margins. The company reported September-quarter profit of ₹226 crore, while mutual fund ownership reached a record 21.17%.",
+      "tags": [
+        "IPO"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Laurus Labs, Gland Pharma, Piramal, Divi's Labs: 4 drug manufacturing stocks rally up to 89% in 6 months - Upside ahead?",
+      "link": "https://www.livemint.com/market/stock-market-news/laurus-labs-gland-pharma-piramal-divis-labs-4-drug-manufacturing-stocks-rally-up-to-90-in-6-months-more-upside-a-11794493778483.html",
+      "published": "2026-11-12T16:49:00+00:00",
+      "summary": "Pharma stocks, particularly CDMO companies, have surged over the past six months amid optimism about quarterly results. Laurus Labs led with an 88.64% gain, followed by Gland Pharma at 80.36%, Divi’s Laboratories at 72.35% and Piramal Pharma at 38.65%.&nbsp;",
+      "tags": [
+        "Pharma"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "The Stock Market Has Weathered Nvidia’s Slide. Jensen Huang’s Exit Changes the Equation. - Barron's",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPR24xVXdIX1BsTUE0UGtwdkJwZS1WcmE0VUxyVWR3MXBDblFxcTk0TzRqcEFSVTRJbl9WVEh2bGRDN1NiT0dVc3otWUdNSWFKRXl0Mkg1dDZfVHZnMmctZ1ppM1h0VG1rQkJLVEs2WGVVdjF2Q3F2QlBtckxQNUUxV0wtemFnNWdUZ2dEZVExLUg2d0lobEE?oc=5",
+      "published": "2026-11-12T16:33:19+00:00",
+      "summary": "The Stock Market Has Weathered Nvidia’s Slide. Jensen Huang’s Exit Changes the Equation. Barron's",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Muthoot FinCorp diversifies funding to trim borrowing cost",
+      "link": "https://www.thehindubusinessline.com/markets/muthoot-fincorp-diversifies-funding-to-trim-borrowing-cost/article71695055.ece",
+      "published": "2026-11-12T16:29:27+00:00",
+      "summary": "IPO-bound Muthoot FinCorp has reduced its average cost of borrowing by 121 basis points to 9.11 per cent in FY26 from 10.32 per cent in FY25",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "October retail inflation surge may weigh on housing demand, raise rate hike concerns: Knight Frank, PHDCCI",
+      "link": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/october-retail-inflation-surge-may-weigh-on-housing-demand-raise-rate-hike-concerns-knight-frank-phdcci/articleshow/135776096.cms",
+      "published": "2026-11-12T16:09:52+00:00",
+      "summary": "Rising retail inflation could weaken household purchasing power and constrain discretionary spending, including housing expenditure, while increasing the possibility of further monetary tightening by the Reserve Bank of India (RBI), industry bodies said on Thursday, following the",
+      "tags": [
+        "RBI & rates"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Stocks Slide on Nvidia Troubles, Oil Edges Lower: Markets Wrap - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYmF2Z05ObnRwSVdvWGJrWC1XZlIzVXlYMTV3eVRwQWlScGY3TGpuamVOTEpremJZQnhJU3hkOWl2ck4xNFdzQWM1VTh2OEVBQ3FCTzNiYThfOTlzSHpqX0hHeWQ3dzZTcnRsVzYtMzFWeElmZVdVWUdQcnhIbEp1SS1lejVoM2Y1OGdScGpLbzJPVWhk?oc=5",
+      "published": "2026-11-12T16:01:18+00:00",
+      "summary": "Stocks Slide on Nvidia Troubles, Oil Edges Lower: Markets Wrap Bloomberg.com",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "Nvidia default risk nears record high as board weighs CEO’s fate",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/nvidia-default-risk-nears-record-high-as-board-weighs-ceos-fate/articleshow/135775893.cms",
+      "published": "2026-11-12T16:00:02+00:00",
+      "summary": "The cost of insuring Nvidia’s debt against default climbed close to a recent high as its board considered CEO Jensen Huang’s future. The board is reportedly evaluating interim and permanent successors following allegations about Huang’s personal conduct.",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Stock Market Today, November 12, 2026 : Nvidia Stock Tumbles After Jensen Huang Exit; AI Shares Face Leadership Shock - Eurasia Business News",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOYy1EdlpSVjJXS0pZQXdGQ0YzRzZlTVRQT1ZZeS1JODVZRDVMQjllQ0VweXdYOFF2SWlYdjlvcXAyQTYwVWVyV3U1R0tnVDQ1ZWxhY0U4ZGVRV1U2RkNwVE5uMUZhY01xMGFjN2xQSGF0M1J0T1ZSMlJHVDhxRTJSVURPMXRJdUExM0tGVkZNc0VoeVk4Q252R01BTTlNWUZhOU1RX0gwdlEwUUVLTFRSMDU1S2NIRzR0WVZNQmYyTTRtcVdpTnhiSHJfelNhS3hPNVNCOTZid2JDMmloRjVIVmtNbFR3REhjQ2xKMg?oc=5",
+      "published": "2026-11-12T15:57:21+00:00",
+      "summary": "Stock Market Today, November 12, 2026 : Nvidia Stock Tumbles After Jensen Huang Exit; AI Shares Face Leadership Shock Eurasia Business News",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Nov. 12: Sensex, Nifty extend winning streak to third session; broader markets outperform - The Indian Awaaz",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQX05Kc3RhSUJtMWJVbGRfYWxmalJKdkc2YndtLWR0VHJ4UmhoQnJFUVFoVlloTzBUb21nQUw3MF9rTHR6aXlQSjV3Ny1hWlVoclR3N3lGU0xES0J4WmFiUnI1cmhDSVdxOW1qNXkwX0cxc2I3MXk0QTlmOEwycjVDUE50ZHRmZlZNT3ZZZ1duVk5zLXFvZlRSSlJoZzdwb1d6eG9YcDkteUZQZTNtN3M0bmRpRQ?oc=5",
+      "published": "2026-11-12T15:55:49+00:00",
+      "summary": "Nov. 12: Sensex, Nifty extend winning streak to third session; broader markets outperform The Indian Awaaz",
+      "tags": [
+        "Index"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Anthropic IPO: Who is Krishna Rao? Meet the CFO whose $1.30 stock options could unlock a  ₹7,000 crore fortune",
+      "link": "https://www.livemint.com/market/ipo/anthropic-ipo-who-is-krishna-rao-meet-the-cfo-whose-1-30-stock-options-could-unlock-a-rs-7-000-crore-fortune-11794497618384.html",
+      "published": "2026-11-12T15:39:38+00:00",
+      "summary": "Anthropic is preparing an IPO that could value the company at up to $1.4 trillion. CFO Krishna Rao’s 9.497 million shares, acquired through options with a $1.30 exercise price, could gain about 5,600% at the proposed $74 share price. The company plans to list on Nasdaq as ANT.",
+      "tags": [
+        "IPO"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Q2 Results Highlights Nov 12: HAL, Oil India, Manappuram Finance log gains, Ola Electric narrows loss, Vodafone Idea loss widens, Reliance Power, Alkem Lab, BDL profit decline",
+      "link": "https://www.thehindubusinessline.com/markets/q2-results-today-live-updates-hal-vodafone-idea-hithachi-alkem-lab-nmdc-bharat-dynamics-page-industries-irctc-manappuram-ola-electric-tata-power-hindustan-copper-results-12-november-2026/article71689241.ece",
+      "published": "2026-11-12T15:39:38+00:00",
+      "summary": "Q2 Results 12th November 2026 Highlights: businessline brings you the latest quarterly earnings, outlook and more.",
+      "tags": [
+        "Results"
+      ]
+    },
+    {
+      "source": "BusinessLine",
+      "title": "Norwest raises $4 billion fund, lines up 6-8 investments in India",
+      "link": "https://www.thehindubusinessline.com/companies/norwest-raises-4-billion-fund-lines-up-6-8-investments-in-india/article71694038.ece",
+      "published": "2026-11-12T15:37:13+00:00",
+      "summary": "Its Indian portfolio has witnessed increased exit activity, with Swiggy and Amagi Media Labs completing IPOs since 2024",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Watch live: Stock market reacts after Nvidia CEO Jensen Huang resigns - NBC News",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQnpEX25jaWRVOXBvWjJyUU1qRXpfYXF1a2RaMzRpUnhJUzVfSldKYjdIU2VUa3FQaWZ1ODFXODdnNl8xZk5YVTdFVFhCdkNCUXlvSThSOGNUdjQ2dkdiYVVCVldFdjhuQ1pjSUV6T1lOU19Db2tnLUR6cEp5d2ZRN1ZQbnE4SnozUEV6ZENLOHJiMXU2N2Rac1VHbnZIbXV0UXBxa25ETURUSDFhUUxtUw?oc=5",
+      "published": "2026-11-12T15:13:46+00:00",
+      "summary": "Watch live: Stock market reacts after Nvidia CEO Jensen Huang resigns NBC News",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "Stock Market Crash: What History Says Comes Next After the Market's Big Single-Day Dip. - The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVXVCRWFRazQ3b094alFiUUl1eVc1WG1EdDVua1NBSURJMnl2QVRSeXpFQkU2WE41MHBLR25wNUhCQ3pTVE5Db3FFNEt6UGZpWWV5X1FJWGNYRDVZeFpmMy1WUy1fUjdyTktnVGduYlRHX2xlR3IwQklQRjd0WEdnYTQ3R1VzWVFfdkNqaHQtWnlBNE1aeWh1STNldExLbFdSbWNMU1ZuYVFWWTRKQnN0Z0lyVHpFZlJqcGJPblZWTkV0Zw?oc=5",
+      "published": "2026-11-12T15:03:00+00:00",
+      "summary": "Stock Market Crash: What History Says Comes Next After the Market's Big Single-Day Dip. The Motley Fool",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "source": "Economic Times",
+      "title": "US stocks: S&P 500, Nasdaq fall as Nvidia CEO exit rattles AI stocks",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-opens-lower-after-nvidia-ceo-steps-down/articleshow/135773944.cms",
+      "published": "2026-11-12T15:00:31+00:00",
+      "summary": "Nvidia's stock took a hit after CEO Jensen Huang stepped down, amid swirling personal controversies. This turmoil added noticeable pressure to the AI sector, dragging down the value of related stocks. Additionally, surging oil prices are exacerbating inflation worries across the ",
+      "tags": [
+        "Global"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "How to invest abroad through GIFT City: A step-by-step guide",
+      "link": "https://www.business-standard.com/markets/news/how-to-invest-abroad-through-gift-city-a-step-by-step-guide-126111201694_1.html",
+      "published": "2026-11-12T14:56:36+00:00",
+      "summary": "The GIFT City route offers an alternative to investing directly in foreign stocks through overseas brokers",
+      "tags": [
+        "Other"
+      ]
+    },
+    {
       "source": "BusinessLine",
       "title": "Rupee hits one-week low, slips past 94 per dollar",
       "link": "https://www.thehindubusinessline.com/markets/forex/rupee-hits-one-week-low-slips-past-94-per-dollar/article71694417.ece",
-      "published": "2026-11-12T14:40:14+00:00",
+      "published": "2026-11-12T14:48:02+00:00",
       "summary": "The Indian currency closed 35 paise weaker at 94.04 per USD against the previous close of 93.69",
       "tags": [
         "Rupee"
+      ]
+    },
+    {
+      "source": "Business Standard",
+      "title": "Wall Street edges up, Nvidia drops after CEO Jensen Huang resigns",
+      "link": "https://www.business-standard.com/world-news/wall-street-opens-lower-as-nvidia-ceo-huang-steps-down-tech-stocks-slide-126111201681_1.html",
+      "published": "2026-11-12T14:45:13+00:00",
+      "summary": "The Dow Jones Industrial Average rose 210.10 points, or 0.40%, to 52,696.65, the S&P 500 gained 21.99 points, or 0.29%, to 7,641.10 and the Nasdaq Composite added 79.16 points, or 0.31%, to 25,545.34",
+      "tags": [
+        "Global"
+      ]
+    },
+    {
+      "source": "Livemint",
+      "title": "Meesho block deal: SVF II Meerkat to offload 1% stake at  ₹246 apiece; deal size  ₹1,174 crore",
+      "link": "https://www.livemint.com/market/stock-market-news/meesho-block-deal-svf-ii-meerkat-to-offload-1-stake-at-rs-246-apiece-deal-size-rs-1-174-crore-11794493326642.html",
+      "published": "2026-11-12T14:44:31+00:00",
+      "summary": "Meesho shares may be in focus after a SoftBank affiliate reportedly planned to sell a 1% stake for about ₹1,174 crore at a 3.1% discount.&nbsp;",
+      "tags": [
+        "Other"
       ]
     },
     {
@@ -49,16 +269,6 @@
       "summary": "Nvidia shares fell 14.3% to $148.80 after CEO Jensen Huang resigned, ending his 33-year tenure. CFO Colette Kress was named interim CEO as the board searches for a permanent successor. Harvey C. Jones was appointed the company’s first board chairman.",
       "tags": [
         "Other"
-      ]
-    },
-    {
-      "source": "BusinessLine",
-      "title": "Q2 Results Today Live: HAL, Oil India, Manappuram Finance log gains, Ola Electric narrows loss, Vodafone Idea loss widens, Alkem Lab, BDL profit decline, Hitachi, NMDC, IRCTC to announce Q2 results",
-      "link": "https://www.thehindubusinessline.com/markets/q2-results-today-live-updates-hal-vodafone-idea-hithachi-alkem-lab-nmdc-bharat-dynamics-page-industries-irctc-manappuram-ola-electric-tata-power-hindustan-copper-results-12-november-2026/article71689241.ece",
-      "published": "2026-11-12T14:38:21+00:00",
-      "summary": "Q2 Results Today, 12th November 2026 Live Updates: businessline brings you the latest quarterly earnings, outlook and more.",
-      "tags": [
-        "Results"
       ]
     },
     {
@@ -112,16 +322,6 @@
       "summary": "Page Industries declared a second interim dividend of ₹150 per share for FY27, with November 18, 2026, as the record date and payment due by December 11.&nbsp;",
       "tags": [
         "Results"
-      ]
-    },
-    {
-      "source": "Google News",
-      "title": "Stocks Slide on Nvidia Troubles, Oil Edges Lower: Markets Wrap - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYmF2Z05ObnRwSVdvWGJrWC1XZlIzVXlYMTV3eVRwQWlScGY3TGpuamVOTEpremJZQnhJU3hkOWl2ck4xNFdzQWM1VTh2OEVBQ3FCTzNiYThfOTlzSHpqX0hHeWQ3dzZTcnRsVzYtMzFWeElmZVdVWUdQcnhIbEp1SS1lejVoM2Y1OGdScGpLbzJPVWhk?oc=5",
-      "published": "2026-11-12T13:36:05+00:00",
-      "summary": "Stocks Slide on Nvidia Troubles, Oil Edges Lower: Markets Wrap Bloomberg.com",
-      "tags": [
-        "Other"
       ]
     },
     {
@@ -196,22 +396,22 @@
     },
     {
       "source": "Business Standard",
-      "title": "SIP openings hit 18-month low in October, closures rise to 18-month high",
+      "title": "Oct SIP openings at 18-month low, closures highest since April 2025",
       "link": "https://www.business-standard.com/markets/mutual-fund/sip-openings-hit-18-month-low-in-october-closures-rise-to-18-month-high-126111201475_1.html",
-      "published": "2026-11-12T13:11:08+00:00",
-      "summary": "SIP registrations fell to 5.1 million in October, while closures rose to 5.9 million, leading to a decline in active accounts and a marginal drop in monthly contributions",
+      "published": "2026-11-12T13:11:52+00:00",
+      "summary": "Active account tally drops from 108.9 million to 108 million",
       "tags": [
         "Other"
       ]
     },
     {
       "source": "Economic Times",
-      "title": "Nasdaq, S&P 500 futures slide as Nvidia turbulence rattles AI stocks; Jensen Huang resigns: Stock Market Live Updates",
+      "title": "US stocks steady after sharp swings in Nvidia, oil prices: Stock Market Live Updates",
       "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-intel-micron-ai-stocks-marvell-coreweave-ai-chip-stocks-treasury-yield-news-12th-november-2026/liveblog/135771380.cms",
       "published": "2026-11-12T13:10:17+00:00",
       "summary": "",
       "tags": [
-        "Global"
+        "Crude & commodities"
       ]
     },
     {
@@ -264,6 +464,16 @@
       "summary": "HAL shares fell 2% after September-quarter EBITDA missed estimates, despite net profit rising 16% year on year to ₹1,936 crore and revenue growing 14.9%. EBITDA margins narrowed to 24.1%.",
       "tags": [
         "Results"
+      ]
+    },
+    {
+      "source": "Google News",
+      "title": "3 Big Questions for the Stock Market If Huang Exits Nvidia - Barron's",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcS1jWE1selRhZTFHNHMzREliMUFzbS12OEdsMGNVNDktczVGenVjdUstTEZjR09sYk1fdS1hUGpheF9EeTdpeGRrSlRLT2xERmtoX19SdFd2NXMwX1hCNzlxMkhjaDhtUDIxZnZ5NGstTzY2T285RE1PSTlBanVhTA?oc=5",
+      "published": "2026-11-12T12:48:00+00:00",
+      "summary": "3 Big Questions for the Stock Market If Huang Exits Nvidia Barron's",
+      "tags": [
+        "Other"
       ]
     },
     {
@@ -475,6 +685,16 @@
     },
     {
       "source": "Google News",
+      "title": "Top gainers and losers, Nov 12: HDFC LIC, Shriram Finance gain 4%, Bajaj Finance rises 3%, Nestle falls 2%; check list - Upstox",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOVEJ5OE9yY0RmNjhYb1NQUl96Y0pHSEJjOFhlZ2VqRWRwYUZmM1VYNHBvSWRreE9JdkRDdHZCUTBnVmNGdWJDd0QyNnl3djdETnVFUXNYbWZxNXFET1h0TENHUlNnX2hmaERSYjJTSDlpbHRJZnM0aEpTdnE5WG1UeFlBNDIxRjludmdKSnJsek5wZmFucTlKQVJhTFQ1dG1hb3F0cmZVSHJhT2VoQkNqcEh4MC13VW5tVWpodDU2WVJXYWtMUV9YWnF3cjFfRjZWMG1nWVp5YjRFMnBKb1ljdlhqRENDWlk2czB5SjZkTUJ1a00yaDdYZDBYV0s?oc=5",
+      "published": "2026-11-12T11:06:50+00:00",
+      "summary": "Top gainers and losers, Nov 12: HDFC LIC, Shriram Finance gain 4%, Bajaj Finance rises 3%, Nestle falls 2%; check list Upstox",
+      "tags": [
+        "Banks"
+      ]
+    },
+    {
+      "source": "Google News",
       "title": "business today tracks stock market close and major corporate updates - India Today - India Today",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOFNYOF8wZlVVMEljVEl6enkwSGp2a0ZtLTlvbnhKenRVT2tFREJVeHl2RnM2WVRNYnczYVJmdW5RZjR3bmoxVk4xU0VhX3lONDgzQjVYeTVmbDhOckUzZ1dSYi1YM1JNN19hNURFZGRqd1NGdFQzeXgxenJCS0IyWmVob2dxbmlCazBtMDFtMnp2ZUZ6dWRWSzF6dWhQQ181Y0x6X3RYNGFOXy1jLWZUU2hXUUdpVnpOOWtUeEs5emdWNjlPOHl0RUtMUG_SAdIBQVVfeXFMT0t6X2pVb2VqVWRDQ1FVODROeHZiTnZNR3JNZTBUMWFMb21uRVp2OUpzT2lkdTRrRlY3X2tvYnN4dXpSSW41clZHMjNXSGhwLUp1c2lJV0hkTy1odW5XVktwb0JiU3Vtei1xR0RReVd4M3B4VmxTenJsNW5kRjROVnF1VUJRb3FFRURkWVFmZW4zbjhXWHNWdDAzcXZCSUJ4YUh1T00wNzN0TFhPV3RneFcyNjNJclliZGo0R2JGZTh2SFNKcVVnZUxwRGpTQXk4TldB?oc=5",
       "published": "2026-11-12T11:06:18+00:00",
@@ -579,16 +799,6 @@
     },
     {
       "source": "Google News",
-      "title": "Market wrap, Nov 12: NIFTY50 ends at 25,229, SENSEX flat; NIFTY Smallcap 100 outperforms for second straight session - Upstox",
-      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOaFZPbWZTSTlZNWRUNW9Hc0ZrZkVMMVl5eUVGUU5WM0h6b0hDWXpRYTl6RzgxUWZ4TUhOTDlLZmVOV0RVTnhrVi1ENTU0NXpCZ1Z4S2h4bEVmVmItcHVfQkRnbkJLQnR6SGlpV2htYW9GRU1ab2VIR1BYTFVlTmNjRWVrYWd4NXoxS0hpcWh4bjl3VTN0eUY3MGJCSlRyNEkzd2V4V0VHR2FYV0g3MXNhdDJzWldHa09WOUZUMksxVnhtb05Ka2ZvX3U1UXBENWVyTXR2Ykk5ZXRtZUhNdlp5eFNXZVk0MUw4MGJjczRzdy1RU0lpdDVZWHZzb2NHSkdtZGc?oc=5",
-      "published": "2026-11-12T10:24:55+00:00",
-      "summary": "Market wrap, Nov 12: NIFTY50 ends at 25,229, SENSEX flat; NIFTY Smallcap 100 outperforms for second straight session Upstox",
-      "tags": [
-        "Index"
-      ]
-    },
-    {
-      "source": "Google News",
       "title": "Nifty Edges Higher as Auto & Durables Lead; Realty Lags - scanx.trade",
       "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOTS0xSkVvMUJuMmtXcC14UUxmY3h4QVFjSGJER2Q5ZmFid1ZWN0pLUTRsdnhaMk9sam5sa05PeThrYzJSYktlWGhkZWEtZy02aDJ2cG8wdTlzQXNteHlWODhmSHpsREx1bUpFb3V4UXQzaVBHbEpxdDBCS0FzUkNPaWFtSDB5UjZfSDZJUkhmWUJqSkhjRHJrV2MwelZTaUpEQ3VXUmFkbkdDelBNMkpYTGZhN2NOTFFxWVRPODNXTVh3bHc0cEstUV80V2JlM3d5VFRYOXMwZ1otb2UzXzRfdUVkb0t1alVGbEFxV0Z4V1R3N3BVY1dVR3M3R3pCTkZD?oc=5",
       "published": "2026-11-12T10:22:04+00:00",
@@ -630,16 +840,6 @@
       ]
     },
     {
-      "source": "Google News",
-      "title": "Sensex up 30 points, Nifty at 25300 - ChiniMandi",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBpTWdrWTQ1VzZ2cFhDbmI3djJwNlpCdmhpR0t1eU51VXdPLVA4S19OZFZkbllPczUtS3VhMXVsVm1MOU4tQ3BCeXpBWkN0TXNFWmRUeXRyaUI3TkExQnowdFhtRExVc01WSG53OVlOZw?oc=5",
-      "published": "2026-11-12T10:11:41+00:00",
-      "summary": "Sensex up 30 points, Nifty at 25300 ChiniMandi",
-      "tags": [
-        "Index"
-      ]
-    },
-    {
       "source": "Business Standard",
       "title": "Gabriel India hits 20% upper circuit on huge volume; up 112% from March low",
       "link": "https://www.business-standard.com/markets/news/gabriel-india-hits-20-upper-circuit-on-huge-volume-up-112-from-march-low-126111200893_1.html",
@@ -677,16 +877,6 @@
       "summary": "Page Industries reported a 4 per cent Y-o-Y increase in profit after tax (PAT) to ₹202.5 crore in Q2FY27.",
       "tags": [
         "Results"
-      ]
-    },
-    {
-      "source": "BusinessLine",
-      "title": "India overtakes Taiwan to become world’s fifth-largest stock market after $640-billion rebound",
-      "link": "https://www.thehindubusinessline.com/markets/india-overtakes-taiwan-to-become-worlds-fifth-largest-stock-market-after-640-billion-rebound/article71692889.ece",
-      "published": "2026-11-12T09:49:51+00:00",
-      "summary": "Foreign investor buying, stronger corporate earnings and falling crude prices have helped reverse months of pressure on Indian equities",
-      "tags": [
-        "Other"
       ]
     },
     {
@@ -753,16 +943,6 @@
       ]
     },
     {
-      "source": "Google News",
-      "title": "South Korea's Stock Market Daily Turnover Falls to 24.8 Trillion Won, Down 62% From May; Turnover Ratio Hits 16-Year Low - BigGo Finance",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YR2h5R3kyTENlR1RjWVRMUjFHTHl2Rmo0ekc4eGpZSkp4bjAxTElFNlFuWDdTMGNrb2RTWGFIS3d3eXRuN2ZSQmxTNlhKOGk0ZHMtMzhKSE93eVNyQS1GOUdxclRocVR0T3RPSnJlT0hvRU5Rb3c?oc=5",
-      "published": "2026-11-12T09:26:00+00:00",
-      "summary": "South Korea's Stock Market Daily Turnover Falls to 24.8 Trillion Won, Down 62% From May; Turnover Ratio Hits 16-Year Low BigGo Finance",
-      "tags": [
-        "Global"
-      ]
-    },
-    {
       "source": "Livemint",
       "title": "Tata Power: Q2 renewable gains partly offset by weak solar EPC",
       "link": "https://www.livemint.com/market/mark-to-market/tata-power-q2-results-renewable-energy-solar-epc-growth-risks-11794468841184.html",
@@ -805,16 +985,6 @@
       ]
     },
     {
-      "source": "Google News",
-      "title": "European stock market open: DAX pushes to fresh record highs as Europe defies Wall Street jitters - investingLive",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZ3dQRFpNN1hPeWVjdG1nMVdqcEVvQUtXZmpNREVRcm1fOHY0NFpUa0FmNGtvQWhoN3VRN3JRUWtkSnhIU3FWMUlzVElJdWs2Q2d4RzhlcUw5RFpCS21uVS00di1TRjdMc0NTd0NHVEdCcjdFS29PMDdlcjRtWk8wZE43RzR6VzkxYTdyazFqdTdTUjRMZ0dtLTJ3aGNmQm93N1dpNzFFMWNUYlFNSnM3WjdDdE1GNENJcWpMeDdlX3Y3a2R6Tk52Y19B?oc=5",
-      "published": "2026-11-12T08:23:15+00:00",
-      "summary": "European stock market open: DAX pushes to fresh record highs as Europe defies Wall Street jitters investingLive",
-      "tags": [
-        "Global"
-      ]
-    },
-    {
       "source": "Livemint",
       "title": "What's gold price future in India? Will it touch  ₹1.50 lakh per 10 grams again by December 2026? Experts' view",
       "link": "https://www.livemint.com/market/commodities/whats-gold-price-future-in-india-will-it-touch-1-50-lakh-per-10-grams-again-by-december-2026-experts-view-11794468408702.html",
@@ -832,17 +1002,6 @@
       "summary": "NSE shares rose more than 2% to a record ₹1,994.50 after Nuvama initiated coverage with a buy rating and a ₹2,220 target. The brokerage cited NSE’s dominant market share, liquidity advantage, technology investments and growth prospects.",
       "tags": [
         "Other"
-      ]
-    },
-    {
-      "source": "Google News",
-      "title": "SBI, IOB, PNB shares fly high; NIFTY PSU Bank index surges 15% in a month - Upstox",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYkVUMUFBa3ZSay13LXlxYVM3dmJGUUZDTUdhZ2lWS0hvMjlidzZMcUVNUTRTSEpsLXQxNGVBNnBRRFdmai1lYjhkcWtuTlJJMEVHbFQ0NWVleWV6RWlNeXk0bDVLYW9ZZG5RQjUxR0hsMFFWNWloLVZPdW1DakdzYlFkZV9mNHJodnZpMGxSOHdBU3JCbzVPNm9kZGNVWmJ5ZmdFVUlnTkNzeHB4LVJ2M19PTmRfQmRSVFFkbk9GcVJLbUl1STMtMG5pdmpPRVZzNWc?oc=5",
-      "published": "2026-11-12T08:11:41+00:00",
-      "summary": "SBI, IOB, PNB shares fly high; NIFTY PSU Bank index surges 15% in a month Upstox",
-      "tags": [
-        "Banks",
-        "Index"
       ]
     },
     {
@@ -873,18 +1032,6 @@
       "summary": "Rolex Rings shares hit a 52-week high of ₹216.55 after strong quarterly results, including a 67.5% rise in net profit. InCred Equities initiated coverage with a Buy rating and ₹251 target, citing recovering export demand, European opportunities and stronger domestic sales.",
       "tags": [
         "Other"
-      ]
-    },
-    {
-      "source": "Google News",
-      "title": "Stock Market Highlights: Sensex Ends Flat, Nifty 50 At 25,300 Led By Financials; HDFC Life, Bajaj Finance Top Gainers - NDTV Profit",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOSndocmdaMWRnOExRUVp3c2NxNklsVE00c2Ffb1NxTHY2aFF5RDdKZnRVQVhHb01JY0ZvZXhla0dra1pKb0NtVW5keUEyWmJEckJNZUFoVG5WNU0wQmpycTNTeE5DaGpmZ1pMQ081MHVhRXVkb0I0U2VnX3ByR3lJSTN6cHJaQkFiU2Z1RHhLcW11UHhqNTZVbnN3b0RlRmZLZUJQdHlkaFhLUUE5eF9ncURLVExPOHFQVGhGXzNqOGMtS2ZTNzVjVHZXbWxwbFBmNFYyZHRtSEVhbVhJbTBjcEtCcVNkWkp5MVk4ZDdheWpsTE3SAfsBQVVfeXFMUC0zY1JYZUwwMmEtdmVHbzlmbEI3YnRDem1rM1dRMjdNdEQ3Zm5oTzVGZjdaWlpWY1VXQTlGcDJqZkdwWTU2SThUb2lFcWxTRmhXQU5wb2RzbFd4anlxemZYQVFydlpIVWQwWHB1U2FoSV9ueEVWeGE1ekVZOHZ4dDJSTzFBX29Rcm1XLWtEUFUyQURZTng3QUxMdXkwaUxyenBEZVBmdGllU1VSQVZXTW01cnBmUkhiQmczUEJsUW44YzNaY3lfRXI2UTdGUzcwaTYyNC13TUh6NkhyQ0RCYUltLUdWd2NOS0VWclZUa0p6UldrRWNMbWVNMTg?oc=5",
-      "published": "2026-11-12T08:05:09+00:00",
-      "summary": "Stock Market Highlights: Sensex Ends Flat, Nifty 50 At 25,300 Led By Financials; HDFC Life, Bajaj Finance Top Gainers NDTV Profit",
-      "tags": [
-        "Results",
-        "Banks",
-        "Index"
       ]
     },
     {
@@ -1216,16 +1363,6 @@
       ]
     },
     {
-      "source": "Google News",
-      "title": "Stock Market: Will S&P 500 Open Up or Down Today? - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOamhNMTdnTVNCZktocGNhQV9sUFg5YXE4WXZ3LThOUlVJRS1EZjZoeXhpMWlsSWE2STE0NWJFcmJDSm8ydktsYnlTaDZFX1ZHZEhua1pnNUtHOUZVRC00VUNvcDNkS185Q1kwWUNhNTRLbWFnVHk0X2JFNXdaTVNyYXplblB2bm5SLU8wNUpwZW9udw?oc=5",
-      "published": "2026-11-12T06:00:00+00:00",
-      "summary": "Stock Market: Will S&P 500 Open Up or Down Today? Yahoo Finance",
-      "tags": [
-        "Global"
-      ]
-    },
-    {
       "source": "Business Standard",
       "title": "Gold, silver fall as expectations of December rate hike strengthen",
       "link": "https://www.business-standard.com/markets/commodities/gold-silver-fall-as-expectations-of-december-rate-hike-strengthen-126111200351_1.html",
@@ -1264,16 +1401,6 @@
       "summary": "Nuvama Wealth shares rose as much as 6.6% after the company reported a 19.5% year-on-year increase in Q2 FY27 net profit to ₹303.5 crore and 20.35% revenue growth to ₹1,366 crore. Motilal Oswal reiterated its Buy rating and set a ₹2,160 target price.",
       "tags": [
         "Results"
-      ]
-    },
-    {
-      "source": "Livemint",
-      "title": "How are ITC shares performing after Gold Flake Regular price hike by  ₹10 per pack? Should you buy stock? Experts views",
-      "link": "https://www.livemint.com/market/stock-market-news/how-are-itc-shares-performing-after-gold-flake-regular-price-hike-by-rs-10-per-pack-should-you-buy-stock-experts-views-11794458280381.html",
-      "published": "2026-11-12T05:38:56+00:00",
-      "summary": "ITC share price today opened higher at ₹287.40 per share on the NSE and touched an intraday high of ₹290.25 apiece within a few minutes of the Opening Bell",
-      "tags": [
-        "Crude & commodities"
       ]
     },
     {
@@ -1360,16 +1487,6 @@
       ]
     },
     {
-      "source": "Livemint",
-      "title": "Multibagger stock: Cupid shares jump 10% as profit soars 133% in Q2 results 2026; already up 262% in 2026 — What's next?",
-      "link": "https://www.livemint.com/market/stock-market-news/multibagger-stock-cupid-shares-jump-10-as-profit-soars-133-in-q2-results-2026-already-up-262-in-2026-whats-next-11794457689791.html",
-      "published": "2026-11-12T04:57:54+00:00",
-      "summary": "Cupid shares surged 10% to a 52-week high after strong Q2 FY27 results. First-half net profit rose 156% and revenue climbed 137%, supported by growing domestic consumer healthcare and FMCG sales. The firm raised its FY27–FY29 targets, while expanding retail partnerships are expec",
-      "tags": [
-        "Results"
-      ]
-    },
-    {
       "source": "BusinessLine",
       "title": "Crude oil futures fall amid reports of planned US-Iran talks",
       "link": "https://www.thehindubusinessline.com/markets/commodities/crude-oil-futures-fall-amid-reports-of-planned-us-iran-talks/article71692281.ece",
@@ -1400,16 +1517,6 @@
         "FII/DII flows",
         "Crude & commodities",
         "Index"
-      ]
-    },
-    {
-      "source": "Livemint",
-      "title": "Small-cap stock under  ₹100: Roto Pumps shares jump 19% today, soar 28% in 4 days - What's fuelling the rally?",
-      "link": "https://www.livemint.com/market/stock-market-news/smallcap-stock-under-rs-100-roto-pumps-shares-jump-19-today-soar-28-in-4-days-whats-fuelling-the-rally-11794458105178.html",
-      "published": "2026-11-12T04:52:08+00:00",
-      "summary": "Roto Pumps shares rose 14% on November 12 after the company reported strong Q2 FY27 results. Consolidated net profit jumped 245.3% year-on-year to ₹20.58 crore, while revenue climbed 54.65% to ₹100.15 crore. The board also approved a ₹110 crore loan facility for its wholly owned ",
-      "tags": [
-        "Other"
       ]
     },
     {
@@ -1455,37 +1562,6 @@
       ]
     },
     {
-      "source": "Livemint",
-      "title": "34% rise in a year! Why Hindustan Copper shares are rising 6% today? Check target, stop loss, returns",
-      "link": "https://www.livemint.com/market/stock-market-news/34-rise-in-a-year-why-hindustan-copper-shares-are-rising-6-today-check-target-stop-loss-returns-11794457283807.html",
-      "published": "2026-11-12T04:43:26+00:00",
-      "summary": "Hindustan Copper share price opened at ₹474 apiece on NSE today, as compared to previous close of ₹436.35 on Wednesday and touched an intraday high of ₹466.80 on 12 November.",
-      "tags": [
-        "Other"
-      ]
-    },
-    {
-      "source": "Google News",
-      "title": "Nifty Outlook - Oil extends drop by Geojit Investments Ltd - Investment Guru India",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVDJ3WnZ0XzlwdGlUNlZRZlpVRE9FeTk2bVpDbVV2VDkwd19QdjNxQkcwS18yZ1dOQ2JUZ2YtWXAxVWNicUlyQVhQMW9QY2NkWm5RblBqYnBuU285S2hLSXVZSk9HNmtrSU5QdmZ3WUpLUEtzNFA3X0lqblJ0S2hKQlFZMS1PaDhtdWpxdFFESnVOejk4VXRFRE1VMmFZeVhvUk1Qa0lXd1ZwdVdYajhCOQ?oc=5",
-      "published": "2026-11-12T04:41:34+00:00",
-      "summary": "Nifty Outlook - Oil extends drop by Geojit Investments Ltd Investment Guru India",
-      "tags": [
-        "Index"
-      ]
-    },
-    {
-      "source": "Google News",
-      "title": "Stock Markets Climb: FII Inflows & Lower Crude Drive Rally - Rediff MoneyWiz",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTDRaWGZnd3BoM1pxaHQ0cy1nOVdVWjlOdlRlVXFsZjA4MnN3amI5eTF6TmJHZl9EbXZVNHJHY2huVHgxTmJDa0RNN2dva0RRa01ZSmN2cks5endWaTZHYkI3QnZzY3lhUVhzQW1uRURVbGE1aGpYWmJGT0lHOFFicmxSamhwUWxseFY4UXZtQVdwMFdXNmRvbjc1TFVUaXFWN21PdXVlbTZPVm_SAbABQVVfeXFMUEQ3cVc5ZmsyVWlaTTZldTg1UkpRN1dXN1RNblpQSDRTTDItUnh3Z1FNcUFwQTU0QXBBLUREUGtyeWJoNkl6ekN0dlAxZlM0QW5Ia0Jjc0VFd3hsQS1rOFZBQS1GaDRPMkl2RDFZbXc3cVV5OW9TUXA4U2piemFVbWpoUm9fSmRRRUhsUGN5bDhwNHF2dm1hdU1MNnRQOExqSC1RWGthN2ZmT1FhbmhCakU?oc=5",
-      "published": "2026-11-12T04:36:48+00:00",
-      "summary": "Stock Markets Climb: FII Inflows & Lower Crude Drive Rally Rediff MoneyWiz",
-      "tags": [
-        "FII/DII flows",
-        "Crude & commodities"
-      ]
-    },
-    {
       "source": "Economic Times",
       "title": "Vishal Mega Mart among 5 stocks showing RSI trending up",
       "link": "https://economictimes.indiatimes.com/markets/stocks/news/vishal-mega-mart-among-5-stocks-showing-rsi-trending-up/slideshow/135755604.cms",
@@ -1523,27 +1599,6 @@
       "summary": "Nifty 500 at open: Cupid hits record high on 133% Q2 profit jump; ONGC falls CNBC TV18",
       "tags": [
         "Results",
-        "Index"
-      ]
-    },
-    {
-      "source": "Livemint",
-      "title": "Kalyan Jewellers shares hit 52-week high, rally 41% in 9 sessions; should you buy after Q2 results 2026? Check target",
-      "link": "https://www.livemint.com/market/stock-market-news/kalyan-jewellers-shares-hit-52-week-high-rally-41-in-9-sessions-should-you-buy-after-q2-results-2026-check-target-11794457015532.html",
-      "published": "2026-11-12T04:27:26+00:00",
-      "summary": "Kalyan Jewellers shares rose for a ninth straight session, hitting a 52-week high after Q2 FY27 net profit climbed 64% to ₹427 crore and revenue grew 32% to ₹10,323 crore. Motilal Oswal retained its Buy rating, while technical analysts flagged potential gains and cautioned about ",
-      "tags": [
-        "Results"
-      ]
-    },
-    {
-      "source": "Google News",
-      "title": "Nifty opens steady above 25200 with strong foreign inflows and banking gains - India Today - India Today",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNd3UxbGtTejF1TzlpMm1TMzRNM3c3dVY4eTBUVzd3YlRpdDAtODVKaXZ3Y015LVUxS3U0d25TNEZQNU0yLTRYTDA0Tzd0VUdIRXJydlY5QmpMd0NMZ3czYmJxdl9lX3JGNlpZaUFWSnhYV0c4X3NUMkZLVkJ2R0IyTEV2QkF0SnFsenBleGlidy13SzIzSl90UWRDa3ZoS2tteHlRQlZHVEtBNnJ2cF80UmlTekdVUDk3dlRSUHJQaUZjVGRGNEVRLXAtbWhuMFVJTlhmOEllVzMwSDDSAeABQVVfeXFMUHBDaWlHc2ZFUXVadGlMZUxlNUhpd2tTZWhwVHB3MkxhREI3NUluc3NDNmsyT3ZNZnpCdzk3OTlua2dZOEVjVDJ2TVF0UzZ3TkstVnJDUFhIRlJiTm1Jdng5cmdKbDlZNjF5c0hhVTBWRXNmYWYwNGJjZHktXzBTUU9tdDJndFhCNnBTeE04MjRaRl9GUEQycGVQVmxwaW1ZZlN0QlZ3ODdlSDJOV2dqdUp1WjZpY1V4eTZlRnVySFJfYjhhUGE2aWVsc1M5VW80VmxiUUxMbnFDWDUxTHYwMEw?oc=5",
-      "published": "2026-11-12T04:27:26+00:00",
-      "summary": "Nifty opens steady above 25200 with strong foreign inflows and banking gains - India Today India Today",
-      "tags": [
-        "Banks",
         "Index"
       ]
     },
@@ -1655,17 +1710,6 @@
       ]
     },
     {
-      "source": "Google News",
-      "title": "Pre-Market Commentary on Nifty & Bank Nifty for 12th November 2026 by Pabitro Mukherjee, Deputy Vice President-Research, Bajaj Broking - Investment Guru India",
-      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOcGVVbjNZWlVhOUdNMmx4Q3k2NFRpS0hidWVidnpsU1NJWDUxaDJnSFdyTWt2ekxHRzB0SExaamZlWlVNSWtiLTlLSnNxWXpON0U3WktxZkdFZ014eUlGS0FEQzZDSW43ZjMtYmFPNmdxUk1XVEtVUDlKTWRVcDUxNkw2VEZIcE1QYzNLb0pCTkRWdl9hVWlyM0psTTU2YUdOV05LLWVrQlZhTDVBTDdXUmtNS1hCc2g5QU9KOE9XNjgybFIxZW44WWJPWmRIalVIOVkySFREb3lNRGxRSGlFYm1VYm9lSHkyWWg4aEs0d0tpZEM1bnBLMGtfcHFkazRjUUUxMGN5eHBWd3ZrSXg5bg?oc=5",
-      "published": "2026-11-12T03:46:34+00:00",
-      "summary": "Pre-Market Commentary on Nifty & Bank Nifty for 12th November 2026 by Pabitro Mukherjee, Deputy Vice President-Research, Bajaj Broking Investment Guru India",
-      "tags": [
-        "Banks",
-        "Index"
-      ]
-    },
-    {
       "source": "Economic Times",
       "title": "Tata Motors PV Share Price Highlights: Tata Motors PV Stock Price History",
       "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tata-motors-pv-stock-price-today-live-12-nov-2026/liveblog/135754348.cms",
@@ -1753,16 +1797,6 @@
       "summary": "",
       "tags": [
         "Other"
-      ]
-    },
-    {
-      "source": "Google News",
-      "title": "Nifty Extends Gains, Maintains Positive Momentum - Religare Broking Ltd - Investment Guru India",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeE40Z1VsY2QxVU5BdjdUclJJZmZPb3Z2aDdoblNrUldqcEZqTGh3WEZ3d1gtWDBOQXdVY1VCRkRWaWtvWHo0S3pFVXYwSm5Cc1V6ak1TLW9KbzNmRk5BV19rU1NQWjdadmZXemo5MEg4SEF6U09uTWhRVlZwZG43Zy1hdEFIb0txVThMbkJkMUJJMy1TMEdHVzV2Mkx5Q3BNVEEzRXZjSHN0SVRKWm9jWW1OczZTaGYtWEZQSVh6eFM?oc=5",
-      "published": "2026-11-12T03:15:50+00:00",
-      "summary": "Nifty Extends Gains, Maintains Positive Momentum - Religare Broking Ltd Investment Guru India",
-      "tags": [
-        "Index"
       ]
     },
     {
@@ -2006,7 +2040,7 @@
       ]
     },
     {
-      "source": "Economic Times",
+      "source": "ET Stocks",
       "title": "Titan Company Share Price Highlights: Titan Company Stock Price History",
       "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/titan-company-share-price-today-live-updates-12-nov-2026/liveblog/135753022.cms",
       "published": "2026-11-12T02:48:57+00:00",
@@ -2016,18 +2050,7 @@
       ]
     },
     {
-      "source": "Economic Times",
-      "title": "India bonds to stay hemmed in by oil, Treasury moves ahead of inflation data",
-      "link": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-to-stay-hemmed-in-by-oil-treasury-moves-ahead-of-inflation-data/articleshow/135752937.cms",
-      "published": "2026-11-12T02:48:53+00:00",
-      "summary": "Indian government bonds are anticipated to trade between softer oil prices and rising US yields. The market is waiting for domestic inflation data that could influence the Reserve Bank of India's rate strategy. A Reuters poll estimates an increase in annual consumer inflation, po",
-      "tags": [
-        "RBI & rates",
-        "Global"
-      ]
-    },
-    {
-      "source": "Economic Times",
+      "source": "ET Stocks",
       "title": "Bajaj Auto Share Price Highlights: Bajaj Auto Stock Price History",
       "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-auto-stock-price-live-updates-12-nov-2026/liveblog/135753019.cms",
       "published": "2026-11-12T02:48:39+00:00",
@@ -2054,36 +2077,6 @@
       "summary": "",
       "tags": [
         "Other"
-      ]
-    },
-    {
-      "source": "ET Stocks",
-      "title": "HDFC Bank Share Price Highlights: HDFC Bank Stock Price History",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hdfc-bank-stock-price-livestock-price-today-live-updates-12-nov-2026/liveblog/135753001.cms",
-      "published": "2026-11-12T02:47:47+00:00",
-      "summary": "",
-      "tags": [
-        "Banks"
-      ]
-    },
-    {
-      "source": "ET Stocks",
-      "title": "TCS Share Price Highlights: TCS Stock Price History",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tcs-share-price-live-12-nov-2026/liveblog/135752992.cms",
-      "published": "2026-11-12T02:47:29+00:00",
-      "summary": "",
-      "tags": [
-        "IT"
-      ]
-    },
-    {
-      "source": "ET Stocks",
-      "title": "Wipro Share Price Highlights: Wipro Stock Price History",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/wipro-share-price-live-12-nov-2026/liveblog/135752991.cms",
-      "published": "2026-11-12T02:47:29+00:00",
-      "summary": "",
-      "tags": [
-        "IT"
       ]
     }
   ]
