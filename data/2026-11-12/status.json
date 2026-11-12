@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-12",
+  "updated_at": "2026-11-12T20:15:11+05:30",
+  "mode": "full",
+  "steps": {
+    "pulse": {
+      "ok": true
+    },
+    "breadth": {
+      "ok": true
+    },
+    "sectors": {
+      "ok": true
+    },
+    "options_NIFTY": {
+      "ok": true
+    },
+    "options_BANKNIFTY": {
+      "ok": true
+    },
+    "swing": {
+      "ok": true
+    },
+    "levels": {
+      "ok": true
+    },
+    "participant_oi": {
+      "ok": true
+    },
+    "heatmap": {
+      "ok": true
+    },
+    "corp_actions": {
+      "ok": true
+    },
+    "news": {
+      "ok": true
+    },
+    "summary": {
+      "ok": true
+    }
+  }
+}
