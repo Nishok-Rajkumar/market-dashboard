@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-14",
+  "updated_at": "2026-11-14T10:00:11+05:30",
+  "last_session": "2026-11-13",
+  "mode": "weekend",
+  "steps": {
+    "news": {
+      "ok": true
+    },
+    "ipo": {
+      "ok": true
+    },
+    "summary": {
+      "ok": true
+    }
+  }
+}
