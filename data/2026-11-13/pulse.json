@@ -3,6 +3,13 @@
   "days_ahead": 7,
   "snapshot": [
     {
+      "name": "Nifty 50",
+      "last": 25144.3,
+      "date": "2026-11-13",
+      "chg_1d_pct": -0.61,
+      "chg_5d_pct": 2.48
+    },
+    {
       "name": "Bank Nifty",
       "last": 61034.1,
       "date": "2026-11-13",
@@ -11,10 +18,10 @@
     },
     {
       "name": "India VIX",
-      "last": 15.49,
+      "last": 15.5,
       "date": "2026-11-13",
-      "chg_1d_pct": -6.77,
-      "chg_5d_pct": -0.55
+      "chg_1d_pct": -6.74,
+      "chg_5d_pct": -0.51
     },
     {
       "name": "Nifty 500",
@@ -26,51 +33,51 @@
     {
       "name": "USD-INR",
       "last": 94.23,
-      "date": "2026-11-13",
-      "chg_1d_pct": 0.57,
-      "chg_5d_pct": -0.24
+      "date": "2026-11-16",
+      "chg_1d_pct": 0.21,
+      "chg_5d_pct": 0.35
     },
     {
       "name": "Brent crude ($)",
-      "last": 96.75,
-      "date": "2026-11-13",
-      "chg_1d_pct": 0.97,
-      "chg_5d_pct": -1.6
+      "last": 94.89,
+      "date": "2026-11-15",
+      "chg_1d_pct": -0.99,
+      "chg_5d_pct": 2.51
     },
     {
       "name": "Gold ($)",
-      "last": 3897.2,
-      "date": "2026-11-13",
-      "chg_1d_pct": 0.31,
-      "chg_5d_pct": -4.36
+      "last": 3875.6,
+      "date": "2026-11-15",
+      "chg_1d_pct": -0.28,
+      "chg_5d_pct": -5.81
     },
     {
       "name": "S&P 500 fut",
-      "last": 7625.5,
-      "date": "2026-11-13",
-      "chg_1d_pct": 0.13,
-      "chg_5d_pct": 3.02
+      "last": 7574.0,
+      "date": "2026-11-15",
+      "chg_1d_pct": -0.12,
+      "chg_5d_pct": -0.0
     },
     {
       "name": "Nasdaq 100 fut",
-      "last": 28327.75,
-      "date": "2026-11-13",
-      "chg_1d_pct": -0.2,
-      "chg_5d_pct": 4.59
+      "last": 27949.25,
+      "date": "2026-11-15",
+      "chg_1d_pct": -0.3,
+      "chg_5d_pct": -0.23
     },
     {
       "name": "Nikkei 225",
-      "last": 61142.35,
-      "date": "2026-11-13",
-      "chg_1d_pct": 0.53,
-      "chg_5d_pct": 6.46
+      "last": 60182.5,
+      "date": "2026-11-16",
+      "chg_1d_pct": -1.57,
+      "chg_5d_pct": 2.39
     },
     {
       "name": "Hang Seng",
-      "last": 23637.6,
-      "date": "2026-11-13",
-      "chg_1d_pct": -1.55,
-      "chg_5d_pct": -3.45
+      "last": 23850.01,
+      "date": "2026-11-16",
+      "chg_1d_pct": 0.9,
+      "chg_5d_pct": -2.45
     }
   ],
   "fii_dii": {
@@ -374,5 +381,6 @@
       "symbol": "SAMMAANCAP",
       "purpose": "Financial Results"
     }
-  ]
+  ],
+  "snapshot_updated_at": "2026-11-16T08:30:15+05:30"
 }
