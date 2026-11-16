@@ -481,7 +481,7 @@ function renderOptions(list) {
 }
 
 function renderSwing(s) {
-  if (!s) { $("swing-meta").textContent = ""; $("swing-table").innerHTML = empty(); return; }
+  if (!s) { $("swing-meta").textContent = ""; $("swing-table").innerHTML = empty(); clip($("swing-table"), 10); return; }
   $("swing-meta").textContent = `${s.candidates} candidates from ${s.stocks_scanned} stocks (as of ${s.as_of}). Market: ${s.market_breadth_zone}. ` +
     "Entry = price that must trade to trigger; stop = where the idea is wrong; 2R = target at twice the risk.";
   $("swing-table").innerHTML = table(s.results, [
