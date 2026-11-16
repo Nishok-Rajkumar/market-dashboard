@@ -133,11 +133,15 @@ function renderActions(ca) {
 
 // ---------- sections ----------
 
-function renderStatus(status) {
+function renderStatus(status, isLatest) {
   const s = status || {};
   const when = s.updated_at ? new Date(s.updated_at).toLocaleString("en-IN", { dateStyle: "medium", timeStyle: "short", timeZone: "Asia/Kolkata" }) : "unknown";
   const ageH = s.updated_at ? (Date.now() - new Date(s.updated_at)) / 36e5 : 999;
-  const badge = ageH < 30 ? `<span class="badge good">fresh</span>` : `<span class="badge mid">${Math.round(ageH / 24)}d old</span>`;
+  // Over a weekend or holiday the newest session can be ~3 days old and still be the latest there is.
+  const badge = !isLatest ? `<span class="badge">past day</span>`
+    : ageH < 30 ? `<span class="badge good">fresh</span>`
+    : ageH < 84 ? `<span class="badge good">latest session</span>`
+    : `<span class="badge mid">${Math.round(ageH / 24)}d old</span>`;
   $("updated").innerHTML = `Updated ${esc(when)} IST ${badge}`;
   const failed = Object.entries(s.steps || {}).filter(([, v]) => !v.ok).map(([k]) => k);
   const sectionErr = Object.keys(s.steps?.pulse?.section_errors || {});
@@ -602,7 +606,7 @@ async function loadDay(day) {
     p("participant_oi.json"), p("heatmap.json"), p("corp_actions.json"), prevDay ? loadCompare(prevDay) : Promise.resolve({})]);
   current = { sectors, ca };
   setFlags(ca);  // before the tables, so symbols get their ⚑
-  renderStatus(status);
+  renderStatus(status, day === days[0]);  // days are newest first
   renderSummary(summary);
   renderChanges({ levels, breadth, pulse, ocN, sectors, swing, ca, day }, prev, prevDay);
   renderActions(ca);
