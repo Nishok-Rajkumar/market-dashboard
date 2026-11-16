@@ -9,6 +9,25 @@ const fmt = (n, d = 0) => (n == null || isNaN(n) ? "—" : Number(n).toLocaleStr
 const signed = (n, d = 2, suffix = "%") => (n == null ? "—" : `<span class="num ${n > 0 ? "up" : n < 0 ? "down" : ""}">${n > 0 ? "+" : ""}${fmt(n, d)}${suffix}</span>`);
 const empty = (msg = "No data for this day.") => `<p class="empty">${esc(msg)}</p>`;
 
+// Show only the first n rows of a list or table, with a button for the rest. Renderers call this right after
+// filling `el`, so a re-render (tag click, day change) starts collapsed again.
+function clip(el, n) {
+  if (el.nextElementSibling?.classList.contains("more")) el.nextElementSibling.remove();
+  const extra = [...el.querySelectorAll(":scope > li, tbody > tr")].slice(n);
+  if (!extra.length) return;
+  const total = n + extra.length;
+  const b = document.createElement("button");
+  b.className = "more";
+  const set = (open) => {
+    extra.forEach((r) => (r.hidden = !open));
+    b.setAttribute("aria-expanded", String(open));
+    b.textContent = open ? "Show fewer" : `Show all ${total}`;
+  };
+  b.onclick = () => set(b.getAttribute("aria-expanded") !== "true");
+  set(false);
+  el.after(b);
+}
+
 async function get(path) {
   try {
     const r = await fetch(DATA + path, { cache: "no-cache" });
@@ -183,6 +202,8 @@ function renderFlows(pulse, history) {
     { h: "Close", r: 1, f: (r) => fmt(r.close, 1) }, { h: "Chg", r: 1, f: (r) => signed(r.chg_pct) }];
   $("gainers").innerHTML = d.error ? empty(d.error) : table(d.top_gainers, mv);
   $("losers").innerHTML = d.error ? empty(d.error) : table(d.top_losers, mv);
+  clip($("gainers"), 5);
+  clip($("losers"), 5);
 
   const ban = pulse?.fo_ban;
   $("ban").innerHTML = !ban || ban.error ? empty(ban?.error) :
@@ -465,6 +486,7 @@ function renderSwing(s) {
     { h: "Close", r: 1, f: (r) => fmt(r.close, 1) }, { h: "Entry", r: 1, f: (r) => fmt(r.entry_trigger, 1) },
     { h: "Stop", r: 1, f: (r) => fmt(r.stop, 1) }, { h: "Risk", r: 1, f: (r) => fmt(r.risk_pct, 1) + "%" },
     { h: "2R target", r: 1, f: (r) => fmt(r.target_2r, 1) }, { h: "RS", r: 1, k: "rs" }]);
+  clip($("swing-table"), 10);
 }
 
 let newsItems = [], newsTag = "All";
@@ -483,6 +505,7 @@ function renderNews(n) {
     return `<li><a href="${esc(href)}" target="_blank" rel="noopener noreferrer">${esc(i.title)}</a>
       <div class="meta">${esc(i.source)} · ${esc(t)} · ${i.tags.map(esc).join(", ")}</div></li>`;
   }).join("") || `<li>${empty("No headlines.")}</li>`;
+  clip($("news-list"), 12);
   const src = Object.entries(n?.sources || {});
   $("news-sources").textContent = src.length ? "Feeds: " + src.map(([k, v]) => `${k} ${v.ok ? "✓" : "✗"}`).join(" · ") : "";
 }
@@ -550,6 +573,7 @@ function renderWeekend(wk) {
     { h: "Listing day", r: 1, f: (x) => signed(x.listing_gain_pct, 1) },
     { h: "Now", r: 1, f: (x) => signed(x.since_issue_pct, 1) },
   ]) : empty("No listings in this period.");
+  clip($("wk-ipo-recent"), 5);
 }
 
 // The weekend edition shows above the daily page until the next trading-day update replaces it.

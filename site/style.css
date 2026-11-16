@@ -29,6 +29,7 @@
 }
 
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }  /* rules like `.news li { display }` would otherwise beat it */
 html { scroll-behavior: smooth; scroll-padding-top: 110px; }
 body {
   margin: 0; background: var(--bg); color: var(--text);
@@ -121,6 +122,8 @@ td.r, th.r { text-align: right; }
 .news .meta { font-size: 12px; color: var(--muted); margin-top: 2px; }
 .alert { background: var(--warn-bg); color: var(--text); border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; margin-top: 16px; font-size: 13px; }
 .empty { color: var(--muted); font-size: 13px; margin: 0; }
+.more { display: block; width: 100%; margin-top: 8px; padding: 8px; color: var(--accent); font-weight: 500; }
+.more:hover { background: var(--surface-2); }
 footer { margin: 40px 0 32px; }
 footer a { color: var(--accent); }
 
