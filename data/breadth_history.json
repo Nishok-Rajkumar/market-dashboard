@@ -75,5 +75,12 @@
   "zone": "HEALTHY",
   "pct_above_50dma": 57.3,
   "pct_above_200dma": 50.0
+ },
+ {
+  "date": "2026-11-17",
+  "score": 74.1,
+  "zone": "HEALTHY",
+  "pct_above_50dma": 58.2,
+  "pct_above_200dma": 50.8
  }
 ]
