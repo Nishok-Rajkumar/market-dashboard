@@ -1,0 +1,427 @@
+{
+  "generated_at": "2026-11-18T20:15:17",
+  "days_ahead": 7,
+  "snapshot": [
+    {
+      "name": "Nifty 50",
+      "last": 25227.95,
+      "date": "2026-11-18",
+      "chg_1d_pct": -0.63,
+      "chg_5d_pct": -0.11
+    },
+    {
+      "name": "Bank Nifty",
+      "last": 62038.65,
+      "date": "2026-11-18",
+      "chg_1d_pct": -0.38,
+      "chg_5d_pct": 2.05
+    },
+    {
+      "name": "India VIX",
+      "last": 15.52,
+      "date": "2026-11-18",
+      "chg_1d_pct": 0.0,
+      "chg_5d_pct": -11.62
+    },
+    {
+      "name": "Nifty 500",
+      "last": 23630.25,
+      "date": "2026-11-18",
+      "chg_1d_pct": -0.81,
+      "chg_5d_pct": -0.63
+    },
+    {
+      "name": "USD-INR",
+      "last": 93.43,
+      "date": "2026-11-18",
+      "chg_1d_pct": -0.57,
+      "chg_5d_pct": -0.53
+    },
+    {
+      "name": "Gold ($)",
+      "last": 3773.1,
+      "date": "2026-11-18",
+      "chg_1d_pct": -2.36,
+      "chg_5d_pct": -5.68
+    },
+    {
+      "name": "S&P 500 fut",
+      "last": 7370.0,
+      "date": "2026-11-18",
+      "chg_1d_pct": 0.15,
+      "chg_5d_pct": -3.54
+    },
+    {
+      "name": "Nasdaq 100 fut",
+      "last": 27182.75,
+      "date": "2026-11-18",
+      "chg_1d_pct": 0.4,
+      "chg_5d_pct": -4.53
+    },
+    {
+      "name": "Nikkei 225",
+      "last": 59024.28,
+      "date": "2026-11-18",
+      "chg_1d_pct": 0.28,
+      "chg_5d_pct": -3.63
+    },
+    {
+      "name": "Hang Seng",
+      "last": 23294.75,
+      "date": "2026-11-18",
+      "chg_1d_pct": -0.91,
+      "chg_5d_pct": -4.2
+    }
+  ],
+  "fii_dii": {
+    "latest": [
+      {
+        "date": "2026-11-18",
+        "category": "DII",
+        "buy_cr": 14602.25,
+        "sell_cr": 17762.15,
+        "net_cr": -3159.9
+      },
+      {
+        "date": "2026-11-18",
+        "category": "FII",
+        "buy_cr": 17913.16,
+        "sell_cr": 12046.38,
+        "net_cr": 5866.78
+      }
+    ],
+    "history_days": 15,
+    "FII": {
+      "sum_5d_cr": 28493.99,
+      "sum_20d_cr": 99587.58,
+      "days_available": 15,
+      "streak_days": 15
+    },
+    "DII": {
+      "sum_5d_cr": -15066.77,
+      "sum_20d_cr": -51809.15,
+      "days_available": 15,
+      "streak_days": -1
+    }
+  },
+  "fo_ban": {
+    "header": "Securities in Ban For Trade Date 19-NOV-2026:",
+    "symbols": [
+      "KAYNES"
+    ]
+  },
+  "delivery": {
+    "bhavcopy_date": "2026-11-18",
+    "sessions_used": 11,
+    "accumulation": [
+      {
+        "symbol": "JAINREC",
+        "industry": "Metals & Mining",
+        "close": 290.1,
+        "chg_pct": 1.13,
+        "deliv_pct": 54.1,
+        "deliv_x_avg10": 4.96,
+        "turnover_cr": 58.8
+      },
+      {
+        "symbol": "IEX",
+        "industry": "Financial Services",
+        "close": 115.0,
+        "chg_pct": 0.52,
+        "deliv_pct": 54.0,
+        "deliv_x_avg10": 3.72,
+        "turnover_cr": 166.0
+      },
+      {
+        "symbol": "HONASA",
+        "industry": "Fast Moving Consumer Goods",
+        "close": 524.5,
+        "chg_pct": 1.29,
+        "deliv_pct": 55.3,
+        "deliv_x_avg10": 2.92,
+        "turnover_cr": 212.5
+      },
+      {
+        "symbol": "CONCORDBIO",
+        "industry": "Healthcare",
+        "close": 561.0,
+        "chg_pct": 1.12,
+        "deliv_pct": 62.3,
+        "deliv_x_avg10": 2.46,
+        "turnover_cr": 31.9
+      },
+      {
+        "symbol": "SBIN",
+        "industry": "Financial Services",
+        "close": 1135.0,
+        "chg_pct": 2.38,
+        "deliv_pct": 63.8,
+        "deliv_x_avg10": 2.08,
+        "turnover_cr": 3983.3
+      },
+      {
+        "symbol": "CEMPRO",
+        "industry": "Construction",
+        "close": 1354.4,
+        "chg_pct": 0.16,
+        "deliv_pct": 59.8,
+        "deliv_x_avg10": 2.05,
+        "turnover_cr": 90.5
+      }
+    ],
+    "distribution": [
+      {
+        "symbol": "AZAD",
+        "industry": "Capital Goods",
+        "close": 2318.9,
+        "chg_pct": -1.94,
+        "deliv_pct": 60.7,
+        "deliv_x_avg10": 17.02,
+        "turnover_cr": 1374.9
+      },
+      {
+        "symbol": "TORNTPOWER",
+        "industry": "Power",
+        "close": 1211.8,
+        "chg_pct": -0.35,
+        "deliv_pct": 84.9,
+        "deliv_x_avg10": 5.63,
+        "turnover_cr": 86.1
+      },
+      {
+        "symbol": "ICICILIFE",
+        "industry": "Financial Services",
+        "close": 444.35,
+        "chg_pct": -1.95,
+        "deliv_pct": 76.2,
+        "deliv_x_avg10": 3.37,
+        "turnover_cr": 226.7
+      },
+      {
+        "symbol": "BERGEPAINT",
+        "industry": "Consumer Durables",
+        "close": 467.15,
+        "chg_pct": -2.45,
+        "deliv_pct": 74.5,
+        "deliv_x_avg10": 2.39,
+        "turnover_cr": 28.2
+      },
+      {
+        "symbol": "CCL",
+        "industry": "Fast Moving Consumer Goods",
+        "close": 951.7,
+        "chg_pct": -2.58,
+        "deliv_pct": 57.6,
+        "deliv_x_avg10": 2.26,
+        "turnover_cr": 34.5
+      },
+      {
+        "symbol": "VAML",
+        "industry": "Metals & Mining",
+        "close": 374.5,
+        "chg_pct": -5.67,
+        "deliv_pct": 60.4,
+        "deliv_x_avg10": 2.13,
+        "turnover_cr": 375.3
+      }
+    ],
+    "top_gainers": [
+      {
+        "symbol": "INOXINDIA",
+        "industry": "Capital Goods",
+        "close": 2123.2,
+        "chg_pct": 7.81,
+        "deliv_pct": 11.8,
+        "deliv_x_avg10": 5.02,
+        "turnover_cr": 662.4
+      },
+      {
+        "symbol": "URBANCO",
+        "industry": "Consumer Services",
+        "close": 172.73,
+        "chg_pct": 6.87,
+        "deliv_pct": 23.8,
+        "deliv_x_avg10": 3.9,
+        "turnover_cr": 868.3
+      },
+      {
+        "symbol": "SUNTV",
+        "industry": "Media Entertainment & Publication",
+        "close": 696.35,
+        "chg_pct": 5.56,
+        "deliv_pct": 13.0,
+        "deliv_x_avg10": 2.47,
+        "turnover_cr": 204.4
+      },
+      {
+        "symbol": "NAVINFLUOR",
+        "industry": "Chemicals",
+        "close": 10278.0,
+        "chg_pct": 4.72,
+        "deliv_pct": 35.4,
+        "deliv_x_avg10": 1.09,
+        "turnover_cr": 368.7
+      },
+      {
+        "symbol": "VIJAYA",
+        "industry": "Healthcare",
+        "close": 1533.6,
+        "chg_pct": 4.51,
+        "deliv_pct": 20.3,
+        "deliv_x_avg10": 1.45,
+        "turnover_cr": 83.8
+      },
+      {
+        "symbol": "IIFL",
+        "industry": "Financial Services",
+        "close": 661.95,
+        "chg_pct": 4.01,
+        "deliv_pct": 18.8,
+        "deliv_x_avg10": 3.28,
+        "turnover_cr": 2637.9
+      },
+      {
+        "symbol": "MTARTECH",
+        "industry": "Capital Goods",
+        "close": 5885.0,
+        "chg_pct": 3.07,
+        "deliv_pct": 49.2,
+        "deliv_x_avg10": 0.54,
+        "turnover_cr": 117.7
+      },
+      {
+        "symbol": "ZFCVINDIA",
+        "industry": "Automobile and Auto Components",
+        "close": 2241.7,
+        "chg_pct": 2.94,
+        "deliv_pct": 38.2,
+        "deliv_x_avg10": 1.44,
+        "turnover_cr": 28.7
+      },
+      {
+        "symbol": "SAGILITY",
+        "industry": "Information Technology",
+        "close": 45.15,
+        "chg_pct": 2.87,
+        "deliv_pct": 44.5,
+        "deliv_x_avg10": 2.1,
+        "turnover_cr": 339.0
+      },
+      {
+        "symbol": "SYRMA",
+        "industry": "Capital Goods",
+        "close": 1475.0,
+        "chg_pct": 2.87,
+        "deliv_pct": 23.4,
+        "deliv_x_avg10": 0.68,
+        "turnover_cr": 206.2
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "CAPLIPOINT",
+        "industry": "Healthcare",
+        "close": 2085.3,
+        "chg_pct": -7.2,
+        "deliv_pct": 26.2,
+        "deliv_x_avg10": 3.84,
+        "turnover_cr": 149.2
+      },
+      {
+        "symbol": "CREDITACC",
+        "industry": "Financial Services",
+        "close": 1046.2,
+        "chg_pct": -5.75,
+        "deliv_pct": 39.7,
+        "deliv_x_avg10": 1.39,
+        "turnover_cr": 59.2
+      },
+      {
+        "symbol": "VAML",
+        "industry": "Metals & Mining",
+        "close": 374.5,
+        "chg_pct": -5.67,
+        "deliv_pct": 60.4,
+        "deliv_x_avg10": 2.13,
+        "turnover_cr": 375.3
+      },
+      {
+        "symbol": "TITAN",
+        "industry": "Consumer Durables",
+        "close": 4648.1,
+        "chg_pct": -5.3,
+        "deliv_pct": 48.1,
+        "deliv_x_avg10": 1.01,
+        "turnover_cr": 625.7
+      },
+      {
+        "symbol": "POLYCAB",
+        "industry": "Capital Goods",
+        "close": 7307.5,
+        "chg_pct": -5.12,
+        "deliv_pct": 38.4,
+        "deliv_x_avg10": 2.11,
+        "turnover_cr": 641.6
+      },
+      {
+        "symbol": "KALYANKJIL",
+        "industry": "Consumer Durables",
+        "close": 650.0,
+        "chg_pct": -4.8,
+        "deliv_pct": 24.5,
+        "deliv_x_avg10": 0.74,
+        "turnover_cr": 857.4
+      },
+      {
+        "symbol": "VISL",
+        "industry": "Metals & Mining",
+        "close": 24.17,
+        "chg_pct": -4.77,
+        "deliv_pct": 67.8,
+        "deliv_x_avg10": 1.92,
+        "turnover_cr": 47.7
+      },
+      {
+        "symbol": "FSL",
+        "industry": "Services",
+        "close": 273.0,
+        "chg_pct": -4.61,
+        "deliv_pct": 53.2,
+        "deliv_x_avg10": 1.65,
+        "turnover_cr": 23.4
+      },
+      {
+        "symbol": "MANAPPURAM",
+        "industry": "Financial Services",
+        "close": 283.0,
+        "chg_pct": -4.59,
+        "deliv_pct": 36.6,
+        "deliv_x_avg10": 2.1,
+        "turnover_cr": 451.0
+      },
+      {
+        "symbol": "MOTHERSON",
+        "industry": "Automobile and Auto Components",
+        "close": 157.24,
+        "chg_pct": -4.35,
+        "deliv_pct": 49.9,
+        "deliv_x_avg10": 0.74,
+        "turnover_cr": 283.6
+      }
+    ],
+    "advances": 119,
+    "declines": 375
+  },
+  "upcoming_results": [
+    {
+      "date": "2026-11-20",
+      "symbol": "INDIANB",
+      "purpose": "Fund Raising"
+    },
+    {
+      "date": "2026-11-23",
+      "symbol": "DALBHARAT",
+      "purpose": "Buyback/Other business matters"
+    }
+  ]
+}
