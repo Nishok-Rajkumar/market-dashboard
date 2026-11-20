@@ -18,10 +18,10 @@
     },
     {
       "name": "India VIX",
-      "last": 16.11,
-      "date": "2026-11-19",
-      "chg_1d_pct": 3.47,
-      "chg_5d_pct": -3.07
+      "last": 15.57,
+      "date": "2026-11-18",
+      "chg_1d_pct": 0.32,
+      "chg_5d_pct": -11.33
     },
     {
       "name": "Nifty 500",
@@ -33,51 +33,44 @@
     {
       "name": "USD-INR",
       "last": 93.28,
-      "date": "2026-11-19",
-      "chg_1d_pct": -0.21,
-      "chg_5d_pct": -0.45
+      "date": "2026-11-20",
+      "chg_1d_pct": -0.2,
+      "chg_5d_pct": -0.8
     },
     {
       "name": "Brent crude ($)",
-      "last": 90.6,
+      "last": 89.96,
       "date": "2026-11-19",
-      "chg_1d_pct": -1.47,
-      "chg_5d_pct": -5.45
+      "chg_1d_pct": -2.16,
+      "chg_5d_pct": -6.12
     },
     {
       "name": "Gold ($)",
-      "last": 3715.3,
+      "last": 3544.8,
       "date": "2026-11-19",
-      "chg_1d_pct": -0.71,
-      "chg_5d_pct": -4.38
+      "chg_1d_pct": -5.27,
+      "chg_5d_pct": -8.76
     },
     {
       "name": "S&P 500 fut",
-      "last": 7427.5,
+      "last": 7170.75,
       "date": "2026-11-19",
-      "chg_1d_pct": 1.19,
-      "chg_5d_pct": -2.47
+      "chg_1d_pct": -2.31,
+      "chg_5d_pct": -5.84
     },
     {
       "name": "Nasdaq 100 fut",
-      "last": 27790.25,
+      "last": 26379.5,
       "date": "2026-11-19",
-      "chg_1d_pct": 2.22,
-      "chg_5d_pct": -2.09
+      "chg_1d_pct": -2.97,
+      "chg_5d_pct": -7.06
     },
     {
       "name": "Nikkei 225",
-      "last": 59444.21,
-      "date": "2026-11-19",
-      "chg_1d_pct": 0.71,
-      "chg_5d_pct": -2.26
-    },
-    {
-      "name": "Hang Seng",
-      "last": 22841.62,
-      "date": "2026-11-19",
-      "chg_1d_pct": -1.95,
-      "chg_5d_pct": -4.86
+      "last": 56775.04,
+      "date": "2026-11-20",
+      "chg_1d_pct": -4.49,
+      "chg_5d_pct": -7.14
     }
   ],
   "fii_dii": {
@@ -534,5 +527,6 @@
       "symbol": "ENRIN",
       "purpose": "Financial Results/Dividend"
     }
-  ]
+  ],
+  "snapshot_updated_at": "2026-11-20T08:30:14+05:30"
 }
