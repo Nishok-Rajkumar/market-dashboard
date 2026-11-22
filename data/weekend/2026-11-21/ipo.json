@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T10:01:24",
+  "generated_at": "2026-11-22T18:01:22",
   "recent_days": 30,
   "errors": {},
   "ipos": [
@@ -414,49 +414,6 @@
       "last_close": 800.95,
       "last_close_date": "2026-11-20",
       "since_issue_pct": 36.7
-    },
-    {
-      "symbol": "FUSIONCX",
-      "company": "Fusion CX Limited",
-      "sme": false,
-      "status": "listed",
-      "open": "2026-10-14",
-      "close": "2026-10-16",
-      "listing": "2026-10-22",
-      "price_band": "₹275–289",
-      "issue_price": 289.0,
-      "issue_size": "",
-      "times_subscribed": null,
-      "structure": "fresh + OFS",
-      "lot": 51,
-      "industry": "Business Process Outsourcing (BPO)/ Knowledge Process Outsourcing (KPO)",
-      "rhp": "https://nsearchives.nseindia.com/content/ipo/RHP_FUSIONCX.zip",
-      "subscription": {
-        "qib": 4.01,
-        "nii": 4.5,
-        "retail": 5.7,
-        "total": 4.45
-      },
-      "subscription_as_of": "16-Oct-2026 19:00:00",
-      "listing_open": 305.0,
-      "listing_close": 289.65,
-      "listing_gain_pct": 5.5,
-      "last_close": 278.65,
-      "last_close_date": "2026-11-20",
-      "since_issue_pct": -3.6
-    },
-    {
-      "symbol": "RAVITA",
-      "company": "Ravita Engineering Services Limited",
-      "sme": true,
-      "status": "listed",
-      "open": "2026-10-14",
-      "close": "2026-10-16",
-      "listing": "2026-10-22",
-      "price_band": "₹105–112",
-      "issue_price": 112.0,
-      "issue_size": "",
-      "times_subscribed": null
     }
   ]
 }
