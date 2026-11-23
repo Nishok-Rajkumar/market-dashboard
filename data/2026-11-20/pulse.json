@@ -33,37 +33,37 @@
     {
       "name": "USD-INR",
       "last": 92.66,
-      "date": "2026-11-20",
-      "chg_1d_pct": -0.86,
-      "chg_5d_pct": -1.46
+      "date": "2026-11-23",
+      "chg_1d_pct": -0.68,
+      "chg_5d_pct": -1.67
     },
     {
       "name": "Brent crude ($)",
-      "last": 88.58,
-      "date": "2026-11-20",
-      "chg_1d_pct": -3.7,
-      "chg_5d_pct": -7.58
+      "last": 89.37,
+      "date": "2026-11-22",
+      "chg_1d_pct": -3.46,
+      "chg_5d_pct": -3.32
     },
     {
       "name": "Gold ($)",
-      "last": 3573.3,
-      "date": "2026-11-20",
-      "chg_1d_pct": -3.04,
-      "chg_5d_pct": -8.05
+      "last": 3585.2,
+      "date": "2026-11-22",
+      "chg_1d_pct": 1.99,
+      "chg_5d_pct": -6.95
     },
     {
       "name": "S&P 500 fut",
-      "last": 7161.5,
-      "date": "2026-11-20",
-      "chg_1d_pct": -0.5,
-      "chg_5d_pct": -5.56
+      "last": 7064.0,
+      "date": "2026-11-22",
+      "chg_1d_pct": 1.86,
+      "chg_5d_pct": -5.04
     },
     {
       "name": "Nasdaq 100 fut",
-      "last": 26194.5,
-      "date": "2026-11-20",
-      "chg_1d_pct": -1.53,
-      "chg_5d_pct": -6.56
+      "last": 25667.75,
+      "date": "2026-11-22",
+      "chg_1d_pct": 2.15,
+      "chg_5d_pct": -5.92
     },
     {
       "name": "Nikkei 225",
@@ -74,10 +74,10 @@
     },
     {
       "name": "Hang Seng",
-      "last": 22410.8,
-      "date": "2026-11-20",
-      "chg_1d_pct": -1.89,
-      "chg_5d_pct": -5.19
+      "last": 22024.32,
+      "date": "2026-11-23",
+      "chg_1d_pct": -1.72,
+      "chg_5d_pct": -7.28
     }
   ],
   "fii_dii": {
@@ -579,5 +579,6 @@
       "symbol": "PATANJALI",
       "purpose": "Dividend"
     }
-  ]
+  ],
+  "snapshot_updated_at": "2026-11-23T08:30:12+05:30"
 }
