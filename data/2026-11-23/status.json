@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-23",
+  "updated_at": "2026-11-23T20:15:15+05:30",
+  "mode": "full",
+  "steps": {
+    "pulse": {
+      "ok": false,
+      "error": "urllib.error.HTTPError: HTTP Error 403: Forbidden"
+    },
+    "breadth": {
+      "ok": false,
+      "error": "error: could not download ind_nifty500list.csv from NSE: HTTP Error 403: Forbidden"
+    },
+    "sectors": {
+      "ok": true
+    },
+    "options_NIFTY": {
+      "ok": false,
+      "error": "error: NSE request failed for option-chain-contract-info?symbol=NIFTY: HTTP Error 403: Forbidden"
+    },
+    "options_BANKNIFTY": {
+      "ok": false,
+      "error": "error: NSE request failed for option-chain-contract-info?symbol=BANKNIFTY: HTTP Error 403: Forbidden"
+    },
+    "swing": {
+      "ok": false,
+      "error": "error: could not download ind_nifty500list.csv from NSE: HTTP Error 403: Forbidden"
+    },
+    "levels": {
+      "ok": true
+    },
+    "participant_oi": {
+      "ok": true
+    },
+    "heatmap": {
+      "ok": false,
+      "error": "urllib.error.HTTPError: HTTP Error 403: Forbidden"
+    },
+    "corp_actions": {
+      "ok": false,
+      "error": "urllib.error.HTTPError: HTTP Error 403: Forbidden"
+    },
+    "news": {
+      "ok": true
+    },
+    "summary": {
+      "ok": true
+    }
+  }
+}
