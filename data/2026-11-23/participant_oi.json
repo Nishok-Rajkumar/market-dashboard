@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-11-23T20:15:34",
-  "as_of": "2026-11-20",
+  "generated_at": "2026-11-24T20:17:58",
+  "as_of": "2026-11-23",
   "clients": {
     "FII": {
-      "fut_idx_long": 75864,
-      "fut_idx_short": 146318,
-      "fut_idx_net": -70454,
-      "fut_idx_long_pct": 34.1,
-      "fut_idx_net_chg": -2207,
-      "idx_call_net": -109607,
-      "idx_put_net": 384732,
-      "fut_stk_long_pct": 57.9
+      "fut_idx_long": 30649,
+      "fut_idx_short": 121598,
+      "fut_idx_net": -90949,
+      "fut_idx_long_pct": 20.1,
+      "fut_idx_net_chg": -20495,
+      "idx_call_net": -90183,
+      "idx_put_net": 311310,
+      "fut_stk_long_pct": 56.7
     },
     "DII": {
-      "fut_idx_long": 52405,
-      "fut_idx_short": 35254,
-      "fut_idx_net": 17151,
-      "fut_idx_long_pct": 59.8,
-      "fut_idx_net_chg": -5615,
-      "idx_call_net": 4547,
-      "idx_put_net": 98077,
-      "fut_stk_long_pct": 9.6
+      "fut_idx_long": 52934,
+      "fut_idx_short": 33166,
+      "fut_idx_net": 19768,
+      "fut_idx_long_pct": 61.5,
+      "fut_idx_net_chg": 2617,
+      "idx_call_net": 5922,
+      "idx_put_net": 46403,
+      "fut_stk_long_pct": 6.2
     },
     "Pro": {
-      "fut_idx_long": 53026,
-      "fut_idx_short": 40985,
-      "fut_idx_net": 12041,
-      "fut_idx_long_pct": 56.4,
-      "fut_idx_net_chg": 17584,
-      "idx_call_net": 139381,
-      "idx_put_net": 5696,
-      "fut_stk_long_pct": 55.0
+      "fut_idx_long": 17521,
+      "fut_idx_short": 40506,
+      "fut_idx_net": -22985,
+      "fut_idx_long_pct": 30.2,
+      "fut_idx_net_chg": -35026,
+      "idx_call_net": 24519,
+      "idx_put_net": 61171,
+      "fut_stk_long_pct": 66.2
     },
     "Client": {
-      "fut_idx_long": 155681,
-      "fut_idx_short": 114419,
-      "fut_idx_net": 41262,
-      "fut_idx_long_pct": 57.6,
-      "fut_idx_net_chg": -9762,
-      "idx_call_net": -34321,
-      "idx_put_net": -488506,
-      "fut_stk_long_pct": 89.4
+      "fut_idx_long": 163812,
+      "fut_idx_short": 69646,
+      "fut_idx_net": 94166,
+      "fut_idx_long_pct": 70.2,
+      "fut_idx_net_chg": 52904,
+      "idx_call_net": 59742,
+      "idx_put_net": -418884,
+      "fut_stk_long_pct": 94.0
     }
   },
   "fii_history": [
@@ -258,9 +258,14 @@
       "date": "2026-11-20",
       "fut_idx_long_pct": 34.1,
       "fut_idx_net": -70454
+    },
+    {
+      "date": "2026-11-23",
+      "fut_idx_long_pct": 20.1,
+      "fut_idx_net": -90949
     }
   ],
   "fii_read": "Bearish \u2014 FIIs are mostly short index futures.",
-  "fii_pct_rank": 95,
-  "sessions": 43
+  "fii_pct_rank": 75,
+  "sessions": 44
 }
