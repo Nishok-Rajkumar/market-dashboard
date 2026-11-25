@@ -1,0 +1,506 @@
+{
+  "as_of": "2026-11-25",
+  "size_by": "market_cap",
+  "stocks": [
+    {
+      "symbol": "ADANIENT",
+      "name": "Adani Enterprises Ltd.",
+      "industry": "Metals & Mining",
+      "close": 2668.5,
+      "chg_pct": -0.35,
+      "turnover_cr": 581.3,
+      "mcap_cr": 361241,
+      "size": 361240.87581
+    },
+    {
+      "symbol": "ADANIPORTS",
+      "name": "Adani Ports and Special Economic Zone Ltd.",
+      "industry": "Services",
+      "close": 1926.3,
+      "chg_pct": 0.38,
+      "turnover_cr": 832.9,
+      "mcap_cr": 443812,
+      "size": 443811.6522975402
+    },
+    {
+      "symbol": "APOLLOHOSP",
+      "name": "Apollo Hospitals Enterprise Ltd.",
+      "industry": "Healthcare",
+      "close": 9300.0,
+      "chg_pct": 0.46,
+      "turnover_cr": 575.3,
+      "mcap_cr": 133720,
+      "size": 133719.73101
+    },
+    {
+      "symbol": "ASIANPAINT",
+      "name": "Asian Paints Ltd.",
+      "industry": "Consumer Durables",
+      "close": 2621.2,
+      "chg_pct": 1.58,
+      "turnover_cr": 198.3,
+      "mcap_cr": 251233,
+      "size": 251232.7289326372
+    },
+    {
+      "symbol": "AXISBANK",
+      "name": "Axis Bank Ltd.",
+      "industry": "Financial Services",
+      "close": 1418.1,
+      "chg_pct": 2.12,
+      "turnover_cr": 1378.7,
+      "mcap_cr": 441712,
+      "size": 441711.98894440976
+    },
+    {
+      "symbol": "BSE",
+      "name": "BSE Ltd.",
+      "industry": "Financial Services",
+      "close": 3775.2,
+      "chg_pct": 0.48,
+      "turnover_cr": 937.5,
+      "mcap_cr": 153322,
+      "size": 153321.84716598786
+    },
+    {
+      "symbol": "BAJAJ-AUTO",
+      "name": "Bajaj Auto Ltd.",
+      "industry": "Automobile and Auto Components",
+      "close": 10868.0,
+      "chg_pct": 2.11,
+      "turnover_cr": 466.1,
+      "mcap_cr": 298657,
+      "size": 298656.8111384
+    },
+    {
+      "symbol": "BAJFINANCE",
+      "name": "Bajaj Finance Ltd.",
+      "industry": "Financial Services",
+      "close": 1131.35,
+      "chg_pct": 3.27,
+      "turnover_cr": 1160.6,
+      "mcap_cr": 717055,
+      "size": 717055.3018226945
+    },
+    {
+      "symbol": "BAJAJFINSV",
+      "name": "Bajaj Finserv Ltd.",
+      "industry": "Financial Services",
+      "close": 1925.0,
+      "chg_pct": 2.39,
+      "turnover_cr": 979.9,
+      "mcap_cr": 308047,
+      "size": 308047.109755
+    },
+    {
+      "symbol": "BEL",
+      "name": "Bharat Electronics Ltd.",
+      "industry": "Capital Goods",
+      "close": 404.3,
+      "chg_pct": 2.15,
+      "turnover_cr": 441.5,
+      "mcap_cr": 295534,
+      "size": 295534.34913340013
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "name": "Bharti Airtel Ltd.",
+      "industry": "Telecommunication",
+      "close": 2117.5,
+      "chg_pct": -0.52,
+      "turnover_cr": 1486.3,
+      "mcap_cr": 1321203,
+      "size": 1321203.1737135
+    },
+    {
+      "symbol": "CIPLA",
+      "name": "Cipla Ltd.",
+      "industry": "Healthcare",
+      "close": 1433.2,
+      "chg_pct": 2.38,
+      "turnover_cr": 406.3,
+      "mcap_cr": 115787,
+      "size": 115786.51396099404
+    },
+    {
+      "symbol": "COALINDIA",
+      "name": "Coal India Ltd.",
+      "industry": "Oil Gas & Consumable Fuels",
+      "close": 385.0,
+      "chg_pct": 0.79,
+      "turnover_cr": 349.2,
+      "mcap_cr": 237265,
+      "size": 237265.0405895
+    },
+    {
+      "symbol": "DRREDDY",
+      "name": "Dr. Reddy's Laboratories Ltd.",
+      "industry": "Healthcare",
+      "close": 1398.0,
+      "chg_pct": 1.3,
+      "turnover_cr": 346.7,
+      "mcap_cr": 116546,
+      "size": 116546.243976
+    },
+    {
+      "symbol": "EICHERMOT",
+      "name": "Eicher Motors Ltd.",
+      "industry": "Automobile and Auto Components",
+      "close": 8336.0,
+      "chg_pct": 2.0,
+      "turnover_cr": 740.7,
+      "mcap_cr": 228863,
+      "size": 228862.8926976
+    },
+    {
+      "symbol": "ETERNAL",
+      "name": "Eternal Ltd.",
+      "industry": "Consumer Services",
+      "close": 371.7,
+      "chg_pct": 2.65,
+      "turnover_cr": 1101.6,
+      "mcap_cr": 342439,
+      "size": 342438.8335753724
+    },
+    {
+      "symbol": "GRASIM",
+      "name": "Grasim Industries Ltd.",
+      "industry": "Construction Materials",
+      "close": 3162.0,
+      "chg_pct": 2.82,
+      "turnover_cr": 194.6,
+      "mcap_cr": 214475,
+      "size": 214475.0962644
+    },
+    {
+      "symbol": "HCLTECH",
+      "name": "HCL Technologies Ltd.",
+      "industry": "Information Technology",
+      "close": 1380.0,
+      "chg_pct": 1.15,
+      "turnover_cr": 298.8,
+      "mcap_cr": 373514,
+      "size": 373514.31693
+    },
+    {
+      "symbol": "HDFCBANK",
+      "name": "HDFC Bank Ltd.",
+      "industry": "Financial Services",
+      "close": 846.2,
+      "chg_pct": 3.47,
+      "turnover_cr": 4068.4,
+      "mcap_cr": 1306000,
+      "size": 1306000.2009281327
+    },
+    {
+      "symbol": "HDFCLIFE",
+      "name": "HDFC Life Insurance Company Ltd.",
+      "industry": "Financial Services",
+      "close": 601.3,
+      "chg_pct": 4.58,
+      "turnover_cr": 503.1,
+      "mcap_cr": 130613,
+      "size": 130612.88755453903
+    },
+    {
+      "symbol": "HINDALCO",
+      "name": "Hindalco Industries Ltd.",
+      "industry": "Metals & Mining",
+      "close": 889.9,
+      "chg_pct": -1.17,
+      "turnover_cr": 905.9,
+      "mcap_cr": 197543,
+      "size": 197543.3069907441
+    },
+    {
+      "symbol": "HINDUNILVR",
+      "name": "Hindustan Unilever Ltd.",
+      "industry": "Fast Moving Consumer Goods",
+      "close": 2141.8,
+      "chg_pct": 6.08,
+      "turnover_cr": 1076.8,
+      "mcap_cr": 503235,
+      "size": 503235.4679677736
+    },
+    {
+      "symbol": "ICICIBANK",
+      "name": "ICICI Bank Ltd.",
+      "industry": "Financial Services",
+      "close": 1640.0,
+      "chg_pct": 3.44,
+      "turnover_cr": 3107.2,
+      "mcap_cr": 1178278,
+      "size": 1178278.234484
+    },
+    {
+      "symbol": "ITC",
+      "name": "ITC Ltd.",
+      "industry": "Fast Moving Consumer Goods",
+      "close": 309.25,
+      "chg_pct": 2.74,
+      "turnover_cr": 1267.1,
+      "mcap_cr": 387574,
+      "size": 387573.681969925
+    },
+    {
+      "symbol": "INFY",
+      "name": "Infosys Ltd.",
+      "industry": "Information Technology",
+      "close": 1130.0,
+      "chg_pct": 2.41,
+      "turnover_cr": 1646.6,
+      "mcap_cr": 457693,
+      "size": 457692.551393
+    },
+    {
+      "symbol": "INDIGO",
+      "name": "InterGlobe Aviation Ltd.",
+      "industry": "Services",
+      "close": 5720.0,
+      "chg_pct": 3.57,
+      "turnover_cr": 909.2,
+      "mcap_cr": 221174,
+      "size": 221173.865484
+    },
+    {
+      "symbol": "JSWSTEEL",
+      "name": "JSW Steel Ltd.",
+      "industry": "Metals & Mining",
+      "close": 1302.5,
+      "chg_pct": -0.72,
+      "turnover_cr": 213.9,
+      "mcap_cr": 318055,
+      "size": 318055.061207
+    },
+    {
+      "symbol": "JIOFIN",
+      "name": "Jio Financial Services Ltd.",
+      "industry": "Financial Services",
+      "close": 222.85,
+      "chg_pct": 1.43,
+      "turnover_cr": 303.4,
+      "mcap_cr": 152722,
+      "size": 152722.26525138068
+    },
+    {
+      "symbol": "KOTAKBANK",
+      "name": "Kotak Mahindra Bank Ltd.",
+      "industry": "Financial Services",
+      "close": 509.0,
+      "chg_pct": 1.22,
+      "turnover_cr": 806.1,
+      "mcap_cr": 506399,
+      "size": 506399.294022
+    },
+    {
+      "symbol": "LT",
+      "name": "Larsen & Toubro Ltd.",
+      "industry": "Construction",
+      "close": 4156.0,
+      "chg_pct": 1.37,
+      "turnover_cr": 545.2,
+      "mcap_cr": 571819,
+      "size": 571818.7136704
+    },
+    {
+      "symbol": "M&M",
+      "name": "Mahindra & Mahindra Ltd.",
+      "industry": "Automobile and Auto Components",
+      "close": 3509.5,
+      "chg_pct": 0.63,
+      "turnover_cr": 1032.8,
+      "mcap_cr": 421408,
+      "size": 421407.5165508
+    },
+    {
+      "symbol": "MARUTI",
+      "name": "Maruti Suzuki India Ltd.",
+      "industry": "Automobile and Auto Components",
+      "close": 14200.0,
+      "chg_pct": 1.36,
+      "turnover_cr": 1030.9,
+      "mcap_cr": 446452,
+      "size": 446451.65508
+    },
+    {
+      "symbol": "MAXHEALTH",
+      "name": "Max Healthcare Institute Ltd.",
+      "industry": "Healthcare",
+      "close": 1076.3,
+      "chg_pct": -1.22,
+      "turnover_cr": 659.1,
+      "mcap_cr": 104759,
+      "size": 104759.19557459351
+    },
+    {
+      "symbol": "NTPC",
+      "name": "NTPC Ltd.",
+      "industry": "Power",
+      "close": 318.0,
+      "chg_pct": 0.81,
+      "turnover_cr": 294.1,
+      "mcap_cr": 308354,
+      "size": 308353.9830612
+    },
+    {
+      "symbol": "NESTLEIND",
+      "name": "Nestle India Ltd.",
+      "industry": "Fast Moving Consumer Goods",
+      "close": 1358.5,
+      "chg_pct": 4.03,
+      "turnover_cr": 204.5,
+      "mcap_cr": 261962,
+      "size": 261961.500372
+    },
+    {
+      "symbol": "ONGC",
+      "name": "Oil & Natural Gas Corporation Ltd.",
+      "industry": "Oil Gas & Consumable Fuels",
+      "close": 222.0,
+      "chg_pct": -0.38,
+      "turnover_cr": 432.1,
+      "mcap_cr": 279282,
+      "size": 279282.1983732
+    },
+    {
+      "symbol": "POWERGRID",
+      "name": "Power Grid Corporation of India Ltd.",
+      "industry": "Power",
+      "close": 266.75,
+      "chg_pct": 0.72,
+      "turnover_cr": 262.9,
+      "mcap_cr": 248094,
+      "size": 248093.606871825
+    },
+    {
+      "symbol": "RELIANCE",
+      "name": "Reliance Industries Ltd.",
+      "industry": "Oil Gas & Consumable Fuels",
+      "close": 1373.9,
+      "chg_pct": 1.7,
+      "turnover_cr": 2583.8,
+      "mcap_cr": 1859226,
+      "size": 1859226.4483609132
+    },
+    {
+      "symbol": "SBILIFE",
+      "name": "SBI Life Insurance Company Ltd.",
+      "industry": "Financial Services",
+      "close": 1823.9,
+      "chg_pct": 1.05,
+      "turnover_cr": 321.7,
+      "mcap_cr": 183020,
+      "size": 183019.7336544056
+    },
+    {
+      "symbol": "SHRIRAMFIN",
+      "name": "Shriram Finance Ltd.",
+      "industry": "Financial Services",
+      "close": 989.95,
+      "chg_pct": -0.6,
+      "turnover_cr": 687.6,
+      "mcap_cr": 232949,
+      "size": 232949.32060420312
+    },
+    {
+      "symbol": "SBIN",
+      "name": "State Bank of India",
+      "industry": "Financial Services",
+      "close": 1138.15,
+      "chg_pct": 0.49,
+      "turnover_cr": 1324.2,
+      "mcap_cr": 1050583,
+      "size": 1050582.7630862775
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "name": "Sun Pharmaceutical Industries Ltd.",
+      "industry": "Healthcare",
+      "close": 1901.0,
+      "chg_pct": 2.2,
+      "turnover_cr": 448.8,
+      "mcap_cr": 456114,
+      "size": 456113.577797
+    },
+    {
+      "symbol": "TCS",
+      "name": "Tata Consultancy Services Ltd.",
+      "industry": "Information Technology",
+      "close": 2517.3,
+      "chg_pct": 2.33,
+      "turnover_cr": 1254.6,
+      "mcap_cr": 910781,
+      "size": 910781.188572583
+    },
+    {
+      "symbol": "TATACONSUM",
+      "name": "Tata Consumer Products Ltd.",
+      "industry": "Fast Moving Consumer Goods",
+      "close": 1185.8,
+      "chg_pct": 4.66,
+      "turnover_cr": 392.5,
+      "mcap_cr": 117360,
+      "size": 117360.00268459602
+    },
+    {
+      "symbol": "TMPV",
+      "name": "Tata Motors Passenger Vehicles Ltd.",
+      "industry": "Automobile and Auto Components",
+      "close": 262.1,
+      "chg_pct": 1.2,
+      "turnover_cr": 326.4,
+      "mcap_cr": 96533,
+      "size": 96532.60936526222
+    },
+    {
+      "symbol": "TATASTEEL",
+      "name": "Tata Steel Ltd.",
+      "industry": "Metals & Mining",
+      "close": 159.3,
+      "chg_pct": -2.27,
+      "turnover_cr": 2165.2,
+      "mcap_cr": 198676,
+      "size": 198676.4666352345
+    },
+    {
+      "symbol": "TECHM",
+      "name": "Tech Mahindra Ltd.",
+      "industry": "Information Technology",
+      "close": 1801.2,
+      "chg_pct": 1.33,
+      "turnover_cr": 273.2,
+      "mcap_cr": 159662,
+      "size": 159661.9168990187
+    },
+    {
+      "symbol": "TITAN",
+      "name": "Titan Company Ltd.",
+      "industry": "Consumer Durables",
+      "close": 4686.6,
+      "chg_pct": 0.14,
+      "turnover_cr": 422.7,
+      "mcap_cr": 415848,
+      "size": 415847.8075862595
+    },
+    {
+      "symbol": "TRENT",
+      "name": "Trent Ltd.",
+      "industry": "Consumer Services",
+      "close": 3319.6,
+      "chg_pct": 3.48,
+      "turnover_cr": 611.0,
+      "mcap_cr": 177012,
+      "size": 177011.79984730668
+    },
+    {
+      "symbol": "ULTRACEMCO",
+      "name": "UltraTech Cement Ltd.",
+      "industry": "Construction Materials",
+      "close": 12800.0,
+      "chg_pct": 1.19,
+      "turnover_cr": 353.4,
+      "mcap_cr": 376403,
+      "size": 376402.71616
+    }
+  ]
+}
