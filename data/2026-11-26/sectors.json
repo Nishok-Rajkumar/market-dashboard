@@ -1,0 +1,1223 @@
+{
+  "generated_at": "2026-11-26T20:17:07",
+  "as_of": "2026-11-26",
+  "benchmark": "Nifty 500",
+  "benchmark_ret_1m": 11.47,
+  "sectors": [
+    {
+      "sector": "Realty",
+      "ticker": "^CNXREALTY",
+      "close": 972.85,
+      "rs_ratio": 107.0,
+      "rs_momentum": 107.13,
+      "quadrant": "LEADING",
+      "trail_5w": [
+        "IMPROVING",
+        "IMPROVING",
+        "IMPROVING",
+        "LEADING",
+        "LEADING"
+      ],
+      "trail_xy": [
+        [
+          97.91,
+          100.18
+        ],
+        [
+          99.08,
+          101.46
+        ],
+        [
+          99.88,
+          102.01
+        ],
+        [
+          103.25,
+          104.2
+        ],
+        [
+          107.0,
+          107.13
+        ]
+      ],
+      "ret_1w": 5.9,
+      "ret_1m": 23.19,
+      "ret_3m": 6.08,
+      "ret_6m": 23.76,
+      "ret_1y": 3.37,
+      "rel_3m_vs_nifty500": 3.64,
+      "above_50dma": true,
+      "above_200dma": true
+    },
+    {
+      "sector": "PSU Bank",
+      "ticker": "^CNXPSUBANK",
+      "close": 9529.9,
+      "rs_ratio": 105.51,
+      "rs_momentum": 100.8,
+      "quadrant": "LEADING",
+      "trail_5w": [
+        "LEADING",
+        "LAGGING",
+        "LEADING",
+        "LEADING",
+        "LEADING"
+      ],
+      "trail_xy": [
+        [
+          101.88,
+          101.14
+        ],
+        [
+          99.56,
+          96.88
+        ],
+        [
+          104.67,
+          102.74
+        ],
+        [
+          108.81,
+          109.29
+        ],
+        [
+          105.51,
+          100.8
+        ]
+      ],
+      "ret_1w": -0.14,
+      "ret_1m": 17.74,
+      "ret_3m": 11.59,
+      "ret_6m": 15.68,
+      "ret_1y": 13.45,
+      "rel_3m_vs_nifty500": 9.15,
+      "above_50dma": true,
+      "above_200dma": true
+    },
+    {
+      "sector": "Private Bank",
+      "ticker": "NIFTY PRIVATE BANK",
+      "close": 31283.75,
+      "rs_ratio": 105.12,
+      "rs_momentum": 101.53,
+      "quadrant": "LEADING",
+      "trail_5w": [
+        "WEAKENING",
+        "WEAKENING",
+        "LEADING",
+        "LEADING",
+        "LEADING"
+      ],
+      "trail_xy": [
+        [
+          101.86,
+          97.37
+        ],
+        [
+          101.16,
+          97.98
+        ],
+        [
+          103.53,
+          101.63
+        ],
+        [
+          104.77,
+          103.57
+        ],
+        [
+          105.12,
+          101.53
+        ]
+      ],
+      "ret_1w": 3.17,
+      "ret_1m": 16.62,
+      "ret_3m": 13.75,
+      "ret_6m": 16.18,
+      "ret_1y": 10.96,
+      "rel_3m_vs_nifty500": 11.31,
+      "above_50dma": true,
+      "above_200dma": true
+    },
+    {
+      "sector": "Bank",
+      "ticker": "^NSEBANK",
+      "close": 63535.3,
+      "rs_ratio": 104.69,
+      "rs_momentum": 101.85,
+      "quadrant": "LEADING",
+      "trail_5w": [
+        "WEAKENING",
+        "LAGGING",
+        "LEADING",
+        "LEADING",
+        "LEADING"
+      ],
+      "trail_xy": [
+        [
+          100.28,
+          98.07
+        ],
+        [
+          99.4,
+          97.46
+        ],
+        [
+          102.78,
+          102.5
+        ],
+        [
+          104.98,
+          105.61
+        ],
+        [
+          104.69,
+          101.85
+        ]
+      ],
+      "ret_1w": 2.41,
+      "ret_1m": 16.86,
+      "ret_3m": 10.45,
+      "ret_6m": 14.91,
+      "ret_1y": 8.57,
+      "rel_3m_vs_nifty500": 8.01,
+      "above_50dma": true,
+      "above_200dma": true
+    },
+    {
+      "sector": "Financial Services",
+      "ticker": "NIFTY_FIN_SERVICE.NS",
+      "close": 28718.9,
+      "rs_ratio": 104.6,
+      "rs_momentum": 101.22,
+      "quadrant": "LEADING",
+      "trail_5w": [
+        "LAGGING",
+        "WEAKENING",
+        "LEADING",
+        "LEADING",
+        "LEADING"
+      ],
+      "trail_xy": [
+        [
+          99.75,
+          97.95
+        ],
+        [
+          100.33,
+          99.08
+        ],
+        [
+          103.33,
+          103.6
+        ],
+        [
+          104.63,
+          104.28
+        ],
+        [
+          104.6,
+          101.22
+        ]
+      ],
+      "ret_1w": 2.6,
+      "ret_1m": 17.44,
+      "ret_3m": 9.79,
+      "ret_6m": 10.03,
+      "ret_1y": 4.46,
+      "rel_3m_vs_nifty500": 7.35,
+      "above_50dma": true,
+      "above_200dma": true
+    },
+    {
+      "sector": "Capital Markets",
+      "ticker": "NIFTY CAPITAL MARKETS",
+      "close": 5974.6,
+      "rs_ratio": 104.48,
+      "rs_momentum": 100.15,
+      "quadrant": "LEADING",
+      "trail_5w": [
+        "WEAKENING",
+        "LEADING",
+        "LEADING",
+        "LEADING",
+        "LEADING"
+      ],
+      "trail_xy": [
+        [
+          100.91,
+          96.63
+        ],
+        [
+          103.36,
+          101.94
+        ],
+        [
+          104.32,
+          103.38
+        ],
+        [
+          103.43,
+          100.07
+        ],
+        [
+          104.48,
+          100.15
+        ]
+      ],
+      "ret_1w": 3.31,
+      "ret_1m": 19.05,
+      "ret_3m": 9.48,
+      "ret_6m": 5.77,
+      "ret_1y": 26.57,
+      "rel_3m_vs_nifty500": 7.04,
+      "above_50dma": true,
+      "above_200dma": true
+    },
+    {
+      "sector": "IT",
+      "ticker": "^CNXIT",
+      "close": 33386.95,
+      "rs_ratio": 102.75,
+      "rs_momentum": 101.68,
+      "quadrant": "LEADING",
+      "trail_5w": [
+        "LEADING",
+        "WEAKENING",
+        "WEAKENING",
+        "LAGGING",
+        "LEADING"
+      ],
+      "trail_xy": [
+        [
+          112.3,
+          112.04
+        ],
+        [
+          108.34,
+          98.76
+        ],
+        [
+          101.06,
+          89.99
+        ],
+        [
+          98.42,
+          90.84
+        ],
+        [
+          102.75,
+          101.68
+        ]
+      ],
+      "ret_1w": 6.8,
+      "ret_1m": 3.45,
+      "ret_3m": 9.12,
+      "ret_6m": 15.21,
+      "ret_1y": -8.03,
+      "rel_3m_vs_nifty500": 6.68,
+      "above_50dma": true,
+      "above_200dma": true
+    },
+    {
+      "sector": "FMCG",
+      "ticker": "^CNXFMCG",
+      "close": 49673.55,
+      "rs_ratio": 102.55,
+      "rs_momentum": 103.5,
+      "quadrant": "LEADING",
+      "trail_5w": [
+        "LAGGING",
+        "LEADING",
+        "IMPROVING",
+        "WEAKENING",
+        "LEADING"
+      ],
+      "trail_xy": [
+        [
+          98.75,
+          98.86
+        ],
+        [
+          100.98,
+          102.08
+        ],
+        [
+          99.09,
+          100.34
+        ],
+        [
+          100.47,
+          99.49
+        ],
+        [
+          102.55,
+          103.5
+        ]
+      ],
+      "ret_1w": 4.42,
+      "ret_1m": 16.06,
+      "ret_3m": 4.51,
+      "ret_6m": -0.97,
+      "ret_1y": -10.6,
+      "rel_3m_vs_nifty500": 2.07,
+      "above_50dma": true,
+      "above_200dma": true
+    },
+    {
+      "sector": "Consumption",
+      "ticker": "^CNXCONSUM",
+      "close": 12378.1,
+      "rs_ratio": 102.04,
+      "rs_momentum": 100.79,
+      "quadrant": "LEADING",
+      "trail_5w": [
+        "LEADING",
+        "LEADING",
+        "LEADING",
+        "WEAKENING",
+        "LEADING"
+      ],
+      "trail_xy": [
+        [
+          100.08,
+          102.12
+        ],
+        [
+          101.35,
+          102.97
+        ],
+        [
+          101.24,
+          101.16
+        ],
+        [
+          101.17,
+          99.82
+        ],
+        [
+          102.04,
+          100.79
+        ]
+      ],
+      "ret_1w": 3.1,
+      "ret_1m": 14.56,
+      "ret_3m": 3.07,
+      "ret_6m": 8.45,
+      "ret_1y": -0.09,
+      "rel_3m_vs_nifty500": 0.63,
+      "above_50dma": true,
+      "above_200dma": true
+    },
+    {
+      "sector": "Healthcare",
+      "ticker": "NIFTY HEALTHCARE INDEX",
+      "close": 17839.95,
+      "rs_ratio": 101.67,
+      "rs_momentum": 101.11,
+      "quadrant": "LEADING",
+      "trail_5w": [
+        "LEADING",
+        "LEADING",
+        "WEAKENING",
+        "WEAKENING",
+        "LEADING"
+      ],
+      "trail_xy": [
+        [
+          101.86,
+          100.57
+        ],
+        [
+          101.82,
+          103.46
+        ],
+        [
+          100.56,
+          98.72
+        ],
+        [
+          100.42,
+          98.63
+        ],
+        [
+          101.67,
+          101.11
+        ]
+      ],
+      "ret_1w": 3.45,
+      "ret_1m": 13.93,
+      "ret_3m": 8.66,
+      "ret_6m": 13.59,
+      "ret_1y": 19.96,
+      "rel_3m_vs_nifty500": 6.22,
+      "above_50dma": true,
+      "above_200dma": true
+    },
+    {
+      "sector": "Midcap 100",
+      "ticker": "NIFTY MIDCAP 100",
+      "close": 61781.85,
+      "rs_ratio": 96.87,
+      "rs_momentum": 100.16,
+      "quadrant": "IMPROVING",
+      "trail_5w": [
+        "LAGGING",
+        "LAGGING",
+        "LAGGING",
+        "IMPROVING",
+        "IMPROVING"
+      ],
+      "trail_xy": [
+        [
+          97.32,
+          97.61
+        ],
+        [
+          96.83,
+          98.65
+        ],
+        [
+          96.71,
+          99.37
+        ],
+        [
+          96.93,
+          100.1
+        ],
+        [
+          96.87,
+          100.16
+        ]
+      ],
+      "ret_1w": 1.32,
+      "ret_1m": 9.42,
+      "ret_3m": -3.19,
+      "ret_6m": -0.3,
+      "ret_1y": 1.72,
+      "rel_3m_vs_nifty500": -5.63,
+      "above_50dma": true,
+      "above_200dma": true
+    },
+    {
+      "sector": "MNC",
+      "ticker": "^CNXMNC",
+      "close": 30915.9,
+      "rs_ratio": 96.42,
+      "rs_momentum": 100.75,
+      "quadrant": "IMPROVING",
+      "trail_5w": [
+        "LAGGING",
+        "IMPROVING",
+        "IMPROVING",
+        "LAGGING",
+        "IMPROVING"
+      ],
+      "trail_xy": [
+        [
+          94.62,
+          97.14
+        ],
+        [
+          96.02,
+          100.45
+        ],
+        [
+          95.7,
+          101.14
+        ],
+        [
+          94.82,
+          98.75
+        ],
+        [
+          96.42,
+          100.75
+        ]
+      ],
+      "ret_1w": 2.87,
+      "ret_1m": 10.64,
+      "ret_3m": -6.79,
+      "ret_6m": -3.56,
+      "ret_1y": 2.47,
+      "rel_3m_vs_nifty500": -9.23,
+      "above_50dma": true,
+      "above_200dma": false
+    },
+    {
+      "sector": "Chemicals",
+      "ticker": "NIFTY CHEMICALS",
+      "close": 28467.8,
+      "rs_ratio": 94.89,
+      "rs_momentum": 100.03,
+      "quadrant": "IMPROVING",
+      "trail_5w": [
+        "LAGGING",
+        "LAGGING",
+        "LAGGING",
+        "LAGGING",
+        "IMPROVING"
+      ],
+      "trail_xy": [
+        [
+          96.23,
+          95.59
+        ],
+        [
+          95.45,
+          97.11
+        ],
+        [
+          94.86,
+          98.58
+        ],
+        [
+          95.35,
+          99.89
+        ],
+        [
+          94.89,
+          100.03
+        ]
+      ],
+      "ret_1w": 0.52,
+      "ret_1m": 8.02,
+      "ret_3m": -5.23,
+      "ret_6m": -3.9,
+      "ret_1y": -2.1,
+      "rel_3m_vs_nifty500": -7.67,
+      "above_50dma": true,
+      "above_200dma": false
+    },
+    {
+      "sector": "Pharma",
+      "ticker": "^CNXPHARMA",
+      "close": 29090.85,
+      "rs_ratio": 101.37,
+      "rs_momentum": 99.13,
+      "quadrant": "WEAKENING",
+      "trail_5w": [
+        "LEADING",
+        "LEADING",
+        "WEAKENING",
+        "WEAKENING",
+        "WEAKENING"
+      ],
+      "trail_xy": [
+        [
+          103.66,
+          100.21
+        ],
+        [
+          102.79,
+          102.58
+        ],
+        [
+          102.27,
+          98.66
+        ],
+        [
+          100.5,
+          97.77
+        ],
+        [
+          101.37,
+          99.13
+        ]
+      ],
+      "ret_1w": 3.16,
+      "ret_1m": 12.87,
+      "ret_3m": 10.45,
+      "ret_6m": 17.9,
+      "ret_1y": 27.47,
+      "rel_3m_vs_nifty500": 8.01,
+      "above_50dma": true,
+      "above_200dma": true
+    },
+    {
+      "sector": "Auto",
+      "ticker": "^CNXAUTO",
+      "close": 28623.45,
+      "rs_ratio": 101.34,
+      "rs_momentum": 99.49,
+      "quadrant": "WEAKENING",
+      "trail_5w": [
+        "IMPROVING",
+        "IMPROVING",
+        "LEADING",
+        "IMPROVING",
+        "WEAKENING"
+      ],
+      "trail_xy": [
+        [
+          97.95,
+          102.82
+        ],
+        [
+          98.38,
+          101.6
+        ],
+        [
+          101.86,
+          103.99
+        ],
+        [
+          98.84,
+          100.47
+        ],
+        [
+          101.34,
+          99.49
+        ]
+      ],
+      "ret_1w": 4.48,
+      "ret_1m": 14.63,
+      "ret_3m": -1.64,
+      "ret_6m": 8.16,
+      "ret_1y": 5.08,
+      "rel_3m_vs_nifty500": -4.08,
+      "above_50dma": true,
+      "above_200dma": true
+    },
+    {
+      "sector": "Infrastructure",
+      "ticker": "^CNXINFRA",
+      "close": 9603.95,
+      "rs_ratio": 100.17,
+      "rs_momentum": 99.01,
+      "quadrant": "WEAKENING",
+      "trail_5w": [
+        "LEADING",
+        "LEADING",
+        "WEAKENING",
+        "WEAKENING",
+        "WEAKENING"
+      ],
+      "trail_xy": [
+        [
+          101.48,
+          103.28
+        ],
+        [
+          103.39,
+          104.02
+        ],
+        [
+          101.17,
+          99.7
+        ],
+        [
+          101.35,
+          98.03
+        ],
+        [
+          100.17,
+          99.01
+        ]
+      ],
+      "ret_1w": 0.85,
+      "ret_1m": 10.88,
+      "ret_3m": 2.8,
+      "ret_6m": 1.52,
+      "ret_1y": -0.16,
+      "rel_3m_vs_nifty500": 0.36,
+      "above_50dma": true,
+      "above_200dma": true
+    },
+    {
+      "sector": "Oil & Gas",
+      "ticker": "NIFTY OIL & GAS",
+      "close": 11457.4,
+      "rs_ratio": 99.21,
+      "rs_momentum": 98.79,
+      "quadrant": "LAGGING",
+      "trail_5w": [
+        "LEADING",
+        "LEADING",
+        "WEAKENING",
+        "WEAKENING",
+        "LAGGING"
+      ],
+      "trail_xy": [
+        [
+          101.34,
+          102.57
+        ],
+        [
+          102.14,
+          101.96
+        ],
+        [
+          100.42,
+          99.09
+        ],
+        [
+          100.5,
+          98.39
+        ],
+        [
+          99.21,
+          98.79
+        ]
+      ],
+      "ret_1w": 0.57,
+      "ret_1m": 8.9,
+      "ret_3m": 2.33,
+      "ret_6m": -0.58,
+      "ret_1y": -6.01,
+      "rel_3m_vs_nifty500": -0.11,
+      "above_50dma": true,
+      "above_200dma": true
+    },
+    {
+      "sector": "EV & New Age Auto",
+      "ticker": "NIFTY EV & NEW AGE AUTOMOTIVE",
+      "close": 3208.6,
+      "rs_ratio": 98.48,
+      "rs_momentum": 99.45,
+      "quadrant": "LAGGING",
+      "trail_5w": [
+        "IMPROVING",
+        "LAGGING",
+        "IMPROVING",
+        "IMPROVING",
+        "LAGGING"
+      ],
+      "trail_xy": [
+        [
+          97.31,
+          100.17
+        ],
+        [
+          96.98,
+          99.96
+        ],
+        [
+          99.02,
+          101.76
+        ],
+        [
+          97.45,
+          100.48
+        ],
+        [
+          98.48,
+          99.45
+        ]
+      ],
+      "ret_1w": 2.67,
+      "ret_1m": 11.54,
+      "ret_3m": -3.63,
+      "ret_6m": 5.18,
+      "ret_1y": 2.74,
+      "rel_3m_vs_nifty500": -6.07,
+      "above_50dma": true,
+      "above_200dma": true
+    },
+    {
+      "sector": "Consumer Durables",
+      "ticker": "NIFTY CONSUMER DURABLES",
+      "close": 38149.9,
+      "rs_ratio": 96.96,
+      "rs_momentum": 98.89,
+      "quadrant": "LAGGING",
+      "trail_5w": [
+        "LAGGING",
+        "LAGGING",
+        "IMPROVING",
+        "IMPROVING",
+        "LAGGING"
+      ],
+      "trail_xy": [
+        [
+          94.0,
+          96.67
+        ],
+        [
+          95.52,
+          99.13
+        ],
+        [
+          98.05,
+          104.3
+        ],
+        [
+          96.07,
+          100.57
+        ],
+        [
+          96.96,
+          98.89
+        ]
+      ],
+      "ret_1w": 2.31,
+      "ret_1m": 12.7,
+      "ret_3m": -5.69,
+      "ret_6m": 6.95,
+      "ret_1y": 0.03,
+      "rel_3m_vs_nifty500": -8.13,
+      "above_50dma": true,
+      "above_200dma": true
+    },
+    {
+      "sector": "Manufacturing",
+      "ticker": "NIFTY INDIA MANUFACTURING",
+      "close": 15990.0,
+      "rs_ratio": 96.92,
+      "rs_momentum": 98.32,
+      "quadrant": "LAGGING",
+      "trail_5w": [
+        "LAGGING",
+        "IMPROVING",
+        "IMPROVING",
+        "LAGGING",
+        "LAGGING"
+      ],
+      "trail_xy": [
+        [
+          98.39,
+          99.82
+        ],
+        [
+          98.33,
+          100.32
+        ],
+        [
+          98.58,
+          100.19
+        ],
+        [
+          96.79,
+          98.44
+        ],
+        [
+          96.92,
+          98.32
+        ]
+      ],
+      "ret_1w": 1.56,
+      "ret_1m": 9.03,
+      "ret_3m": -3.16,
+      "ret_6m": 0.27,
+      "ret_1y": 4.2,
+      "rel_3m_vs_nifty500": -5.6,
+      "above_50dma": true,
+      "above_200dma": true
+    },
+    {
+      "sector": "Media",
+      "ticker": "NIFTY MEDIA",
+      "close": 1665.75,
+      "rs_ratio": 96.21,
+      "rs_momentum": 93.95,
+      "quadrant": "LAGGING",
+      "trail_5w": [
+        "WEAKENING",
+        "WEAKENING",
+        "WEAKENING",
+        "LEADING",
+        "LAGGING"
+      ],
+      "trail_xy": [
+        [
+          106.86,
+          97.72
+        ],
+        [
+          102.99,
+          95.0
+        ],
+        [
+          102.4,
+          95.83
+        ],
+        [
+          105.75,
+          102.68
+        ],
+        [
+          96.21,
+          93.95
+        ]
+      ],
+      "ret_1w": -6.57,
+      "ret_1m": 6.91,
+      "ret_3m": 3.9,
+      "ret_6m": 20.84,
+      "ret_1y": 12.57,
+      "rel_3m_vs_nifty500": 1.46,
+      "above_50dma": true,
+      "above_200dma": true
+    },
+    {
+      "sector": "Commodities",
+      "ticker": "NIFTY COMMODITIES",
+      "close": 9429.25,
+      "rs_ratio": 95.1,
+      "rs_momentum": 96.41,
+      "quadrant": "LAGGING",
+      "trail_5w": [
+        "IMPROVING",
+        "LEADING",
+        "LAGGING",
+        "LAGGING",
+        "LAGGING"
+      ],
+      "trail_xy": [
+        [
+          99.22,
+          102.06
+        ],
+        [
+          100.02,
+          101.74
+        ],
+        [
+          98.64,
+          99.42
+        ],
+        [
+          97.24,
+          97.22
+        ],
+        [
+          95.1,
+          96.41
+        ]
+      ],
+      "ret_1w": -0.92,
+      "ret_1m": 5.56,
+      "ret_3m": -4.25,
+      "ret_6m": -8.86,
+      "ret_1y": 0.98,
+      "rel_3m_vs_nifty500": -6.69,
+      "above_50dma": true,
+      "above_200dma": false
+    },
+    {
+      "sector": "PSE (PSU stocks)",
+      "ticker": "^CNXPSE",
+      "close": 9446.35,
+      "rs_ratio": 94.88,
+      "rs_momentum": 97.57,
+      "quadrant": "LAGGING",
+      "trail_5w": [
+        "LAGGING",
+        "LAGGING",
+        "LAGGING",
+        "LAGGING",
+        "LAGGING"
+      ],
+      "trail_xy": [
+        [
+          99.48,
+          99.94
+        ],
+        [
+          98.74,
+          99.12
+        ],
+        [
+          97.24,
+          97.75
+        ],
+        [
+          95.3,
+          96.52
+        ],
+        [
+          94.88,
+          97.57
+        ]
+      ],
+      "ret_1w": 0.83,
+      "ret_1m": 5.14,
+      "ret_3m": -3.43,
+      "ret_6m": -9.88,
+      "ret_1y": -5.4,
+      "rel_3m_vs_nifty500": -5.87,
+      "above_50dma": true,
+      "above_200dma": false
+    },
+    {
+      "sector": "Smallcap 100",
+      "ticker": "NIFTY SMALLCAP 100",
+      "close": 19372.15,
+      "rs_ratio": 94.73,
+      "rs_momentum": 99.23,
+      "quadrant": "LAGGING",
+      "trail_5w": [
+        "LAGGING",
+        "LAGGING",
+        "LAGGING",
+        "LAGGING",
+        "LAGGING"
+      ],
+      "trail_xy": [
+        [
+          98.68,
+          95.01
+        ],
+        [
+          96.15,
+          96.36
+        ],
+        [
+          95.46,
+          96.74
+        ],
+        [
+          95.66,
+          99.48
+        ],
+        [
+          94.73,
+          99.23
+        ]
+      ],
+      "ret_1w": 0.21,
+      "ret_1m": 7.71,
+      "ret_3m": -2.78,
+      "ret_6m": 6.42,
+      "ret_1y": 6.13,
+      "rel_3m_vs_nifty500": -5.22,
+      "above_50dma": true,
+      "above_200dma": true
+    },
+    {
+      "sector": "Energy",
+      "ticker": "^CNXENERGY",
+      "close": 36880.3,
+      "rs_ratio": 94.62,
+      "rs_momentum": 97.97,
+      "quadrant": "LAGGING",
+      "trail_5w": [
+        "LAGGING",
+        "LAGGING",
+        "LAGGING",
+        "LAGGING",
+        "LAGGING"
+      ],
+      "trail_xy": [
+        [
+          98.88,
+          98.85
+        ],
+        [
+          98.35,
+          98.96
+        ],
+        [
+          96.58,
+          97.67
+        ],
+        [
+          96.06,
+          97.67
+        ],
+        [
+          94.62,
+          97.97
+        ]
+      ],
+      "ret_1w": -0.27,
+      "ret_1m": 5.31,
+      "ret_3m": -3.8,
+      "ret_6m": -9.11,
+      "ret_1y": 1.71,
+      "rel_3m_vs_nifty500": -6.24,
+      "above_50dma": true,
+      "above_200dma": false
+    },
+    {
+      "sector": "Defence",
+      "ticker": "NIFTY INDIA DEFENCE",
+      "close": 8952.85,
+      "rs_ratio": 92.5,
+      "rs_momentum": 99.27,
+      "quadrant": "LAGGING",
+      "trail_5w": [
+        "LAGGING",
+        "LAGGING",
+        "LAGGING",
+        "LAGGING",
+        "LAGGING"
+      ],
+      "trail_xy": [
+        [
+          97.69,
+          96.79
+        ],
+        [
+          96.05,
+          96.5
+        ],
+        [
+          93.17,
+          95.38
+        ],
+        [
+          91.96,
+          95.74
+        ],
+        [
+          92.5,
+          99.27
+        ]
+      ],
+      "ret_1w": 1.19,
+      "ret_1m": 3.36,
+      "ret_3m": -8.08,
+      "ret_6m": -2.89,
+      "ret_1y": 8.02,
+      "rel_3m_vs_nifty500": -10.52,
+      "above_50dma": false,
+      "above_200dma": false
+    },
+    {
+      "sector": "Metal",
+      "ticker": "^CNXMETAL",
+      "close": 11713.5,
+      "rs_ratio": 88.95,
+      "rs_momentum": 92.37,
+      "quadrant": "LAGGING",
+      "trail_5w": [
+        "LAGGING",
+        "LAGGING",
+        "LAGGING",
+        "LAGGING",
+        "LAGGING"
+      ],
+      "trail_xy": [
+        [
+          96.59,
+          99.49
+        ],
+        [
+          96.12,
+          98.98
+        ],
+        [
+          96.29,
+          99.7
+        ],
+        [
+          93.3,
+          97.06
+        ],
+        [
+          88.95,
+          92.37
+        ]
+      ],
+      "ret_1w": -4.16,
+      "ret_1m": -0.15,
+      "ret_3m": -12.46,
+      "ret_6m": -12.23,
+      "ret_1y": 11.61,
+      "rel_3m_vs_nifty500": -14.9,
+      "above_50dma": false,
+      "above_200dma": false
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "generated_at": "2026-11-26T20:15:12",
+  "days_ahead": 7,
+  "snapshot": [
+    {
+      "name": "Nifty 50",
+      "last": 25884.5,
+      "date": "2026-11-26",
+      "chg_1d_pct": 0.25,
+      "chg_5d_pct": 2.6
+    },
+    {
+      "name": "Bank Nifty",
+      "last": 63535.3,
+      "date": "2026-11-26",
+      "chg_1d_pct": -0.26,
+      "chg_5d_pct": 2.41
+    },
+    {
+      "name": "India VIX",
+      "last": 16.83,
+      "date": "2026-11-26",
+      "chg_1d_pct": -4.73,
+      "chg_5d_pct": 8.12
+    },
+    {
+      "name": "Nifty 500",
+      "last": 24086.5,
+      "date": "2026-11-26",
+      "chg_1d_pct": 0.25,
+      "chg_5d_pct": 1.93
+    },
+    {
+      "name": "USD-INR",
+      "last": 92.43,
+      "date": "2026-11-26",
+      "chg_1d_pct": -0.4,
+      "chg_5d_pct": -1.1
+    },
+    {
+      "name": "Brent crude ($)",
+      "last": 91.51,
+      "date": "2026-11-26",
+      "chg_1d_pct": -3.28,
+      "chg_5d_pct": -0.51
+    },
+    {
+      "name": "Gold ($)",
+      "last": 3608.2,
+      "date": "2026-11-26",
+      "chg_1d_pct": 2.05,
+      "chg_5d_pct": -2.1
+    },
+    {
+      "name": "S&P 500 fut",
+      "last": 7244.75,
+      "date": "2026-11-26",
+      "chg_1d_pct": 0.68,
+      "chg_5d_pct": 0.66
+    },
+    {
+      "name": "Nasdaq 100 fut",
+      "last": 26287.0,
+      "date": "2026-11-26",
+      "chg_1d_pct": 0.72,
+      "chg_5d_pct": -1.18
+    },
+    {
+      "name": "Nikkei 225",
+      "last": 57499.16,
+      "date": "2026-11-26",
+      "chg_1d_pct": 0.86,
+      "chg_5d_pct": -2.58
+    }
+  ],
+  "fii_dii": {
+    "latest": [
+      {
+        "date": "2026-11-26",
+        "category": "DII",
+        "buy_cr": 24352.87,
+        "sell_cr": 18722.15,
+        "net_cr": 5630.72
+      },
+      {
+        "date": "2026-11-26",
+        "category": "FII",
+        "buy_cr": 17879.74,
+        "sell_cr": 12036.41,
+        "net_cr": 5843.33
+      }
+    ],
+    "history_days": 20,
+    "FII": {
+      "sum_5d_cr": 33715.23,
+      "sum_20d_cr": 133302.81,
+      "days_available": 20,
+      "streak_days": 20
+    },
+    "DII": {
+      "sum_5d_cr": 672.95,
+      "sum_20d_cr": -51136.2,
+      "days_available": 20,
+      "streak_days": 2
+    }
+  },
+  "fo_ban": {
+    "header": "Securities in Ban For Trade Date 27-NOV-2026:",
+    "symbols": [
+      "APLAPOLLO",
+      "MANAPPURAM"
+    ]
+  },
+  "delivery": {
+    "bhavcopy_date": "2026-11-26",
+    "sessions_used": 11,
+    "accumulation": [
+      {
+        "symbol": "TORNTPHARM",
+        "industry": "Healthcare",
+        "close": 5019.1,
+        "chg_pct": 2.52,
+        "deliv_pct": 70.8,
+        "deliv_x_avg10": 6.08,
+        "turnover_cr": 802.3
+      },
+      {
+        "symbol": "ANANDRATHI",
+        "industry": "Financial Services",
+        "close": 2410.0,
+        "chg_pct": 1.26,
+        "deliv_pct": 59.8,
+        "deliv_x_avg10": 4.52,
+        "turnover_cr": 175.2
+      },
+      {
+        "symbol": "HEXT",
+        "industry": "Information Technology",
+        "close": 502.15,
+        "chg_pct": 2.59,
+        "deliv_pct": 69.8,
+        "deliv_x_avg10": 3.53,
+        "turnover_cr": 62.9
+      },
+      {
+        "symbol": "SOBHA",
+        "industry": "Realty",
+        "close": 1289.8,
+        "chg_pct": 3.65,
+        "deliv_pct": 52.7,
+        "deliv_x_avg10": 3.09,
+        "turnover_cr": 50.2
+      },
+      {
+        "symbol": "BRITANNIA",
+        "industry": "Fast Moving Consumer Goods",
+        "close": 5185.0,
+        "chg_pct": 2.14,
+        "deliv_pct": 56.5,
+        "deliv_x_avg10": 2.96,
+        "turnover_cr": 429.0
+      },
+      {
+        "symbol": "ZFCVINDIA",
+        "industry": "Automobile and Auto Components",
+        "close": 2190.0,
+        "chg_pct": 3.31,
+        "deliv_pct": 78.8,
+        "deliv_x_avg10": 2.32,
+        "turnover_cr": 22.2
+      }
+    ],
+    "distribution": [
+      {
+        "symbol": "LGEINDIA",
+        "industry": "Consumer Durables",
+        "close": 1758.1,
+        "chg_pct": -3.32,
+        "deliv_pct": 82.9,
+        "deliv_x_avg10": 24.71,
+        "turnover_cr": 2970.1
+      },
+      {
+        "symbol": "CONCOR",
+        "industry": "Services",
+        "close": 421.0,
+        "chg_pct": -1.13,
+        "deliv_pct": 70.4,
+        "deliv_x_avg10": 6.85,
+        "turnover_cr": 159.1
+      },
+      {
+        "symbol": "CRISIL",
+        "industry": "Financial Services",
+        "close": 3977.2,
+        "chg_pct": -0.39,
+        "deliv_pct": 66.2,
+        "deliv_x_avg10": 3.37,
+        "turnover_cr": 39.5
+      },
+      {
+        "symbol": "LLOYDSME",
+        "industry": "Metals & Mining",
+        "close": 1542.2,
+        "chg_pct": -3.97,
+        "deliv_pct": 56.8,
+        "deliv_x_avg10": 2.8,
+        "turnover_cr": 187.8
+      },
+      {
+        "symbol": "FIVESTAR",
+        "industry": "Financial Services",
+        "close": 413.25,
+        "chg_pct": -2.66,
+        "deliv_pct": 74.8,
+        "deliv_x_avg10": 2.5,
+        "turnover_cr": 32.6
+      },
+      {
+        "symbol": "ACMESOLAR",
+        "industry": "Power",
+        "close": 415.8,
+        "chg_pct": -0.22,
+        "deliv_pct": 58.2,
+        "deliv_x_avg10": 2.49,
+        "turnover_cr": 52.8
+      },
+      {
+        "symbol": "HOMEFIRST",
+        "industry": "Financial Services",
+        "close": 1007.3,
+        "chg_pct": -1.08,
+        "deliv_pct": 73.5,
+        "deliv_x_avg10": 2.09,
+        "turnover_cr": 37.6
+      }
+    ],
+    "top_gainers": [
+      {
+        "symbol": "ACE",
+        "industry": "Capital Goods",
+        "close": 1295.0,
+        "chg_pct": 8.79,
+        "deliv_pct": 19.6,
+        "deliv_x_avg10": 5.14,
+        "turnover_cr": 414.6
+      },
+      {
+        "symbol": "PRESTIGE",
+        "industry": "Realty",
+        "close": 1832.1,
+        "chg_pct": 8.72,
+        "deliv_pct": 41.8,
+        "deliv_x_avg10": 5.0,
+        "turnover_cr": 984.5
+      },
+      {
+        "symbol": "HEGAM",
+        "industry": "Capital Goods",
+        "close": 280.99,
+        "chg_pct": 8.63,
+        "deliv_pct": 7.6,
+        "deliv_x_avg10": 3.19,
+        "turnover_cr": 781.5
+      },
+      {
+        "symbol": "RUBICON",
+        "industry": "Healthcare",
+        "close": 1851.7,
+        "chg_pct": 8.19,
+        "deliv_pct": 41.6,
+        "deliv_x_avg10": 2.88,
+        "turnover_cr": 88.7
+      },
+      {
+        "symbol": "MCX",
+        "industry": "Financial Services",
+        "close": 3835.0,
+        "chg_pct": 7.57,
+        "deliv_pct": 31.8,
+        "deliv_x_avg10": 1.83,
+        "turnover_cr": 1832.8
+      },
+      {
+        "symbol": "WOCKPHARMA",
+        "industry": "Healthcare",
+        "close": 2233.7,
+        "chg_pct": 7.49,
+        "deliv_pct": 32.2,
+        "deliv_x_avg10": 2.2,
+        "turnover_cr": 383.6
+      },
+      {
+        "symbol": "JWL",
+        "industry": "Capital Goods",
+        "close": 238.69,
+        "chg_pct": 7.3,
+        "deliv_pct": 4.2,
+        "deliv_x_avg10": 4.54,
+        "turnover_cr": 2315.8
+      },
+      {
+        "symbol": "BRIGADE",
+        "industry": "Realty",
+        "close": 628.5,
+        "chg_pct": 6.58,
+        "deliv_pct": 19.9,
+        "deliv_x_avg10": 2.64,
+        "turnover_cr": 166.1
+      },
+      {
+        "symbol": "KFINTECH",
+        "industry": "Financial Services",
+        "close": 995.0,
+        "chg_pct": 6.53,
+        "deliv_pct": 29.4,
+        "deliv_x_avg10": 3.73,
+        "turnover_cr": 451.1
+      },
+      {
+        "symbol": "HCLTECH",
+        "industry": "Information Technology",
+        "close": 1468.6,
+        "chg_pct": 6.42,
+        "deliv_pct": 35.9,
+        "deliv_x_avg10": 1.27,
+        "turnover_cr": 716.9
+      }
+    ],
+    "top_losers": [
+      {
+        "symbol": "MAHABANK",
+        "industry": "Financial Services",
+        "close": 94.2,
+        "chg_pct": -4.57,
+        "deliv_pct": 47.7,
+        "deliv_x_avg10": 0.8,
+        "turnover_cr": 159.9
+      },
+      {
+        "symbol": "INDIACEM",
+        "industry": "Construction Materials",
+        "close": 309.75,
+        "chg_pct": -4.38,
+        "deliv_pct": 44.9,
+        "deliv_x_avg10": 1.7,
+        "turnover_cr": 20.5
+      },
+      {
+        "symbol": "IKS",
+        "industry": "Information Technology",
+        "close": 1575.4,
+        "chg_pct": -4.23,
+        "deliv_pct": 40.0,
+        "deliv_x_avg10": 2.16,
+        "turnover_cr": 57.8
+      },
+      {
+        "symbol": "PVRINOX",
+        "industry": "Media Entertainment & Publication",
+        "close": 1638.2,
+        "chg_pct": -4.16,
+        "deliv_pct": 46.9,
+        "deliv_x_avg10": 0.45,
+        "turnover_cr": 63.5
+      },
+      {
+        "symbol": "TBOTEK",
+        "industry": "Consumer Services",
+        "close": 1483.0,
+        "chg_pct": -4.11,
+        "deliv_pct": 54.8,
+        "deliv_x_avg10": 1.98,
+        "turnover_cr": 23.9
+      },
+      {
+        "symbol": "LLOYDSME",
+        "industry": "Metals & Mining",
+        "close": 1542.2,
+        "chg_pct": -3.97,
+        "deliv_pct": 56.8,
+        "deliv_x_avg10": 2.8,
+        "turnover_cr": 187.8
+      },
+      {
+        "symbol": "INTELLECT",
+        "industry": "Information Technology",
+        "close": 577.6,
+        "chg_pct": -3.96,
+        "deliv_pct": 46.6,
+        "deliv_x_avg10": 0.54,
+        "turnover_cr": 21.9
+      },
+      {
+        "symbol": "TTML",
+        "industry": "Telecommunication",
+        "close": 32.21,
+        "chg_pct": -3.91,
+        "deliv_pct": 37.2,
+        "deliv_x_avg10": 2.58,
+        "turnover_cr": 41.1
+      },
+      {
+        "symbol": "ONESOURCE",
+        "industry": "Healthcare",
+        "close": 1545.8,
+        "chg_pct": -3.54,
+        "deliv_pct": 46.0,
+        "deliv_x_avg10": 1.02,
+        "turnover_cr": 42.7
+      },
+      {
+        "symbol": "ZYDUSLIFE",
+        "industry": "Healthcare",
+        "close": 1194.2,
+        "chg_pct": -3.38,
+        "deliv_pct": 43.3,
+        "deliv_x_avg10": 1.62,
+        "turnover_cr": 293.7
+      }
+    ],
+    "advances": 251,
+    "declines": 242
+  },
+  "upcoming_results": [
+    {
+      "date": "2026-11-27",
+      "symbol": "INDIANB",
+      "purpose": "Fund Raising"
+    },
+    {
+      "date": "2026-11-30",
+      "symbol": "POWERGRID",
+      "purpose": "Fund Raising"
+    },
+    {
+      "date": "2026-12-01",
+      "symbol": "POONAWALLA",
+      "purpose": "Fund Raising"
+    }
+  ]
+}
