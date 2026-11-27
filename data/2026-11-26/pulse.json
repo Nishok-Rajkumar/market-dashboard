@@ -18,10 +18,10 @@
     },
     {
       "name": "India VIX",
-      "last": 16.83,
+      "last": 16.84,
       "date": "2026-11-26",
-      "chg_1d_pct": -4.73,
-      "chg_5d_pct": 8.12
+      "chg_1d_pct": -4.7,
+      "chg_5d_pct": 8.16
     },
     {
       "name": "Nifty 500",
@@ -31,46 +31,46 @@
       "chg_5d_pct": 1.93
     },
     {
-      "name": "USD-INR",
-      "last": 92.43,
-      "date": "2026-11-26",
-      "chg_1d_pct": -0.4,
-      "chg_5d_pct": -1.1
-    },
-    {
       "name": "Brent crude ($)",
-      "last": 91.51,
+      "last": 92.05,
       "date": "2026-11-26",
-      "chg_1d_pct": -3.28,
-      "chg_5d_pct": -0.51
+      "chg_1d_pct": -2.71,
+      "chg_5d_pct": 0.08
     },
     {
       "name": "Gold ($)",
-      "last": 3608.2,
+      "last": 3652.1,
       "date": "2026-11-26",
-      "chg_1d_pct": 2.05,
-      "chg_5d_pct": -2.1
+      "chg_1d_pct": 3.29,
+      "chg_5d_pct": -0.91
     },
     {
       "name": "S&P 500 fut",
-      "last": 7244.75,
+      "last": 7297.75,
       "date": "2026-11-26",
-      "chg_1d_pct": 0.68,
-      "chg_5d_pct": 0.66
+      "chg_1d_pct": 1.42,
+      "chg_5d_pct": 1.4
     },
     {
       "name": "Nasdaq 100 fut",
-      "last": 26287.0,
+      "last": 26676.75,
       "date": "2026-11-26",
-      "chg_1d_pct": 0.72,
-      "chg_5d_pct": -1.18
+      "chg_1d_pct": 2.21,
+      "chg_5d_pct": 0.29
     },
     {
       "name": "Nikkei 225",
-      "last": 57499.16,
-      "date": "2026-11-26",
-      "chg_1d_pct": 0.86,
-      "chg_5d_pct": -2.58
+      "last": 58172.04,
+      "date": "2026-11-27",
+      "chg_1d_pct": 1.17,
+      "chg_5d_pct": -2.14
+    },
+    {
+      "name": "Hang Seng",
+      "last": 22415.05,
+      "date": "2026-11-27",
+      "chg_1d_pct": 0.85,
+      "chg_5d_pct": 0.02
     }
   ],
   "fii_dii": {
@@ -438,5 +438,6 @@
       "symbol": "POONAWALLA",
       "purpose": "Fund Raising"
     }
-  ]
+  ],
+  "snapshot_updated_at": "2026-11-27T08:30:14+05:30"
 }
